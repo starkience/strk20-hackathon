@@ -2,5 +2,11 @@
   {
     "repo_url": "https://github.com/ZylithFi",
     "telegram": ["t4nz4n1t3"]
+  },
+  {
+    "repo_url": "https://github.com/0xrlawrence/envelope",
+    "telegram": ["fullstack0x"],
+    "category": "Payments",
+    "inspired_by": "IDEA-09"
   }
 ]
