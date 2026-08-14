@@ -15,5 +15,11 @@
     "category": "Other",
     "inspired_by": "RFP-01",
     "team": ["gstohl"]
+  },
+  {
+    "repo_url": "https://github.com/dmetagame/cutout",
+    "telegram": ["Herbubakar"],
+    "name": "Cutout",
+    "category": "Infra"
   }
 ]
