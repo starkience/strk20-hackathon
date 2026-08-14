@@ -194,5 +194,18 @@
     "team": [
       "0xConsole"
     ]
+  },
+  {
+    "repo_url": "https://github.com/tinoxbt/sealed",
+    "telegram": [
+      "tinoxbt"
+    ],
+    "name": "Sealed",
+    "one_liner": "Sealed-bid, second-price auctions on Starknet with unlinkable bidders and private settlement through STRK20.",
+    "category": "DeFi",
+    "inspired_by": "RFP-08",
+    "team": [
+      "tinoxbt"
+    ]
   }
 ]
