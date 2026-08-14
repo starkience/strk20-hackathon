@@ -141,5 +141,18 @@
     "telegram": [
       "sergiossantiago"
     ]
+  },
+  {
+    "repo_url": "https://github.com/kevlau1/redpocket",
+    "telegram": [
+      "Ttttkkkk121"
+    ],
+    "name": "Redpocket",
+    "one_liner": "Password red packets: one link, N shares, each claim lands in a shielded STRK20 balance.",
+    "category": "Payments",
+    "inspired_by": "IDEA-09",
+    "team": [
+      "kevlau1"
+    ]
   }
 ]
