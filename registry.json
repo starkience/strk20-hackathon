@@ -166,5 +166,15 @@
     "telegram": [
       "raghavdotsol"
     ]
+  },
+  {
+    "repo_url": "https://github.com/Abhyudday/tx404",
+    "telegram": [
+      "Abhyudday"
+    ],
+    "name": "Tx404",
+    "one_liner": "Non-custodial shielding API/SDK: drop shield, unshield, and private-transfer into any app without touching a viewing key.",
+    "category": "Infra",
+    "inspired_by": "IDEA-26"
   }
 ]
