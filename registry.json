@@ -176,5 +176,11 @@
     "one_liner": "Non-custodial shielding API/SDK: drop shield, unshield, and private-transfer into any app without touching a viewing key.",
     "category": "Infra",
     "inspired_by": "IDEA-26"
+  },
+  {
+    "repo_url": "https://github.com/JemimahEkong/PrivKit",
+    "telegram": [
+      "Jemmy1st"
+    ]
   }
 ]
