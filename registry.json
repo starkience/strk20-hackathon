@@ -1,42 +1,29 @@
 [
   {
     "repo_url": "https://github.com/ZylithFi/client",
-    "telegram": [
-      "t4nz4n1t3"
-    ]
+    "telegram": ["t4nz4n1t3"]
   },
   {
     "repo_url": "https://github.com/PoulavBhowmick03/erebus",
-    "telegram": [
-      "impoulav",
-      "ishitaaaaw"
-    ]
+    "telegram": ["impoulav","ishitaaaaw"]
   },
   {
     "repo_url": "https://github.com/gstohl/feltproof",
-    "telegram": [
-      "stack_ref_error"
-    ],
+    "telegram": ["stack_ref_error"],
     "name": "Quietline",
     "one_liner": "Encrypted on-chain mail on Starknet. Payment memos ride the same private transfer.",
     "category": "Other",
     "inspired_by": "RFP-01",
-    "team": [
-      "gstohl"
-    ]
+    "team": ["gstohl"]
   },
   {
     "repo_url": "https://github.com/kamalbuilds/neobank",
-    "telegram": [
-      "kamalthedev"
-    ],
+    "telegram": ["kamalthedev"],
     "name": "Private money account",
     "one_liner": "Hold, send, and earn on STRK20 without publishing salary or net worth.",
     "slug": "neobank",
     "category": "Consumer",
-    "team": [
-      "kamalbuilds"
-    ],
+    "team": ["kamalbuilds"],
     "x_handle": "kamalbuilds",
     "inspired_by": "IDEA-13"
   }
