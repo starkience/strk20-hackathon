@@ -100,5 +100,14 @@
     "team": [
       "iamkenzman"
     ]
-  }
+  },
+  {
+  "repo_url": "https://github.com/DevTest-me/hidden-starknet",
+  "telegram": [
+    "Blayce4T6"
+  ],
+  "name": "Hidden",
+  "one_liner": "Hidden-information games on Starknet powered by STRK20 privacy.",
+  "category": "Other"
+}
 ]
