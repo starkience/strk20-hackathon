@@ -207,5 +207,17 @@
     "team": [
       "tinoxbt"
     ]
+  },
+  {
+    "repo_url": "https://github.com/cxto21/ownerz",
+    "telegram": [
+      "naiamst"
+    ],
+    "name": "Ownerz",
+    "one_liner": "Privacy-first data marketplace on Starknet with post-quantum encryption and STRK20 payments.",
+    "category": "Consumer",
+    "team": [
+      "cxto21"
+    ]
   }
 ]
