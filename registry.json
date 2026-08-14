@@ -19,5 +19,14 @@
   {
     "repo_url": "https://github.com/Sarthib7/stk402",
     "telegram": ["sarthib7"]
+  },
+  {
+    "repo_url": "https://github.com/codeswithroh/veyl",
+    "telegram": ["codeswithroh"],
+    "name": "Veyl",
+    "one_liner": "Private launch & trading terminal on Starknet — trade and launch tokens through unlinkable execution identities funded by the STRK20 pool.",
+    "category": "Trading",
+    "inspired_by": "RFP-06",
+    "team": ["codeswithroh"]
   }
 ]
