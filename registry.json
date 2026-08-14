@@ -19,5 +19,14 @@
   {
     "repo_url": "https://github.com/Sarthib7/stk402",
     "telegram": ["sarthib7"]
+  },
+  {
+    "repo_url": "https://github.com/zkasuran/veilcast",
+    "telegram": ["zkasuran"],
+    "name": "Veilcast",
+    "one_liner": "Private prediction markets on Starknet: visible odds, invisible bettors.",
+    "category": "DeFi",
+    "inspired_by": "RFP-07",
+    "team": ["zkasuran"]
   }
 ]
