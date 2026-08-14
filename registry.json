@@ -1,32 +1,47 @@
 [
   {
     "repo_url": "https://github.com/ZylithFi/client",
-    "telegram": ["t4nz4n1t3"]
+    "telegram": [
+      "t4nz4n1t3"
+    ]
   },
   {
     "repo_url": "https://github.com/PoulavBhowmick03/erebus",
-    "telegram": ["impoulav","ishitaaaaw"]
+    "telegram": [
+      "impoulav",
+      "ishitaaaaw"
+    ]
   },
   {
     "repo_url": "https://github.com/gstohl/feltproof",
-    "telegram": ["stack_ref_error"],
+    "telegram": [
+      "stack_ref_error"
+    ],
     "name": "Quietline",
     "one_liner": "Encrypted on-chain mail on Starknet. Payment memos ride the same private transfer.",
     "category": "Other",
     "inspired_by": "RFP-01",
-    "team": ["gstohl"]
+    "team": [
+      "gstohl"
+    ]
   },
   {
     "repo_url": "https://github.com/Sarthib7/stk402",
-    "telegram": ["sarthib7"]
+    "telegram": [
+      "sarthib7"
+    ]
   },
   {
     "repo_url": "https://github.com/codeswithroh/veyl",
-    "telegram": ["codeswithroh"],
+    "telegram": [
+      "codeswithroh"
+    ],
     "name": "Veyl",
     "one_liner": "Private launch & trading terminal on Starknet — trade and launch tokens through unlinkable execution identities funded by the STRK20 pool.",
     "category": "Trading",
     "inspired_by": "RFP-06",
-    "team": ["codeswithroh"]
+    "team": [
+      "codeswithroh"
+    ]
   }
 ]
