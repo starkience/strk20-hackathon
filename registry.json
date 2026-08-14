@@ -8,7 +8,7 @@
     "telegram": ["impoulav","ishitaaaaw"]
   },
   {
-    "repo_url": "https://github.com/gstohl/feltproof",
+    "repo_url": "https://github.com/gstohl/quietline",
     "telegram": ["stack_ref_error"],
     "name": "Quietline",
     "one_liner": "Encrypted on-chain mail on Starknet. Payment memos ride the same private transfer.",
