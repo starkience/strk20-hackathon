@@ -182,5 +182,17 @@
     "telegram": [
       "Jemmy1st"
     ]
+  },
+  {
+    "repo_url": "https://github.com/0xConsole/strk20-sentinel",
+    "telegram": [
+      "hermesmoneybot"
+    ],
+    "name": "STRK20 Privacy Sentinel",
+    "one_liner": "MCP-powered privacy analytics agent for monitoring and managing shielded DeFi positions on Starknet.",
+    "category": "Tooling",
+    "team": [
+      "0xConsole"
+    ]
   }
 ]
