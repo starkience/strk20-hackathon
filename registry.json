@@ -368,4 +368,9 @@
     "category": "DeFi",
     "x_handle": "mayorxbt"
   }
+
+  {
+    "repo_url": "https://github.com/OpenDagri/veilpay",
+    "telegram": ["omniflowfounder"]
+  }
 ]
