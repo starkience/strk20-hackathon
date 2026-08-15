@@ -386,5 +386,11 @@
     "one_liner": "Private payroll with public aggregate accountability on STRK20.",
     "category": "Payments",
     "inspired_by": "RFP-11"
+  },
+  {
+    "repo_url": "https://github.com/raj921/strk20-starter-kit",
+    "telegram": [
+      "guthalarajkumar"
+    ]
   }
 ]
