@@ -6,6 +6,23 @@
     ]
   },
   {
+    "repo_url": "https://github.com/welson-ai/solmate-starknet",
+    "telegram": [
+      "kiminza_codes"
+    ],
+    "name": "solmate",
+    "one_liner": "On-chain credit scoring and undercollateralized lending protocol on Starknet ",
+    "slug": "Reputation Lending",
+    "category": "DEFI",
+    "x_handle": "kiminza_codes",
+    {
+  "transactions": [],
+  "contracts": [],
+  "demo_video": "",
+  "demo_url": "https://solmate-22tp.vercel.app/"
+}
+  },
+  {
     "repo_url": "https://github.com/PoulavBhowmick03/erebus",
     "telegram": [
       "impoulav",
