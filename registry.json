@@ -335,5 +335,15 @@
     ],
     "name": "Veilance Market",
     "category": "Payments"
+  },
+  {
+    "repo_url": "https://github.com/Jennycruzy/facet",
+    "telegram": [
+      "Jennycruzy57"
+    ],
+    "name": "Facet",
+    "one_liner": "Private identities for Starknet DeFi. One shielded balance, unlimited unlinkable facets, one per protocol.",
+    "category": "Infra",
+    "x_handle": "jennyoliver57"
   }
 ]
