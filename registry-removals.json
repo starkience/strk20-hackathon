@@ -18,5 +18,13 @@
   {
     "repo_url": "https://github.com/starkware-libs/starknet-privacy",
     "reason": "Pre-launch preview seed, not a registration. Cleared in d4def26."
+  },
+  {
+    "repo_url": "https://github.com/welttowelt/veilpass",
+    "reason": "Withdrawn by welttowelt after pivoting the same sprint entry to Booty Bank."
+  },
+  {
+    "repo_url": "https://github.com/welttowelt/mosby-pass",
+    "reason": "Withdrawn by welttowelt after pivoting the same sprint entry to Booty Bank."
   }
 ]
