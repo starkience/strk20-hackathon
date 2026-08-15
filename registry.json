@@ -81,7 +81,7 @@
       "codeswithroh"
     ],
     "name": "Veyl",
-    "one_liner": "Private launch & trading terminal on Starknet — trade and launch tokens through unlinkable execution identities funded by the STRK20 pool.",
+    "one_liner": "Private launch & trading terminal on Starknet \u2014 trade and launch tokens through unlinkable execution identities funded by the STRK20 pool.",
     "category": "DeFi",
     "inspired_by": "RFP-06",
     "team": [
@@ -408,5 +408,19 @@
     "telegram": [
       "ObiJohnbosco"
     ]
+  },
+  {
+    "repo_url": "https://github.com/ronkenx9/sable",
+    "telegram": [
+      "Kenshixronin"
+    ],
+    "name": "SABLE",
+    "one_liner": "Send a client an invoice link. They pay it. The money lands shielded.",
+    "category": "Payments",
+    "inspired_by": "RFP-11",
+    "team": [
+      "ronkenx9"
+    ],
+    "x_handle": "kenn_ronin"
   }
 ]
