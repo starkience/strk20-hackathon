@@ -392,5 +392,15 @@
     "telegram": [
       "guthalarajkumar"
     ]
+  },
+  {
+    "repo_url": "https://github.com/mohithhhh/Aegis",
+    "telegram": [
+      "mohithdk"
+    ],
+    "name": "Aegis",
+    "one_liner": "Private subscriptions on Starknet: recurring payments with visible aggregates, invisible payer and amount.",
+    "category": "Payments",
+    "inspired_by": "RFP-12"
   }
 ]
