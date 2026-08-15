@@ -277,8 +277,7 @@
     "telegram": [
       "popexenon"
     ]
-  }
-]
+  },
 {
   "repo_url": "https://github.com/DXJLabs/vinss",
   "telegram": ["oiii22"],
@@ -288,3 +287,4 @@
   "team": ["DXJLabs"],
   "inspired_by": "IDEA-01"
 }
+]
