@@ -279,3 +279,12 @@
     ]
   }
 ]
+{
+  "repo_url": "https://github.com/DXJLabs/vinss",
+  "telegram": ["oiii22"],
+  "name": "VINSS",
+  "one_liner": "Agentic private deal room on Starknet for encrypted negotiation, offers, messaging, and private escrow settlement powered by STRK20.",
+  "category": "Social & Communications",
+  "team": ["DXJLabs"],
+  "inspired_by": "IDEA-01"
+}
