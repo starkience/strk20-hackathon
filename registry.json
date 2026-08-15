@@ -271,5 +271,9 @@
     ],
     "x_handle": "cyph3rxt",
     "inspired_by": "IDEA-25"
+  },
+  {
+    "repo_url": "https://github.com/SmratJay/strk20-privacy-wallet",
+    "telegram": ["popexenon"]
   }
 ]
