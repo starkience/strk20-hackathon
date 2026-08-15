@@ -357,5 +357,15 @@
     "one_liner": "Private identities for Starknet DeFi. One shielded balance, unlimited unlinkable facets, one per protocol.",
     "category": "Infra",
     "x_handle": "jennyoliver57"
+  },
+  {
+    "repo_url": "https://github.com/mayorXBT/ghoste-starknet",
+    "telegram": [
+      "demayoor"
+    ],
+    "name": "Ghoste for Starknet",
+    "one_liner": "Private meta-routing and unlinkable settlement on Starknet.",
+    "category": "DeFi",
+    "x_handle": "mayorxbt"
   }
 ]
