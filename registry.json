@@ -243,5 +243,19 @@
     "telegram": [
       "Kartello_Crypto2"
     ]
+  },
+  {
+    "repo_url": "https://github.com/daraijaola/ghostbounty",
+    "telegram": [
+      "Micheal_ijaola"
+    ],
+    "name": "GhostBounty",
+    "one_liner": "Anonymous responsible disclosure with encrypted reports, proof-of-authorship, and private STRK20 bounty payments.",
+    "category": "Tooling",
+    "team": [
+      "daraijaola"
+    ],
+    "x_handle": "Micheal_node",
+    "inspired_by": "RFP-02"
   }
 ]
