@@ -367,10 +367,13 @@
     "one_liner": "Private meta-routing and unlinkable settlement on Starknet.",
     "category": "DeFi",
     "x_handle": "mayorxbt"
-  }
+  },
 
   {
     "repo_url": "https://github.com/OpenDagri/veilpay",
-    "telegram": ["omniflowfounder"]
+    "telegram": ["omniflowfounder"],
+    "name": "VeilPay",
+    "one_liner": "Private payroll with scoped disclosure. Public can verify a run; only the payee or auditor can open a slice.",
+    "category": "Payments"
   }
 ]
