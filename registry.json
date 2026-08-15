@@ -292,14 +292,13 @@
     "inspired_by": "IDEA-01"
   },
   {
-    "repo_url": "https://github.com/welttowelt/veilpass",
+    "repo_url": "https://github.com/welttowelt/mosby-pass",
     "telegram": [
       "Odin_free"
     ],
-    "name": "Veilpass",
-    "one_liner": "Private creator memberships powered by STRK20 on Starknet.",
-    "category": "Payments",
-    "inspired_by": "RFP-12",
+    "name": "Mosby Pass",
+    "one_liner": "Private event admission powered by shielded STRK on Starknet.",
+    "category": "Consumer",
     "team": [
       "welttowelt"
     ]
