@@ -271,5 +271,11 @@
     ],
     "x_handle": "cyph3rxt",
     "inspired_by": "IDEA-25"
+  },
+  {
+    "repo_url": "https://github.com/mateojkk/Orca",
+    "telegram": [
+      "@mateojkk"
+    ]
   }
 ]
