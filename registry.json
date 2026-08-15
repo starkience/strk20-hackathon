@@ -328,5 +328,13 @@
     "telegram": [
       "Dapperdavidd"
     ]
+  },
+  {
+    "repo_url": "https://github.com/Portablelle/veilance-market",
+    "telegram": [
+      "koulaz"
+    ],
+    "name": "Veilance Market",
+    "category": "Payments"
   }
 ]
