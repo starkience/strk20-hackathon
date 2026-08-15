@@ -376,5 +376,15 @@
     "name": "VeilPay",
     "one_liner": "Private payroll with scoped disclosure. Public can verify a run; only the payee or auditor can open a slice.",
     "category": "Payments"
+  },
+  {
+    "repo_url": "https://github.com/Avinash1286/shadowledger",
+    "telegram": [
+      "theavi1286"
+    ],
+    "name": "ShadowLedger",
+    "one_liner": "Private payroll with public aggregate accountability on STRK20.",
+    "category": "Payments",
+    "inspired_by": "RFP-11"
   }
 ]
