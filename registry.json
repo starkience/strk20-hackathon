@@ -309,5 +309,18 @@
     "telegram": [
       "mateojkk"
     ]
+  },
+  {
+    "repo_url": "https://github.com/kenkomu/airlock",
+    "telegram": [
+      "Kenkomu"
+    ],
+    "name": "Airlock",
+    "one_liner": "One-click privacy from any chain: bridge in, hold private, withdraw to a different chain with no on-chain link.",
+    "category": "Infra",
+    "team": [
+      "kenkomu"
+    ],
+    "inspired_by": "RFP-09"
   }
 ]
