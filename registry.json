@@ -257,5 +257,19 @@
     ],
     "x_handle": "Micheal_node",
     "inspired_by": "RFP-02"
+  },
+  {
+    "repo_url": "https://github.com/ashiru-1/VeilCheck",
+    "telegram": [
+      "cyph3rxt"
+    ],
+    "name": "VeilCheck",
+    "one_liner": "Privacy preflight for STRK20: detect timing correlation and amount leakage before signing.",
+    "category": "Tooling",
+    "team": [
+      "ashiru-1"
+    ],
+    "x_handle": "cyph3rxt",
+    "inspired_by": "IDEA-25"
   }
 ]
