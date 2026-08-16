@@ -432,4 +432,13 @@
     "inspired_by": "IDEA-11",
     "x_handle": "zanexyzx"
   }
+
+  },
+    {
+      "repo_url": "https://github.com/Kingnanaweb3/tacit-strk20",
+      "telegram": ["Kingnanacrypt"],
+      "name": "Tacit",
+      "one_liner": "Sealed-bid auctions where bids are actually sealed — Vickrey, first-price, and multi-unit, using STRK20 encrypted notes for real cryptographic bid privacy.",
+      "category": "Markets & Trading"
+    }
 ]
