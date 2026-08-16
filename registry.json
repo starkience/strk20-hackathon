@@ -521,4 +521,10 @@
     "category": "Payments",
     "inspired_by": "RFP-11"
   }
-]
+],
+{
+  "repo_url": "https://github.com/Habuskid/Adyton",
+  "telegram": ["habuskid01"],
+  "category": "DeFi",
+  "inspired_by": "IDEA-28"
+}
