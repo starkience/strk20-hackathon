@@ -481,10 +481,10 @@
   },
   {
     "repo_url": "https://github.com/kaverimeshram/GhostOrder",
-    "telegram": [
+        "telegram": [
       "Kaveriily"
     ]
-  },  
+  },
   {
     "repo_url": "https://github.com/vmmuthu31/deceptiveos",
     "telegram": [
@@ -497,5 +497,5 @@
       "Gryffindors"
     ],
     "x_handle": "Barfi_31"
-  },
+  }
 ]
