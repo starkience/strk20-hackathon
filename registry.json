@@ -432,4 +432,16 @@
     "inspired_by": "IDEA-11",
     "x_handle": "zanexyzx"
   }
+
+    {
+    "repo_url": "https://github.com/Kingnanaweb3/tacit-strk20",
+    "telegram": [
+      "Kingnanacrypt"
+    ],
+    "name": "Tacit",
+    "one_liner": "Sealed-bid auctions with private bids and settlement using STRK20 encrypted notes.",
+    "slug": "tacit",
+    "category": "DeFi"
+  }
+
 ]
