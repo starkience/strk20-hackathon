@@ -440,5 +440,15 @@
     "name": "STRKWORLD",
     "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
     "category": "Gaming"
+  },
+    {
+    "repo_url": "https://github.com/Kingnanaweb3/tacit-strk20",
+    "telegram": [
+      "Kingnanacrypt"
+    ],
+    "name": "Tacit",
+    "one_liner": "Sealed-bid auctions with private bids and settlement using STRK20 encrypted notes.",
+    "slug": "tacit",
+    "category": "DeFi"
   }
 ]
