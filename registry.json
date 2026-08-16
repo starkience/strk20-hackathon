@@ -432,21 +432,7 @@
     "inspired_by": "IDEA-11",
     "x_handle": "zanexyzx"
   },
-  {
-  "team_name": "STARKSTEALTH",
-  "name": "Alias",
-  "one_liner": "Disposable stealth addresses for one-click private payments on Starknet.",
-  "category": "Privacy",
-  "inspired_by": "ERC-5564",
-  "repo_url": "https://github.com/builder-of-web3/Alias",
-  "team": [
-    "builder-of-web3"
-  ],
-  "telegram": [
-    "mordor"
-  ],
-  "x_handle": "cryot_walker"
-}
+{
     "repo_url": "https://github.com/Calcutatator/STRKWORLD",
     "telegram": [
       "Calcutator"
@@ -464,5 +450,20 @@
     "one_liner": "Sealed-bid auctions with private bids and settlement using STRK20 encrypted notes.",
     "slug": "tacit",
     "category": "DeFi"
-  }
+  },
+  {
+  "team_name": "STARKSTEALTH",
+  "name": "Alias",
+  "one_liner": "Disposable stealth addresses for one-click private payments on Starknet.",
+  "category": "Privacy",
+  "inspired_by": "ERC-5564",
+  "repo_url": "https://github.com/builder-of-web3/Alias",
+  "team": [
+    "builder-of-web3"
+  ],
+  "telegram": [
+    "mordor"
+  ],
+  "x_handle": "cryot_walker"
+}
 ]
