@@ -431,5 +431,14 @@
     "category": "Payments",
     "inspired_by": "IDEA-11",
     "x_handle": "zanexyzx"
+  },
+  {
+    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
+    "telegram": [
+      "Calcutator"
+    ],
+    "name": "STRKWORLD",
+    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
+    "category": "Gaming"
   }
 ]
