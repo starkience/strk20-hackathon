@@ -484,5 +484,18 @@
     "telegram": [
       "Kaveriily"
     ]
-  }
+  },  
+  {
+    "repo_url": "https://github.com/vmmuthu31/deceptiveos",
+    "telegram": [
+      "vmmuthu31"
+    ],
+    "name": "CipherNest",
+    "one_liner": "Adversarial AI Cyber Deception Engine deploying living digital twin decoys, steganographic canary lures, and zero-knowledge audit trails for Starknet.",
+    "category": "Infra",
+    "team": [
+      "Gryffindors"
+    ],
+    "x_handle": "Barfi_31"
+  },
 ]
