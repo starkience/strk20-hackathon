@@ -470,14 +470,13 @@
     "telegram": [
       "mortiee_eth"
     ],
-    "name": "Nightfall",
-    "one_liner": "Provably-fair, privacy-native social deduction (One Night Werewolf) on STRK20 — the house cannot cheat and your role stays private.",
-    "slug": "nightfall",
+    "name": "Portage.fun",
+    "one_liner": "Provably-fair idle creature-collecting on Starknet — hatch, evolve, and trade original creatures.",
+    "slug": "portage",
     "category": "Gaming",
     "team": [
       "joaoolucas"
-    ],
-    "inspired_by": "RFP-04"
+    ]
   },
   {
     "repo_url": "https://github.com/kaverimeshram/GhostOrder",
