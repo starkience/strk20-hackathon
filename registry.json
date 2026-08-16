@@ -464,5 +464,19 @@
     ],
     "x_handle": "_OoJae",
     "inspired_by": "IDEA-27"
+  },
+  {
+    "repo_url": "https://github.com/joaoolucas/nightfall",
+    "telegram": [
+      "mortiee_eth"
+    ],
+    "name": "Nightfall",
+    "one_liner": "Provably-fair, privacy-native social deduction (One Night Werewolf) on STRK20 — the house cannot cheat and your role stays private.",
+    "slug": "nightfall",
+    "category": "Gaming",
+    "team": [
+      "joaoolucas"
+    ],
+    "inspired_by": "RFP-04"
   }
 ]
