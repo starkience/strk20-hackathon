@@ -1,14 +1,14 @@
 [
   {
-    "slug": "privora",
-    "name": "Privora",
+    "slug": "whisperpay",
+    "name": "whisperpay",
     "one_liner": "",
-    "category": "Other",
-    "repo_url": "https://github.com/Dapperdavidd/Privora",
+    "category": "Payments",
+    "repo_url": "https://github.com/bugsm/whisperpay",
     "demo_url": "",
     "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
+    "x_handle": "zanexyzx",
+    "inspired_by": "IDEA-11",
     "starred": false,
     "star_reason": "",
     "contracts": [],
@@ -20,13 +20,92 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-16T10:51:34Z",
+    "pushed_at": "2026-08-16T12:35:12Z",
     "stars": 0,
     "builders": [
       {
-        "login": "Dapperdavidd",
-        "name": "Dapper",
-        "avatar_url": "https://avatars.githubusercontent.com/u/218753802?v=4"
+        "login": "bugsm",
+        "name": "bugsm",
+        "avatar_url": "https://avatars.githubusercontent.com/u/121507446?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 7
+      }
+    ],
+    "active_days": [
+      "2026-08-16"
+    ],
+    "head_sha": "8ca5d797ab1498102729d724bb88e462c60d70ef",
+    "readme_hash": "4353:# Whisper Pay\n\nOne-link private payment requests on Starknet, powered by STRK20 shielded transfers.\n\n## What is this?\n\nWhisper Pay is a one-link private payment request tool built on STRK20. A user ge",
+    "churn_pct": 27.5,
+    "summary": "Generate private payment links using STRK20 on Starknet.",
+    "description_long": "This tool allows users to create shareable payment links that ensure privacy by routing transactions through STRK20's shielded transfers. The challenge addressed is maintaining anonymity on a public blockchain, where payment details are usually exposed. By utilizing a privacy layer and Starknet IDs, the project enables users to receive payments without revealing sensitive information on-chain.",
+    "latest_push": "Implemented pay-by-identifier functionality via Starknet ID.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 668,
+    "deletions": 52,
+    "assessment": null
+  },
+  {
+    "slug": "booty-bank",
+    "name": "Booty Bank",
+    "one_liner": "Private income credentials and credit eligibility for OnlyFans creators on Starknet.",
+    "category": "Consumer",
+    "repo_url": "https://github.com/welttowelt/booty-bank",
+    "demo_url": "https://bootybank.app/",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-16T12:26:37Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "welttowelt",
+        "name": "welttowelt",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58338510?v=4"
       }
     ],
     "agents": [],
@@ -34,22 +113,163 @@
       "2026-08-15",
       "2026-08-16"
     ],
-    "head_sha": "1d4c5ff87f1fd4082c6d94b89ff8d698ab7a424a",
-    "readme_hash": "2733:# Privora\n\nPrivora is a privacy-first payment platform for real-world financial transactions, beginning with rent and property payments.\n\nThe first STRK20 sprint flow is intentionally narrow: a tenant",
-    "churn_pct": 1.4,
-    "summary": "Facilitate private rent payments using blockchain technology.",
-    "description_long": "The project implements a privacy-first payment platform for rent and property transactions on Starknet. It connects tenants' wallets to allow confidential payments while providing landlords verifiable receipts without revealing unrelated financial data. Key components include a Rust backend with PostgreSQL migrations and a React web client, ensuring secure handling of sensitive information through selective-disclosure proofs.",
-    "latest_push": "Tested proof signature integrity in the privora-api library.",
+    "head_sha": "0d21631f32b1002a12feb7f8c6aad7da39054b27",
+    "readme_hash": "8159:# Booty Bank\n\n> BORROW AGAINST YOUR BBL.\n\nBooty Bank is the primary money account built for OnlyFans creators. The product combines daily banking, creator income, private credit, fan perks, and a post",
+    "churn_pct": 9,
+    "summary": "Manage income and credit eligibility for OnlyFans creators using Starknet technology.",
+    "description_long": "This project focuses on creating a financial account specifically designed for OnlyFans creators, combining various banking features in one platform. It leverages Starknet's blockchain technology for secure transactions, ensuring user data remains private while managing income, credit, and creator-specific functionalities. The challenging part involves implementing a post-quantum-tested account structure while integrating multiple financial operations seamlessly.",
+    "latest_push": "Added a guarded AVNU paymaster proxy and enforced AVNU swap call policy.",
     "tooling": [
       {
-        "label": "Rust",
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
         "live": false,
         "stack": false
       }
     ],
     "has_readme": true,
-    "additions": 37,
+    "additions": 453,
+    "deletions": 14,
+    "assessment": null
+  },
+  {
+    "slug": "aperture-strk20",
+    "name": "Aperture",
+    "one_liner": "Sealed-ballot governance and a shielded treasury for DAOs, native to STRK20.",
+    "category": "Infra",
+    "repo_url": "https://github.com/OoJae/aperture-strk20",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "_OoJae",
+    "inspired_by": "IDEA-27",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-16T12:20:24Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "OoJae",
+        "name": "OoJae",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73647277?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-16"
+    ],
+    "head_sha": "3c2133467546106f7028df8f5de5cb4934ae6101",
+    "readme_hash": "3815:# Aperture\n\n**Sealed-ballot governance and a shielded treasury for DAOs, native to STRK20.**\n\nBuilt for the STRK20 Private Sprint, August 2026. Day 1 — this repository is\nunder active construction and",
+    "churn_pct": 0.9,
+    "summary": "Enable private voting and treasury payouts for DAOs using STRK20's shielded pool.",
+    "description_long": "This project implements a private voting system where votes are represented as private transfers, ensuring that choices and weights remain hidden until the tally is published. It also integrates a treasury payout mechanism that anonymizes grant recipients while still revealing payout amounts, addressing the problems of transparency and front-running in traditional on-chain governance.",
+    "latest_push": "Ignored local working notes in .gitignore.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 3,
     "deletions": 0,
+    "assessment": null
+  },
+  {
+    "slug": "noxis",
+    "name": "noxis",
+    "one_liner": "Noxis — private payments on Starknet. Shield, send privately, and unshield with STRK20.",
+    "category": "Other",
+    "repo_url": "https://github.com/Shadow-MMN/noxis",
+    "demo_url": "https://noxis-jet.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-16T12:10:32Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Shadow-MMN",
+        "name": "Shadow-MMN",
+        "avatar_url": "https://avatars.githubusercontent.com/u/183208511?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "head_sha": "eb8799a856af041b7f5ebed0d2d8750b26515b84",
+    "readme_hash": "3108:# Noxis\n\n**Private payments on Starknet.**\n\nNoxis is a private payments app built for the [STRK20 Private Sprint](https://github.com/starkience/strk20-hackathon). It lets you hold, send, and receive S",
+    "summary": "Enable private payments on Starknet using STRK-backed value.",
+    "description_long": "Utilizing shielded transactions, the app allows users to hold, send, and receive STRK-backed value without revealing transaction details. The main challenge is ensuring privacy throughout the payment process while maintaining visibility of payment activity on-chain, adhering to the design of the STRK20 privacy pool.",
+    "latest_push": "Added a project handoff document for next-week pickup.",
+    "tooling": [
+      {
+        "label": "AVNU",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 3,
+    "deletions": 0,
+    "churn_pct": 0.1,
     "assessment": null
   },
   {
@@ -73,18 +293,13 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-08-16T10:42:39Z",
+    "pushed_at": "2026-08-16T11:35:55Z",
     "stars": 0,
     "builders": [
       {
         "login": "Calcutatator",
         "name": "Calcutator",
         "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
-      },
-      {
-        "login": "calc-starkware",
-        "name": "calc-starkware",
-        "avatar_url": "https://avatars.githubusercontent.com/u/285692425?v=4"
       }
     ],
     "agents": [
@@ -92,17 +307,17 @@
         "family": "Claude",
         "name": "Claude Opus 5",
         "avatar_url": "",
-        "commits": 2
+        "commits": 9
       }
     ],
     "active_days": [
       "2026-08-16"
     ],
-    "head_sha": "80aac3095bd27da5dc2ee278f250141c236bf556",
-    "readme_hash": "4333:# STRKWORLD\n\n**A 2D top-down city where the buildings are Starknet privacy protocols.**\n\nWalk around a shared pseudonymous world, step into a building, and use a real\nprivacy-preserving protocol with ",
-    "summary": "Create a pseudonymous city using Starknet privacy protocols.",
-    "description_long": "The project defines a 2D city where users can interact with various financial protocols while preserving their privacy. It does so by delegating all cryptographic operations to the user's wallet, ensuring the game itself never interacts with sensitive key material. The main challenge lies in integrating multiple privacy-preserving actions through simple RPC methods without compromising user security.",
-    "latest_push": "Added the STRK20 privacy integration skill and hackathon manifest.",
+    "head_sha": "3980a842f55e8faa81b1d21368f20e1e18b72802",
+    "readme_hash": "4535:# STRKWORLD\n\n**A 2D top-down city where the buildings are Starknet privacy protocols.**\n\nWalk around a shared pseudonymous world, step into a building, and use a real\nprivacy-preserving protocol with ",
+    "summary": "Explore a 2D city using privacy protocols on Starknet.",
+    "description_long": "The project creates a shared pseudonymous world where players can interact with various privacy-preserving financial protocols. The hard part involves integrating these protocols without compromising user privacy, as the game does not handle any private key material or sensitive information directly, relying instead on the player's wallet for all private actions.",
+    "latest_push": "Pinned the connection stack and fixed defects in the independent review.",
     "tooling": [
       {
         "label": "TypeScript",
@@ -111,9 +326,62 @@
       }
     ],
     "has_readme": true,
-    "additions": 931,
-    "deletions": 0,
+    "additions": 10265,
+    "deletions": 93,
     "churn_pct": 100,
+    "assessment": null
+  },
+  {
+    "slug": "privora",
+    "name": "Privora",
+    "one_liner": "",
+    "category": "Other",
+    "repo_url": "https://github.com/Dapperdavidd/Privora",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-16T11:19:22Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Dapperdavidd",
+        "name": "Dapper",
+        "avatar_url": "https://avatars.githubusercontent.com/u/218753802?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "head_sha": "94d9ee5d177a43d52e4e7a0a92215d990ad84d94",
+    "readme_hash": "2733:# Privora\n\nPrivora is a privacy-first payment platform for real-world financial transactions, beginning with rent and property payments.\n\nThe first STRK20 sprint flow is intentionally narrow: a tenant",
+    "summary": "Facilitate private rent payments using blockchain technology.",
+    "description_long": "The project implements a privacy-first payment platform for rent and property transactions on Starknet. It connects tenants' wallets to allow confidential payments while providing landlords verifiable receipts without revealing unrelated financial data. Key components include a Rust backend with PostgreSQL migrations and a React web client, ensuring secure handling of sensitive information through selective-disclosure proofs.",
+    "latest_push": "Added no-cost demo payment mode to the payment system.",
+    "tooling": [
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 41,
+    "deletions": 9,
+    "churn_pct": 1.8,
     "assessment": null
   },
   {
@@ -271,52 +539,6 @@
     "additions": 32,
     "deletions": 15,
     "churn_pct": 1,
-    "assessment": null
-  },
-  {
-    "slug": "whisperpay",
-    "name": "whisperpay",
-    "one_liner": "",
-    "category": "Payments",
-    "repo_url": "https://github.com/bugsm/whisperpay",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "zanexyzx",
-    "inspired_by": "IDEA-11",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-16T08:55:26Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "bugsm",
-        "name": "Faadil",
-        "avatar_url": "https://avatars.githubusercontent.com/u/121507446?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-16"
-    ],
-    "head_sha": "e713f20499c4a38bfa46ce273a940978e6dc3cc7",
-    "readme_hash": "2212:# Whisper Pay\n\nOne-link private payment requests on Starknet, powered by STRK20 shielded transfers.\n\n## What is this?\n\nWhisper Pay is a one-link private payment request tool built on STRK20. A user ge",
-    "summary": "Facilitate private payments using shareable links on Starknet.",
-    "description_long": "This tool allows users to generate shareable payment links that utilize STRK20's privacy features. By routing payments through a shielded flow, it ensures that the details of the transactions remain private on-chain, solving the problem of exposing payment history on public chains.",
-    "latest_push": "Revised README for Whisper Pay project.",
-    "tooling": [],
-    "has_readme": true,
-    "additions": 49,
-    "deletions": 1,
-    "churn_pct": 0,
     "assessment": null
   },
   {
@@ -1051,63 +1273,6 @@
     "assessment": null
   },
   {
-    "slug": "booty-bank",
-    "name": "Booty Bank",
-    "one_liner": "Private income credentials and credit eligibility for OnlyFans creators on Starknet.",
-    "category": "Consumer",
-    "repo_url": "https://github.com/welttowelt/booty-bank",
-    "demo_url": "https://bootybank.app/",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-15T21:45:41Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "welttowelt",
-        "name": "welttowelt",
-        "avatar_url": "https://avatars.githubusercontent.com/u/58338510?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-15"
-    ],
-    "head_sha": "68070488f51dbf86081d2d827273f3946c42a854",
-    "readme_hash": "6935:# Booty Bank\n\n> BORROW AGAINST YOUR BBL.\n\nBooty Bank is the primary money account built for OnlyFans creators. The product combines daily banking, creator income, private credit, fan perks, and a post",
-    "summary": "Provide income credentials and credit eligibility for OnlyFans creators.",
-    "description_long": "The project allows OnlyFans creators to manage their income and banking needs through a single account, utilizing Starknet for secure transactions. It tackles the challenge of income verification and credit eligibility by implementing Cairo contracts for credential management, ensuring privacy while connecting creators with potential lenders. This involves building robust contract validation systems while maintaining a user-friendly interface for transactions and budgeting.",
-    "latest_push": "Made the private account text bold and increased legibility.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 142,
-    "deletions": 65,
-    "churn_pct": 5.4,
-    "assessment": null
-  },
-  {
     "slug": "veilpay",
     "name": "VeilPay",
     "one_liner": "Private payroll with scoped disclosure. Public can verify a run; only the payee or auditor can open a slice.",
@@ -1827,84 +1992,6 @@
     "assessment": null
   },
   {
-    "slug": "noxis",
-    "name": "noxis",
-    "one_liner": "Noxis — private payments on Starknet. Shield, send privately, and unshield with STRK20.",
-    "category": "Other",
-    "repo_url": "https://github.com/Shadow-MMN/noxis",
-    "demo_url": "https://noxis-jet.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-15T15:44:34Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Shadow-MMN",
-        "name": "Shadow-MMN",
-        "avatar_url": "https://avatars.githubusercontent.com/u/183208511?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15"
-    ],
-    "head_sha": "6cd982a749b206ef9409658e4dd22ee66ba781e7",
-    "readme_hash": "3108:# Noxis\n\n**Private payments on Starknet.**\n\nNoxis is a private payments app built for the [STRK20 Private Sprint](https://github.com/starkience/strk20-hackathon). It lets you hold, send, and receive S",
-    "summary": "Enable private payments on Starknet using STRK-backed value.",
-    "description_long": "Utilizing shielded transactions, the app allows users to hold, send, and receive STRK-backed value without revealing transaction details. The main challenge is ensuring privacy throughout the payment process while maintaining visibility of payment activity on-chain, adhering to the design of the STRK20 privacy pool.",
-    "latest_push": "Fixed wallet-store infinite loop and added testnet support.",
-    "tooling": [
-      {
-        "label": "AVNU",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 491,
-    "deletions": 148,
-    "churn_pct": 27.6,
-    "assessment": null
-  },
-  {
     "slug": "ghoste-starknet",
     "name": "Ghoste for Starknet",
     "one_liner": "Private meta-routing and unlinkable settlement on Starknet.",
@@ -1986,7 +2073,6 @@
     ],
     "head_sha": "e993ad047882f82815b1f4b81aaaa5d31a8670f2",
     "readme_hash": "75:# Tacit — sealed-bid auctions (Vickrey, first-price, multi-unit) on STRK20\n",
-    "churn_pct": 100,
     "summary": "Facilitates sealed-bid auctions using STRK20 encrypted notes.",
     "description_long": "The project implements sealed-bid auctions, including Vickrey and first-price formats, leveraging STRK20 encrypted notes for bid privacy. The challenge involves ensuring secure storage and handling of private bids while maintaining accurate settlement processes.",
     "latest_push": "Initialized Tacit for STRK20 with the carried over Arc-era frontend design.",
@@ -1994,6 +2080,7 @@
     "has_readme": true,
     "additions": 12248,
     "deletions": 4657543,
+    "churn_pct": 100,
     "assessment": null
   },
   {

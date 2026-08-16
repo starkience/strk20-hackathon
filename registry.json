@@ -465,5 +465,19 @@
     "mordor"
   ],
   "x_handle": "cryot_walker"
-}
+},
+{
+    "repo_url": "https://github.com/OoJae/aperture-strk20",
+    "telegram": [
+      "Oo_Jae"
+    ],
+    "name": "Aperture",
+    "one_liner": "Sealed-ballot governance and a shielded treasury for DAOs, native to STRK20.",
+    "category": "Infra",
+    "team": [
+      "OoJae"
+    ],
+    "x_handle": "_OoJae",
+    "inspired_by": "IDEA-27"
+  }
 ]
