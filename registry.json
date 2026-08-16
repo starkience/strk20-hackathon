@@ -431,5 +431,20 @@
     "category": "Payments",
     "inspired_by": "IDEA-11",
     "x_handle": "zanexyzx"
-  }
+  },
+  {
+  "team_name": "ZeroTrace",
+  "name": "Alias",
+  "one_liner": "Disposable stealth addresses for one-click private payments on Starknet.",
+  "category": "Privacy",
+  "inspired_by": "ERC-5564",
+  "repo_url": "https://github.com/builder-of-web3/Alias",
+  "team": [
+    "builder-of-web3"
+  ],
+  "telegram": [
+    "mordor"
+  ],
+  "x_handle": "cryot_walker"
+}
 ]
