@@ -533,5 +533,19 @@
     "team": [
       "wheval"
     ]
+  },
+  {
+    "repo_url": "https://github.com/dino1x/starkwhisper",
+    "telegram": [
+      "marvelmarvinn"
+    ],
+    "name": "StarkWhisper",
+    "one_liner": "Metadata-resistant, end-to-end encrypted messaging & private payment memos on Starknet.",
+    "category": "Consumer",
+    "inspired_by": "RFP-01",
+    "team": [
+      "dino1x"
+    ]
   }
 ]
+
