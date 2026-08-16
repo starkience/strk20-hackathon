@@ -503,5 +503,15 @@
     "telegram": [
       "Akanbilabs"
     ]
+  },
+  {
+    "repo_url": "https://github.com/harishmelwani/veilpoker",
+    "telegram": [
+      "YOUR_TELEGRAM"
+    ],
+    "name": "VeilPoker",
+    "one_liner": "Provably fair Texas Hold'em on STRK20 - shielded chips, commit-reveal dealing, private payouts.",
+    "category": "Gaming",
+    "inspired_by": "RFP-03"
   }
 ]
