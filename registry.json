@@ -512,5 +512,13 @@
     "one_liner": "Private business payouts on STRK20 - pay anyone by claim link, they collect into a shielded balance.",
     "category": "Payments",
     "inspired_by": "IDEA-10"
+  },
+  {
+    "repo_url": "https://github.com/EndPx/zkpayslip",
+    "telegram": [
+      "EndPax"
+    ],
+    "category": "Payments",
+    "inspired_by": "RFP-11"
   }
 ]
