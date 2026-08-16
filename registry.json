@@ -505,13 +505,13 @@
     ]
   },
   {
-    "repo_url": "https://github.com/harishmelwani/veilpoker",
+    "repo_url": "https://github.com/harishmelwani/veilpayouts",
     "telegram": [
       "YOUR_TELEGRAM"
     ],
-    "name": "VeilPoker",
-    "one_liner": "Provably fair Texas Hold'em on STRK20 - shielded chips, commit-reveal dealing, private payouts.",
-    "category": "Gaming",
-    "inspired_by": "RFP-03"
+    "name": "VeilPayouts",
+    "one_liner": "Private business payouts on STRK20 - pay anyone by claim link, they collect into a shielded balance.",
+    "category": "Payments",
+    "inspired_by": "IDEA-10"
   }
 ]
