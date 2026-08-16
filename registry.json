@@ -527,7 +527,7 @@
       "wheval"
     ],
     "name": "Nomos",
-    "one_liner": "Private merchant checkout for Starknet: businesses accept payment via a link or widget, settlement shields on mainnet through the STRK20 pool.",
+    "one_liner": "Private payment gateway for Starknet: businesses accept payment via a link or widget, settlement shields on mainnet through the STRK20 pool.",
     "category": "Payments",
     "inspired_by": "IDEA-11",
     "team": [
