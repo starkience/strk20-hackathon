@@ -18,5 +18,9 @@
   {
     "repo_url": "https://github.com/starkware-libs/starknet-privacy",
     "reason": "Pre-launch preview seed, not a registration. Cleared in d4def26."
+  },
+  {
+    "repo_url": "https://github.com/Portablelle/veilance-market",
+    "reason": "Repository returned HTTP 404 during registry validation on 2026-08-17."
   }
 ]
