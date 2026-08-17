@@ -81,7 +81,7 @@
       "codeswithroh"
     ],
     "name": "Veyl",
-    "one_liner": "Private launch & trading terminal on Starknet — trade and launch tokens through unlinkable execution identities funded by the STRK20 pool.",
+    "one_liner": "Private launch & trading terminal on Starknet \u2014 trade and launch tokens through unlinkable execution identities funded by the STRK20 pool.",
     "category": "DeFi",
     "inspired_by": "RFP-06",
     "team": [
@@ -471,7 +471,7 @@
       "mortiee_eth"
     ],
     "name": "Portage.fun",
-    "one_liner": "Provably-fair idle creature-collecting on Starknet — hatch, evolve, and trade original creatures.",
+    "one_liner": "Provably-fair idle creature-collecting on Starknet \u2014 hatch, evolve, and trade original creatures.",
     "slug": "portage",
     "category": "Gaming",
     "team": [
@@ -601,5 +601,17 @@
     "slug": "cipher21",
     "one_liner": "Confidential blackjack on Starknet: hidden hands via deck commitments, shielded stakes and payouts through the STRK20 pool.",
     "category": "Gaming"
+  },
+  {
+    "repo_url": "https://github.com/d4m014/one-way",
+    "telegram": [
+      "d4m014"
+    ],
+    "name": "OneWay",
+    "one_liner": "A one-way door for any ERC-20. Get paid without sharing a wallet, or leave a known wallet and exit on another chain.",
+    "category": "Payments",
+    "team": [
+      "d4m014"
+    ]
   }
 ]
