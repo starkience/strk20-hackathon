@@ -699,9 +699,9 @@ You are judging work in progress, halfway through a sprint. Depth of what has be
 
 Be sparing. Answering true to both should mean something. A project you are unsure about is false.
 
-why_innovative - ONE sentence, under 110 characters, naming what THIS project does that the obvious version would not. Say the actual mechanism or domain, never a generic phrase like "uses privacy in a novel way" - two projects must never get the same sentence. If innovative is false, say what makes it the obvious version instead.
+why_innovative - ONE sentence, under 110 characters. State the fact that supports it: what this project does, in what domain, with what mechanism. Facts only, taken from the README and the stack above. No adjectives - "novel", "unique", "innovative", "sophisticated", "cutting-edge" are all banned, and so is any sentence that would still be true of a different project. Write what it is, not how good it is. If innovative is false, state the fact that makes it the obvious version.
 
-why_complex - ONE sentence, under 110 characters, naming the specific engineering you can see: which contracts, what the Cairo does, what scheme it implements. Point at the thing, not at the fact that it exists. If complex is false, say what is missing.
+why_complex - ONE sentence, under 110 characters. Name the actual engineering: the contracts by name, what the Cairo does, the scheme or algorithm implemented. Facts only, and only ones visible in the contracts and stack above - never infer from the README's claims. No adjectives about quality. If complex is false, state what is absent.
 
 reason - ONE sentence, under 120 characters, the single line worth showing if only one fits. No praise, no adjectives about the team. Never mention this rubric.`;
 
@@ -931,7 +931,7 @@ async function buildProject(entry, prev) {
      failed to get an answer, must not poison the cache - the SHA does not
      change again on a project that has stopped pushing, so it would sit
      unjudged forever. */
-  const assessmentUsable = !OPENAI_KEY || !!prev?.assessment?.why_complex;
+  const assessmentUsable = !OPENAI_KEY || !!prev?.assessment?.facts_v2;
   if (prev && headSha && prev.head_sha === headSha && summaryUsable && assessmentUsable) {
     console.log(`  ${entry.slug}: unchanged`);
     return {
@@ -1031,7 +1031,7 @@ async function buildProject(entry, prev) {
      ran: the star was invisible for the half of the sprint when knowing who is
      building well is worth the most.
      Still one call per project per push, cached on head_sha. */
-  let assessment = (prev?.head_sha === headSha && prev?.assessment?.why_complex && prev.assessment) || null;
+  let assessment = (prev?.head_sha === headSha && prev?.assessment?.facts_v2 && prev.assessment) || null;
   if (OPENAI_KEY && !assessment) {
     const contractList = contracts.length
       ? contracts.map((c) => `- ${c.address || c}${c.name ? ` (${c.name})` : ""}`).join("\n")
@@ -1051,7 +1051,10 @@ async function buildProject(entry, prev) {
       `Verified pool transactions: ${verifiedTxs}`,
       ``,
       `README:\n${(readme || "").slice(0, 5000)}`,
-    ].join("\n"), 220);
+    ].join("\n"), 260);
+    /* Stamped so the rubric change - facts rather than adjectives - re-judges
+       the sentences written under the old wording, once. */
+    if (assessment) assessment.facts_v2 = true;
   }
   if (assessment) {
     console.log(`  ${entry.slug}: innovative=${!!assessment.innovative} complex=${!!assessment.complex}`);
