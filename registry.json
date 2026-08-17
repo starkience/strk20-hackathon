@@ -573,5 +573,13 @@
     "name": "ConditionalPay",
     "one_liner": "Programmable private settlement infrastructure for STRK20.",
     "category": "Infra"
-  }
+  },
+   { "repo_url": "https://github.com/Leequidice/Claim-Links", 
+     "telegram": [
+       "flawless_flaws"
+     ],
+  "name": "ClaimLinks"
+  "one_liner": "private payments to a shareable link, not an address" 
+   "category": "Infra"
+   }
 ]
