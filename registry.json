@@ -591,5 +591,15 @@
     "slug": "aegis-rescue",
     "one_liner": "Whitehat rescue bot: sweeps exposed on-chain funds into the STRK20 shielded pool before attackers can, returns them to verified GitHub owners.",
     "category": "Tooling"
+  },
+  {
+    "repo_url": "https://github.com/manoahLinks/Cipher21_starknet",
+    "telegram": [
+      "MLinks12"
+    ],
+    "name": "Cipher21",
+    "slug": "cipher21",
+    "one_liner": "Confidential blackjack on Starknet: hidden hands via deck commitments, shielded stakes and payouts through the STRK20 pool.",
+    "category": "Gaming"
   }
 ]
