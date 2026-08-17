@@ -565,13 +565,21 @@
       "doodabug"
     ]
   },
-  {
-    "repo_url": "https://github.com/eugenennamdi/ConditionalPay",
-    "telegram": [
-      "eugenennamdi"
-    ],
-    "name": "ConditionalPay",
-    "one_liner": "Programmable private settlement infrastructure for STRK20.",
-    "category": "Infra"
+ {
+    "repo_url": "https://github.com/dino1x/starkwhisper",
+    ...
+    "team": [
+      "dino1x"
+    ]
+  },
+ {
+  "repo_url": "https://github.com/doodabug/Chaoskeyplus-appbuild",
+  "telegram": ["TheDoodlebug"],
+  "name": "ChaosKey+ M3",
+  "one_liner": "Camera-entropy cryptographic device: signed randomness blocks feed a STRK20 privacy pool for shielded tokens and private transfers on Starknet.",
+  "category": "Infra",
+  "team": ["Doodabugs"]
+}
+
   }
 ]
