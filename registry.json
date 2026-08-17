@@ -610,5 +610,5 @@
     "name": "ClaimLinks",
     "one_liner": "private payments to a shareable link, not an address",
     "category": "Infra"
-  },
+  }
 ]
