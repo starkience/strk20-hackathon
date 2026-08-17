@@ -610,7 +610,6 @@
     "name": "OneWay",
     "one_liner": "A one-way door for any ERC-20. Get paid without sharing a wallet, or leave a known wallet and exit on another chain.",
     "category": "Payments",
-    "inspired_by": "RFP-09",
     "team": [
       "d4m014"
     ]
