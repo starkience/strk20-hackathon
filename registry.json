@@ -81,7 +81,7 @@
       "codeswithroh"
     ],
     "name": "Veyl",
-    "one_liner": "Private launch & trading terminal on Starknet — trade and launch tokens through unlinkable execution identities funded by the STRK20 pool.",
+    "one_liner": "Private launch & trading terminal on Starknet \u2014 trade and launch tokens through unlinkable execution identities funded by the STRK20 pool.",
     "category": "DeFi",
     "inspired_by": "RFP-06",
     "team": [
@@ -471,7 +471,7 @@
       "mortiee_eth"
     ],
     "name": "Portage.fun",
-    "one_liner": "Provably-fair idle creature-collecting on Starknet — hatch, evolve, and trade original creatures.",
+    "one_liner": "Provably-fair idle creature-collecting on Starknet \u2014 hatch, evolve, and trade original creatures.",
     "slug": "portage",
     "category": "Gaming",
     "team": [
@@ -551,6 +551,18 @@
     "repo_url": "https://github.com/drained69/Sotto",
     "telegram": [
       "oxuba"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/doodabug/Chaoskeyplus-appbuild",
+    "telegram": [
+      "doodabug"
+    ],
+    "name": "ChaosKey+",
+    "one_liner": "Physical-chaos entropy device with a Ready Wallet API tab for STRK20 shield, private transfer, and unshield.",
+    "category": "Tooling",
+    "team": [
+      "doodabug"
     ]
   }
 ]
