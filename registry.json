@@ -553,4 +553,13 @@
       "oxuba"
     ]
   }
+  {
+  "repo_url": "https://github.com/eugenennamdi/ConditionalPay",
+  "telegram": [
+    "eugenennamdi"
+  ],
+  "name": "ConditionalPay",
+  "one_liner": "Programmable private settlement infrastructure for STRK20.",
+  "category": "Infra"
+}
 ]
