@@ -591,5 +591,17 @@
     "slug": "aegis-rescue",
     "one_liner": "Whitehat rescue bot: sweeps exposed on-chain funds into the STRK20 shielded pool before attackers can, returns them to verified GitHub owners.",
     "category": "Tooling"
+  },
+  {
+    "repo_url": "https://github.com/BlackAporia/game-shield",
+    "telegram": [
+      "BlackAporia"
+    ],
+    "name": "GameShield",
+    "one_liner": "Private gaming bounty hub on Starknet: shielded prize pools, provable payout commitments and unlinkable rewards for tournaments, speedruns and PvP.",
+    "category": "Gaming",
+    "team": [
+      "BlackAporia"
+    ]
   }
 ]
