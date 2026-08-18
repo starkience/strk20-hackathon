@@ -749,5 +749,15 @@
     "telegram": [
       "AtharvMore"
     ]
+  },
+  {
+    "repo_url": "https://github.com/okhaimie-dev/veil",
+    "telegram": [
+      "tonystarkdex"
+    ],
+    "name": "Veil",
+    "slug": "veil",
+    "one_liner": "Veil enables businesses to make confidential stablecoin payments while maintaining accounting-ready records and compliance.",
+    "category": "Finance"
   }
 ]
