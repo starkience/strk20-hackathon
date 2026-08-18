@@ -777,5 +777,17 @@
     "category": "Infra",
     "inspired_by": "IDEA-17",
     "x_handle": "velkan_gst"
+  },
+  {
+    "repo_url": "https://github.com/atrummarkets/atrum-starknet",
+    "telegram": [
+      "KILLERTECH1"
+    ],
+    "name": "Atrum",
+    "one_liner": "Sealed-bid prediction markets: orders stay unreadable until they are binding, clear at a uniform price, and positions are tradeable before resolution.",
+    "slug": "atrum",
+    "category": "Markets",
+    "inspired_by": "RFP-07",
+    "x_handle": "AtrumMarkets"
   }
 ]
