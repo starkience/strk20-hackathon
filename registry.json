@@ -1,5 +1,4 @@
-[
-  {
+[  {
     "repo_url": "https://github.com/ZylithFi/client",
     "telegram": [
       "t4nz4n1t3"
@@ -153,9 +152,7 @@
     "inspired_by": "IDEA-09",
     "team": [
       "kevlau1"
-    ],
-    "x_handle": "kevlau1",
-    "inspired_by": "IDEA-13"
+    ]
   },
   {
     "repo_url": "https://github.com/broody/stake-wars",
@@ -195,8 +192,7 @@
     "category": "Tooling",
     "team": [
       "0xConsole"
-    ],
-    "inspired_by": "IDEA-01"
+    ]
   },
   {
     "repo_url": "https://github.com/tinoxbt/sealed",
@@ -205,12 +201,10 @@
     ],
     "name": "Sealed",
     "one_liner": "Sealed-bid, second-price auctions on Starknet with unlinkable bidders and private settlement through STRK20.",
-    "slug": "sealed",
     "category": "DeFi",
     "team": [
       "tinoxbt"
-    ],
-    "inspired_by": "RFP-08"
+    ]
   },
   {
     "repo_url": "https://github.com/cxto21/ownerz",
@@ -222,8 +216,7 @@
     "category": "Consumer",
     "team": [
       "cxto21"
-    ],
-    "x_handle": "cxto21"
+    ]
   },
   {
     "repo_url": "https://github.com/Techkeyy/lens",
@@ -456,17 +449,34 @@
     "x_handle": "kiminza_codes"
   },
   {
-    "repo_url": "https://github.com/Ololadestephen/paybook",
-    "telegram": [
-      "hectormain"
-    ],
-    "name": "Paybook",
-    "one_liner": "Private payroll with scoped disclosure. Public can verify a run; only the payee or auditor can open a slice.",
-    "category": "Payments",
-    "inspired_by": "RFP-11",
+    "team_name": "STARKSTEALTH",
+    "name": "Alias",
+    "one_liner": "Disposable stealth addresses for one-click private payments on Starknet.",
+    "category": "Privacy",
+    "inspired_by": "ERC-5564",
+    "repo_url": "https://github.com/builder-of-web3/Alias",
     "team": [
-      "Ololadestephen"
-    ]
+      "builder-of-web3"
+    ],
+    "telegram": [
+      "mordor"
+    ],
+    "x_handle": "cryot_walker"
+  },
+  {
+    "repo_url": "https://github.com/cipoklean/rhizome",
+    "telegram": [
+      "Cipoklean"
+    ],
+    "name": "Rhizome",
+    "one_liner": "Prices what privacy costs on STRK20, then executes it: fee-aware tranche scheduling for private Vesu position through its own anonymizer.",
+    "slug": "rhizome",
+    "category": "DeFi",
+    "team": [
+      "cipoklean"
+    ],
+    "inspired_by": "IDEA-16",
+    "x_handle": "David63694631"
   },
   {
     "repo_url": "https://github.com/c-almstorm/VeilPay",
