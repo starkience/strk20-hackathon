@@ -601,5 +601,15 @@
     "slug": "cipher21",
     "one_liner": "Confidential blackjack on Starknet: hidden hands via deck commitments, shielded stakes and payouts through the STRK20 pool.",
     "category": "Gaming"
+  },
+  {
+    "repo_url": "https://github.com/neromtoobad/doom",
+    "telegram": [
+      "neromtooobad"
+    ],
+    "name": "Doom",
+    "one_liner": "Private decision markets on Starknet. Your DAO prices a question instead of voting on it: public odds, invisible participants.",
+    "category": "DeFi",
+    "x_handle": "neromtoobad"
   }
 ]
