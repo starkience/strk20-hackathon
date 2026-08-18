@@ -292,18 +292,6 @@
     "inspired_by": "IDEA-01"
   },
   {
-    "repo_url": "https://github.com/welttowelt/mosby-pass",
-    "telegram": [
-      "Odin_free"
-    ],
-    "name": "Mosby Pass",
-    "one_liner": "Private event admission powered by shielded STRK on Starknet.",
-    "category": "Consumer",
-    "team": [
-      "welttowelt"
-    ]
-  },
-  {
     "repo_url": "https://github.com/mateojkk/Nomada",
     "telegram": [
       "mateojkk"
