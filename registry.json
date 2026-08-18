@@ -601,5 +601,18 @@
     "slug": "cipher21",
     "one_liner": "Confidential blackjack on Starknet: hidden hands via deck commitments, shielded stakes and payouts through the STRK20 pool.",
     "category": "Gaming"
+  },
+  {
+    "repo_url": "https://github.com/bongbongcrypto/stealth-checkout",
+    "telegram": [
+      "bongbongcrypto"
+    ],
+    "name": "Stealth Checkout",
+    "one_liner": "Accept private payments on Starknet: drop-in checkout widget, hosted invoices, webhook confirmations, honest privacy receipts.",
+    "category": "Tooling",
+    "team": [
+      "bongbongcrypto"
+    ],
+    "inspired_by": "IDEA-11"
   }
 ]
