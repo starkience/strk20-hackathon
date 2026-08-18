@@ -755,5 +755,18 @@
     "telegram": [
       "flawless_flaws"
     ]
+  },
+  {
+    "repo_url": "https://github.com/JemIIahh/ghostbook-starknet",
+    "telegram": [
+      "Jemiiah"
+    ],
+    "name": "GhostBook",
+    "one_liner": "Private limit orders and TWAP on Starknet: order terms committed once and enforced on-chain, filled through Ekubo, settled into STRK20 private notes.",
+    "slug": "ghost-book",
+    "category": "DeFi",
+    "team": [
+      "JemIIahh"
+    ]
   }
 ]
