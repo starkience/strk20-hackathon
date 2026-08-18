@@ -601,5 +601,17 @@
     "slug": "cipher21",
     "one_liner": "Confidential blackjack on Starknet: hidden hands via deck commitments, shielded stakes and payouts through the STRK20 pool.",
     "category": "Gaming"
+  },
+  {
+    "repo_url": "https://github.com/zarah-s/oju",
+    "telegram": [
+      "zarah_0x",
+      "devmano"
+    ],
+    "name": "Oju",
+    "slug": "oju",
+    "one_liner": "Privacy-first prediction markets built on Nigerian specifics, open to the world. Public odds, invisible participants, private positions and payouts through the STRK20 pool.",
+    "category": "DeFi",
+    "inspired_by": "RFP-07"
   }
 ]
