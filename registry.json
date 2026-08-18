@@ -734,14 +734,9 @@
     "inspired_by": "IDEA-16",
     "x_handle": "David63694631"
   },
-  {
-    "repo_url": "https://github.com/Tanay-77/PrivatePay",
+   {
+    "repo_url": "https://github.com/Leequidice/GhostLine",
     "telegram": [
-      "tanaym07"
-    ],
-    "name": "PrivatePay",
-    "slug": "privatepay",
-    "one_liner": "Private payments for freelancers and individuals: shielded transfers and selective payment disclosure powered by STRK20.",
-    "category": "Finance"
-  }
+      "flawless_flaws"
+    ]
 ]
