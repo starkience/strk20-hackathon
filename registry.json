@@ -745,10 +745,11 @@
     "category": "Finance"
   },
    {
-    "repo_url": "https://github.com/Leequidice/GhostLine",
-    "telegram": [
-      "flawless_flaws"
-    ],
+"repo_url": "https://github.com/Leequidice/GhostLine",
+"telegram": [
+"flawless_flaws"
+]
+},
   {
     "repo_url": "https://github.com/inline-arc/GeoRush",
     "telegram": [
