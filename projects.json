@@ -1,5 +1,184 @@
 [
   {
+    "slug": "philoxenia",
+    "name": "philoxenia",
+    "one_liner": "Private P2P hospitality on Starknet — STRK20 Private Sprint",
+    "category": "Other",
+    "repo_url": "https://github.com/SergioSSantiago/philoxenia",
+    "demo_url": "https://philoxenia-iota.vercel.app",
+    "demo_video": "https://philoxenia-iota.vercel.app/demo/philoxenia-commercial.mp4",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "the project's architecture supports private transactions and unique social discovery in hospitality.",
+    "contracts": [
+      {
+        "address": "0x056a817104ad7544a55873584f3d8fb41a780e5466d152b3e1f12d578e75defb",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x030533c6110ee5c414a5678bd71115be738852d709c74d8136fa965271c2e1f3",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x004c0322af24bb710f3aa0e48293517777188b42d9c4428b77304008ad0ea712",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x7ef1e214d5c5e99a4f8d27ba459326f4ec0bfaba8525824d1a36754608b60f9",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x5bac436e2a9775719de94e0ec1ea62f1cbc9737b23dd780230df66a53cc7813",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x4902a7a2702b9533cf8992f5bf6953947e0d9616f8dbc9bc5b1976e0082f494",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 3,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-08-18T18:21:35Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "SergioSSantiago",
+        "name": "Sergio Sapina Santiago",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44295455?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Cursor",
+        "name": "Cursor",
+        "avatar_url": "",
+        "commits": 100
+      }
+    ],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18"
+    ],
+    "head_sha": "7f5cf7b7cba6e60b9c1eba7861ece545fd363252",
+    "readme_hash": "9319:<p align=\"center\">\n  <img src=\"apps/web/public/philoxenia-mark.png\" alt=\"Philoxenia — a sleeping head resting on joined hands\" width=\"96\" height=\"96\" />\n</p>\n\n# Philoxenia\n\n**Trust who you trust. Pay ",
+    "desc_v3": true,
+    "churn_pct": 0.2,
+    "summary": "Book private accommodations through trusted connections.",
+    "description_long": "Philoxenia is a peer-to-peer hospitality protocol that allows users to book accommodations privately using a social trust network. It consists of a frontend built with Next.js connected to a Fastify backend with a PostgreSQL database, and on-chain contracts written in Cairo for escrow and payment settlement.",
+    "latest_push": "Replaced session prompts with clearer messaging throughout the app.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 15,
+    "deletions": 15,
+    "assessment": {
+      "innovative": true,
+      "complex": true,
+      "why_innovative": "introduces private peer-to-peer hospitality without public listings or traditional marketplace features.",
+      "why_complex": "utilizes multiple Cairo contracts for escrow and privacy, including BookingEscrow and a custom anonymizer.",
+      "reason": "the project's architecture supports private transactions and unique social discovery in hospitality.",
+      "facts_v2": true
+    },
+    "star_evidence": "3 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "strkworld",
+    "name": "STRKWORLD",
+    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
+    "category": "Gaming",
+    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "starkware",
+    "starred": false,
+    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-18T18:21:13Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Calcutatator",
+        "name": "Calcutator",
+        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 43
+      }
+    ],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18"
+    ],
+    "head_sha": "6b761c0f2f8c0cb2bb4cfb5155419a322c91b6ab",
+    "readme_hash": "5443:# STRKWORLD\n\n**A 2D top-down city where the buildings are Starknet privacy protocols.**\n\nWalk around a shared pseudonymous world, step into a building, and use a real\nprivacy-preserving protocol with ",
+    "desc_v3": true,
+    "churn_pct": 1.2,
+    "summary": "Explore a city built from Starknet privacy protocols using real funds.",
+    "description_long": "Players walk through a 2D top-down city where each building represents a privacy protocol. The game is developed with separate packages for application, backend, and logic, specifying actions via typed intents that pass through a privacy gate to execute financial transactions without handling sensitive key material.",
+    "latest_push": "Hardened the Bridge settlement status parsing logic.",
+    "tooling": [
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 280,
+    "deletions": 11,
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
+      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
+      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
     "slug": "aether",
     "name": "Aether",
     "one_liner": "Shield once, then run continuous private strategies — DCA, yield, rebalancing — entirely inside the STRK20 pool, scoring every action for effective anonymity under repeated use.",
@@ -44,10 +223,10 @@
     "head_sha": "5beb89d4405d1535051acec7da8d9641510e1eb0",
     "readme_hash": "12951:# Aether\n\n**Shielded isn't private.**\n\nA privacy pool gives you an anonymity *set*. Your behaviour spends it.\n\nAether runs the real deanonymization attacks — amount correlation, timing\nwindows, round ",
     "desc_v3": true,
-    "churn_pct": 21.5,
-    "summary": "Run private investment strategies with continuous anonymity.",
-    "description_long": "Aether scores your public actions for deanonymization risks and optimizes your behavior to maintain privacy. It is built using a privacy-aware execution planner that chooses optimal investment strategies while keeping all capital in private notes, interfacing through the Starknet Wallet API. To track effectiveness, it computes a live Effective Privacy Score based on observable metrics from the pool.",
-    "latest_push": "Added AetherSplitter, a privacy_invoke anonymizer and wired it into the action builder.",
+    "churn_pct": 21,
+    "summary": "Run private strategies like DCA and yield directly in the STRK20 pool.",
+    "description_long": "Aether analyzes deanonymization risks from user activity and executes strategies in a private environment. It calculates an Effective Privacy Score based on user behavior and allows multi-asset balances to remain shielded without ever exposing public addresses. The application connects through the Starknet Wallet API, ensuring that private information is never visible to the dapp.",
+    "latest_push": "Added AetherSplitter, a privacy_invoke anonymizer and wired into the action builder.",
     "tooling": [
       {
         "label": "AVNU",
@@ -159,7 +338,7 @@
     "churn_pct": 0.2,
     "summary": "Track income credentials and credit for OnlyFans creators.",
     "description_long": "Booty Bank manages income credentials and credit eligibility for OnlyFans creators. It uses a Starknet account contract called `BootyFalconAccount` for security and posts transactions to the blockchain, including an `IncomeCredential` contract to publish public credentials for income reviews. The app supports wallet interactions and includes features like payments, cards, budgets, and privacy controls.",
-    "latest_push": "Fixed the publication of STRK20 submission evidence in strk20.json.",
+    "latest_push": "Fixed the STRK20 submission evidence in strk20.json.",
     "tooling": [
       {
         "label": "Cairo",
@@ -184,185 +363,6 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "philoxenia",
-    "name": "philoxenia",
-    "one_liner": "Private P2P hospitality on Starknet — STRK20 Private Sprint",
-    "category": "Other",
-    "repo_url": "https://github.com/SergioSSantiago/philoxenia",
-    "demo_url": "https://philoxenia-iota.vercel.app",
-    "demo_video": "https://philoxenia-iota.vercel.app/demo/philoxenia-commercial.mp4",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "the project's architecture supports private transactions and unique social discovery in hospitality.",
-    "contracts": [
-      {
-        "address": "0x056a817104ad7544a55873584f3d8fb41a780e5466d152b3e1f12d578e75defb",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x030533c6110ee5c414a5678bd71115be738852d709c74d8136fa965271c2e1f3",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x004c0322af24bb710f3aa0e48293517777188b42d9c4428b77304008ad0ea712",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x7ef1e214d5c5e99a4f8d27ba459326f4ec0bfaba8525824d1a36754608b60f9",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x5bac436e2a9775719de94e0ec1ea62f1cbc9737b23dd780230df66a53cc7813",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x4902a7a2702b9533cf8992f5bf6953947e0d9616f8dbc9bc5b1976e0082f494",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-08-18T18:02:38Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "SergioSSantiago",
-        "name": "Sergio Sapina Santiago",
-        "avatar_url": "https://avatars.githubusercontent.com/u/44295455?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Cursor",
-        "name": "Cursor",
-        "avatar_url": "",
-        "commits": 100
-      }
-    ],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18"
-    ],
-    "head_sha": "3f02aa1be4c80c9bf36e641e6cc4da910ee383d6",
-    "readme_hash": "9319:<p align=\"center\">\n  <img src=\"apps/web/public/philoxenia-mark.png\" alt=\"Philoxenia — a sleeping head resting on joined hands\" width=\"96\" height=\"96\" />\n</p>\n\n# Philoxenia\n\n**Trust who you trust. Pay ",
-    "desc_v3": true,
-    "summary": "Book private accommodations through trusted connections.",
-    "description_long": "Philoxenia is a peer-to-peer hospitality protocol that allows users to book accommodations privately using a social trust network. It consists of a frontend built with Next.js connected to a Fastify backend with a PostgreSQL database, and on-chain contracts written in Cairo for escrow and payment settlement.",
-    "latest_push": "Changed the wording from 'List this place' to 'Publish this place'.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 16,
-    "deletions": 16,
-    "churn_pct": 0.2,
-    "assessment": {
-      "innovative": true,
-      "complex": true,
-      "why_innovative": "introduces private peer-to-peer hospitality without public listings or traditional marketplace features.",
-      "why_complex": "utilizes multiple Cairo contracts for escrow and privacy, including BookingEscrow and a custom anonymizer.",
-      "reason": "the project's architecture supports private transactions and unique social discovery in hospitality.",
-      "facts_v2": true
-    },
-    "star_evidence": "3 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "strkworld",
-    "name": "STRKWORLD",
-    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
-    "category": "Gaming",
-    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "starkware",
-    "starred": false,
-    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-18T17:59:00Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Calcutatator",
-        "name": "Calcutator",
-        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 43
-      }
-    ],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18"
-    ],
-    "head_sha": "c254dc8a14b7e540108788d15ba4042732329322",
-    "readme_hash": "5443:# STRKWORLD\n\n**A 2D top-down city where the buildings are Starknet privacy protocols.**\n\nWalk around a shared pseudonymous world, step into a building, and use a real\nprivacy-preserving protocol with ",
-    "desc_v3": true,
-    "summary": "Explore a city built from Starknet privacy protocols using real funds.",
-    "description_long": "Players walk through a 2D top-down city where each building represents a privacy protocol. The game is developed with separate packages for application, backend, and logic, specifying actions via typed intents that pass through a privacy gate to execute financial transactions without handling sensitive key material.",
-    "latest_push": "Completed the Exchange surfaces with associated tests and documentation.",
-    "tooling": [
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 693,
-    "deletions": 26,
-    "churn_pct": 3.1,
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
-      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
-      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
   },
   {
     "slug": "aegis",
