@@ -755,5 +755,15 @@
     "telegram": [
       "flawless_flaws"
     ]
-  }
+  },
+  {
+  "repo_url": "https://github.com/velikanghost/sevrin",
+  "telegram": ["velkan_gst"],
+  "name": "Sevrin",
+  "one_liner": "Confidential token-allocation infrastructure: public aggregate lockups, private beneficiary ownership, and STRK20-settled claims.",
+  "slug": "sevrin",
+  "category": "Infra",
+  "inspired_by": "IDEA-17",
+  "x_handle": "velkan_gst"
+}
 ]
