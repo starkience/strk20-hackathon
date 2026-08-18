@@ -718,5 +718,16 @@
       "mordor"
     ],
     "x_handle": "cryot_walker"
-  }
+  },
+  {
+      "repo_url": "https://github.com/cipoklean/rhizome",
+      "telegram": ["Cipoklean"],
+      "name": "Rhizome",
+      "one_liner": "Prices what privacy costs on STRK20, then executes it: fee-aware tranche scheduling for private Vesu position through its own anonymizer.",
+      "slug": "rhizome",
+      "category": "DeFi",
+      "team": ["cipoklean"],
+      "inspired_by": "IDEA-16",
+      "x_handle": "David63694631"
+    }
 ]
