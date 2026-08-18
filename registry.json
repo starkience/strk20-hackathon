@@ -601,5 +601,15 @@
     "slug": "cipher21",
     "one_liner": "Confidential blackjack on Starknet: hidden hands via deck commitments, shielded stakes and payouts through the STRK20 pool.",
     "category": "Gaming"
+  },
+  {
+    "repo_url": "https://github.com/shariqazeem/aether-strk20",
+    "telegram": [
+      "shariqshkt"
+    ],
+    "name": "Aether",
+    "slug": "aether",
+    "one_liner": "Shield once, then run continuous private strategies \u2014 DCA, yield, rebalancing \u2014 entirely inside the STRK20 pool, scoring every action for effective anonymity under repeated use.",
+    "category": "DeFi"
   }
 ]
