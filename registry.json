@@ -743,5 +743,10 @@
     "slug": "privatepay",
     "one_liner": "Private payments for freelancers and individuals: shielded transfers and selective payment disclosure powered by STRK20.",
     "category": "Finance"
-  }
+  },
+   {
+    "repo_url": "https://github.com/Leequidice/GhostLine",
+    "telegram": [
+      "flawless_flaws"
+    ]
 ]
