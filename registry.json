@@ -852,5 +852,16 @@
     "one_liner": "Shielded payroll and discreet invoice settlements for freelancers on Starknet using STRK20 private notes.",
     "category": "Payments",
     "inspired_by": "IDEA-11"
+  },
+  {
+    "repo_url": "https://github.com/CaptainDiv/crosslink",
+    "telegram": [
+      "Captin_Div"
+    ],
+    "name": "Crosslink",
+    "slug": "crosslink",
+    "one_liner": "Unlinkable cross-chain payouts: fund a shielded balance on Starknet, pay anyone on any chain, and neither the public nor the recipient can trace it back to you.",
+    "category": "Payments",
+    "inspired_by": "IDEA-22"
   }
 ]
