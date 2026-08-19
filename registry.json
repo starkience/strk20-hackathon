@@ -821,5 +821,16 @@
     "team": [
       "JaDi03"
     ]
+  },
+  {
+    "repo_url": "https://github.com/azeemshaik025/iceberg",
+    "telegram": [
+      "azeemshaik025",
+      "sainathr19"
+    ],
+    "name": "Iceberg",
+    "one_liner": "Private DCA and TWAP on Starknet. Many users' scheduled orders become one anonymous pool swap per interval.",
+    "category": "DeFi",
+    "inspired_by": "IDEA-05"
   }
 ]
