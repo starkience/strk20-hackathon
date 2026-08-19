@@ -808,5 +808,18 @@
     "telegram": [
       "mdlog"
     ]
+  },
+  {
+    "repo_url": "https://github.com/JaDi03/GhostDeal",
+    "telegram": [
+      "dica_javi"
+    ],
+    "name": "GhostDeal",
+    "one_liner": "Pay in person without showing your balance. P2P marketplace escrow on STRK20.",
+    "category": "Consumer",
+    "inspired_by": "IDEA-12",
+    "team": [
+      "JaDi03"
+    ]
   }
 ]
