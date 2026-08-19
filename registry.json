@@ -863,5 +863,14 @@
     "one_liner": "Unlinkable cross-chain payouts: fund a shielded balance on Starknet, pay anyone on any chain, and neither the public nor the recipient can trace it back to you.",
     "category": "Payments",
     "inspired_by": "IDEA-22"
+  },
+  {
+    "repo_url": "https://github.com/kshitij-hash/nightshift",
+    "telegram": [
+      "kshitijHash"
+    ],
+    "name": "NIGHTSHIFT",
+    "one_liner": "Recurring private authorization on the STRK20 pool: subscribe once inside the pool, get charged on schedule without surfacing.",
+    "category": "Payments"
   }
 ]
