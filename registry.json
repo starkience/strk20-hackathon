@@ -832,5 +832,16 @@
     "one_liner": "Private DCA and TWAP on Starknet. Many users' scheduled orders become one anonymous pool swap per interval.",
     "category": "DeFi",
     "inspired_by": "IDEA-05"
+    
+  },
+  {
+    "repo_url": "https://github.com/noisyboy08/PrivatePay",
+    "telegram": [
+      "noisyboy_08"
+    ],
+    "name": "PrivatePay",
+    "slug": "privatepay",
+    "one_liner": "Private payments for freelancers and individuals: shielded transfers and selective payment disclosure powered by STRK20.",
+    "category": "Finance"
   }
 ]
