@@ -832,5 +832,14 @@
     "one_liner": "Private DCA and TWAP on Starknet. Many users' scheduled orders become one anonymous pool swap per interval.",
     "category": "DeFi",
     "inspired_by": "IDEA-05"
+  },
+  {
+    "repo_url": "https://github.com/Gaijin-01/privacy_msg",
+    "telegram": [
+      "groove_armada"
+    ],
+    "name": "privacy_msg",
+    "one_liner": "Metadata-resistant private messaging on Starknet: visible payment memo, invisible sender-recipient link, settled through STRK20.",
+    "category": "Social & Communications"
   }
 ]
