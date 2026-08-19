@@ -841,5 +841,16 @@
     "name": "privacy_msg",
     "one_liner": "Metadata-resistant private messaging on Starknet: visible payment memo, invisible sender-recipient link, settled through STRK20.",
     "category": "Social & Communications"
+  },
+  {
+    "repo_url": "https://github.com/noisyboy08/CloakPay",
+    "telegram": [
+      "noisyboy_08"
+    ],
+    "name": "CloakPay",
+    "slug": "cloakpay",
+    "one_liner": "Shielded payroll and discreet invoice settlements for freelancers on Starknet using STRK20 private notes.",
+    "category": "Payments",
+    "inspired_by": "IDEA-11"
   }
 ]
