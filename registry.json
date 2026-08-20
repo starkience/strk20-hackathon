@@ -1019,5 +1019,15 @@
     ],
     "x_handle": "kenn_ronin",
     "inspired_by": "RFP-12"
+  },
+  {
+    "repo_url": "https://github.com/PugarHuda/jalin",
+    "telegram": [
+      "lynx129",
+      "BangDropID"
+    ],
+    "name": "Jalin",
+    "one_liner": "A programmable execution router for the STRK20 pool: arbitrary multi-step, multi-token plans executed inside a single privacy_invoke, with safety carried by on-chain invariants rather than a whitelist.",
+    "category": "Infra"
   }
 ]
