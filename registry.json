@@ -872,5 +872,15 @@
     "name": "NIGHTSHIFT",
     "one_liner": "Recurring private authorization on the STRK20 pool: subscribe once inside the pool, get charged on schedule without surfacing.",
     "category": "Payments"
+  },
+  {
+    "repo_url": "https://github.com/raizo07/BlindPay",
+    "telegram": [
+      "Raizo00"
+    ],
+    "name": "BlindPay",
+    "one_liner": "confidential invoice and payment protocol",
+    "category": "Payments",
+    "inspired_by": "IDEA-11"
   }
 ]
