@@ -956,5 +956,13 @@
     "one_liner": "One wallet, every chain, no trace. Shield any ERC-20 on Starknet, exit privately to 35+ chains via NEAR Intents.",
     "category": "Consumer",
     "inspired_by": "RFP-09"
+  },
+  {
+    "repo_url": "https://github.com/Timidan/wrenchless",
+    "telegram": [
+      "timidan_x"
+    ],
+    "category": "Consumer",
+    "x_handle": "timidan_x"
   }
 ]
