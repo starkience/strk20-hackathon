@@ -1038,5 +1038,17 @@
     "name": "QuietProof",
     "one_liner": "Private campaign funding for protected-source rewards on Starknet.",
     "category": "Payments"
+  },
+  {
+    "repo_url": "https://github.com/ahmetenesdur/kese",
+    "telegram": [
+      "ahmetenesdur"
+    ],
+    "name": "Kese",
+    "one_liner": "Private money for AI agents: a policy-guarded MCP wallet on the STRK20 pool - private payments within hard limits, Telegram human-approval, claim-link escrow for unregistered recipients, and viewing-key audit reports.",
+    "category": "Payments",
+    "team": [
+      "ahmetenesdur"
+    ]
   }
 ]
