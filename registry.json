@@ -1038,5 +1038,14 @@
     "name": "QuietProof",
     "one_liner": "Private campaign funding for protected-source rewards on Starknet.",
     "category": "Payments"
+  },
+  {
+    "repo_url": "https://github.com/Shijas786/Mirage",
+    "telegram": [
+      "shijas"
+    ],
+    "name": "Mirage ZK",
+    "one_liner": "A fully shielded DeFi pool + dark order book on Starknet.",
+    "category": "DeFi"
   }
 ]
