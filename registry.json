@@ -874,13 +874,22 @@
     "category": "Payments"
   },
   {
-    "repo_url": "https://github.com/raizo07/BlindPay",
+    "repo_url": "https://github.com/starkience/Taskmarket-STRK20",
     "telegram": [
-      "Raizo00"
-    ],
-    "name": "BlindPay",
-    "one_liner": "confidential invoice and payment protocol",
-    "category": "Payments",
-    "inspired_by": "IDEA-11"
+      "starkience"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/Aaronvern/Tony-Strk",
+    "telegram": [
+      "prathadox",
+      "Aaronpeterdamian"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/Arun5768/dignity-rail-strk20",
+    "telegram": [
+      "arun_edition"
+    ]
   }
 ]

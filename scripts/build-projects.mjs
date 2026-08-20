@@ -279,7 +279,22 @@ async function detectBuilders(owner, repo, entry, meta) {
   };
 
   const started = Date.now() >= new Date(SPRINT_START).getTime();
-  collect(await gh(`/repos/${owner}/${repo}/commits?per_page=100${started ? `&since=${SPRINT_START}` : ""}`));
+  const sprintCommits = await gh(`/repos/${owner}/${repo}/commits?per_page=100${started ? `&since=${SPRINT_START}` : ""}`);
+  collect(sprintCommits);
+
+  /* What the sprint has cost this project so far, as opposed to what the last
+     push cost - the shareable card wants a total, and additions/deletions on a
+     project are per-push. The oldest commit in the window gives its own parent
+     for free, which is the pre-sprint state to compare against. */
+  const sprintPushes = Array.isArray(sprintCommits) ? sprintCommits.length : 0;
+  const oldest = Array.isArray(sprintCommits) && sprintCommits.length
+    ? sprintCommits[sprintCommits.length - 1]
+    : null;
+  /* A repository created during the sprint has no pre-sprint parent to compare
+     against - which is most of them here. Then the first commit is the base and
+     its own contents count too, so it is asked for separately. */
+  const sprintBase = oldest?.parents?.[0]?.sha || oldest?.sha || null;
+  const sprintRootCommit = oldest?.parents?.length ? null : (oldest?.sha || null);
   if (!seen.size && started) {
     /* Registered but nothing pushed inside the window yet. */
     collect(await gh(`/repos/${owner}/${repo}/commits?per_page=30`));
@@ -371,6 +386,9 @@ async function detectBuilders(owner, repo, entry, meta) {
 
   return {
     builders: unique,
+    sprint_pushes: sprintPushes,
+    sprint_base: sprintBase,
+    sprint_root: sprintRootCommit,
     agents: [...agents.values()].sort((x, y) => y.commits - x.commits),
     /* Sprint days only. The fallback query above reaches outside the window to
        find faces for a repository that has not pushed yet, and those commits
@@ -889,7 +907,7 @@ async function buildProject(entry, prev) {
     };
   }
 
-  const { builders, agents, active_days } = await detectBuilders(owner, repo, entry, meta);
+  const { builders, agents, active_days, sprint_pushes, sprint_base, sprint_root } = await detectBuilders(owner, repo, entry, meta);
 
   const demoUrl = await resolveDemo(entry, meta, owner, repo);
   const contracts = await resolveContracts(entry);
@@ -985,7 +1003,11 @@ async function buildProject(entry, prev) {
   /* Same trap as the others: the wording changed, so what was written under the
      old prompt has to be rewritten once even though nothing was pushed. */
   const descUsable = !OPENAI_KEY || !!prev?.desc_v3 || !prev?.summary;
-  if (prev && headSha && prev.head_sha === headSha && summaryUsable && assessmentUsable && descUsable) {
+  /* Sprint totals were added after most projects had already been indexed, and
+     a project that has stopped pushing never changes SHA again - so without
+     this they would sit at zero for the rest of the sprint. */
+  const sprintUsable = prev?.sprint?.computed === 2;
+  if (prev && headSha && prev.head_sha === headSha && summaryUsable && assessmentUsable && descUsable && sprintUsable) {
     console.log(`  ${entry.slug}: unchanged`);
     return {
       ...base,
@@ -1001,6 +1023,7 @@ async function buildProject(entry, prev) {
       additions: prev.additions || 0,
       deletions: prev.deletions || 0,
       churn_pct: prev.churn_pct || 0,
+      sprint: prev.sprint || { pushes: sprint_pushes || 0, additions: 0, deletions: 0 },
       /* The verdict stands for this head_sha, but the facts around it are
          checked again: a transaction verifies on-chain without anyone pushing,
          so a project can cross the line between two runs of the cron. */
@@ -1082,6 +1105,26 @@ async function buildProject(entry, prev) {
     latestPush = out?.latest_push || prev?.latest_push || "";
   }
 
+  /* Lines the whole sprint has moved, not just this push. One compare from the
+     pre-sprint parent to HEAD answers it, and it is only asked when the project
+     has actually changed - the cached path carries the last answer forward. */
+  let sprintAdd = prev?.sprint?.additions || 0;
+  let sprintDel = prev?.sprint?.deletions || 0;
+  if (sprint_base && headSha) {
+    sprintAdd = 0; sprintDel = 0;
+    if (sprint_base !== headSha) {
+      const span = await gh(`/repos/${owner}/${repo}/compare/${sprint_base}...${headSha}`);
+      for (const f of span?.files || []) { sprintAdd += f.additions || 0; sprintDel += f.deletions || 0; }
+    }
+    /* The root commit is not in its own comparison, and on a repository born
+       this sprint it is usually the bulk of the code. */
+    if (sprint_root) {
+      const root = await gh(`/repos/${owner}/${repo}/commits/${sprint_root}`);
+      sprintAdd += root?.stats?.additions || 0;
+      sprintDel += root?.stats?.deletions || 0;
+    }
+  }
+
   /* How much of the codebase this push moved. Lines changed over an estimate
    * of the whole tree, from the byte totals GitHub already gave us for language
    * detection - roughly 40 bytes a line across the languages in play here.
@@ -1146,6 +1189,9 @@ async function buildProject(entry, prev) {
     has_readme: !!readme,
     additions,
     deletions,
+    /* Totals for the shareable card: what the sprint has cost, against what the
+       last push cost, which is what additions and deletions above describe. */
+    sprint: { pushes: sprint_pushes || 0, additions: sprintAdd, deletions: sprintDel, computed: 2 },
     /* Kept so the next run reuses the verdict for this head_sha rather than
        asking again and risking a different answer over identical code.
        When a sticky star outlives a judgement that has since flipped, the
