@@ -991,5 +991,19 @@
     "name": "Blindside",
     "one_liner": "Shielded margin account for Extended perps DEX on Starknet.",
     "category": "DeFi"
+  },
+  {
+    "repo_url": "https://github.com/A-Raphie/shadowpay",
+    "telegram": [
+      "ernxto"
+    ],
+    "name": "ShadowPay",
+    "one_liner": "Private payroll on Starknet — shield STRK, pay your team with unlinkable note→note transfers, unshield on demand. Built on STRK20.",
+    "category": "Payments",
+    "inspired_by": "RFP-11",
+    "team": [
+      "A-Raphie"
+    ],
+    "x_handle": "a_raphie"
   }
 ]
