@@ -600,7 +600,7 @@
       "neromtooobad"
     ],
     "name": "Doom",
-    "one_liner": "Private decision markets on Starknet. Your DAO prices a question instead of voting on it: public odds, invisible participants.",
+    "one_liner": "A private prediction market on Starknet: visible odds, invisible bettors. Bet sizes and prices are public so the market stays accurate; who is betting is not.",
     "category": "DeFi",
     "x_handle": "neromtoobad"
   },
