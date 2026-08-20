@@ -1019,5 +1019,12 @@
     ],
     "x_handle": "kenn_ronin",
     "inspired_by": "RFP-12"
+  },
+  {
+    "repo_url": "https://github.com/AduAkorful/quietproof",
+    "telegram": ["Uxorisquaye"],
+    "name": "QuietProof",
+    "one_liner": "Private campaign funding for protected-source rewards on Starknet.",
+    "category": "Payments"
   }
 ]
