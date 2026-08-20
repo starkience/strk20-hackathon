@@ -913,5 +913,14 @@
     "telegram": [
       "Dsin77"
     ]
+  },
+  {
+    "repo_url": "https://github.com/Samuel1505/Cistern",
+    "telegram": [
+      "OwenDev"
+    ],
+    "name": "Cistern",
+    "one_liner": "Confidential Payroll Protocol on STRK20.",
+    "category": "Payments"
   }
 ]
