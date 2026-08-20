@@ -922,5 +922,19 @@
     "name": "Cistern",
     "one_liner": "Confidential Payroll Protocol on STRK20.",
     "category": "Payments"
+  },
+  {
+    "repo_url": "https://github.com/wurli-sh/wotta-strk",
+    "telegram": [
+      "choduprasad"
+    ],
+    "name": "Wotta",
+    "one_liner": "Pay anyone, from any chain, to an @handle or email - and let them receive privately on Starknet.",
+    "slug": "wotta",
+    "category": "Payments",
+    "team": [
+      "wurli-sh"
+    ],
+    "inspired_by": "IDEA-09"
   }
 ]
