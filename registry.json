@@ -1005,5 +1005,19 @@
       "A-Raphie"
     ],
     "x_handle": "a_raphie"
+  },
+  {
+    "repo_url": "https://github.com/ronkenx9/patron",
+    "telegram": [
+      "Kenshixronin"
+    ],
+    "name": "PATRON",
+    "one_liner": "Private tips for creators on Starknet: supporters stay inside the STRK20 pool while the public book shows only count and aggregate.",
+    "category": "Payments",
+    "team": [
+      "ronkenx9"
+    ],
+    "x_handle": "kenn_ronin",
+    "inspired_by": "RFP-12"
   }
 ]
