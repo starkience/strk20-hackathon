@@ -982,5 +982,14 @@
     "team": [
       "SudheerKondamuri"
     ]
+  },
+  {
+    "repo_url": "https://github.com/danielamodu/Blindside",
+    "telegram": [
+      "danielamodu"
+    ],
+    "name": "Blindside",
+    "one_liner": "Shielded margin account for Extended perps DEX on Starknet.",
+    "category": "DeFi"
   }
 ]
