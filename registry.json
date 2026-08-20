@@ -936,5 +936,15 @@
       "wurli-sh"
     ],
     "inspired_by": "IDEA-09"
+  },
+  {
+    "repo_url": "https://github.com/jijojohny/velpod",
+    "telegram": [
+      "jijoeth"
+    ],
+    "name": "velpod",
+    "one_liner": "Private Ekubo LP: ticks stay public, the LP does not.",
+    "category": "DeFi",
+    "inspired_by": "IDEA-14"
   }
 ]
