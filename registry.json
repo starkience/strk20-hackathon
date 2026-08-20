@@ -946,5 +946,15 @@
     "one_liner": "Private Ekubo LP: ticks stay public, the LP does not.",
     "category": "DeFi",
     "inspired_by": "IDEA-14"
+  },
+  {
+    "repo_url": "https://github.com/YanYuanFE/mirage",
+    "telegram": [
+      "yanyuanfe"
+    ],
+    "name": "Mirage",
+    "one_liner": "One wallet, every chain, no trace. Shield any ERC-20 on Starknet, exit privately to 35+ chains via NEAR Intents.",
+    "category": "Consumer",
+    "inspired_by": "RFP-09"
   }
 ]
