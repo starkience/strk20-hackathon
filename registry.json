@@ -1107,5 +1107,15 @@
     "one_liner": "Heads-up poker where hole cards are encrypted STRK20 notes.",
     "category": "Gaming",
     "inspired_by": "RFP-03"
+  },
+  {
+    "repo_url": "https://github.com/leojay-net/almoner",
+    "telegram": [
+      "easybrane"
+    ],
+    "name": "Almoner",
+    "one_liner": "Private batch disbursement on STRK20: pay many people from a shielded balance for one flat pool fee, including people who have never registered.",
+    "category": "Infra",
+    "inspired_by": "IDEA-10"
   }
 ]
