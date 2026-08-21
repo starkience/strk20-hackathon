@@ -1087,5 +1087,15 @@
     "one_liner": "A fully shielded DeFi pool + dark order book on Starknet.",
     "category": "DeFi",
     "slug": "mirage-zk"
+  },
+  {
+    "repo_url": "https://github.com/kfastov/strk20-indexer",
+    "telegram": [
+      "kfastov"
+    ],
+    "name": "strk20-indexer",
+    "one_liner": "Open, self-hostable note indexer and explorer for the STRK20 pool. Wallets sync without handing over a viewing key.",
+    "category": "Infra",
+    "inspired_by": "IDEA-23"
   }
 ]
