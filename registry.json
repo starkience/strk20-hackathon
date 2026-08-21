@@ -784,10 +784,10 @@
       "KILLERTECH1"
     ],
     "name": "Atrum",
-    "one_liner": "Sealed-bid prediction markets: orders stay unreadable until they are binding, clear at a uniform price, and positions are tradeable before resolution.",
+    "one_liner": "A sealed-bid batch auction for prediction markets: no order is readable until it is already binding, every batch clears at one uniform price, and a position can be sold before the event resolves.",
     "slug": "atrum",
     "category": "Markets",
-    "inspired_by": "RFP-07",
+    "inspired_by": "RFP-08",
     "x_handle": "AtrumMarkets"
   },
   {
