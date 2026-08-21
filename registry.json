@@ -1046,6 +1046,7 @@
     ],
     "name": "Mirage ZK",
     "one_liner": "A fully shielded DeFi pool + dark order book on Starknet.",
-    "category": "DeFi"
+    "category": "DeFi",
+    "slug": "mirage-zk"
   }
 ]
