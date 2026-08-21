@@ -1097,5 +1097,15 @@
     "one_liner": "Open, self-hostable note indexer and explorer for the STRK20 pool. Wallets sync without handing over a viewing key.",
     "category": "Infra",
     "inspired_by": "IDEA-23"
+  },
+  {
+    "repo_url": "https://github.com/dpinones/private-poker",
+    "telegram": [
+      "dpinoness"
+    ],
+    "name": "Private Poker",
+    "one_liner": "Heads-up poker where hole cards are encrypted STRK20 notes.",
+    "category": "Gaming",
+    "inspired_by": "RFP-03"
   }
 ]
