@@ -1097,5 +1097,11 @@
     "one_liner": "Open, self-hostable note indexer and explorer for the STRK20 pool. Wallets sync without handing over a viewing key.",
     "category": "Infra",
     "inspired_by": "IDEA-23"
+  },
+  {
+    "repo_url": "https://github.com/mystiquemide/nyalthe",
+    "telegram": [
+      "mystiquemide"
+    ]
   }
 ]
