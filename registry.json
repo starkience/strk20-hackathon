@@ -1050,5 +1050,14 @@
     "team": [
       "ahmetenesdur"
     ]
+  },
+  {
+    "repo_url": "https://github.com/AustinChris1/xence",
+    "telegram": [
+      "thatcreator"
+    ],
+    "name": "Xence",
+    "one_liner": "Proof you were right, before it happened - seal a probabilistic forecast, bond it privately through the STRK20 pool, and let the chain score your calibration. Public record, invisible position.",
+    "category": "Infra"
   }
 ]
