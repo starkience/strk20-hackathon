@@ -1135,5 +1135,18 @@
     "team": [
       "PhiBao"
     ]
+  },
+  {
+    "repo_url": "https://github.com/Immadominion/tip",
+    "telegram": [
+      "ImmaDotDev"
+    ],
+    "name": "tip",
+    "one_liner": "A native mobile wallet for STRK20: private send, receive, and shield/unshield, non-custodial, built in Flutter.",
+    "category": "Infrastructure",
+    "team": [
+      "Immadominion"
+    ],
+    "inspired_by": "RFP-10"
   }
 ]
