@@ -1123,5 +1123,17 @@
     "telegram": [
       "mystiquemide"
     ]
+  },
+  {
+    "repo_url": "https://github.com/PhiBao/lantern",
+    "telegram": [
+      "kiter9"
+    ],
+    "name": "Lantern",
+    "one_liner": "Sealed crowdfunding on Starknet: public goal and verifiable total, cryptographically private donors.",
+    "category": "Consumer",
+    "team": [
+      "PhiBao"
+    ]
   }
 ]
