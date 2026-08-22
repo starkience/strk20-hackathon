@@ -1166,5 +1166,13 @@
     "telegram": [
       "Geecube2"
     ]
+  },
+  {
+    "repo_url": "https://github.com/mohdafzal11/gavel",
+    "telegram": [
+      "afzalnaved"
+    ],
+    "category": "DeFi",
+    "inspired_by": "RFP-08"
   }
 ]
