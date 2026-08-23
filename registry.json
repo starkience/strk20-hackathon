@@ -1199,5 +1199,18 @@
     "telegram": [
       "Crypth_valid"
     ]
+  },
+  {
+    "repo_url": "https://github.com/Tutulii/privacy-preview",
+    "telegram": [
+      "Cryptogk00kk"
+    ],
+    "name": "Privacy Preview",
+    "one_liner": "See what a Starknet transaction reveals before signing, then execute it privately through STRK20.",
+    "category": "Tooling",
+    "team": [
+      "Tutulii"
+    ],
+    "inspired_by": "IDEA-25"
   }
 ]
