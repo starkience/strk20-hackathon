@@ -1241,24 +1241,10 @@
       "ShouryamKumar"
     ]
   },
-  {
-    "repo_url": "https://github.com/heyfegor/kelpay",
+    {
+    "repo_url": "https://github.com/bhupeshmukane/strk20-private-pay",
     "telegram": [
-      "creatormorph"
-    ],
-    "name": "kelpay",
-    "one_liner": "Private payment links for freelancers, creators, and small teams.",
-    "slug": "kelpay",
-    "category": "Payments",
-    "team": [
-      "creatormorph"
-    ],
-    "x_handle": "creatormorph"
-  },
-  {
-    "repo_url": "https://github.com/SourceSenseiTheRealOne/cipherbid",
-    "telegram": [
-      "sourcesensei"
+      "bhupeshmukane"
     ]
   }
 ]
