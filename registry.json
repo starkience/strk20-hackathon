@@ -1230,6 +1230,9 @@
     "repo_url": "https://github.com/Vickrey-Protocol/vickrey",
     "telegram": [
       "jagadeeshftw"
-    ]
+    ],
+    "name": "Vickrey",
+    "category": "DeFi",
+    "inspired_by": "RFP-08"
   }
 ]
