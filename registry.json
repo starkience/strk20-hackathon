@@ -1201,16 +1201,16 @@
     ]
   },
   {
-    "repo_url": "https://github.com/Tutulii/privacy-preview",
+    "repo_url": "https://github.com/Tutulii/private-payroll",
     "telegram": [
       "Cryptogk00kk"
     ],
-    "name": "Privacy Preview",
-    "one_liner": "See what a Starknet transaction reveals before signing, then execute it privately through STRK20.",
-    "category": "Tooling",
+    "name": "Private Payroll",
+    "one_liner": "Private payroll and treasury disbursements on Starknet without exposing employee salaries or linking recipients to the company treasury.",
+    "category": "Payments",
     "team": [
       "Tutulii"
     ],
-    "inspired_by": "IDEA-25"
+    "inspired_by": "RFP-11"
   }
 ]
