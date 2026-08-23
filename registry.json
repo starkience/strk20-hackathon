@@ -1180,5 +1180,18 @@
     "telegram": [
       "SakshamGiri"
     ]
+  },
+  {
+    "repo_url": "https://github.com/hicksonhaziel/Roundveil",
+    "telegram": [
+      "devhickson"
+    ],
+    "name": "Roundveil",
+    "one_liner": "Private savings circles where each round pays the precommitted member without exposing who contributed or who received the pot.",
+    "slug": "roundveil",
+    "category": "Consumer",
+    "team": [
+      "hicksonhaziel"
+    ]
   }
 ]
