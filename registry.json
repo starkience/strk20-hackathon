@@ -1266,5 +1266,14 @@
     "telegram": [
       "bhupeshmukane"
     ]
+  },
+  {
+    "repo_url": "https://github.com/maheepatel/Cellar",
+    "telegram": ["Mahendarp9"],
+    "name": "Cellar",
+    "one_liner": "A private yield account on Starknet. Shield an asset, earn real lending yield through a custom anonymizer contract, and stay unlinkable to it visible flow, invisible participant.",
+    "category": "DeFi",
+    "inspired_by": "RFP-24",
+    "team": ["maheepatel"]
   }
 ]
