@@ -1212,5 +1212,18 @@
       "Tutulii"
     ],
     "inspired_by": "RFP-11"
+  },
+  {
+    "repo_url": "https://github.com/Mrwicks00/Nightgate",
+    "telegram": [
+      "mrwicks00"
+    ],
+    "name": "Nightgate",
+    "one_liner": "A decorrelation layer for the STRK20 pool: enter from any chain with your existing wallet, exit later to an unrelated address in a standard denomination after a randomized delay, optionally in a different asset.",
+    "category": "Privacy",
+    "inspired_by": "RFP-09",
+    "team": [
+      "Mrwicks00"
+    ]
   }
 ]
