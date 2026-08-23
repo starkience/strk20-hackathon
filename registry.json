@@ -1274,5 +1274,14 @@
     ],
     "category": "Consumer",
     "inspired_by": "RFP-02"
+  },
+  {
+    "repo_url": "https://github.com/Cassxbt/aver",
+    "telegram": [
+      "cassxbt"
+    ],
+    "category": "Tooling",
+    "inspired_by": "IDEA-21",
+    "x_handle": "Cassxbt"
   }
 ]
