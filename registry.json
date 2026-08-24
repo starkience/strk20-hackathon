@@ -1238,7 +1238,15 @@
   {
     "repo_url": "https://github.com/shouryam-kumar/strk20-zk-receipts",
     "telegram": [
-      "ShouryamKumar"
+      "ShouryamKumar",
+      "PrathibhaBilagi"
+    ],
+    "name": "STRK20 ZK Receipts",
+    "one_liner": "On-demand cryptographic proofs and selective disclosure for STRK20 private transactions",
+    "category": "Tooling",
+    "team": [
+      "shouryam-kumar",
+      "prathibhabilagi"
     ]
   },
   {
