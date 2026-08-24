@@ -1311,5 +1311,13 @@
     "telegram": [
       "bzadm1n"
     ]
+  },
+  {
+    "repo_url": "https://github.com/numbxs/veilguard",
+    "telegram": [
+      "hamedanon"
+    ],
+    "category": "Infra",
+    "inspired_by": "IDEA-25"
   }
 ]
