@@ -1333,5 +1333,18 @@
     "telegram": [
       "fuezta"
     ]
+  },
+  {
+    "repo_url": "https://github.com/jadonamite/XENIA",
+    "telegram": [
+      "jadonamite"
+    ],
+    "category": "Payments",
+    "team": [
+      "jadonamite",
+      "Sam-Rytech"
+    ],
+    "x_handle": "jadonamite",
+    "inspired_by": "IDEA-09"
   }
 ]
