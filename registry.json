@@ -1365,5 +1365,14 @@
     "telegram": [
       "littlesisfx"
     ]
+  },
+  {
+    "repo_url": "https://github.com/Cryptojigi/keepr",
+    "telegram": ["Xynetech"],
+    "name": "Keepr",
+    "one_liner": "Private subscription payments for AI agents and creators on STRK20 — shield, subscribe, auto-renew, prove access with a STARK proof.",
+    "category": "Payments",
+    "inspired_by": "RFP-12"
   }
+
 ]
