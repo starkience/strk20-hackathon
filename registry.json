@@ -81,7 +81,7 @@
       "codeswithroh"
     ],
     "name": "Veyl",
-    "one_liner": "Private launch & trading terminal on Starknet — trade and launch tokens through unlinkable execution identities funded by the STRK20 pool.",
+    "one_liner": "Private launch & trading terminal on Starknet \u2014 trade and launch tokens through unlinkable execution identities funded by the STRK20 pool.",
     "category": "DeFi",
     "inspired_by": "RFP-06",
     "team": [
@@ -463,7 +463,7 @@
       "mortiee_eth"
     ],
     "name": "Portage.fun",
-    "one_liner": "Provably-fair idle creature-collecting on Starknet — hatch, evolve, and trade original creatures.",
+    "one_liner": "Provably-fair idle creature-collecting on Starknet \u2014 hatch, evolve, and trade original creatures.",
     "slug": "portage",
     "category": "Gaming",
     "team": [
@@ -623,7 +623,7 @@
     ],
     "name": "Aether",
     "slug": "aether",
-    "one_liner": "Shield once, then run continuous private strategies — DCA, yield, rebalancing — entirely inside the STRK20 pool, scoring every action for effective anonymity under repeated use.",
+    "one_liner": "Shield once, then run continuous private strategies \u2014 DCA, yield, rebalancing \u2014 entirely inside the STRK20 pool, scoring every action for effective anonymity under repeated use.",
     "category": "DeFi"
   },
   {
@@ -860,7 +860,7 @@
     ],
     "name": "Crosslink",
     "slug": "crosslink",
-    "one_liner": "Crosslink measures whether a private payment is actually private. StarkWare's bridgeOutToWallet already does unlinkable payout to any address — what nothing does is tell you whether the anonymity set is deep enough for that to mean anything. Our Linkability Meter scores a pending send against the live mainnet pool on amount uniqueness, timing, channel freshness and plausible-set size, and blocks the send when privacy would be fake. Live on mainnet; it gated our own transfers. Roadmap: an embeddable toggle protocols can drop into their own send flow, and USDC cross-chain corridors via CCTP.",
+    "one_liner": "Crosslink measures whether a private payment is actually private. StarkWare's bridgeOutToWallet already does unlinkable payout to any address \u2014 what nothing does is tell you whether the anonymity set is deep enough for that to mean anything. Our Linkability Meter scores a pending send against the live mainnet pool on amount uniqueness, timing, channel freshness and plausible-set size, and blocks the send when privacy would be fake. Live on mainnet; it gated our own transfers. Roadmap: an embeddable toggle protocols can drop into their own send flow, and USDC cross-chain corridors via CCTP.",
     "category": "Payments",
     "inspired_by": "IDEA-22"
   },
@@ -998,7 +998,7 @@
       "ernxto"
     ],
     "name": "ShadowPay",
-    "one_liner": "Private payroll on Starknet — shield STRK, pay your team with unlinkable note→note transfers, unshield on demand. Built on STRK20.",
+    "one_liner": "Private payroll on Starknet \u2014 shield STRK, pay your team with unlinkable note\u2192note transfers, unshield on demand. Built on STRK20.",
     "category": "Payments",
     "inspired_by": "RFP-11",
     "team": [
@@ -1359,5 +1359,11 @@
       "Zephyr_cryt"
     ],
     "category": "Infra"
+  },
+  {
+    "repo_url": "https://github.com/kelvinpraises/maestro",
+    "telegram": [
+      "littlesisfx"
+    ]
   }
 ]
