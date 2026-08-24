@@ -1352,5 +1352,12 @@
     "telegram": [
       "AtheraL1"
     ]
+  },
+  {
+    "repo_url": "https://github.com/CryptoZephyr/VOCAP",
+    "telegram": [
+      "Zephyr_cryt"
+    ],
+    "category": "Infra"
   }
 ]
