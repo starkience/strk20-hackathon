@@ -1404,5 +1404,14 @@
     "telegram": [
       "octanexyz"
     ]
-  }
+  },
+{
+  "repo_url": "https://github.com/0mniipotent/VaultX",
+  "telegram": ["KingOmnii"],
+  "name": "VaultX",
+  "one_liner": "Private inactivity-based crypto recovery powered by STRK20.",
+  "slug": "vaultx",
+  "category": "Consumer",
+  "x_handle": "thedemigod99"
+}
 ]
