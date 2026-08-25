@@ -1303,6 +1303,7 @@
       "Emini_qdee"
     ],
     "name": "Afterlight",
+    "one_liner": "Private STRK20 recovery reserves with authenticated heartbeat, grace, and owner veto control.",
     "category": "Consumer"
   }
 ]
