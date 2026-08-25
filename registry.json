@@ -617,14 +617,14 @@
     "inspired_by": "RFP-07"
   },
   {
-    "repo_url": "https://github.com/shariqazeem/aether-strk20",
+    "repo_url": "https://github.com/shariqazeem/lumen-strk20",
     "telegram": [
       "shariqshkt"
     ],
-    "name": "Aether",
-    "slug": "aether",
-    "one_liner": "Shield once, then run continuous private strategies — DCA, yield, rebalancing — entirely inside the STRK20 pool, scoring every action for effective anonymity under repeated use.",
-    "category": "DeFi"
+    "name": "Lumen",
+    "slug": "lumen",
+    "one_liner": "Private money, by default — pay, receive and save on Starknet without publishing a financial profile: relationship-scoped privacy boundaries, private receipts, and a silent engine that closes the behavioural leaks cryptography can’t.",
+    "category": "Consumer"
   },
   {
     "repo_url": "https://github.com/bongbongcrypto/stealth-checkout",
