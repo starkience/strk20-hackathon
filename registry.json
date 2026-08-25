@@ -1384,5 +1384,18 @@
     "name": "Afterlight",
     "one_liner": "Private STRK20 recovery reserves with authenticated heartbeat, grace, and owner veto control.",
     "category": "Consumer"
+  },
+  {
+    "repo_url": "https://github.com/Emmanuelzyronis/preflight",
+    "telegram": [
+      "emmanuelzyronis"
+    ],
+    "name": "Preflight",
+    "one_liner": "Pre-signature privacy simulation for STRK20: detect amount, timing, and linkability leaks before signing.",
+    "category": "Tooling",
+    "team": [
+      "Emmanuelzyronis"
+    ],
+    "inspired_by": "IDEA-25"
   }
 ]
