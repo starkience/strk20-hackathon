@@ -671,8 +671,10 @@
       "ssadkov"
     ],
     "name": "MorokPay",
-    "one_liner": "Private USDC treasury on Starknet, funded from Ethereum via CCTP.",
-    "category": "Payments"
+    "one_liner": "Private USDC donations for creators: one reusable QR, the supporter picks the amount, and the payment stays inside the STRK20 pool. Live on mainnet with Ready; a Sepolia beta opens the same flow to MetaMask-only users.",
+    "category": "Payments",
+    "x_handle": "ssadkov",
+    "inspired_by": "RFP-12"
   },
   {
     "repo_url": "https://github.com/BlackAporia/game-shield",
