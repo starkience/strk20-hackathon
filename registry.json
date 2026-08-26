@@ -1481,5 +1481,18 @@
     "telegram": [
       "Estar_Kunmiii"
     ]
+  },
+  {
+    "repo_url": "https://github.com/adipundir/himitsu-protocol",
+    "telegram": [
+      "adipundir",
+      "deepak1802"
+    ],
+    "name": "Himitsu Protocol",
+    "category": "Infra",
+    "team": [
+      "adipundir",
+      "deepakA18"
+    ]
   }
 ]
