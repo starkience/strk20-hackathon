@@ -1439,6 +1439,15 @@
     "telegram": [
       "Etfradd"
     ]
+  },
+  {
+    "repo_url": "https://github.com/zachbuilds26/stash",
+    "telegram": [
+      "zachhct"
+    ],
+    "name": "Stash",
+    "one_liner": "Shielded yield automation — your vault, your strategy, nobody sees",
+    "category": "DeFi"
   }
 ]
 {
