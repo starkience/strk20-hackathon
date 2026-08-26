@@ -95,9 +95,9 @@
     "readme_hash": "eb359ac1e31937bc",
     "desc_v6": true,
     "churn_pct": 1.1,
-    "summary": "A whitehat bot that rescues exposed on-chain funds on Starknet.",
-    "description_long": "Aegis monitors public repositories for leaked private keys and API keys, verifies their validity, and sweeps any real funds to a secure address. It scans various repository populations, performing cryptographic checks on potential leaks, and ensures that any rescued funds are returned to verified owners using the STRK20 shielded pool for privacy.",
-    "latest_push": "Called the pull request scan in the sweep loop to ensure scans occur.",
+    "summary": "A whitehat rescue bot that sweeps exposed on-chain funds to safety.",
+    "description_long": "Aegis monitors public repositories for accidentally committed private keys and API keys. It verifies their validity and sweeps any funds associated with live keys to a safe address. The bot operates through multiple repository scans, filtering out live keys and executing the rescue process using automated GitHub Actions, ensuring no human involvement between detection and fund recovery.",
+    "latest_push": "Called the pull request scan in the sweep loop and updated the README.",
     "tooling": [
       {
         "label": "AVNU",
@@ -203,9 +203,9 @@
     "readme_hash": "96ad23c80dd39eb9",
     "desc_v6": true,
     "churn_pct": 0,
-    "summary": "A privacy-first auto-compounder for yield rewards in a shielded vault.",
-    "description_long": "Stash is built on STRK20, allowing users to deposit tokens into a private vault where a bot automatically compounds yield rewards back into the shielded pool. The strategy, positions, and earnings remain completely hidden. Components include a user interface with token management, privacy transactions using `strk20InvokeTransaction`, and a minimal `privacy_invoke` contract for deployment.",
-    "latest_push": "Added the WalletAccountV6 tab and excluded Braavos from the wallet picker.",
+    "summary": "A private auto-compounder for decentralized finance on Starknet.",
+    "description_long": "Stash is a privacy-first auto-compounder on STRK20. Users deposit tokens into a shielded vault, where a bot automatically compounds yield rewards back into the vault, keeping strategies and earnings hidden. The project includes functionalities for managing tokens, making private transfers, and deploying a minimal privacy contract.",
+    "latest_push": "Added the WalletAccountV6 tab and excluded Braavos from wallet picker.",
     "tooling": [
       {
         "label": "get-starknet",
@@ -556,7 +556,7 @@
     "churn_pct": 31.5,
     "summary": "Hold, send, and earn on STRK20 privately without revealing salary or net worth.",
     "description_long": "A fully programmable private money account that allows users to shield, send, and unshield funds without exposing sensitive financial information. The app is built on Starknet and interacts with the live STRK20 pool, utilizing wallet APIs for shielding USDC or STRK and sending private transactions between registered wallets. Currently, it supports actions like deploying accounts, shielding tokens, and plans for future features such as private swaps and payment integration.",
-    "latest_push": "Implemented the Vault shell using Tailwind v4 and RPC retry with backoff.",
+    "latest_push": "Implemented Vault shell with Tailwind v4 and added RPC retry logic.",
     "tooling": [
       {
         "label": "AVNU",
@@ -710,7 +710,7 @@
     "churn_pct": 0.2,
     "summary": "Accept private payments with a drop-in checkout widget and hosted invoices.",
     "description_long": "Stealth Checkout is a system for accepting private payments on Starknet using an embeddable payment widget, hosted invoice links, and headless confirmation via signed webhooks. It includes a TypeScript widget for various frameworks, a merchant dashboard for invoice management, dynamic and static QR codes for payments, and an honesty panel for transparency about on-chain visibility. Key components allow merchants to create invoices and confirm payments without exposing payer identities.",
-    "latest_push": "Fixed caption rendering by removing leading commas.",
+    "latest_push": "Fixed leading commas in every caption for the video.",
     "tooling": [
       {
         "label": "TypeScript",
@@ -791,7 +791,7 @@
     "churn_pct": 1.2,
     "summary": "A private deal room for encrypted negotiation, structured offers, and escrow settlements.",
     "description_long": "VINSS is a platform that facilitates private deals through encrypted communication, allowing users to negotiate, make structured offers, manage escrow, and generate verifiable settlement evidence. It features private chat, counter-offers, and NFT settlement certificates, all built on Starknet's privacy infrastructure.",
-    "latest_push": "Fixed the Rekber lifecycle sync and settlement UX in the frontend.",
+    "latest_push": "Fixed the Rekber lifecycle sync and improved the settlement UX.",
     "tooling": [
       {
         "label": "Cairo",
@@ -862,7 +862,7 @@
     "churn_pct": 0.1,
     "summary": "A non-custodial payroll system with private pay agreements and accountability proofs.",
     "description_long": "PAYO is a non-custodial payroll workspace on Starknet that enables private payroll with features like encrypted pay agreements and payroll-integrity proofs. Key components include privacy-protected transfers using STRK20, policy-constrained access for AI agents, and scoped proof packages for auditors and tax professionals. The project implements capabilities like batch payroll processing, compliance proof exports, and a bounded obligation engine, with the backend built using advanced cryptographic techniques.",
-    "latest_push": "Added tests for canonical adjustment, FX protection, and browser evidence.",
+    "latest_push": "Asserted canonical adjustment and termination profiles in tests.",
     "tooling": [
       {
         "label": "get-starknet",
@@ -1048,9 +1048,9 @@
     "readme_hash": "71fb5f0ddac6fe41",
     "desc_v6": true,
     "churn_pct": 2,
-    "summary": "Sealed-ballot governance and a shielded treasury for DAOs on Starknet.",
-    "description_long": "Aperture enables private voting and treasury management for DAOs by using sealed ballots. Each proposal generates unique identities for choices, allowing voters to verify destinations without trust. When casting a vote, a private transfer is made to the corresponding identity, with a tally service publishing only the aggregate results. Treasury payouts run through an anonymizer that conceals grant recipient identities. The project consists of deployed contracts including `ProposalRegistry`, `GovernanceAnonymizer`, and `TreasuryMultisig`, all operating on mainnet.",
-    "latest_push": "Fixed the scoring rules in the manifest and made the demo accessible.",
+    "summary": "Sealed-ballot governance with a shielded treasury for DAOs.",
+    "description_long": "Aperture enables private voting and treasury payouts for DAOs, obscuring both the choice and recipient identities. It uses a ProposalRegistry for managing proposals, a GovernanceAnonymizer for executing anonymous payouts, and a TreasuryMultisig for managing treasury transactions, all built on Starknet with private transactions through the STRK20 pool.",
+    "latest_push": "Fixed the manifest order and connected the demo to mainnet.",
     "tooling": [
       {
         "label": "starknet.js",
