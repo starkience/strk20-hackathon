@@ -1448,6 +1448,19 @@
     "name": "Stash",
     "one_liner": "Shielded yield automation — your vault, your strategy, nobody sees",
     "category": "DeFi"
+  },
+  {
+    "repo_url": "https://github.com/KayProject/velum",
+    "telegram": [
+      "jadonamite"
+    ],
+    "name": "Velum",
+    "one_liner": "Prove you earned enough, without showing what you earned.",
+    "category": "Consumer",
+    "team": [
+      "KayProject",
+      "jadonamite"
+    ]
   }
 ]
 {
