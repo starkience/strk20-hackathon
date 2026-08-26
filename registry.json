@@ -1437,5 +1437,10 @@
     "telegram": [
       "Etfradd"
     ]
+  },
+  {
+    "repo_url": "https://github.com/cenwadike/open-beanie",
+    "telegram": ["kombi16"],
+    "category": "Payments"
   }
 ]
