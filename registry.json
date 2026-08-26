@@ -1425,5 +1425,11 @@
     "name": "Shoal",
     "one_liner": "Anonymity aggregation for STRK20: measure the crowd you are actually hiding in, then route value so it is as large as possible.",
     "category": "Infra"
+  },
+  {
+    "repo_url": "https://github.com/Stella112/marginguard",
+    "telegram": [
+      "marisdigitals"
+    ]
   }
 ]
