@@ -1439,5 +1439,18 @@
     "telegram": [
       "Etfradd"
     ]
+  },
+  {
+    "repo_url": "https://github.com/KayProject/velum",
+    "telegram": [
+      "jadonamite"
+    ],
+    "name": "Velum",
+    "one_liner": "Prove you earned enough, without showing what you earned.",
+    "category": "Consumer",
+    "team": [
+      "KayProject",
+      "jadonamite"
+    ]
   }
 ]
