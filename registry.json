@@ -1535,5 +1535,19 @@
     "name": "Passbook",
     "category": "Consumer",
     "one_liner": "A private wallet that feels like a product: shielded send, swap, chat with money in it, bridge out, prediction markets and confidential token launches - all on the STRK20 pool."
-  }
+  },
+  {
+  "repo_url": "https://github.com/Iziedking/VeilAP",
+  "telegram": [
+    "Izie17",
+    "Bhenn_nny"
+  ],
+  "name": "VeilAP",
+  "one_liner": "Private proof-backed settlement for sensitive work, with verifiable delivery and private STRK20 payments.",
+  "category": "Payments",
+  "team": [
+    "Iziedking",
+    "Benita2001"
+  ]
+}
 ]
