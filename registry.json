@@ -617,14 +617,14 @@
     "inspired_by": "RFP-07"
   },
   {
-    "repo_url": "https://github.com/shariqazeem/aether-strk20",
+    "repo_url": "https://github.com/shariqazeem/lumen-strk20",
     "telegram": [
       "shariqshkt"
     ],
-    "name": "Aether",
-    "slug": "aether",
-    "one_liner": "Shield once, then run continuous private strategies — DCA, yield, rebalancing — entirely inside the STRK20 pool, scoring every action for effective anonymity under repeated use.",
-    "category": "DeFi"
+    "name": "Lumen",
+    "slug": "lumen",
+    "one_liner": "Private money, by default — pay, receive and save on Starknet without publishing a financial profile: relationship-scoped privacy boundaries, private receipts, and a silent engine that closes the behavioural leaks cryptography can’t.",
+    "category": "Consumer"
   },
   {
     "repo_url": "https://github.com/bongbongcrypto/stealth-checkout",
@@ -671,8 +671,10 @@
       "ssadkov"
     ],
     "name": "MorokPay",
-    "one_liner": "Private USDC treasury on Starknet, funded from Ethereum via CCTP.",
-    "category": "Payments"
+    "one_liner": "Private USDC donations for creators: one reusable QR, the supporter picks the amount, and the payment stays inside the STRK20 pool. Live on mainnet with Ready; a Sepolia beta opens the same flow to MetaMask-only users.",
+    "category": "Payments",
+    "x_handle": "ssadkov",
+    "inspired_by": "RFP-12"
   },
   {
     "repo_url": "https://github.com/BlackAporia/game-shield",
@@ -1238,7 +1240,15 @@
   {
     "repo_url": "https://github.com/shouryam-kumar/strk20-zk-receipts",
     "telegram": [
-      "ShouryamKumar"
+      "ShouryamKumar",
+      "PrathibhaBilagi"
+    ],
+    "name": "STRK20 ZK Receipts",
+    "one_liner": "On-demand cryptographic proofs and selective disclosure for STRK20 private transactions",
+    "category": "Tooling",
+    "team": [
+      "shouryam-kumar",
+      "prathibhabilagi"
     ]
   },
   {
@@ -1259,6 +1269,256 @@
     "repo_url": "https://github.com/SourceSenseiTheRealOne/cipherbid",
     "telegram": [
       "sourcesensei"
+    ],
+    "one_liner": "Real-collateral Vickrey NFT auctions funded through STRK20, with sealed bids and shielded claims.",
+    "category": "DeFi",
+    "inspired_by": "RFP-08"
+  },
+  {
+    "repo_url": "https://github.com/bhupeshmukane/strk20-private-pay",
+    "telegram": [
+      "bhupeshmukane"
     ]
+  },
+  {
+    "repo_url": "https://github.com/ELLA0VICTOR/deadletter",
+    "telegram": [
+      "Viktor_kun0"
+    ],
+    "category": "Consumer",
+    "inspired_by": "RFP-02"
+  },
+  {
+    "repo_url": "https://github.com/Cassxbt/aver",
+    "telegram": [
+      "cassxbt"
+    ],
+    "category": "Tooling",
+    "inspired_by": "IDEA-21",
+    "x_handle": "Cassxbt"
+  },
+  {
+    "repo_url": "https://github.com/maheepatel/Cellar",
+    "telegram": [
+      "Mahendarp9"
+    ],
+    "name": "Cellar",
+    "one_liner": "A private yield account on Starknet. Shield an asset, earn real lending yield through a custom anonymizer contract, and stay unlinkable to it visible flow, invisible participant.",
+    "category": "DeFi",
+    "inspired_by": "RFP-24",
+    "team": [
+      "maheepatel"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/dexarxbt/Lacuna",
+    "telegram": [
+      "dexarxbt"
+    ],
+    "name": "Lacuna",
+    "one_liner": "The STRK20 privacy studio for designing private flows, exposing public boundaries, and shipping verified Starknet integrations.",
+    "category": "Tooling"
+  },
+  {
+    "repo_url": "https://github.com/bzdmin/ghostsub",
+    "telegram": [
+      "bzadm1n"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/numbxs/veilguard",
+    "telegram": [
+      "hamedanon"
+    ],
+    "category": "Infra",
+    "inspired_by": "IDEA-25"
+  },
+  {
+    "repo_url": "https://github.com/medine2906/strk20-hackathon",
+    "telegram": [
+      "fuezta"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/jadonamite/XENIA",
+    "telegram": [
+      "jadonamite"
+    ],
+    "category": "Payments",
+    "team": [
+      "jadonamite",
+      "Sam-Rytech"
+    ],
+    "x_handle": "jadonamite",
+    "inspired_by": "IDEA-09"
+  },
+  {
+    "repo_url": "https://github.com/OGtev317/Gigstark",
+    "telegram": [
+      "AtheraL1"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/CryptoZephyr/VOCAP",
+    "telegram": [
+      "Zephyr_cryt"
+    ],
+    "category": "Infra"
+  },
+  {
+    "repo_url": "https://github.com/kelvinpraises/maestro",
+    "telegram": [
+      "littlesisfx"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/Cryptojigi/keepr",
+    "telegram": [
+      "Xynetech"
+    ],
+    "name": "Keepr",
+    "one_liner": "Private subscription payments for AI agents and creators on STRK20 — shield, subscribe, auto-renew, prove access with a STARK proof.",
+    "category": "Payments",
+    "inspired_by": "RFP-12"
+  },
+  {
+    "repo_url": "https://github.com/dolepee/afterlight",
+    "telegram": [
+      "Emini_qdee"
+    ],
+    "name": "Afterlight",
+    "one_liner": "Private STRK20 recovery reserves with authenticated heartbeat, grace, and owner veto control.",
+    "category": "Consumer"
+  },
+  {
+    "repo_url": "https://github.com/Emmanuelzyronis/preflight",
+    "telegram": [
+      "emmanuelzyronis"
+    ],
+    "name": "Preflight",
+    "one_liner": "Pre-signature privacy simulation for STRK20: detect amount, timing, and linkability leaks before signing.",
+    "category": "Tooling",
+    "team": [
+      "Emmanuelzyronis"
+    ],
+    "inspired_by": "IDEA-25"
+  },
+  {
+    "slug": "covert",
+    "repo_url": "https://github.com/xyzbutworse/covert",
+    "telegram": [
+      "octanexyz"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/0mniipotent/VaultX",
+    "telegram": [
+      "KingOmnii"
+    ],
+    "name": "VaultX",
+    "one_liner": "Private inactivity-based crypto recovery powered by STRK20.",
+    "slug": "vaultx",
+    "category": "Consumer",
+    "x_handle": "thedemigod99"
+  },
+  {
+    "repo_url": "https://github.com/iamdflame/shoal",
+    "telegram": [
+      "dhonchain"
+    ],
+    "slug": "shoal",
+    "name": "Shoal",
+    "one_liner": "Anonymity aggregation for STRK20: measure the crowd you are actually hiding in, then route value so it is as large as possible.",
+    "category": "Infra"
+  },
+  {
+    "repo_url": "https://github.com/Stella112/marginguard",
+    "telegram": [
+      "marisdigitals"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/onyebuchidaniel60/verity",
+    "telegram": [
+      "Etfradd"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/zachbuilds26/stash",
+    "telegram": [
+      "zachhct"
+    ],
+    "name": "Stash",
+    "one_liner": "Shielded yield automation — your vault, your strategy, nobody sees",
+    "category": "DeFi"
+  },
+  {
+    "repo_url": "https://github.com/KayProject/velum",
+    "telegram": [
+      "jadonamite"
+    ],
+    "name": "Velum",
+    "one_liner": "Prove you earned enough, without showing what you earned.",
+    "category": "Consumer",
+    "team": [
+      "KayProject",
+      "jadonamite"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/Valorian0108/before-you-sign",
+    "telegram": [
+      "demi_03"
+    ],
+    "slug": "before-you-sign-strk20",
+    "name": "before-you-sign"
+  },
+  {
+    "repo_url": "https://github.com/sands786/veyra",
+    "telegram": [
+      "Forgeclaw"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/Kunmiesther/Orlop",
+    "telegram": [
+      "Estar_Kunmiii"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/adipundir/himitsu-protocol",
+    "telegram": [
+      "adipundir",
+      "deepak1802"
+    ],
+    "name": "Himitsu Protocol",
+    "category": "Infra",
+    "team": [
+      "adipundir",
+      "deepakA18"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/cenwadike/open-beanie",
+    "telegram": [
+      "kombi16"
+    ],
+    "category": "Payments"
+  },
+  {
+    "repo_url": "https://github.com/Philotheephilix/ghostcall",
+    "telegram": [
+      "philotheephilix"
+    ],
+    "name": "GhostCall",
+    "category": "Privacy"
+  },
+  {
+    "repo_url": "https://github.com/winsznx/limen",
+    "telegram": [
+      "winszn_x"
+    ],
+    "name": "Limen",
+    "category": "Infra"
   }
 ]
