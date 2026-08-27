@@ -1509,5 +1509,13 @@
     ],
     "name": "GhostCall",
     "category": "Privacy"
+  },
+  {
+    "repo_url": "https://github.com/winsznx/limen",
+    "telegram": [
+      "winszn_x"
+    ],
+    "name": "Limen",
+    "category": "Infra"
   }
 ]
