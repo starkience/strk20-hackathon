@@ -1,5 +1,17 @@
 [
   {
+  "repo_url": "https://github.com/sandman-sh/EverTrust-Protocol",
+  "telegram": [
+    "iraavan"
+  ],
+  "name": "EverTrust Protocol",
+  "one_liner": "Confidential digital wealth succession and dead man's switch on Starknet powered by STRK20 shielded notes.",
+  "category": "Privacy",
+  "team": [
+    "sandman"
+  ]
+},
+  {
     "repo_url": "https://github.com/ZylithFi/client",
     "telegram": [
       "t4nz4n1t3"
