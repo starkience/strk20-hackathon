@@ -1422,13 +1422,13 @@
     "x_handle": "thedemigod99"
   },
   {
-    "repo_url": "https://github.com/iamdflame/shoal",
+    "repo_url": "https://github.com/iamdflame/quorum",
     "telegram": [
       "dhonchain"
     ],
-    "slug": "shoal",
-    "name": "Shoal",
-    "one_liner": "Anonymity aggregation for STRK20: measure the crowd you are actually hiding in, then route value so it is as large as possible.",
+    "slug": "quorum",
+    "name": "Quorum",
+    "one_liner": "Threshold coordination on STRK20: pledge into a campaign and your pledge binds only once enough others have too. Miss the quorum and you are refunded, never revealed.",
     "category": "Infra"
   },
   {
