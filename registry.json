@@ -1627,12 +1627,11 @@
     "category": "Infra",
     "x_handle": "rayyer_220",
     "inspired_by": "IDEA-22"
-
-]
-{
-  "repo_url": "https://github.com/levithefirst/provah",
-  "telegram": [],
-  "name": "Provah",
-  "one_liner": "Capability layer for STRK20 pool activity"
-}
+  },
+  {
+    "repo_url": "https://github.com/levithefirst/provah",
+    "telegram": ["leviweb3x"],
+    "name": "Provah",
+    "one_liner": "Capability layer for STRK20 pool activity: prove public deposit history, redeem a one-time pass from any wallet."
+  }
 ]
