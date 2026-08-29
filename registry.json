@@ -1534,7 +1534,9 @@
     ],
     "name": "strk20.run",
     "category": "Consumer",
-    "one_liner": "A private wallet that feels like a product: shielded send, swap, chat with money in it, bridge out, prediction markets and confidential token launches - all on the STRK20 pool."
+    "one_liner": "A private account on Starknet's STRK20 pool - no wallet, no login. Hold and send shielded value, chat with money attached, swap, bridge out, bet, launch, and vote in private houses.",
+    "x_handle": "chain_oracle",
+    "inspired_by": "IDEA-13"
   },
   {
     "repo_url": "https://github.com/Iziedking/VeilAP",
