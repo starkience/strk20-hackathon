@@ -1603,5 +1603,11 @@
     "one_liner": "An autonomous agent that judges human work and pays for it — addressing each payout to a person rather than a wallet, so someone with no wallet and no gas can still collect, and who was paid stays private.",
     "slug": "sage",
     "category": "Payments"
+  },
+  {
+    "repo_url": "https://github.com/charlesms1246/hydra",
+    "telegram": [
+      "hackerhai12"
+    ]
   }
 ]
