@@ -1528,11 +1528,11 @@
     ]
   },
   {
-    "repo_url": "https://github.com/Blockchain-Oracle/passbook",
+    "repo_url": "https://github.com/Blockchain-Oracle/strk20-run",
     "telegram": [
       "BlockchainOracle_dev"
     ],
-    "name": "Passbook",
+    "name": "strk20.run",
     "category": "Consumer",
     "one_liner": "A private wallet that feels like a product: shielded send, swap, chat with money in it, bridge out, prediction markets and confidential token launches - all on the STRK20 pool."
   },
