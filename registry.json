@@ -1615,5 +1615,17 @@
     "telegram": [
       "notcodesid"
     ]
+  },
+  {
+    "repo_url": "https://github.com/RaYYeR220/cordon",
+    "telegram": [
+      "L0ceo"
+    ],
+    "name": "Cordon",
+    "one_liner": "Credential-gated, on-chain-enforced policy for shielded value on Starknet.",
+    "slug": "cordon",
+    "category": "Infra",
+    "x_handle": "rayyer_220",
+    "inspired_by": "IDEA-22"
   }
 ]
