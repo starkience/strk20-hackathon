@@ -1593,5 +1593,15 @@
     "telegram": [
       "mattosi"
     ]
+  },
+  {
+    "repo_url": "https://github.com/shariqazeem/sage",
+    "telegram": [
+      "shariqshkt"
+    ],
+    "name": "Sage",
+    "one_liner": "An autonomous agent that judges human work and pays for it \u2014 addressing each payout to a person rather than a wallet, so someone with no wallet and no gas can still collect, and who was paid stays private.",
+    "slug": "sage",
+    "category": "Payments"
   }
 ]
