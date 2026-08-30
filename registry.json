@@ -1642,5 +1642,14 @@
     ],
     "name": "Provah",
     "one_liner": "Capability layer for STRK20 pool activity: prove public deposit history, redeem a one-time pass from any wallet."
+  },
+  {
+    "repo_url": "https://github.com/Cyano88/kudiroll",
+    "telegram": [
+      "cyano88"
+    ],
+    "name": "KudiRoll",
+    "category": "Payments",
+    "x_handle": "onoja_cee"
   }
 ]
