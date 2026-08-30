@@ -1382,7 +1382,7 @@
     "inspired_by": "RFP-12"
   },
   {
-    "repo_url": "https://github.com/qdeeworld/afterlight",
+    "repo_url": "https://github.com/dolepee/afterlight",
     "telegram": [
       "Emini_qdee"
     ],
@@ -1651,5 +1651,18 @@
     "name": "KudiRoll",
     "category": "Payments",
     "x_handle": "onoja_cee"
+  },
+  {
+    "repo_url": "https://github.com/qdeeworld/afterlight",
+    "telegram": [
+      "Emini_qdee"
+    ],
+    "name": "Afterlight",
+    "slug": "afterlight-recovery",
+    "one_liner": "Private STRK20 recovery reserves with authenticated heartbeat, grace, and owner veto control.",
+    "category": "Consumer",
+    "team": [
+      "qdeeworld"
+    ]
   }
 ]
