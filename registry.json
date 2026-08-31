@@ -1444,13 +1444,17 @@
     ]
   },
   {
-    "repo_url": "https://github.com/zachbuilds26/stash",
+    "repo_url": "https://github.com/zachbuilds26/coffer",
     "telegram": [
       "zachhct"
     ],
-    "name": "Stash",
-    "one_liner": "Shielded yield automation — your vault, your strategy, nobody sees",
-    "category": "DeFi"
+    "name": "Coffer",
+    "one_liner": "Private grants for onchain communities, with public accountability and shielded STRK20 payouts.",
+    "category": "Payments",
+    "team": [
+      "zachbuilds26"
+    ],
+    "inspired_by": "RFP-11"
   },
   {
     "repo_url": "https://github.com/KayProject/velum",
