@@ -1713,5 +1713,20 @@
     "telegram": [
       "salazarsebas"
     ]
+  },
+  {
+    "repo_url": "https://github.com/YieldStark/mainnet-v2",
+    "telegram": [
+      "masterpiece_eth"
+    ],
+    "name": "YieldStark",
+    "one_liner": "Private yield on Starknet: shield through the STRK20 pool, lend on Vesu, and stay unlinkable.",
+    "slug": "yieldstark",
+    "category": "DeFi",
+    "team": [
+      "JY20"
+    ],
+    "x_handle": "masterpiece_eth",
+    "inspired_by": "IDEA-16"
   }
 ]
