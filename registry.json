@@ -1664,5 +1664,17 @@
     "team": [
       "qdeeworld"
     ]
+  },
+  {
+    "repo_url": "https://github.com/cryptnuel/veilpass",
+    "telegram": [
+      "noeltayjnr"
+    ],
+    "name": "VeilPass",
+    "one_liner": "Scam-resistant private payment requests on Starknet, powered by STRK20.",
+    "category": "Payments",
+    "team": [
+      "cryptnuel"
+    ]
   }
 ]
