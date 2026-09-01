@@ -1525,6 +1525,13 @@
     "repo_url": "https://github.com/solutionkanu12/iwa",
     "telegram": [
       "solution_o1"
+    ],
+    "name": "Iwa",
+    "one_liner": "Private savings circles on Starknet: neighbours contribute and take turns collecting the pot through the STRK20 pool, with amounts hidden and good standing provable.",
+    "slug": "iwa",
+    "category": "DeFi",
+    "team": [
+      "solutionkanu12"
     ]
   },
   {
