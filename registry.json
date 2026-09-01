@@ -1750,5 +1750,17 @@
     "name": "VeilZero",
     "category": "Tooling",
     "inspired_by": "RFP-02"
+  },
+  {
+    "repo_url": "https://github.com/DavidIfebueme/musetub",
+    "telegram": [
+      "cypheron"
+    ],
+    "name": "Musetub",
+    "one_liner": "Per-watch-time video streaming on Starknet: viewers pay USDC for seconds watched via x402, creators earn private STRK20 shielded payouts.",
+    "category": "Consumer",
+    "team": [
+      "DavidIfebueme"
+    ]
   }
 ]
