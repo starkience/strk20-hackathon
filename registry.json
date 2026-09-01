@@ -1762,5 +1762,20 @@
     "team": [
       "DavidIfebueme"
     ]
+  },
+  {
+    "repo_url": "https://github.com/Alajemba-Paul/CairoBot",
+    "telegram": [
+      "realpaulthepundit"
+    ],
+    "name": "CairoBot",
+    "one_liner": "Private perps on Extended, from chat, CLI, or an agent.",
+    "slug": "cairobot",
+    "category": "DeFi",
+    "team": [
+      "Alajemba-Paul"
+    ],
+    "x_handle": "realpauldpundit",
+    "inspired_by": "IDEA-02"
   }
 ]
