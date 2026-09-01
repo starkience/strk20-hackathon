@@ -1741,5 +1741,14 @@
     "telegram": [
       "eric0xbt"
     ]
+  },
+  {
+    "repo_url": "https://github.com/tang-vu/veilzero",
+    "telegram": [
+      "tangvublockchain"
+    ],
+    "name": "VeilZero",
+    "category": "Tooling",
+    "inspired_by": "RFP-02"
   }
 ]
