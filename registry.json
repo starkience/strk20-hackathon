@@ -1790,5 +1790,9 @@
     "team": [
       "otomdee"
     ]
+  },
+  {
+    "repo_url": "https://github.com/Stoneybro/starkaudit",
+    "telegram": ["stoneybro1"]
   }
 ]
