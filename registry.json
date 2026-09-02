@@ -37,7 +37,7 @@
       "zkasuran"
     ],
     "name": "Veilcast",
-    "one_liner": "Delegate execution. Never custody. A private, leveraged prediction market an agent can drive on mainnet, bounded by on-chain mandates.",
+    "one_liner": "Private prediction markets on Starknet. Trade them yourself, or hand an agent a mandate the contract will not let it abuse.",
     "category": "DeFi",
     "inspired_by": "RFP-07",
     "team": [
