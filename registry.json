@@ -1828,4 +1828,9 @@
     "name": "Nagare",
     "category": "DeFi"
   }
+  {
+       "repo_url": "https://github.com/Investorquab/veilos",
+       "telegram": ["quabnation"],
+       "category": "Infra"
+     }
 ]
