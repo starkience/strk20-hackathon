@@ -37,12 +37,13 @@
       "zkasuran"
     ],
     "name": "Veilcast",
-    "one_liner": "Private prediction markets on Starknet: visible odds, invisible bettors.",
+    "one_liner": "Delegate execution. Never custody. A private, leveraged prediction market an agent can drive on mainnet, bounded by on-chain mandates.",
     "category": "DeFi",
     "inspired_by": "RFP-07",
     "team": [
       "zkasuran"
-    ]
+    ],
+    "x_handle": "zkasuran"
   },
   {
     "repo_url": "https://github.com/dmetagame/cutout",
