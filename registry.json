@@ -1803,5 +1803,13 @@
     "telegram": [
       "akoladeoluwafemi"
     ]
+  },
+  {
+    "repo_url": "https://github.com/XDGram/PhantomPay",
+    "telegram": [
+      "xDGraM80"
+    ],
+    "category": "Payments",
+    "inspired_by": "IDEA-11"
   }
 ]
