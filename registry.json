@@ -1811,5 +1811,13 @@
     ],
     "category": "Payments",
     "inspired_by": "IDEA-11"
+  },
+  {
+    "repo_url": "https://github.com/Alike001/strk20-workbench",
+    "telegram": [
+      "IamAlikeX",
+      "agbacoder01"
+    ],
+    "category": "Infra"
   }
 ]
