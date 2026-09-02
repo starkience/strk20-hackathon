@@ -1819,5 +1819,13 @@
       "agbacoder01"
     ],
     "category": "Infra"
+  },
+  {
+    "repo_url": "https://github.com/sneg55/nagare",
+    "telegram": [
+      "sneg55"
+    ],
+    "name": "Nagare",
+    "category": "DeFi"
   }
 ]
