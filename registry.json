@@ -1833,5 +1833,13 @@
     "telegram": [
       "Auditonbase"
     ]
+  },
+  {
+    "repo_url": "https://github.com/Spagero763/convoy",
+    "telegram": [
+      "spagerobaseeth"
+    ],
+    "name": "Convoy",
+    "category": "DeFi"
   }
 ]
