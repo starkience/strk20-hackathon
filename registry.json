@@ -1847,5 +1847,14 @@
     "telegram": [
       "deeisnothuman"
     ]
+  },
+  {
+    "repo_url": "https://github.com/nvnx7/supasafe",
+    "telegram": ["nvnx7"],
+    "name": "supasafe",
+    "one_liner": "A private multisig supporting payments, swaps, yield and more, where a minimum number co-owners approve transactions.",
+    "slug": "supasafe",
+    "category": "Infra",
+    "inspired_by": "RFP-27"
   }
 ]
