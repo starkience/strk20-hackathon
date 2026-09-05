@@ -1867,7 +1867,7 @@
     "name": "molfi",
     "one_liner": "Prediction markets where your position stays sealed until settlement: pick a price range, stake through the STRK20 pool, and nobody can front run or copy a position they cannot see."
   },
-    {
+  {
     "repo_url": "https://github.com/venture23-aleo/strk20-hackathon",
     "telegram": [
       "sdpisreddevil",
