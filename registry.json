@@ -1,1881 +1,1881 @@
 [
-  {
-    "repo_url": "https://github.com/ZylithFi/client",
-    "telegram": [
-      "t4nz4n1t3"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/PoulavBhowmick03/erebus",
-    "telegram": [
-      "impoulav",
-      "ishitaaaaw"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/gstohl/quietline",
-    "telegram": [
-      "stack_ref_error"
-    ],
-    "name": "Quietline",
-    "one_liner": "Encrypted on-chain mail on Starknet. Payment memos ride the same private transfer.",
-    "category": "Other",
-    "inspired_by": "RFP-01",
-    "team": [
-      "gstohl"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Sarthib7/stk402",
-    "telegram": [
-      "sarthib7"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/zkasuran/veilcast",
-    "telegram": [
-      "zkasuran"
-    ],
-    "name": "Veilcast",
-    "one_liner": "Private prediction markets on Starknet. Trade them yourself, or hand an agent a mandate the contract will not let it abuse.",
-    "category": "DeFi",
-    "inspired_by": "RFP-07",
-    "team": [
-      "zkasuran"
-    ],
-    "x_handle": "zkasuran"
-  },
-  {
-    "repo_url": "https://github.com/dmetagame/cutout",
-    "telegram": [
-      "Herbubakar"
-    ],
-    "name": "Cutout",
-    "category": "Infra"
-  },
-  {
-    "repo_url": "https://github.com/kamalbuilds/neobank",
-    "telegram": [
-      "kamalthedev"
-    ],
-    "name": "Private money account",
-    "one_liner": "Hold, send, and earn on STRK20 without publishing salary or net worth.",
-    "slug": "neobank",
-    "category": "Consumer",
-    "team": [
-      "kamalbuilds"
-    ],
-    "x_handle": "kamalbuilds",
-    "inspired_by": "IDEA-13"
-  },
-  {
-    "repo_url": "https://github.com/0xrlawrence/envelope",
-    "telegram": [
-      "fullstack0x"
-    ],
-    "category": "Payments",
-    "inspired_by": "IDEA-09"
-  },
-  {
-    "repo_url": "https://github.com/codeswithroh/veyl",
-    "telegram": [
-      "codeswithroh"
-    ],
-    "name": "Veyl",
-    "one_liner": "Private launch & trading terminal on Starknet — trade and launch tokens through unlinkable execution identities funded by the STRK20 pool.",
-    "category": "DeFi",
-    "inspired_by": "RFP-06",
-    "team": [
-      "codeswithroh"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Akinbola247/offbook",
-    "telegram": [
-      "iamkenzman"
-    ],
-    "name": "offbook",
-    "one_liner": "a private OTC settlement layer for Starknet, Counterparties agree a token-for-token block trade (RFQ), then settle atomically through STRK20",
-    "category": "DeFi",
-    "inspired_by": "RFP-05",
-    "team": [
-      "iamkenzman"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/DevTest-me/hidden-starknet",
-    "telegram": [
-      "Blayce4T6"
-    ],
-    "name": "Hidden",
-    "one_liner": "Hidden-information games on Starknet powered by STRK20 privacy.",
-    "slug": "hidden",
-    "category": "Other"
-  },
-  {
-    "repo_url": "https://github.com/Ololadestephen/paybook",
-    "telegram": [
-      "hectormain"
-    ],
-    "name": "Paybook",
-    "one_liner": "Private payroll with scoped disclosure. Public can verify a run; only the payee or auditor can open a slice.",
-    "category": "Payments",
-    "inspired_by": "RFP-11",
-    "team": [
-      "Ololadestephen"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Shadow-MMN/noxis",
-    "telegram": [
-      "Shadow_MMN"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/nftkingiii/Morrow",
-    "telegram": [
-      "NFTKINGII"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/SergioSSantiago/philoxenia",
-    "telegram": [
-      "sergiossantiago"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/kevlau1/redpocket",
-    "telegram": [
-      "Ttttkkkk121"
-    ],
-    "name": "Redpocket",
-    "one_liner": "Password red packets: one link, N shares, each claim lands in a shielded STRK20 balance.",
-    "category": "Payments",
-    "inspired_by": "IDEA-09",
-    "team": [
-      "kevlau1"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/broody/stake-wars",
-    "telegram": [
-      "broody_eth"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Some1Uknow/cipherpay-strk20",
-    "telegram": [
-      "raghavdotsol"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Abhyudday/tx404",
-    "telegram": [
-      "Abhyudday"
-    ],
-    "name": "Tx404",
-    "one_liner": "Non-custodial shielding API/SDK: drop shield, unshield, and private-transfer into any app without touching a viewing key.",
-    "category": "Infra",
-    "inspired_by": "IDEA-26"
-  },
-  {
-    "repo_url": "https://github.com/JemimahEkong/PrivKit",
-    "telegram": [
-      "Jemmy1st"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/0xConsole/strk20-sentinel",
-    "telegram": [
-      "hermesmoneybot"
-    ],
-    "name": "STRK20 Privacy Sentinel",
-    "one_liner": "MCP-powered privacy analytics agent for monitoring and managing shielded DeFi positions on Starknet.",
-    "category": "Tooling",
-    "team": [
-      "0xConsole"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/tinoxbt/sealed",
-    "telegram": [
-      "tinoxbt"
-    ],
-    "name": "Sealed",
-    "one_liner": "Sealed-bid, second-price auctions on Starknet with unlinkable bidders and private settlement through STRK20.",
-    "category": "DeFi",
-    "inspired_by": "RFP-08",
-    "team": [
-      "tinoxbt"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/cxto21/ownerz",
-    "telegram": [
-      "naiamst"
-    ],
-    "name": "Ownerz",
-    "one_liner": "Privacy-first data marketplace on Starknet with post-quantum encryption and STRK20 payments.",
-    "category": "Consumer",
-    "team": [
-      "cxto21"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Techkeyy/lens",
-    "telegram": [
-      "iszee23"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/mrnetwork0001/Cloakra",
-    "telegram": [
-      "mr_network001"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/frankolien/blindpool",
-    "telegram": [
-      "Frank_olien"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Gedion08/Nexora-Protocol.git",
-    "telegram": [
-      "Kartello_Crypto2"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/daraijaola/ghostbounty",
-    "telegram": [
-      "Micheal_ijaola"
-    ],
-    "name": "GhostBounty",
-    "one_liner": "Anonymous responsible disclosure with encrypted reports, proof-of-authorship, and private STRK20 bounty payments.",
-    "category": "Tooling",
-    "team": [
-      "daraijaola"
-    ],
-    "x_handle": "Micheal_node",
-    "inspired_by": "RFP-02"
-  },
-  {
-    "repo_url": "https://github.com/ashiru-1/VeilCheck",
-    "telegram": [
-      "cyph3rxt"
-    ],
-    "name": "VeilCheck",
-    "one_liner": "Privacy preflight for STRK20: detect timing correlation and amount leakage before signing.",
-    "category": "Tooling",
-    "team": [
-      "ashiru-1"
-    ],
-    "x_handle": "cyph3rxt",
-    "inspired_by": "IDEA-25"
-  },
-  {
-    "repo_url": "https://github.com/SmratJay/strk20-privacy-wallet",
-    "telegram": [
-      "popexenon"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/DXJLabs/vinss",
-    "telegram": [
-      "oiii22"
-    ],
-    "name": "VINSS",
-    "one_liner": "Agentic private deal room on Starknet for encrypted negotiation, offers, messaging, and private escrow settlement powered by STRK20.",
-    "category": "Social & Communications",
-    "team": [
-      "DXJLabs"
-    ],
-    "inspired_by": "IDEA-01"
-  },
-  {
-    "repo_url": "https://github.com/welttowelt/mosby-pass",
-    "telegram": [
-      "Odin_free"
-    ],
-    "name": "Mosby Pass",
-    "one_liner": "Private event admission powered by shielded STRK on Starknet.",
-    "category": "Consumer",
-    "team": [
-      "welttowelt"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/mateojkk/Nomada",
-    "telegram": [
-      "mateojkk"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/kenkomu/airlock",
-    "telegram": [
-      "Kenkomu"
-    ],
-    "name": "Airlock",
-    "one_liner": "One-click privacy from any chain: bridge in, hold private, withdraw to a different chain with no on-chain link.",
-    "category": "Infra",
-    "team": [
-      "kenkomu"
-    ],
-    "inspired_by": "RFP-09"
-  },
-  {
-    "repo_url": "https://github.com/Dapperdavidd/Privora",
-    "telegram": [
-      "Dapperdavidd"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/welttowelt/booty-bank",
-    "telegram": [
-      "Odin_free"
-    ],
-    "name": "Booty Bank",
-    "one_liner": "Private income credentials and credit eligibility for OnlyFans creators on Starknet.",
-    "category": "Consumer",
-    "team": [
-      "welttowelt"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Jennycruzy/facet",
-    "telegram": [
-      "Jennycruzy57"
-    ],
-    "name": "Facet",
-    "one_liner": "Private identities for Starknet DeFi. One shielded balance, unlimited unlinkable facets, one per protocol.",
-    "category": "Infra",
-    "x_handle": "jennyoliver57"
-  },
-  {
-    "repo_url": "https://github.com/mayorXBT/ghoste-starknet",
-    "telegram": [
-      "demayoor"
-    ],
-    "name": "Ghoste for Starknet",
-    "one_liner": "Private meta-routing and unlinkable settlement on Starknet.",
-    "category": "DeFi",
-    "x_handle": "mayorxbt"
-  },
-  {
-    "repo_url": "https://github.com/OpenDagri/veilpay",
-    "telegram": [
-      "omniflowfounder"
-    ],
-    "name": "VeilPay",
-    "one_liner": "Private payroll with scoped disclosure. Public can verify a run; only the payee or auditor can open a slice.",
-    "category": "Payments"
-  },
-  {
-    "repo_url": "https://github.com/Avinash1286/shadowledger",
-    "telegram": [
-      "theavi1286"
-    ],
-    "name": "ShadowLedger",
-    "one_liner": "Private payroll with public aggregate accountability on STRK20.",
-    "category": "Payments",
-    "inspired_by": "RFP-11"
-  },
-  {
-    "repo_url": "https://github.com/raj921/strk20-starter-kit",
-    "telegram": [
-      "guthalarajkumar"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/mohithhhh/Aegis",
-    "telegram": [
-      "mohithdk"
-    ],
-    "name": "Aegis",
-    "one_liner": "Private subscriptions on Starknet: recurring payments with visible aggregates, invisible payer and amount.",
-    "category": "Payments",
-    "inspired_by": "RFP-12"
-  },
-  {
-    "repo_url": "https://github.com/obiJohnbosco163/Veilfolio",
-    "telegram": [
-      "ObiJohnbosco"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/ronkenx9/sable",
-    "telegram": [
-      "Kenshixronin"
-    ],
-    "name": "SABLE",
-    "one_liner": "Send a client an invoice link. They pay it. The money lands shielded.",
-    "category": "Payments",
-    "inspired_by": "RFP-11",
-    "team": [
-      "ronkenx9"
-    ],
-    "x_handle": "kenn_ronin"
-  },
-  {
-    "repo_url": "https://github.com/bugsm/whisperpay",
-    "telegram": [
-      "genobu"
-    ],
-    "category": "Payments",
-    "inspired_by": "IDEA-11",
-    "x_handle": "zanexyzx"
-  },
-  {
-    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
-    "telegram": [
-      "Calcutator"
-    ],
-    "name": "STRKWORLD",
-    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
-    "category": "Gaming"
-  },
-  {
-    "repo_url": "https://github.com/Kingnanaweb3/tacit-strk20",
-    "telegram": [
-      "Kingnanacrypt"
-    ],
-    "name": "Tacit",
-    "one_liner": "Sealed-bid auctions with private bids and settlement using STRK20 encrypted notes.",
-    "slug": "tacit",
-    "category": "DeFi"
-  },
-  {
-    "repo_url": "https://github.com/OoJae/aperture-strk20",
-    "telegram": [
-      "Oo_Jae"
-    ],
-    "name": "Aperture",
-    "one_liner": "Sealed-ballot governance and a shielded treasury for DAOs, native to STRK20.",
-    "category": "Infra",
-    "team": [
-      "OoJae"
-    ],
-    "x_handle": "_OoJae",
-    "inspired_by": "IDEA-27"
-  },
-  {
-    "repo_url": "https://github.com/joaoolucas/nightfall",
-    "telegram": [
-      "mortiee_eth"
-    ],
-    "name": "Portage.fun",
-    "one_liner": "Provably-fair idle creature-collecting on Starknet — hatch, evolve, and trade original creatures.",
-    "slug": "portage",
-    "category": "Gaming",
-    "team": [
-      "joaoolucas"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/kaverimeshram/GhostOrder",
-    "telegram": [
-      "Kaveriily"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/vmmuthu31/deceptiveos",
-    "telegram": [
-      "vmmuthu31"
-    ],
-    "name": "CipherNest",
-    "one_liner": "Adversarial AI Cyber Deception Engine deploying living digital twin decoys, steganographic canary lures, and zero-knowledge audit trails for Starknet.",
-    "category": "Infra",
-    "team": [
-      "santhoshkumar0918"
-    ],
-    "x_handle": "Barfi_31"
-  },
-  {
-    "repo_url": "https://github.com/Teecash96/Variety",
-    "telegram": [
-      "Akanbilabs"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/harishmelwani/veilpayouts",
-    "telegram": [
-      "harishmelwanii"
-    ],
-    "name": "VeilPayouts",
-    "one_liner": "Private business payouts on STRK20 - pay anyone by claim link, they collect into a shielded balance.",
-    "category": "Payments",
-    "inspired_by": "IDEA-10"
-  },
-  {
-    "repo_url": "https://github.com/EndPx/zkpayslip",
-    "telegram": [
-      "EndPax"
-    ],
-    "category": "Payments",
-    "inspired_by": "RFP-11"
-  },
-  {
-    "repo_url": "https://github.com/wheval/nomos",
-    "telegram": [
-      "wheval"
-    ],
-    "name": "Nomos",
-    "one_liner": "A private payment gateway for Starknet: businesses that already accept stablecoins integrate once and get several ways to take money, shielded and settled on mainnet through the STRK20 pool.",
-    "category": "Payments",
-    "inspired_by": "IDEA-11",
-    "team": [
-      "wheval"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/dino1x/starkwhisper",
-    "telegram": [
-      "marvelmarvinn"
-    ],
-    "name": "StarkWhisper",
-    "one_liner": "Metadata-resistant, end-to-end encrypted messaging & private payment memos on Starknet.",
-    "category": "Consumer",
-    "inspired_by": "RFP-01",
-    "team": [
-      "dino1x"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/drained69/Sotto",
-    "telegram": [
-      "oxuba"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/doodabug/Chaoskeyplus-appbuild",
-    "telegram": [
-      "TheDoodlebug"
-    ],
-    "name": "ChaosKey+",
-    "one_liner": "Physical-chaos entropy device with a Ready Wallet API tab for STRK20 shield, private transfer, and unshield.",
-    "category": "Tooling",
-    "team": [
-      "doodabug"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/eugenennamdi/ConditionalPay",
-    "telegram": [
-      "eugenennamdi"
-    ],
-    "name": "ConditionalPay",
-    "one_liner": "Programmable private settlement infrastructure for STRK20.",
-    "category": "Infra"
-  },
-  {
-    "repo_url": "https://github.com/nickthelegend/crewkill-strk20",
-    "telegram": [
-      "nickthelegend88"
-    ],
-    "name": "CrewKill",
-    "one_liner": "Staked social deduction where privacy is the game mechanic: buy a seat through the STRK20 pool, draw a role nobody can read, vote anonymously, settle on-chain."
-  },
-  {
-    "repo_url": "https://github.com/justbiar/aegis",
-    "telegram": [
-      "justbiar"
-    ],
-    "name": "Aegis Rescue",
-    "slug": "aegis-rescue",
-    "one_liner": "Whitehat rescue bot: sweeps exposed on-chain funds into the STRK20 shielded pool before attackers can, returns them to verified GitHub owners.",
-    "category": "Tooling"
-  },
-  {
-    "repo_url": "https://github.com/manoahLinks/Cipher21_starknet",
-    "telegram": [
-      "MLinks12"
-    ],
-    "name": "Cipher21",
-    "slug": "cipher21",
-    "one_liner": "Confidential blackjack on Starknet: hidden hands via deck commitments, shielded stakes and payouts through the STRK20 pool.",
-    "category": "Gaming"
-  },
-  {
-    "repo_url": "https://github.com/neromtoobad/doom",
-    "telegram": [
-      "neromtooobad"
-    ],
-    "name": "Doom",
-    "one_liner": "A private prediction market on Starknet: visible odds, invisible bettors. Bet sizes and prices are public so the market stays accurate; who is betting is not.",
-    "category": "DeFi",
-    "x_handle": "neromtoobad"
-  },
-  {
-    "repo_url": "https://github.com/zarah-s/oju",
-    "telegram": [
-      "zarah_0x",
-      "devmano"
-    ],
-    "name": "Oju",
-    "slug": "oju",
-    "one_liner": "Privacy-first prediction markets built on Nigerian specifics, open to the world. Public odds, invisible participants, private positions and payouts through the STRK20 pool.",
-    "category": "DeFi",
-    "inspired_by": "RFP-07"
-  },
-  {
-    "repo_url": "https://github.com/shariqazeem/lumen-strk20",
-    "telegram": [
-      "shariqshkt"
-    ],
-    "name": "Lumen",
-    "slug": "lumen",
-    "one_liner": "Private money, by default — pay, receive and save on Starknet without publishing a financial profile: relationship-scoped privacy boundaries, private receipts, and a silent engine that closes the behavioural leaks cryptography can’t.",
-    "category": "Consumer"
-  },
-  {
-    "repo_url": "https://github.com/bongbongcrypto/stealth-checkout",
-    "telegram": [
-      "bongbongcrypto"
-    ],
-    "name": "Stealth Checkout",
-    "one_liner": "Accept private payments on Starknet: drop-in checkout widget, hosted invoices, webhook confirmations, honest privacy receipts.",
-    "category": "Tooling",
-    "team": [
-      "bongbongcrypto"
-    ],
-    "inspired_by": "IDEA-11"
-  },
-  {
-    "repo_url": "https://github.com/Leequidice/Claim-Links",
-    "telegram": [
-      "flawless_flaws"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/d4m014/one-way",
-    "telegram": [
-      "d4m014"
-    ],
-    "name": "OneWay",
-    "one_liner": "A one-way door for any ERC-20. Get paid without sharing a wallet, or leave a known wallet and exit on another chain.",
-    "category": "Payments",
-    "team": [
-      "d4m014"
-    ],
-    "x_handle": "d4m014"
-  },
-  {
-    "repo_url": "https://github.com/SodiqAbdulwaris/strk-disclose",
-    "telegram": [
-      "AbdulwarisSodiq"
-    ],
-    "category": "Infra"
-  },
-  {
-    "repo_url": "https://github.com/ssadkov/morok-pay-starknet",
-    "telegram": [
-      "ssadkov"
-    ],
-    "name": "MorokPay",
-    "one_liner": "Private USDC donations for creators: one reusable QR, the supporter picks the amount, and the payment stays inside the STRK20 pool. Live on mainnet with Ready; a Sepolia beta opens the same flow to MetaMask-only users.",
-    "category": "Payments",
-    "x_handle": "ssadkov",
-    "inspired_by": "RFP-12"
-  },
-  {
-    "repo_url": "https://github.com/BlackAporia/game-shield",
-    "telegram": [
-      "BlackAporia"
-    ],
-    "name": "GameShield",
-    "one_liner": "Private gaming bounty hub on Starknet: shielded prize pools, provable payout commitments and unlinkable rewards for tournaments, speedruns and PvP.",
-    "category": "Gaming",
-    "team": [
-      "BlackAporia"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Habuskid/Adyton",
-    "telegram": [
-      "habuskid01"
-    ],
-    "category": "DeFi",
-    "inspired_by": "IDEA-28"
-  },
-  {
-    "repo_url": "https://github.com/welson-ai/solmate-starknet",
-    "telegram": [
-      "kiminza_codes"
-    ],
-    "name": "solmate",
-    "one_liner": "On-chain credit scoring and undercollateralized lending on Starknet.",
-    "category": "DeFi",
-    "x_handle": "kiminza_codes"
-  },
-  {
-    "team_name": "STARKSTEALTH",
-    "name": "Alias",
-    "one_liner": "Disposable stealth addresses for one-click private payments on Starknet.",
-    "category": "Privacy",
-    "inspired_by": "ERC-5564",
-    "repo_url": "https://github.com/builder-of-web3/Alias",
-    "team": [
-      "builder-of-web3"
-    ],
-    "telegram": [
-      "mordor"
-    ],
-    "x_handle": "cryot_walker"
-  },
-  {
-    "repo_url": "https://github.com/cipoklean/rhizome",
-    "telegram": [
-      "Cipoklean"
-    ],
-    "name": "Rhizome",
-    "one_liner": "Prices what privacy costs on STRK20, then executes it: fee-aware tranche scheduling for private Vesu position through its own anonymizer.",
-    "slug": "rhizome",
-    "category": "DeFi",
-    "team": [
-      "cipoklean"
-    ],
-    "inspired_by": "IDEA-16",
-    "x_handle": "David63694631"
-  },
-  {
-    "repo_url": "https://github.com/Tanay-77/PrivatePay",
-    "telegram": [
-      "tanaym07"
-    ],
-    "name": "PrivatePay",
-    "slug": "privatepay",
-    "one_liner": "Private payments for freelancers and individuals: shielded transfers and selective payment disclosure powered by STRK20.",
-    "category": "Finance"
-  },
-  {
-    "repo_url": "https://github.com/inline-arc/GeoRush",
-    "telegram": [
-      "AtharvMore"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Leequidice/GhostLine",
-    "telegram": [
-      "flawless_flaws"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/okhaimie-dev/veil",
-    "telegram": [
-      "tonystarkdex"
-    ],
-    "name": "Veil",
-    "slug": "veil",
-    "one_liner": "Veil enables businesses to make confidential stablecoin payments while maintaining accounting-ready records and compliance.",
-    "category": "Finance"
-  },
-  {
-    "repo_url": "https://github.com/velikanghost/sevrin",
-    "telegram": [
-      "velkan_gst"
-    ],
-    "name": "Sevrin",
-    "one_liner": "Confidential token-allocation infrastructure: public aggregate lockups, private beneficiary ownership, and STRK20-settled claims.",
-    "slug": "sevrin",
-    "category": "Infra",
-    "inspired_by": "IDEA-17",
-    "x_handle": "velkan_gst"
-  },
-  {
-    "repo_url": "https://github.com/atrummarkets/atrum-starknet",
-    "telegram": [
-      "KILLERTECH1"
-    ],
-    "name": "Atrum",
-    "one_liner": "Sealed-bid prediction markets: orders stay unreadable until they are binding, clear at a uniform price, and positions are tradeable before resolution.",
-    "slug": "atrum",
-    "category": "Markets",
-    "inspired_by": "RFP-07",
-    "x_handle": "AtrumMarkets"
-  },
-  {
-    "repo_url": "https://github.com/JemIIahh/ghostbook-starknet",
-    "telegram": [
-      "Jemiiah"
-    ],
-    "name": "GhostBook",
-    "one_liner": "Private limit orders and TWAP on Starknet: order terms committed once and enforced on-chain, filled through Ekubo, settled into STRK20 private notes.",
-    "slug": "ghost-book",
-    "category": "DeFi",
-    "team": [
-      "JemIIahh"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/mdlog/ShadowAgents",
-    "telegram": [
-      "mdlog"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/JaDi03/GhostDeal",
-    "telegram": [
-      "dica_javi"
-    ],
-    "name": "GhostDeal",
-    "one_liner": "Pay in person without showing your balance. P2P marketplace escrow on STRK20.",
-    "category": "Consumer",
-    "inspired_by": "IDEA-12",
-    "team": [
-      "JaDi03"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/azeemshaik025/iceberg",
-    "telegram": [
-      "azeemshaik025",
-      "sainathr19"
-    ],
-    "name": "Iceberg",
-    "one_liner": "Private DCA and TWAP on Starknet. Many users' scheduled orders become one anonymous pool swap per interval.",
-    "category": "DeFi",
-    "inspired_by": "IDEA-05"
-  },
-  {
-    "repo_url": "https://github.com/Gaijin-01/privacy_msg",
-    "telegram": [
-      "groove_armada"
-    ],
-    "name": "privacy_msg",
-    "one_liner": "Metadata-resistant private messaging on Starknet: visible payment memo, invisible sender-recipient link, settled through STRK20.",
-    "category": "Social & Communications"
-  },
-  {
-    "repo_url": "https://github.com/noisyboy08/CloakPay",
-    "telegram": [
-      "noisyboy_08"
-    ],
-    "name": "CloakPay",
-    "slug": "cloakpay",
-    "one_liner": "Shielded payroll and discreet invoice settlements for freelancers on Starknet using STRK20 private notes.",
-    "category": "Payments",
-    "inspired_by": "IDEA-11"
-  },
-  {
-    "repo_url": "https://github.com/CaptainDiv/crosslink",
-    "telegram": [
-      "Captin_Div"
-    ],
-    "name": "Crosslink",
-    "slug": "crosslink",
-    "one_liner": "Crosslink measures whether a private payment is actually private. StarkWare's bridgeOutToWallet already does unlinkable payout to any address — what nothing does is tell you whether the anonymity set is deep enough for that to mean anything. Our Linkability Meter scores a pending send against the live mainnet pool on amount uniqueness, timing, channel freshness and plausible-set size, and blocks the send when privacy would be fake. Live on mainnet; it gated our own transfers. Roadmap: an embeddable toggle protocols can drop into their own send flow, and USDC cross-chain corridors via CCTP.",
-    "category": "Payments",
-    "inspired_by": "IDEA-22"
-  },
-  {
-    "repo_url": "https://github.com/kshitij-hash/nightshift",
-    "telegram": [
-      "kshitijHash"
-    ],
-    "name": "NIGHTSHIFT",
-    "one_liner": "Recurring private authorization on the STRK20 pool: subscribe once inside the pool, get charged on schedule without surfacing.",
-    "category": "Payments"
-  },
-  {
-    "repo_url": "https://github.com/starkience/Taskmarket-STRK20",
-    "telegram": [
-      "starkience"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Aaronvern/Tony-Strk",
-    "telegram": [
-      "prathadox",
-      "Aaronpeterdamian"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Arun5768/dignity-rail-strk20",
-    "telegram": [
-      "arun_edition"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/raizo07/BlindPay",
-    "telegram": [
-      "Raizo00"
-    ],
-    "name": "BlindPay",
-    "one_liner": "confidential invoice and payment protocol",
-    "category": "Payments",
-    "inspired_by": "IDEA-11"
-  },
-  {
-    "repo_url": "https://github.com/phllp-tanstic/oxa-protocol",
-    "telegram": [
-      "jurbanph"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/linqining/poker_texas_air",
-    "telegram": [
-      "Dsin77"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Samuel1505/Cistern",
-    "telegram": [
-      "OwenDev"
-    ],
-    "name": "Cistern",
-    "one_liner": "Confidential Payroll Protocol on STRK20.",
-    "category": "Payments"
-  },
-  {
-    "repo_url": "https://github.com/wurli-sh/wotta-strk",
-    "telegram": [
-      "choduprasad"
-    ],
-    "name": "Wotta",
-    "one_liner": "Pay anyone, from any chain, to an @handle or email - and let them receive privately on Starknet.",
-    "slug": "wotta",
-    "category": "Payments",
-    "team": [
-      "wurli-sh"
-    ],
-    "inspired_by": "IDEA-09"
-  },
-  {
-    "repo_url": "https://github.com/jijojohny/velpod",
-    "telegram": [
-      "jijoeth"
-    ],
-    "name": "velpod",
-    "one_liner": "Private Ekubo LP: ticks stay public, the LP does not.",
-    "category": "DeFi",
-    "inspired_by": "IDEA-14"
-  },
-  {
-    "repo_url": "https://github.com/YanYuanFE/mirage",
-    "telegram": [
-      "yanyuanfe"
-    ],
-    "name": "Mirage",
-    "one_liner": "One wallet, every chain, no trace. Shield any ERC-20 on Starknet, exit privately to 35+ chains via NEAR Intents.",
-    "category": "Consumer",
-    "inspired_by": "RFP-09"
-  },
-  {
-    "repo_url": "https://github.com/Timidan/wrenchless",
-    "telegram": [
-      "timidan_x"
-    ],
-    "category": "Consumer",
-    "x_handle": "timidan_x"
-  },
-  {
-    "repo_url": "https://github.com/etvjay/Prism",
-    "telegram": [
-      "JayDeculein"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/SudheerKondamuri/lien",
-    "telegram": [
-      "sudheerio"
-    ],
-    "name": "Lien",
-    "one_liner": "Private lending on Starknet: shield your collateral, borrow, and hide your liquidation risk through the STRK20 pool.",
-    "category": "DeFi",
-    "team": [
-      "SudheerKondamuri"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/danielamodu/Blindside",
-    "telegram": [
-      "fortyxbt"
-    ],
-    "name": "Blindside",
-    "one_liner": "Shielded margin account for Extended perps DEX on Starknet.",
-    "category": "DeFi"
-  },
-  {
-    "repo_url": "https://github.com/A-Raphie/shadowpay",
-    "telegram": [
-      "ernxto"
-    ],
-    "name": "ShadowPay",
-    "one_liner": "Private payroll on Starknet — shield STRK, pay your team with unlinkable note→note transfers, unshield on demand. Built on STRK20.",
-    "category": "Payments",
-    "inspired_by": "RFP-11",
-    "team": [
-      "A-Raphie"
-    ],
-    "x_handle": "a_raphie"
-  },
-  {
-    "repo_url": "https://github.com/ronkenx9/patron",
-    "telegram": [
-      "Kenshixronin"
-    ],
-    "name": "PATRON",
-    "one_liner": "Private tips for creators on Starknet: supporters stay inside the STRK20 pool while the public book shows only count and aggregate.",
-    "category": "Payments",
-    "team": [
-      "ronkenx9"
-    ],
-    "x_handle": "kenn_ronin",
-    "inspired_by": "RFP-12"
-  },
-  {
-    "repo_url": "https://github.com/PugarHuda/jalin",
-    "telegram": [
-      "lynx129",
-      "BangDropID"
-    ],
-    "name": "Jalin",
-    "one_liner": "A programmable execution router for the STRK20 pool: arbitrary multi-step, multi-token plans executed inside a single privacy_invoke, with safety carried by on-chain invariants rather than a whitelist.",
-    "category": "Infra"
-  },
-  {
-    "repo_url": "https://github.com/AduAkorful/quietproof",
-    "telegram": [
-      "Uxorisquaye"
-    ],
-    "name": "QuietProof",
-    "one_liner": "Private campaign funding for protected-source rewards on Starknet.",
-    "category": "Payments"
-  },
-  {
-    "repo_url": "https://github.com/ahmetenesdur/kese",
-    "telegram": [
-      "ahmetenesdur"
-    ],
-    "name": "Kese",
-    "one_liner": "Private money for AI agents: a policy-guarded MCP wallet on the STRK20 pool - private payments within hard limits, Telegram human-approval, claim-link escrow for unregistered recipients, and viewing-key audit reports.",
-    "category": "Payments",
-    "team": [
-      "ahmetenesdur"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/AustinChris1/xence",
-    "telegram": [
-      "thatcreator"
-    ],
-    "name": "Xence",
-    "one_liner": "Proof you were right, before it happened - seal a probabilistic forecast, bond it privately through the STRK20 pool, and let the chain score your calibration. Public record, invisible position.",
-    "category": "Infra"
-  },
-  {
-    "repo_url": "https://github.com/ScriptedBro/OblivionProtocol",
-    "telegram": [
-      "ScriptedBro"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Nitish-1303/CipherBill",
-    "telegram": [
-      "nikki_1303"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Swastik221/strk20",
-    "telegram": [
-      "Swastik221"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Shijas786/Mirage",
-    "telegram": [
-      "shijas"
-    ],
-    "name": "Mirage ZK",
-    "one_liner": "A fully shielded DeFi pool + dark order book on Starknet.",
-    "category": "DeFi",
-    "slug": "mirage-zk"
-  },
-  {
-    "repo_url": "https://github.com/kfastov/strk20-indexer",
-    "telegram": [
-      "kfastov"
-    ],
-    "name": "strk20-indexer",
-    "one_liner": "Open, self-hostable note indexer and explorer for the STRK20 pool. Wallets sync without handing over a viewing key.",
-    "category": "Infra",
-    "inspired_by": "IDEA-23"
-  },
-  {
-    "repo_url": "https://github.com/dpinones/private-poker",
-    "telegram": [
-      "dpinoness"
-    ],
-    "name": "Private Poker",
-    "one_liner": "Heads-up poker where hole cards are encrypted STRK20 notes.",
-    "category": "Gaming",
-    "inspired_by": "RFP-03"
-  },
-  {
-    "repo_url": "https://github.com/leojay-net/almoner",
-    "telegram": [
-      "easybrane"
-    ],
-    "name": "Almoner",
-    "one_liner": "Private batch disbursement on STRK20: pay many people from a shielded balance for one flat pool fee, including people who have never registered.",
-    "category": "Infra",
-    "inspired_by": "IDEA-10"
-  },
-  {
-    "repo_url": "https://github.com/mystiquemide/nyalthe",
-    "telegram": [
-      "mystiquemide"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/PhiBao/lantern",
-    "telegram": [
-      "kiter9"
-    ],
-    "name": "Lantern",
-    "one_liner": "Sealed crowdfunding on Starknet: public goal and verifiable total, cryptographically private donors.",
-    "category": "Consumer",
-    "team": [
-      "PhiBao"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Immadominion/tip",
-    "telegram": [
-      "ImmaDotDev"
-    ],
-    "name": "tip",
-    "one_liner": "A native mobile wallet for STRK20: private send, receive, and shield/unshield, non-custodial, built in Flutter.",
-    "category": "Infrastructure",
-    "team": [
-      "Immadominion"
-    ],
-    "inspired_by": "RFP-10"
-  },
-  {
-    "repo_url": "https://github.com/thebhavye/VeilFlow",
-    "telegram": [
-      "thebhavyekathuria"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/VedanshShuklaa/foretell",
-    "telegram": [
-      "Vedansh_S1"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Mrcube3/legerGlass",
-    "telegram": [
-      "Geecube2"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/mohdafzal11/gavel",
-    "telegram": [
-      "afzalnaved"
-    ],
-    "category": "DeFi",
-    "inspired_by": "RFP-08"
-  },
-  {
-    "repo_url": "https://github.com/SakshamGiri202/my-strk20-project",
-    "telegram": [
-      "SakshamGiri"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/hicksonhaziel/Roundveil",
-    "telegram": [
-      "devhickson"
-    ],
-    "name": "Roundveil",
-    "one_liner": "Private savings circles where each round pays the precommitted member without exposing who contributed or who received the pot.",
-    "slug": "roundveil",
-    "category": "Consumer",
-    "team": [
-      "hicksonhaziel"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Bholdguy/Cloakroom",
-    "telegram": [
-      "Crypth_valid"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Tutulii/private-payroll",
-    "telegram": [
-      "Cryptogk00kk"
-    ],
-    "name": "Private Payroll",
-    "one_liner": "Private payroll and treasury disbursements on Starknet without exposing employee salaries or linking recipients to the company treasury.",
-    "category": "Payments",
-    "team": [
-      "Tutulii"
-    ],
-    "inspired_by": "RFP-11"
-  },
-  {
-    "repo_url": "https://github.com/Mrwicks00/Nightgate",
-    "telegram": [
-      "mrwicks00"
-    ],
-    "name": "Nightgate",
-    "one_liner": "A decorrelation layer for the STRK20 pool: enter from any chain with your existing wallet, exit later to an unrelated address in a standard denomination after a randomized delay, optionally in a different asset.",
-    "category": "Privacy",
-    "inspired_by": "RFP-09",
-    "team": [
-      "Mrwicks00"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Vickrey-Protocol/vickrey",
-    "telegram": [
-      "jagadeeshftw"
-    ],
-    "name": "Vickrey",
-    "category": "DeFi",
-    "inspired_by": "RFP-08"
-  },
-  {
-    "repo_url": "https://github.com/shouryam-kumar/strk20-zk-receipts",
-    "telegram": [
-      "ShouryamKumar",
-      "PrathibhaBilagi"
-    ],
-    "name": "STRK20 ZK Receipts",
-    "one_liner": "On-demand cryptographic proofs and selective disclosure for STRK20 private transactions",
-    "category": "Tooling",
-    "team": [
-      "shouryam-kumar",
-      "prathibhabilagi"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/heyfegor/kelpay",
-    "telegram": [
-      "creatormorph"
-    ],
-    "name": "kelpay",
-    "one_liner": "Private payment links for freelancers, creators, and small teams.",
-    "slug": "kelpay",
-    "category": "Payments",
-    "team": [
-      "creatormorph"
-    ],
-    "x_handle": "creatormorph"
-  },
-  {
-    "repo_url": "https://github.com/SourceSenseiTheRealOne/cipherbid",
-    "telegram": [
-      "sourcesensei"
-    ],
-    "one_liner": "Real-collateral Vickrey NFT auctions funded through STRK20, with sealed bids and shielded claims.",
-    "category": "DeFi",
-    "inspired_by": "RFP-08"
-  },
-  {
-    "repo_url": "https://github.com/bhupeshmukane/strk20-private-pay",
-    "telegram": [
-      "bhupeshmukane"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/ELLA0VICTOR/deadletter",
-    "telegram": [
-      "Viktor_kun0"
-    ],
-    "category": "Consumer",
-    "inspired_by": "RFP-02"
-  },
-  {
-    "repo_url": "https://github.com/Cassxbt/aver",
-    "telegram": [
-      "cassxbt"
-    ],
-    "category": "Tooling",
-    "inspired_by": "IDEA-21",
-    "x_handle": "Cassxbt"
-  },
-  {
-    "repo_url": "https://github.com/maheepatel/Cellar",
-    "telegram": [
-      "Mahendarp9"
-    ],
-    "name": "Cellar",
-    "one_liner": "A private yield account on Starknet. Shield an asset, earn real lending yield through a custom anonymizer contract, and stay unlinkable to it visible flow, invisible participant.",
-    "category": "DeFi",
-    "inspired_by": "RFP-24",
-    "team": [
-      "maheepatel"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/dexarxbt/Lacuna",
-    "telegram": [
-      "dexarxbt"
-    ],
-    "name": "Lacuna",
-    "one_liner": "The STRK20 privacy studio for designing private flows, exposing public boundaries, and shipping verified Starknet integrations.",
-    "category": "Tooling"
-  },
-  {
-    "repo_url": "https://github.com/bzdmin/ghostsub",
-    "telegram": [
-      "bzadm1n"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/numbxs/veilguard",
-    "telegram": [
-      "hamedanon"
-    ],
-    "category": "Infra",
-    "inspired_by": "IDEA-25"
-  },
-  {
-    "repo_url": "https://github.com/medine2906/strk20-hackathon",
-    "telegram": [
-      "fuezta"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/jadonamite/XENIA",
-    "telegram": [
-      "jadonamite"
-    ],
-    "category": "Payments",
-    "team": [
-      "jadonamite",
-      "Sam-Rytech"
-    ],
-    "x_handle": "jadonamite",
-    "inspired_by": "IDEA-09"
-  },
-  {
-    "repo_url": "https://github.com/OGtev317/Gigstark",
-    "telegram": [
-      "AtheraL1"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/CryptoZephyr/VOCAP",
-    "telegram": [
-      "Zephyr_cryt"
-    ],
-    "category": "Infra"
-  },
-  {
-    "repo_url": "https://github.com/kelvinpraises/maestro",
-    "telegram": [
-      "littlesisfx"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Cryptojigi/keepr",
-    "telegram": [
-      "Xynetech"
-    ],
-    "name": "Keepr",
-    "one_liner": "Private subscription payments for AI agents and creators on STRK20 — shield, subscribe, auto-renew, prove access with a STARK proof.",
-    "category": "Payments",
-    "inspired_by": "RFP-12"
-  },
-  {
-    "repo_url": "https://github.com/dolepee/afterlight",
-    "telegram": [
-      "Emini_qdee"
-    ],
-    "name": "Afterlight",
-    "one_liner": "Private STRK20 recovery reserves with authenticated heartbeat, grace, and owner veto control.",
-    "category": "Consumer"
-  },
-  {
-    "repo_url": "https://github.com/Emmanuelzyronis/preflight",
-    "telegram": [
-      "emmanuelzyronis"
-    ],
-    "name": "Preflight",
-    "one_liner": "Pre-signature privacy simulation for STRK20: detect amount, timing, and linkability leaks before signing.",
-    "category": "Tooling",
-    "team": [
-      "Emmanuelzyronis"
-    ],
-    "inspired_by": "IDEA-25"
-  },
-  {
-    "slug": "covert",
-    "repo_url": "https://github.com/xyzbutworse/covert",
-    "telegram": [
-      "octanexyz"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/0mniipotent/VaultX",
-    "telegram": [
-      "KingOmnii"
-    ],
-    "name": "VaultX",
-    "one_liner": "Private inactivity-based crypto recovery powered by STRK20.",
-    "slug": "vaultx",
-    "category": "Consumer",
-    "x_handle": "thedemigod99"
-  },
-  {
-    "repo_url": "https://github.com/iamdflame/quorum",
-    "telegram": [
-      "dhonchain"
-    ],
-    "slug": "quorum",
-    "name": "Quorum",
-    "one_liner": "Threshold coordination on STRK20: pledge into a campaign and your pledge binds only once enough others have too. Miss the quorum and you are refunded, never revealed.",
-    "category": "Infra"
-  },
-  {
-    "repo_url": "https://github.com/Stella112/marginguard",
-    "telegram": [
-      "marisdigitals"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/onyebuchidaniel60/verity",
-    "telegram": [
-      "Etfradd"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/zachbuilds26/stash",
-    "telegram": [
-      "zachhct"
-    ],
-    "name": "Stash",
-    "one_liner": "Shielded yield automation — your vault, your strategy, nobody sees",
-    "category": "DeFi"
-  },
-  {
-    "repo_url": "https://github.com/KayProject/velum",
-    "telegram": [
-      "jadonamite"
-    ],
-    "name": "Velum",
-    "one_liner": "Prove you earned enough, without showing what you earned.",
-    "category": "Consumer",
-    "team": [
-      "KayProject",
-      "jadonamite"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Valorian0108/before-you-sign",
-    "telegram": [
-      "demi_03"
-    ],
-    "slug": "before-you-sign-strk20",
-    "name": "before-you-sign"
-  },
-  {
-    "repo_url": "https://github.com/sands786/veyra",
-    "telegram": [
-      "Forgeclaw"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Kunmiesther/Orlop",
-    "telegram": [
-      "Estar_Kunmiii"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/adipundir/himitsu-protocol",
-    "telegram": [
-      "adipundir",
-      "deepak1802"
-    ],
-    "name": "Himitsu Protocol",
-    "category": "Infra",
-    "team": [
-      "adipundir",
-      "deepakA18"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/cenwadike/open-beanie",
-    "telegram": [
-      "kombi16"
-    ],
-    "category": "Payments"
-  },
-  {
-    "repo_url": "https://github.com/Philotheephilix/ghostcall",
-    "telegram": [
-      "philotheephilix"
-    ],
-    "name": "GhostCall",
-    "category": "Privacy"
-  },
-  {
-    "repo_url": "https://github.com/winsznx/limen",
-    "telegram": [
-      "winszn_x"
-    ],
-    "name": "Limen",
-    "category": "Infra"
-  },
-  {
-    "repo_url": "https://github.com/solutionkanu12/iwa",
-    "telegram": [
-      "solution_o1"
-    ],
-    "name": "Iwa",
-    "one_liner": "Private savings circles on Starknet: neighbours contribute and take turns collecting the pot through the STRK20 pool, with amounts hidden and good standing provable.",
-    "slug": "iwa",
-    "category": "DeFi",
-    "team": [
-      "solutionkanu12"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Blockchain-Oracle/strk20-run",
-    "telegram": [
-      "BlockchainOracle_dev"
-    ],
-    "name": "strk20.run",
-    "category": "Consumer",
-    "one_liner": "A private account on Starknet's STRK20 pool - no wallet, no login. Hold and send shielded value, chat with money attached, swap, bridge out, bet, launch, and vote in private houses.",
-    "x_handle": "chain_oracle",
-    "inspired_by": "IDEA-13"
-  },
-  {
-    "repo_url": "https://github.com/Iziedking/VeilAP",
-    "telegram": [
-      "Izie17",
-      "Bhenn_nny"
-    ],
-    "name": "VeilAP",
-    "one_liner": "Private proof-backed settlement for sensitive work, with verifiable delivery and private STRK20 payments.",
-    "category": "Payments",
-    "team": [
-      "Iziedking",
-      "Benita2001"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Web3Kyami/Blackbox-Protocol",
-    "telegram": [
-      "Web3Kyami"
-    ],
-    "name": "BlackBox Protocol",
-    "one_liner": "Private capability infrastructure for Starknet — public rules, private operators, powered by STRK20.",
-    "category": "Infra",
-    "team": [
-      "Web3Kyami"
-    ],
-    "x_handle": "Web3Kyami"
-  },
-  {
-    "repo_url": "https://github.com/sandman-sh/EverTrust-Protocol",
-    "telegram": [
-      "iraavan"
-    ],
-    "name": "EverTrust Protocol",
-    "one_liner": "Confidential digital wealth succession and dead man's switch on Starknet powered by STRK20 shielded notes.",
-    "category": "Privacy",
-    "team": [
-      "sandman-sh"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/ayush4345/strkret",
-    "telegram": [
-      "ayushk_45",
-      "Kryptosaurus"
-    ],
-    "team": [
-      "ayush4345",
-      "Saurus9290"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/0xkinno/mantissa",
-    "telegram": [
-      "kinnoski"
-    ],
-    "category": "DeFi"
-  },
-  {
-    "repo_url": "https://github.com/leojay-net/SLPM-V2",
-    "telegram": [
-      "mattosi"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/shariqazeem/sage",
-    "telegram": [
-      "shariqshkt"
-    ],
-    "name": "Sage",
-    "one_liner": "An autonomous agent that judges human work and pays for it — addressing each payout to a person rather than a wallet, so someone with no wallet and no gas can still collect, and who was paid stays private.",
-    "slug": "sage",
-    "category": "Payments"
-  },
-  {
-    "repo_url": "https://github.com/charlesms1246/hydra",
-    "telegram": [
-      "hackerhai12"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/notcodesid/kairo",
-    "telegram": [
-      "notcodesid"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/RaYYeR220/cordon",
-    "telegram": [
-      "L0ceo"
-    ],
-    "name": "Cordon",
-    "one_liner": "Credential-gated, on-chain-enforced policy for shielded value on Starknet.",
-    "slug": "cordon",
-    "category": "Infra",
-    "x_handle": "rayyer_220",
-    "inspired_by": "IDEA-22"
-  },
-  {
-    "repo_url": "https://github.com/levithefirst/provah",
-    "telegram": [
-      "leviweb3x"
-    ],
-    "name": "Provah",
-    "one_liner": "Capability layer for STRK20 pool activity: prove public deposit history, redeem a one-time pass from any wallet."
-  },
-  {
-    "repo_url": "https://github.com/Cyano88/kudiroll",
-    "telegram": [
-      "cyano88"
-    ],
-    "name": "KudiRoll",
-    "category": "Payments",
-    "x_handle": "onoja_cee"
-  },
-  {
-    "repo_url": "https://github.com/qdeeworld/afterlight",
-    "telegram": [
-      "Emini_qdee"
-    ],
-    "name": "Afterlight",
-    "slug": "afterlight-recovery",
-    "one_liner": "Private STRK20 recovery reserves with authenticated heartbeat, grace, and owner veto control.",
-    "category": "Consumer",
-    "team": [
-      "qdeeworld"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/cryptnuel/veilpass",
-    "telegram": [
-      "noeltayjnr"
-    ],
-    "name": "VeilPass",
-    "one_liner": "Scam-resistant private payment requests on Starknet, powered by STRK20.",
-    "category": "Payments",
-    "team": [
-      "cryptnuel"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/zachbuilds26/coffer",
-    "telegram": [
-      "zachhct"
-    ],
-    "name": "Coffer",
-    "one_liner": "Private grants for onchain communities, with public accountability and shielded STRK20 payouts.",
-    "category": "Payments",
-    "team": [
-      "zachbuilds26"
-    ],
-    "inspired_by": "RFP-11"
-  },
-  {
-    "repo_url": "https://github.com/Carlys17/nyx-protocol",
-    "telegram": [
-      "carlysipahutar"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Felabs1/shade",
-    "telegram": [
-      "felabs"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Himess/ghostloop",
-    "telegram": [
-      "SemihCivelek"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/SunsetLabs-Game/stableroll",
-    "telegram": [
-      "salazarsebas"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/YieldStark/mainnet-v2",
-    "telegram": [
-      "masterpiece_eth"
-    ],
-    "name": "YieldStark",
-    "one_liner": "Private yield on Starknet: shield through the STRK20 pool, lend on Vesu, and stay unlinkable.",
-    "slug": "yieldstark",
-    "category": "DeFi",
-    "team": [
-      "JY20"
-    ],
-    "x_handle": "masterpiece_eth",
-    "inspired_by": "IDEA-16"
-  },
-  {
-    "repo_url": "https://github.com/Eric-65/holographic-agent-marketplace",
-    "telegram": [
-      "eric0xbt"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/tang-vu/veilzero",
-    "telegram": [
-      "tangvublockchain"
-    ],
-    "name": "VeilZero",
-    "category": "Tooling",
-    "inspired_by": "RFP-02"
-  },
-  {
-    "repo_url": "https://github.com/DavidIfebueme/musetub",
-    "telegram": [
-      "cypheron"
-    ],
-    "name": "Musetub",
-    "one_liner": "Per-watch-time video streaming on Starknet: viewers pay USDC for seconds watched via x402, creators earn private STRK20 shielded payouts.",
-    "category": "Consumer",
-    "team": [
-      "DavidIfebueme"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Alajemba-Paul/CairoBot",
-    "telegram": [
-      "realpaulthepundit"
-    ],
-    "name": "CairoBot",
-    "one_liner": "Private perps on Extended, from chat, CLI, or an agent.",
-    "slug": "cairobot",
-    "category": "DeFi",
-    "team": [
-      "Alajemba-Paul"
-    ],
-    "x_handle": "realpauldpundit",
-    "inspired_by": "IDEA-02"
-  },
-  {
-    "repo_url": "https://github.com/otomdee/otc-veil",
-    "telegram": [
-      "Ox_Money"
-    ],
-    "name": "OTC Veil",
-    "one_liner": "Trustless private OTC settlement on STRK20 - atomic fills, no desk, no identity link",
-    "category": "DeFi",
-    "inspired_by": "private-otc-settlement",
-    "team": [
-      "otomdee"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Stoneybro/starkaudit",
-    "telegram": [
-      "stoneybro1"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Femtech-web/droptron-launchpad",
-    "telegram": [
-      "akoladeoluwafemi"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/XDGram/PhantomPay",
-    "telegram": [
-      "xDGraM80"
-    ],
-    "category": "Payments",
-    "inspired_by": "IDEA-11"
-  },
-  {
-    "repo_url": "https://github.com/Alike001/strk20-workbench",
-    "telegram": [
-      "IamAlikeX",
-      "agbacoder01"
-    ],
-    "category": "Infra"
-  },
-  {
-    "repo_url": "https://github.com/sneg55/nagare",
-    "telegram": [
-      "sneg55"
-    ],
-    "name": "Nagare",
-    "category": "DeFi"
-  },
-  {
-    "repo_url": "https://github.com/bernieboy0001/privpatch",
-    "telegram": [
-      "Auditonbase"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/Spagero763/convoy",
-    "telegram": [
-      "spagerobaseeth"
-    ],
-    "name": "Convoy",
-    "category": "DeFi"
-  },
-  {
-    "repo_url": "https://github.com/TheWeirdDee/sole",
-    "telegram": [
-      "deeisnothuman"
-    ]
-  },
-  {
-    "repo_url": "https://github.com/nvnx7/supasafe",
-    "telegram": [
-      "nvnx7"
-    ],
-    "name": "supasafe",
-    "one_liner": "A private multisig supporting payments, swaps, yield and more, where a minimum number co-owners approve transactions.",
-    "slug": "supasafe",
-    "category": "Infra",
-    "inspired_by": "RFP-27"
-  },
-  {
-    "repo_url": "https://github.com/nickthelegend/molfi-fun",
-    "telegram": [
-      "nickthelegend88"
-    ],
-    "name": "molfi",
-    "one_liner": "Prediction markets where your position stays sealed until settlement: pick a price range, stake through the STRK20 pool, and nobody can front run or copy a position they cannot see."
-  },
-  {
-    "repo_url": "https://github.com/venture23-aleo/VeruShield-Connect",
-    "telegram": [
-      "sdpisreddevil",
-      "sndpbhujl",
-      "kandelshailesh",
-      "baralprabin"
-    ],
-    "name": "VeruShield Connect",
-    "one_liner": "Encrypted Messaging on STRK20"
-  }
+    {
+        "repo_url": "https://github.com/ZylithFi/client",
+        "telegram": [
+            "t4nz4n1t3"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/PoulavBhowmick03/erebus",
+        "telegram": [
+            "impoulav",
+            "ishitaaaaw"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/gstohl/quietline",
+        "telegram": [
+            "stack_ref_error"
+        ],
+        "name": "Quietline",
+        "one_liner": "Encrypted on-chain mail on Starknet. Payment memos ride the same private transfer.",
+        "category": "Other",
+        "inspired_by": "RFP-01",
+        "team": [
+            "gstohl"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Sarthib7/stk402",
+        "telegram": [
+            "sarthib7"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/zkasuran/veilcast",
+        "telegram": [
+            "zkasuran"
+        ],
+        "name": "Veilcast",
+        "one_liner": "Private prediction markets on Starknet. Trade them yourself, or hand an agent a mandate the contract will not let it abuse.",
+        "category": "DeFi",
+        "inspired_by": "RFP-07",
+        "team": [
+            "zkasuran"
+        ],
+        "x_handle": "zkasuran"
+    },
+    {
+        "repo_url": "https://github.com/dmetagame/cutout",
+        "telegram": [
+            "Herbubakar"
+        ],
+        "name": "Cutout",
+        "category": "Infra"
+    },
+    {
+        "repo_url": "https://github.com/kamalbuilds/neobank",
+        "telegram": [
+            "kamalthedev"
+        ],
+        "name": "Private money account",
+        "one_liner": "Hold, send, and earn on STRK20 without publishing salary or net worth.",
+        "slug": "neobank",
+        "category": "Consumer",
+        "team": [
+            "kamalbuilds"
+        ],
+        "x_handle": "kamalbuilds",
+        "inspired_by": "IDEA-13"
+    },
+    {
+        "repo_url": "https://github.com/0xrlawrence/envelope",
+        "telegram": [
+            "fullstack0x"
+        ],
+        "category": "Payments",
+        "inspired_by": "IDEA-09"
+    },
+    {
+        "repo_url": "https://github.com/codeswithroh/veyl",
+        "telegram": [
+            "codeswithroh"
+        ],
+        "name": "Veyl",
+        "one_liner": "Private launch & trading terminal on Starknet — trade and launch tokens through unlinkable execution identities funded by the STRK20 pool.",
+        "category": "DeFi",
+        "inspired_by": "RFP-06",
+        "team": [
+            "codeswithroh"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Akinbola247/offbook",
+        "telegram": [
+            "iamkenzman"
+        ],
+        "name": "offbook",
+        "one_liner": "a private OTC settlement layer for Starknet, Counterparties agree a token-for-token block trade (RFQ), then settle atomically through STRK20",
+        "category": "DeFi",
+        "inspired_by": "RFP-05",
+        "team": [
+            "iamkenzman"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/DevTest-me/hidden-starknet",
+        "telegram": [
+            "Blayce4T6"
+        ],
+        "name": "Hidden",
+        "one_liner": "Hidden-information games on Starknet powered by STRK20 privacy.",
+        "slug": "hidden",
+        "category": "Other"
+    },
+    {
+        "repo_url": "https://github.com/Ololadestephen/paybook",
+        "telegram": [
+            "hectormain"
+        ],
+        "name": "Paybook",
+        "one_liner": "Private payroll with scoped disclosure. Public can verify a run; only the payee or auditor can open a slice.",
+        "category": "Payments",
+        "inspired_by": "RFP-11",
+        "team": [
+            "Ololadestephen"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Shadow-MMN/noxis",
+        "telegram": [
+            "Shadow_MMN"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/nftkingiii/Morrow",
+        "telegram": [
+            "NFTKINGII"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/SergioSSantiago/philoxenia",
+        "telegram": [
+            "sergiossantiago"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/kevlau1/redpocket",
+        "telegram": [
+            "Ttttkkkk121"
+        ],
+        "name": "Redpocket",
+        "one_liner": "Password red packets: one link, N shares, each claim lands in a shielded STRK20 balance.",
+        "category": "Payments",
+        "inspired_by": "IDEA-09",
+        "team": [
+            "kevlau1"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/broody/stake-wars",
+        "telegram": [
+            "broody_eth"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Some1Uknow/cipherpay-strk20",
+        "telegram": [
+            "raghavdotsol"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Abhyudday/tx404",
+        "telegram": [
+            "Abhyudday"
+        ],
+        "name": "Tx404",
+        "one_liner": "Non-custodial shielding API/SDK: drop shield, unshield, and private-transfer into any app without touching a viewing key.",
+        "category": "Infra",
+        "inspired_by": "IDEA-26"
+    },
+    {
+        "repo_url": "https://github.com/JemimahEkong/PrivKit",
+        "telegram": [
+            "Jemmy1st"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/0xConsole/strk20-sentinel",
+        "telegram": [
+            "hermesmoneybot"
+        ],
+        "name": "STRK20 Privacy Sentinel",
+        "one_liner": "MCP-powered privacy analytics agent for monitoring and managing shielded DeFi positions on Starknet.",
+        "category": "Tooling",
+        "team": [
+            "0xConsole"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/tinoxbt/sealed",
+        "telegram": [
+            "tinoxbt"
+        ],
+        "name": "Sealed",
+        "one_liner": "Sealed-bid, second-price auctions on Starknet with unlinkable bidders and private settlement through STRK20.",
+        "category": "DeFi",
+        "inspired_by": "RFP-08",
+        "team": [
+            "tinoxbt"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/cxto21/ownerz",
+        "telegram": [
+            "naiamst"
+        ],
+        "name": "Ownerz",
+        "one_liner": "Privacy-first data marketplace on Starknet with post-quantum encryption and STRK20 payments.",
+        "category": "Consumer",
+        "team": [
+            "cxto21"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Techkeyy/lens",
+        "telegram": [
+            "iszee23"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/mrnetwork0001/Cloakra",
+        "telegram": [
+            "mr_network001"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/frankolien/blindpool",
+        "telegram": [
+            "Frank_olien"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Gedion08/Nexora-Protocol.git",
+        "telegram": [
+            "Kartello_Crypto2"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/daraijaola/ghostbounty",
+        "telegram": [
+            "Micheal_ijaola"
+        ],
+        "name": "GhostBounty",
+        "one_liner": "Anonymous responsible disclosure with encrypted reports, proof-of-authorship, and private STRK20 bounty payments.",
+        "category": "Tooling",
+        "team": [
+            "daraijaola"
+        ],
+        "x_handle": "Micheal_node",
+        "inspired_by": "RFP-02"
+    },
+    {
+        "repo_url": "https://github.com/ashiru-1/VeilCheck",
+        "telegram": [
+            "cyph3rxt"
+        ],
+        "name": "VeilCheck",
+        "one_liner": "Privacy preflight for STRK20: detect timing correlation and amount leakage before signing.",
+        "category": "Tooling",
+        "team": [
+            "ashiru-1"
+        ],
+        "x_handle": "cyph3rxt",
+        "inspired_by": "IDEA-25"
+    },
+    {
+        "repo_url": "https://github.com/SmratJay/strk20-privacy-wallet",
+        "telegram": [
+            "popexenon"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/DXJLabs/vinss",
+        "telegram": [
+            "oiii22"
+        ],
+        "name": "VINSS",
+        "one_liner": "Agentic private deal room on Starknet for encrypted negotiation, offers, messaging, and private escrow settlement powered by STRK20.",
+        "category": "Social & Communications",
+        "team": [
+            "DXJLabs"
+        ],
+        "inspired_by": "IDEA-01"
+    },
+    {
+        "repo_url": "https://github.com/welttowelt/mosby-pass",
+        "telegram": [
+            "Odin_free"
+        ],
+        "name": "Mosby Pass",
+        "one_liner": "Private event admission powered by shielded STRK on Starknet.",
+        "category": "Consumer",
+        "team": [
+            "welttowelt"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/mateojkk/Nomada",
+        "telegram": [
+            "mateojkk"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/kenkomu/airlock",
+        "telegram": [
+            "Kenkomu"
+        ],
+        "name": "Airlock",
+        "one_liner": "One-click privacy from any chain: bridge in, hold private, withdraw to a different chain with no on-chain link.",
+        "category": "Infra",
+        "team": [
+            "kenkomu"
+        ],
+        "inspired_by": "RFP-09"
+    },
+    {
+        "repo_url": "https://github.com/Dapperdavidd/Privora",
+        "telegram": [
+            "Dapperdavidd"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/welttowelt/booty-bank",
+        "telegram": [
+            "Odin_free"
+        ],
+        "name": "Booty Bank",
+        "one_liner": "Private income credentials and credit eligibility for OnlyFans creators on Starknet.",
+        "category": "Consumer",
+        "team": [
+            "welttowelt"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Jennycruzy/facet",
+        "telegram": [
+            "Jennycruzy57"
+        ],
+        "name": "Facet",
+        "one_liner": "Private identities for Starknet DeFi. One shielded balance, unlimited unlinkable facets, one per protocol.",
+        "category": "Infra",
+        "x_handle": "jennyoliver57"
+    },
+    {
+        "repo_url": "https://github.com/mayorXBT/ghoste-starknet",
+        "telegram": [
+            "demayoor"
+        ],
+        "name": "Ghoste for Starknet",
+        "one_liner": "Private meta-routing and unlinkable settlement on Starknet.",
+        "category": "DeFi",
+        "x_handle": "mayorxbt"
+    },
+    {
+        "repo_url": "https://github.com/OpenDagri/veilpay",
+        "telegram": [
+            "omniflowfounder"
+        ],
+        "name": "VeilPay",
+        "one_liner": "Private payroll with scoped disclosure. Public can verify a run; only the payee or auditor can open a slice.",
+        "category": "Payments"
+    },
+    {
+        "repo_url": "https://github.com/Avinash1286/shadowledger",
+        "telegram": [
+            "theavi1286"
+        ],
+        "name": "ShadowLedger",
+        "one_liner": "Private payroll with public aggregate accountability on STRK20.",
+        "category": "Payments",
+        "inspired_by": "RFP-11"
+    },
+    {
+        "repo_url": "https://github.com/raj921/strk20-starter-kit",
+        "telegram": [
+            "guthalarajkumar"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/mohithhhh/Aegis",
+        "telegram": [
+            "mohithdk"
+        ],
+        "name": "Aegis",
+        "one_liner": "Private subscriptions on Starknet: recurring payments with visible aggregates, invisible payer and amount.",
+        "category": "Payments",
+        "inspired_by": "RFP-12"
+    },
+    {
+        "repo_url": "https://github.com/obiJohnbosco163/Veilfolio",
+        "telegram": [
+            "ObiJohnbosco"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/ronkenx9/sable",
+        "telegram": [
+            "Kenshixronin"
+        ],
+        "name": "SABLE",
+        "one_liner": "Send a client an invoice link. They pay it. The money lands shielded.",
+        "category": "Payments",
+        "inspired_by": "RFP-11",
+        "team": [
+            "ronkenx9"
+        ],
+        "x_handle": "kenn_ronin"
+    },
+    {
+        "repo_url": "https://github.com/bugsm/whisperpay",
+        "telegram": [
+            "genobu"
+        ],
+        "category": "Payments",
+        "inspired_by": "IDEA-11",
+        "x_handle": "zanexyzx"
+    },
+    {
+        "repo_url": "https://github.com/Calcutatator/STRKWORLD",
+        "telegram": [
+            "Calcutator"
+        ],
+        "name": "STRKWORLD",
+        "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
+        "category": "Gaming"
+    },
+    {
+        "repo_url": "https://github.com/Kingnanaweb3/tacit-strk20",
+        "telegram": [
+            "Kingnanacrypt"
+        ],
+        "name": "Tacit",
+        "one_liner": "Sealed-bid auctions with private bids and settlement using STRK20 encrypted notes.",
+        "slug": "tacit",
+        "category": "DeFi"
+    },
+    {
+        "repo_url": "https://github.com/OoJae/aperture-strk20",
+        "telegram": [
+            "Oo_Jae"
+        ],
+        "name": "Aperture",
+        "one_liner": "Sealed-ballot governance and a shielded treasury for DAOs, native to STRK20.",
+        "category": "Infra",
+        "team": [
+            "OoJae"
+        ],
+        "x_handle": "_OoJae",
+        "inspired_by": "IDEA-27"
+    },
+    {
+        "repo_url": "https://github.com/joaoolucas/nightfall",
+        "telegram": [
+            "mortiee_eth"
+        ],
+        "name": "Portage.fun",
+        "one_liner": "Provably-fair idle creature-collecting on Starknet — hatch, evolve, and trade original creatures.",
+        "slug": "portage",
+        "category": "Gaming",
+        "team": [
+            "joaoolucas"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/kaverimeshram/GhostOrder",
+        "telegram": [
+            "Kaveriily"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/vmmuthu31/deceptiveos",
+        "telegram": [
+            "vmmuthu31"
+        ],
+        "name": "CipherNest",
+        "one_liner": "Adversarial AI Cyber Deception Engine deploying living digital twin decoys, steganographic canary lures, and zero-knowledge audit trails for Starknet.",
+        "category": "Infra",
+        "team": [
+            "santhoshkumar0918"
+        ],
+        "x_handle": "Barfi_31"
+    },
+    {
+        "repo_url": "https://github.com/Teecash96/Variety",
+        "telegram": [
+            "Akanbilabs"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/harishmelwani/veilpayouts",
+        "telegram": [
+            "harishmelwanii"
+        ],
+        "name": "VeilPayouts",
+        "one_liner": "Private business payouts on STRK20 - pay anyone by claim link, they collect into a shielded balance.",
+        "category": "Payments",
+        "inspired_by": "IDEA-10"
+    },
+    {
+        "repo_url": "https://github.com/EndPx/zkpayslip",
+        "telegram": [
+            "EndPax"
+        ],
+        "category": "Payments",
+        "inspired_by": "RFP-11"
+    },
+    {
+        "repo_url": "https://github.com/wheval/nomos",
+        "telegram": [
+            "wheval"
+        ],
+        "name": "Nomos",
+        "one_liner": "A private payment gateway for Starknet: businesses that already accept stablecoins integrate once and get several ways to take money, shielded and settled on mainnet through the STRK20 pool.",
+        "category": "Payments",
+        "inspired_by": "IDEA-11",
+        "team": [
+            "wheval"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/dino1x/starkwhisper",
+        "telegram": [
+            "marvelmarvinn"
+        ],
+        "name": "StarkWhisper",
+        "one_liner": "Metadata-resistant, end-to-end encrypted messaging & private payment memos on Starknet.",
+        "category": "Consumer",
+        "inspired_by": "RFP-01",
+        "team": [
+            "dino1x"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/drained69/Sotto",
+        "telegram": [
+            "oxuba"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/doodabug/Chaoskeyplus-appbuild",
+        "telegram": [
+            "TheDoodlebug"
+        ],
+        "name": "ChaosKey+",
+        "one_liner": "Physical-chaos entropy device with a Ready Wallet API tab for STRK20 shield, private transfer, and unshield.",
+        "category": "Tooling",
+        "team": [
+            "doodabug"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/eugenennamdi/ConditionalPay",
+        "telegram": [
+            "eugenennamdi"
+        ],
+        "name": "ConditionalPay",
+        "one_liner": "Programmable private settlement infrastructure for STRK20.",
+        "category": "Infra"
+    },
+    {
+        "repo_url": "https://github.com/nickthelegend/crewkill-strk20",
+        "telegram": [
+            "nickthelegend88"
+        ],
+        "name": "CrewKill",
+        "one_liner": "Staked social deduction where privacy is the game mechanic: buy a seat through the STRK20 pool, draw a role nobody can read, vote anonymously, settle on-chain."
+    },
+    {
+        "repo_url": "https://github.com/justbiar/aegis",
+        "telegram": [
+            "justbiar"
+        ],
+        "name": "Aegis Rescue",
+        "slug": "aegis-rescue",
+        "one_liner": "Whitehat rescue bot: sweeps exposed on-chain funds into the STRK20 shielded pool before attackers can, returns them to verified GitHub owners.",
+        "category": "Tooling"
+    },
+    {
+        "repo_url": "https://github.com/manoahLinks/Cipher21_starknet",
+        "telegram": [
+            "MLinks12"
+        ],
+        "name": "Cipher21",
+        "slug": "cipher21",
+        "one_liner": "Confidential blackjack on Starknet: hidden hands via deck commitments, shielded stakes and payouts through the STRK20 pool.",
+        "category": "Gaming"
+    },
+    {
+        "repo_url": "https://github.com/neromtoobad/doom",
+        "telegram": [
+            "neromtooobad"
+        ],
+        "name": "Doom",
+        "one_liner": "A private prediction market on Starknet: visible odds, invisible bettors. Bet sizes and prices are public so the market stays accurate; who is betting is not.",
+        "category": "DeFi",
+        "x_handle": "neromtoobad"
+    },
+    {
+        "repo_url": "https://github.com/zarah-s/oju",
+        "telegram": [
+            "zarah_0x",
+            "devmano"
+        ],
+        "name": "Oju",
+        "slug": "oju",
+        "one_liner": "Privacy-first prediction markets built on Nigerian specifics, open to the world. Public odds, invisible participants, private positions and payouts through the STRK20 pool.",
+        "category": "DeFi",
+        "inspired_by": "RFP-07"
+    },
+    {
+        "repo_url": "https://github.com/shariqazeem/lumen-strk20",
+        "telegram": [
+            "shariqshkt"
+        ],
+        "name": "Lumen",
+        "slug": "lumen",
+        "one_liner": "A private Bitcoin account on Starknet: hold shielded BTC, earn on it without unshielding — the first private stake into Endur on mainnet — and pay anyone, including people who have never touched Starknet.",
+        "category": "Consumer"
+    },
+    {
+        "repo_url": "https://github.com/bongbongcrypto/stealth-checkout",
+        "telegram": [
+            "bongbongcrypto"
+        ],
+        "name": "Stealth Checkout",
+        "one_liner": "Accept private payments on Starknet: drop-in checkout widget, hosted invoices, webhook confirmations, honest privacy receipts.",
+        "category": "Tooling",
+        "team": [
+            "bongbongcrypto"
+        ],
+        "inspired_by": "IDEA-11"
+    },
+    {
+        "repo_url": "https://github.com/Leequidice/Claim-Links",
+        "telegram": [
+            "flawless_flaws"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/d4m014/one-way",
+        "telegram": [
+            "d4m014"
+        ],
+        "name": "OneWay",
+        "one_liner": "A one-way door for any ERC-20. Get paid without sharing a wallet, or leave a known wallet and exit on another chain.",
+        "category": "Payments",
+        "team": [
+            "d4m014"
+        ],
+        "x_handle": "d4m014"
+    },
+    {
+        "repo_url": "https://github.com/SodiqAbdulwaris/strk-disclose",
+        "telegram": [
+            "AbdulwarisSodiq"
+        ],
+        "category": "Infra"
+    },
+    {
+        "repo_url": "https://github.com/ssadkov/morok-pay-starknet",
+        "telegram": [
+            "ssadkov"
+        ],
+        "name": "MorokPay",
+        "one_liner": "Private USDC donations for creators: one reusable QR, the supporter picks the amount, and the payment stays inside the STRK20 pool. Live on mainnet with Ready; a Sepolia beta opens the same flow to MetaMask-only users.",
+        "category": "Payments",
+        "x_handle": "ssadkov",
+        "inspired_by": "RFP-12"
+    },
+    {
+        "repo_url": "https://github.com/BlackAporia/game-shield",
+        "telegram": [
+            "BlackAporia"
+        ],
+        "name": "GameShield",
+        "one_liner": "Private gaming bounty hub on Starknet: shielded prize pools, provable payout commitments and unlinkable rewards for tournaments, speedruns and PvP.",
+        "category": "Gaming",
+        "team": [
+            "BlackAporia"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Habuskid/Adyton",
+        "telegram": [
+            "habuskid01"
+        ],
+        "category": "DeFi",
+        "inspired_by": "IDEA-28"
+    },
+    {
+        "repo_url": "https://github.com/welson-ai/solmate-starknet",
+        "telegram": [
+            "kiminza_codes"
+        ],
+        "name": "solmate",
+        "one_liner": "On-chain credit scoring and undercollateralized lending on Starknet.",
+        "category": "DeFi",
+        "x_handle": "kiminza_codes"
+    },
+    {
+        "team_name": "STARKSTEALTH",
+        "name": "Alias",
+        "one_liner": "Disposable stealth addresses for one-click private payments on Starknet.",
+        "category": "Privacy",
+        "inspired_by": "ERC-5564",
+        "repo_url": "https://github.com/builder-of-web3/Alias",
+        "team": [
+            "builder-of-web3"
+        ],
+        "telegram": [
+            "mordor"
+        ],
+        "x_handle": "cryot_walker"
+    },
+    {
+        "repo_url": "https://github.com/cipoklean/rhizome",
+        "telegram": [
+            "Cipoklean"
+        ],
+        "name": "Rhizome",
+        "one_liner": "Prices what privacy costs on STRK20, then executes it: fee-aware tranche scheduling for private Vesu position through its own anonymizer.",
+        "slug": "rhizome",
+        "category": "DeFi",
+        "team": [
+            "cipoklean"
+        ],
+        "inspired_by": "IDEA-16",
+        "x_handle": "David63694631"
+    },
+    {
+        "repo_url": "https://github.com/Tanay-77/PrivatePay",
+        "telegram": [
+            "tanaym07"
+        ],
+        "name": "PrivatePay",
+        "slug": "privatepay",
+        "one_liner": "Private payments for freelancers and individuals: shielded transfers and selective payment disclosure powered by STRK20.",
+        "category": "Finance"
+    },
+    {
+        "repo_url": "https://github.com/inline-arc/GeoRush",
+        "telegram": [
+            "AtharvMore"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Leequidice/GhostLine",
+        "telegram": [
+            "flawless_flaws"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/okhaimie-dev/veil",
+        "telegram": [
+            "tonystarkdex"
+        ],
+        "name": "Veil",
+        "slug": "veil",
+        "one_liner": "Veil enables businesses to make confidential stablecoin payments while maintaining accounting-ready records and compliance.",
+        "category": "Finance"
+    },
+    {
+        "repo_url": "https://github.com/velikanghost/sevrin",
+        "telegram": [
+            "velkan_gst"
+        ],
+        "name": "Sevrin",
+        "one_liner": "Confidential token-allocation infrastructure: public aggregate lockups, private beneficiary ownership, and STRK20-settled claims.",
+        "slug": "sevrin",
+        "category": "Infra",
+        "inspired_by": "IDEA-17",
+        "x_handle": "velkan_gst"
+    },
+    {
+        "repo_url": "https://github.com/atrummarkets/atrum-starknet",
+        "telegram": [
+            "KILLERTECH1"
+        ],
+        "name": "Atrum",
+        "one_liner": "Sealed-bid prediction markets: orders stay unreadable until they are binding, clear at a uniform price, and positions are tradeable before resolution.",
+        "slug": "atrum",
+        "category": "Markets",
+        "inspired_by": "RFP-07",
+        "x_handle": "AtrumMarkets"
+    },
+    {
+        "repo_url": "https://github.com/JemIIahh/ghostbook-starknet",
+        "telegram": [
+            "Jemiiah"
+        ],
+        "name": "GhostBook",
+        "one_liner": "Private limit orders and TWAP on Starknet: order terms committed once and enforced on-chain, filled through Ekubo, settled into STRK20 private notes.",
+        "slug": "ghost-book",
+        "category": "DeFi",
+        "team": [
+            "JemIIahh"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/mdlog/ShadowAgents",
+        "telegram": [
+            "mdlog"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/JaDi03/GhostDeal",
+        "telegram": [
+            "dica_javi"
+        ],
+        "name": "GhostDeal",
+        "one_liner": "Pay in person without showing your balance. P2P marketplace escrow on STRK20.",
+        "category": "Consumer",
+        "inspired_by": "IDEA-12",
+        "team": [
+            "JaDi03"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/azeemshaik025/iceberg",
+        "telegram": [
+            "azeemshaik025",
+            "sainathr19"
+        ],
+        "name": "Iceberg",
+        "one_liner": "Private DCA and TWAP on Starknet. Many users' scheduled orders become one anonymous pool swap per interval.",
+        "category": "DeFi",
+        "inspired_by": "IDEA-05"
+    },
+    {
+        "repo_url": "https://github.com/Gaijin-01/privacy_msg",
+        "telegram": [
+            "groove_armada"
+        ],
+        "name": "privacy_msg",
+        "one_liner": "Metadata-resistant private messaging on Starknet: visible payment memo, invisible sender-recipient link, settled through STRK20.",
+        "category": "Social & Communications"
+    },
+    {
+        "repo_url": "https://github.com/noisyboy08/CloakPay",
+        "telegram": [
+            "noisyboy_08"
+        ],
+        "name": "CloakPay",
+        "slug": "cloakpay",
+        "one_liner": "Shielded payroll and discreet invoice settlements for freelancers on Starknet using STRK20 private notes.",
+        "category": "Payments",
+        "inspired_by": "IDEA-11"
+    },
+    {
+        "repo_url": "https://github.com/CaptainDiv/crosslink",
+        "telegram": [
+            "Captin_Div"
+        ],
+        "name": "Crosslink",
+        "slug": "crosslink",
+        "one_liner": "Crosslink measures whether a private payment is actually private. StarkWare's bridgeOutToWallet already does unlinkable payout to any address — what nothing does is tell you whether the anonymity set is deep enough for that to mean anything. Our Linkability Meter scores a pending send against the live mainnet pool on amount uniqueness, timing, channel freshness and plausible-set size, and blocks the send when privacy would be fake. Live on mainnet; it gated our own transfers. Roadmap: an embeddable toggle protocols can drop into their own send flow, and USDC cross-chain corridors via CCTP.",
+        "category": "Payments",
+        "inspired_by": "IDEA-22"
+    },
+    {
+        "repo_url": "https://github.com/kshitij-hash/nightshift",
+        "telegram": [
+            "kshitijHash"
+        ],
+        "name": "NIGHTSHIFT",
+        "one_liner": "Recurring private authorization on the STRK20 pool: subscribe once inside the pool, get charged on schedule without surfacing.",
+        "category": "Payments"
+    },
+    {
+        "repo_url": "https://github.com/starkience/Taskmarket-STRK20",
+        "telegram": [
+            "starkience"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Aaronvern/Tony-Strk",
+        "telegram": [
+            "prathadox",
+            "Aaronpeterdamian"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Arun5768/dignity-rail-strk20",
+        "telegram": [
+            "arun_edition"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/raizo07/BlindPay",
+        "telegram": [
+            "Raizo00"
+        ],
+        "name": "BlindPay",
+        "one_liner": "confidential invoice and payment protocol",
+        "category": "Payments",
+        "inspired_by": "IDEA-11"
+    },
+    {
+        "repo_url": "https://github.com/phllp-tanstic/oxa-protocol",
+        "telegram": [
+            "jurbanph"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/linqining/poker_texas_air",
+        "telegram": [
+            "Dsin77"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Samuel1505/Cistern",
+        "telegram": [
+            "OwenDev"
+        ],
+        "name": "Cistern",
+        "one_liner": "Confidential Payroll Protocol on STRK20.",
+        "category": "Payments"
+    },
+    {
+        "repo_url": "https://github.com/wurli-sh/wotta-strk",
+        "telegram": [
+            "choduprasad"
+        ],
+        "name": "Wotta",
+        "one_liner": "Pay anyone, from any chain, to an @handle or email - and let them receive privately on Starknet.",
+        "slug": "wotta",
+        "category": "Payments",
+        "team": [
+            "wurli-sh"
+        ],
+        "inspired_by": "IDEA-09"
+    },
+    {
+        "repo_url": "https://github.com/jijojohny/velpod",
+        "telegram": [
+            "jijoeth"
+        ],
+        "name": "velpod",
+        "one_liner": "Private Ekubo LP: ticks stay public, the LP does not.",
+        "category": "DeFi",
+        "inspired_by": "IDEA-14"
+    },
+    {
+        "repo_url": "https://github.com/YanYuanFE/mirage",
+        "telegram": [
+            "yanyuanfe"
+        ],
+        "name": "Mirage",
+        "one_liner": "One wallet, every chain, no trace. Shield any ERC-20 on Starknet, exit privately to 35+ chains via NEAR Intents.",
+        "category": "Consumer",
+        "inspired_by": "RFP-09"
+    },
+    {
+        "repo_url": "https://github.com/Timidan/wrenchless",
+        "telegram": [
+            "timidan_x"
+        ],
+        "category": "Consumer",
+        "x_handle": "timidan_x"
+    },
+    {
+        "repo_url": "https://github.com/etvjay/Prism",
+        "telegram": [
+            "JayDeculein"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/SudheerKondamuri/lien",
+        "telegram": [
+            "sudheerio"
+        ],
+        "name": "Lien",
+        "one_liner": "Private lending on Starknet: shield your collateral, borrow, and hide your liquidation risk through the STRK20 pool.",
+        "category": "DeFi",
+        "team": [
+            "SudheerKondamuri"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/danielamodu/Blindside",
+        "telegram": [
+            "fortyxbt"
+        ],
+        "name": "Blindside",
+        "one_liner": "Shielded margin account for Extended perps DEX on Starknet.",
+        "category": "DeFi"
+    },
+    {
+        "repo_url": "https://github.com/A-Raphie/shadowpay",
+        "telegram": [
+            "ernxto"
+        ],
+        "name": "ShadowPay",
+        "one_liner": "Private payroll on Starknet — shield STRK, pay your team with unlinkable note→note transfers, unshield on demand. Built on STRK20.",
+        "category": "Payments",
+        "inspired_by": "RFP-11",
+        "team": [
+            "A-Raphie"
+        ],
+        "x_handle": "a_raphie"
+    },
+    {
+        "repo_url": "https://github.com/ronkenx9/patron",
+        "telegram": [
+            "Kenshixronin"
+        ],
+        "name": "PATRON",
+        "one_liner": "Private tips for creators on Starknet: supporters stay inside the STRK20 pool while the public book shows only count and aggregate.",
+        "category": "Payments",
+        "team": [
+            "ronkenx9"
+        ],
+        "x_handle": "kenn_ronin",
+        "inspired_by": "RFP-12"
+    },
+    {
+        "repo_url": "https://github.com/PugarHuda/jalin",
+        "telegram": [
+            "lynx129",
+            "BangDropID"
+        ],
+        "name": "Jalin",
+        "one_liner": "A programmable execution router for the STRK20 pool: arbitrary multi-step, multi-token plans executed inside a single privacy_invoke, with safety carried by on-chain invariants rather than a whitelist.",
+        "category": "Infra"
+    },
+    {
+        "repo_url": "https://github.com/AduAkorful/quietproof",
+        "telegram": [
+            "Uxorisquaye"
+        ],
+        "name": "QuietProof",
+        "one_liner": "Private campaign funding for protected-source rewards on Starknet.",
+        "category": "Payments"
+    },
+    {
+        "repo_url": "https://github.com/ahmetenesdur/kese",
+        "telegram": [
+            "ahmetenesdur"
+        ],
+        "name": "Kese",
+        "one_liner": "Private money for AI agents: a policy-guarded MCP wallet on the STRK20 pool - private payments within hard limits, Telegram human-approval, claim-link escrow for unregistered recipients, and viewing-key audit reports.",
+        "category": "Payments",
+        "team": [
+            "ahmetenesdur"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/AustinChris1/xence",
+        "telegram": [
+            "thatcreator"
+        ],
+        "name": "Xence",
+        "one_liner": "Proof you were right, before it happened - seal a probabilistic forecast, bond it privately through the STRK20 pool, and let the chain score your calibration. Public record, invisible position.",
+        "category": "Infra"
+    },
+    {
+        "repo_url": "https://github.com/ScriptedBro/OblivionProtocol",
+        "telegram": [
+            "ScriptedBro"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Nitish-1303/CipherBill",
+        "telegram": [
+            "nikki_1303"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Swastik221/strk20",
+        "telegram": [
+            "Swastik221"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Shijas786/Mirage",
+        "telegram": [
+            "shijas"
+        ],
+        "name": "Mirage ZK",
+        "one_liner": "A fully shielded DeFi pool + dark order book on Starknet.",
+        "category": "DeFi",
+        "slug": "mirage-zk"
+    },
+    {
+        "repo_url": "https://github.com/kfastov/strk20-indexer",
+        "telegram": [
+            "kfastov"
+        ],
+        "name": "strk20-indexer",
+        "one_liner": "Open, self-hostable note indexer and explorer for the STRK20 pool. Wallets sync without handing over a viewing key.",
+        "category": "Infra",
+        "inspired_by": "IDEA-23"
+    },
+    {
+        "repo_url": "https://github.com/dpinones/private-poker",
+        "telegram": [
+            "dpinoness"
+        ],
+        "name": "Private Poker",
+        "one_liner": "Heads-up poker where hole cards are encrypted STRK20 notes.",
+        "category": "Gaming",
+        "inspired_by": "RFP-03"
+    },
+    {
+        "repo_url": "https://github.com/leojay-net/almoner",
+        "telegram": [
+            "easybrane"
+        ],
+        "name": "Almoner",
+        "one_liner": "Private batch disbursement on STRK20: pay many people from a shielded balance for one flat pool fee, including people who have never registered.",
+        "category": "Infra",
+        "inspired_by": "IDEA-10"
+    },
+    {
+        "repo_url": "https://github.com/mystiquemide/nyalthe",
+        "telegram": [
+            "mystiquemide"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/PhiBao/lantern",
+        "telegram": [
+            "kiter9"
+        ],
+        "name": "Lantern",
+        "one_liner": "Sealed crowdfunding on Starknet: public goal and verifiable total, cryptographically private donors.",
+        "category": "Consumer",
+        "team": [
+            "PhiBao"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Immadominion/tip",
+        "telegram": [
+            "ImmaDotDev"
+        ],
+        "name": "tip",
+        "one_liner": "A native mobile wallet for STRK20: private send, receive, and shield/unshield, non-custodial, built in Flutter.",
+        "category": "Infrastructure",
+        "team": [
+            "Immadominion"
+        ],
+        "inspired_by": "RFP-10"
+    },
+    {
+        "repo_url": "https://github.com/thebhavye/VeilFlow",
+        "telegram": [
+            "thebhavyekathuria"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/VedanshShuklaa/foretell",
+        "telegram": [
+            "Vedansh_S1"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Mrcube3/legerGlass",
+        "telegram": [
+            "Geecube2"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/mohdafzal11/gavel",
+        "telegram": [
+            "afzalnaved"
+        ],
+        "category": "DeFi",
+        "inspired_by": "RFP-08"
+    },
+    {
+        "repo_url": "https://github.com/SakshamGiri202/my-strk20-project",
+        "telegram": [
+            "SakshamGiri"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/hicksonhaziel/Roundveil",
+        "telegram": [
+            "devhickson"
+        ],
+        "name": "Roundveil",
+        "one_liner": "Private savings circles where each round pays the precommitted member without exposing who contributed or who received the pot.",
+        "slug": "roundveil",
+        "category": "Consumer",
+        "team": [
+            "hicksonhaziel"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Bholdguy/Cloakroom",
+        "telegram": [
+            "Crypth_valid"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Tutulii/private-payroll",
+        "telegram": [
+            "Cryptogk00kk"
+        ],
+        "name": "Private Payroll",
+        "one_liner": "Private payroll and treasury disbursements on Starknet without exposing employee salaries or linking recipients to the company treasury.",
+        "category": "Payments",
+        "team": [
+            "Tutulii"
+        ],
+        "inspired_by": "RFP-11"
+    },
+    {
+        "repo_url": "https://github.com/Mrwicks00/Nightgate",
+        "telegram": [
+            "mrwicks00"
+        ],
+        "name": "Nightgate",
+        "one_liner": "A decorrelation layer for the STRK20 pool: enter from any chain with your existing wallet, exit later to an unrelated address in a standard denomination after a randomized delay, optionally in a different asset.",
+        "category": "Privacy",
+        "inspired_by": "RFP-09",
+        "team": [
+            "Mrwicks00"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Vickrey-Protocol/vickrey",
+        "telegram": [
+            "jagadeeshftw"
+        ],
+        "name": "Vickrey",
+        "category": "DeFi",
+        "inspired_by": "RFP-08"
+    },
+    {
+        "repo_url": "https://github.com/shouryam-kumar/strk20-zk-receipts",
+        "telegram": [
+            "ShouryamKumar",
+            "PrathibhaBilagi"
+        ],
+        "name": "STRK20 ZK Receipts",
+        "one_liner": "On-demand cryptographic proofs and selective disclosure for STRK20 private transactions",
+        "category": "Tooling",
+        "team": [
+            "shouryam-kumar",
+            "prathibhabilagi"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/heyfegor/kelpay",
+        "telegram": [
+            "creatormorph"
+        ],
+        "name": "kelpay",
+        "one_liner": "Private payment links for freelancers, creators, and small teams.",
+        "slug": "kelpay",
+        "category": "Payments",
+        "team": [
+            "creatormorph"
+        ],
+        "x_handle": "creatormorph"
+    },
+    {
+        "repo_url": "https://github.com/SourceSenseiTheRealOne/cipherbid",
+        "telegram": [
+            "sourcesensei"
+        ],
+        "one_liner": "Real-collateral Vickrey NFT auctions funded through STRK20, with sealed bids and shielded claims.",
+        "category": "DeFi",
+        "inspired_by": "RFP-08"
+    },
+    {
+        "repo_url": "https://github.com/bhupeshmukane/strk20-private-pay",
+        "telegram": [
+            "bhupeshmukane"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/ELLA0VICTOR/deadletter",
+        "telegram": [
+            "Viktor_kun0"
+        ],
+        "category": "Consumer",
+        "inspired_by": "RFP-02"
+    },
+    {
+        "repo_url": "https://github.com/Cassxbt/aver",
+        "telegram": [
+            "cassxbt"
+        ],
+        "category": "Tooling",
+        "inspired_by": "IDEA-21",
+        "x_handle": "Cassxbt"
+    },
+    {
+        "repo_url": "https://github.com/maheepatel/Cellar",
+        "telegram": [
+            "Mahendarp9"
+        ],
+        "name": "Cellar",
+        "one_liner": "A private yield account on Starknet. Shield an asset, earn real lending yield through a custom anonymizer contract, and stay unlinkable to it visible flow, invisible participant.",
+        "category": "DeFi",
+        "inspired_by": "RFP-24",
+        "team": [
+            "maheepatel"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/dexarxbt/Lacuna",
+        "telegram": [
+            "dexarxbt"
+        ],
+        "name": "Lacuna",
+        "one_liner": "The STRK20 privacy studio for designing private flows, exposing public boundaries, and shipping verified Starknet integrations.",
+        "category": "Tooling"
+    },
+    {
+        "repo_url": "https://github.com/bzdmin/ghostsub",
+        "telegram": [
+            "bzadm1n"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/numbxs/veilguard",
+        "telegram": [
+            "hamedanon"
+        ],
+        "category": "Infra",
+        "inspired_by": "IDEA-25"
+    },
+    {
+        "repo_url": "https://github.com/medine2906/strk20-hackathon",
+        "telegram": [
+            "fuezta"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/jadonamite/XENIA",
+        "telegram": [
+            "jadonamite"
+        ],
+        "category": "Payments",
+        "team": [
+            "jadonamite",
+            "Sam-Rytech"
+        ],
+        "x_handle": "jadonamite",
+        "inspired_by": "IDEA-09"
+    },
+    {
+        "repo_url": "https://github.com/OGtev317/Gigstark",
+        "telegram": [
+            "AtheraL1"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/CryptoZephyr/VOCAP",
+        "telegram": [
+            "Zephyr_cryt"
+        ],
+        "category": "Infra"
+    },
+    {
+        "repo_url": "https://github.com/kelvinpraises/maestro",
+        "telegram": [
+            "littlesisfx"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Cryptojigi/keepr",
+        "telegram": [
+            "Xynetech"
+        ],
+        "name": "Keepr",
+        "one_liner": "Private subscription payments for AI agents and creators on STRK20 — shield, subscribe, auto-renew, prove access with a STARK proof.",
+        "category": "Payments",
+        "inspired_by": "RFP-12"
+    },
+    {
+        "repo_url": "https://github.com/dolepee/afterlight",
+        "telegram": [
+            "Emini_qdee"
+        ],
+        "name": "Afterlight",
+        "one_liner": "Private STRK20 recovery reserves with authenticated heartbeat, grace, and owner veto control.",
+        "category": "Consumer"
+    },
+    {
+        "repo_url": "https://github.com/Emmanuelzyronis/preflight",
+        "telegram": [
+            "emmanuelzyronis"
+        ],
+        "name": "Preflight",
+        "one_liner": "Pre-signature privacy simulation for STRK20: detect amount, timing, and linkability leaks before signing.",
+        "category": "Tooling",
+        "team": [
+            "Emmanuelzyronis"
+        ],
+        "inspired_by": "IDEA-25"
+    },
+    {
+        "slug": "covert",
+        "repo_url": "https://github.com/xyzbutworse/covert",
+        "telegram": [
+            "octanexyz"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/0mniipotent/VaultX",
+        "telegram": [
+            "KingOmnii"
+        ],
+        "name": "VaultX",
+        "one_liner": "Private inactivity-based crypto recovery powered by STRK20.",
+        "slug": "vaultx",
+        "category": "Consumer",
+        "x_handle": "thedemigod99"
+    },
+    {
+        "repo_url": "https://github.com/iamdflame/quorum",
+        "telegram": [
+            "dhonchain"
+        ],
+        "slug": "quorum",
+        "name": "Quorum",
+        "one_liner": "Threshold coordination on STRK20: pledge into a campaign and your pledge binds only once enough others have too. Miss the quorum and you are refunded, never revealed.",
+        "category": "Infra"
+    },
+    {
+        "repo_url": "https://github.com/Stella112/marginguard",
+        "telegram": [
+            "marisdigitals"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/onyebuchidaniel60/verity",
+        "telegram": [
+            "Etfradd"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/zachbuilds26/stash",
+        "telegram": [
+            "zachhct"
+        ],
+        "name": "Stash",
+        "one_liner": "Shielded yield automation — your vault, your strategy, nobody sees",
+        "category": "DeFi"
+    },
+    {
+        "repo_url": "https://github.com/KayProject/velum",
+        "telegram": [
+            "jadonamite"
+        ],
+        "name": "Velum",
+        "one_liner": "Prove you earned enough, without showing what you earned.",
+        "category": "Consumer",
+        "team": [
+            "KayProject",
+            "jadonamite"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Valorian0108/before-you-sign",
+        "telegram": [
+            "demi_03"
+        ],
+        "slug": "before-you-sign-strk20",
+        "name": "before-you-sign"
+    },
+    {
+        "repo_url": "https://github.com/sands786/veyra",
+        "telegram": [
+            "Forgeclaw"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Kunmiesther/Orlop",
+        "telegram": [
+            "Estar_Kunmiii"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/adipundir/himitsu-protocol",
+        "telegram": [
+            "adipundir",
+            "deepak1802"
+        ],
+        "name": "Himitsu Protocol",
+        "category": "Infra",
+        "team": [
+            "adipundir",
+            "deepakA18"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/cenwadike/open-beanie",
+        "telegram": [
+            "kombi16"
+        ],
+        "category": "Payments"
+    },
+    {
+        "repo_url": "https://github.com/Philotheephilix/ghostcall",
+        "telegram": [
+            "philotheephilix"
+        ],
+        "name": "GhostCall",
+        "category": "Privacy"
+    },
+    {
+        "repo_url": "https://github.com/winsznx/limen",
+        "telegram": [
+            "winszn_x"
+        ],
+        "name": "Limen",
+        "category": "Infra"
+    },
+    {
+        "repo_url": "https://github.com/solutionkanu12/iwa",
+        "telegram": [
+            "solution_o1"
+        ],
+        "name": "Iwa",
+        "one_liner": "Private savings circles on Starknet: neighbours contribute and take turns collecting the pot through the STRK20 pool, with amounts hidden and good standing provable.",
+        "slug": "iwa",
+        "category": "DeFi",
+        "team": [
+            "solutionkanu12"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Blockchain-Oracle/strk20-run",
+        "telegram": [
+            "BlockchainOracle_dev"
+        ],
+        "name": "strk20.run",
+        "category": "Consumer",
+        "one_liner": "A private account on Starknet's STRK20 pool - no wallet, no login. Hold and send shielded value, chat with money attached, swap, bridge out, bet, launch, and vote in private houses.",
+        "x_handle": "chain_oracle",
+        "inspired_by": "IDEA-13"
+    },
+    {
+        "repo_url": "https://github.com/Iziedking/VeilAP",
+        "telegram": [
+            "Izie17",
+            "Bhenn_nny"
+        ],
+        "name": "VeilAP",
+        "one_liner": "Private proof-backed settlement for sensitive work, with verifiable delivery and private STRK20 payments.",
+        "category": "Payments",
+        "team": [
+            "Iziedking",
+            "Benita2001"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Web3Kyami/Blackbox-Protocol",
+        "telegram": [
+            "Web3Kyami"
+        ],
+        "name": "BlackBox Protocol",
+        "one_liner": "Private capability infrastructure for Starknet — public rules, private operators, powered by STRK20.",
+        "category": "Infra",
+        "team": [
+            "Web3Kyami"
+        ],
+        "x_handle": "Web3Kyami"
+    },
+    {
+        "repo_url": "https://github.com/sandman-sh/EverTrust-Protocol",
+        "telegram": [
+            "iraavan"
+        ],
+        "name": "EverTrust Protocol",
+        "one_liner": "Confidential digital wealth succession and dead man's switch on Starknet powered by STRK20 shielded notes.",
+        "category": "Privacy",
+        "team": [
+            "sandman-sh"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/ayush4345/strkret",
+        "telegram": [
+            "ayushk_45",
+            "Kryptosaurus"
+        ],
+        "team": [
+            "ayush4345",
+            "Saurus9290"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/0xkinno/mantissa",
+        "telegram": [
+            "kinnoski"
+        ],
+        "category": "DeFi"
+    },
+    {
+        "repo_url": "https://github.com/leojay-net/SLPM-V2",
+        "telegram": [
+            "mattosi"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/shariqazeem/sage",
+        "telegram": [
+            "shariqshkt"
+        ],
+        "name": "Sage",
+        "one_liner": "An autonomous agent that judges human work and pays for it — addressing each payout to a person rather than a wallet, so someone with no wallet and no gas can still collect, and who was paid stays private.",
+        "slug": "sage",
+        "category": "Payments"
+    },
+    {
+        "repo_url": "https://github.com/charlesms1246/hydra",
+        "telegram": [
+            "hackerhai12"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/notcodesid/kairo",
+        "telegram": [
+            "notcodesid"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/RaYYeR220/cordon",
+        "telegram": [
+            "L0ceo"
+        ],
+        "name": "Cordon",
+        "one_liner": "Credential-gated, on-chain-enforced policy for shielded value on Starknet.",
+        "slug": "cordon",
+        "category": "Infra",
+        "x_handle": "rayyer_220",
+        "inspired_by": "IDEA-22"
+    },
+    {
+        "repo_url": "https://github.com/levithefirst/provah",
+        "telegram": [
+            "leviweb3x"
+        ],
+        "name": "Provah",
+        "one_liner": "Capability layer for STRK20 pool activity: prove public deposit history, redeem a one-time pass from any wallet."
+    },
+    {
+        "repo_url": "https://github.com/Cyano88/kudiroll",
+        "telegram": [
+            "cyano88"
+        ],
+        "name": "KudiRoll",
+        "category": "Payments",
+        "x_handle": "onoja_cee"
+    },
+    {
+        "repo_url": "https://github.com/qdeeworld/afterlight",
+        "telegram": [
+            "Emini_qdee"
+        ],
+        "name": "Afterlight",
+        "slug": "afterlight-recovery",
+        "one_liner": "Private STRK20 recovery reserves with authenticated heartbeat, grace, and owner veto control.",
+        "category": "Consumer",
+        "team": [
+            "qdeeworld"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/cryptnuel/veilpass",
+        "telegram": [
+            "noeltayjnr"
+        ],
+        "name": "VeilPass",
+        "one_liner": "Scam-resistant private payment requests on Starknet, powered by STRK20.",
+        "category": "Payments",
+        "team": [
+            "cryptnuel"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/zachbuilds26/coffer",
+        "telegram": [
+            "zachhct"
+        ],
+        "name": "Coffer",
+        "one_liner": "Private grants for onchain communities, with public accountability and shielded STRK20 payouts.",
+        "category": "Payments",
+        "team": [
+            "zachbuilds26"
+        ],
+        "inspired_by": "RFP-11"
+    },
+    {
+        "repo_url": "https://github.com/Carlys17/nyx-protocol",
+        "telegram": [
+            "carlysipahutar"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Felabs1/shade",
+        "telegram": [
+            "felabs"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Himess/ghostloop",
+        "telegram": [
+            "SemihCivelek"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/SunsetLabs-Game/stableroll",
+        "telegram": [
+            "salazarsebas"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/YieldStark/mainnet-v2",
+        "telegram": [
+            "masterpiece_eth"
+        ],
+        "name": "YieldStark",
+        "one_liner": "Private yield on Starknet: shield through the STRK20 pool, lend on Vesu, and stay unlinkable.",
+        "slug": "yieldstark",
+        "category": "DeFi",
+        "team": [
+            "JY20"
+        ],
+        "x_handle": "masterpiece_eth",
+        "inspired_by": "IDEA-16"
+    },
+    {
+        "repo_url": "https://github.com/Eric-65/holographic-agent-marketplace",
+        "telegram": [
+            "eric0xbt"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/tang-vu/veilzero",
+        "telegram": [
+            "tangvublockchain"
+        ],
+        "name": "VeilZero",
+        "category": "Tooling",
+        "inspired_by": "RFP-02"
+    },
+    {
+        "repo_url": "https://github.com/DavidIfebueme/musetub",
+        "telegram": [
+            "cypheron"
+        ],
+        "name": "Musetub",
+        "one_liner": "Per-watch-time video streaming on Starknet: viewers pay USDC for seconds watched via x402, creators earn private STRK20 shielded payouts.",
+        "category": "Consumer",
+        "team": [
+            "DavidIfebueme"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Alajemba-Paul/CairoBot",
+        "telegram": [
+            "realpaulthepundit"
+        ],
+        "name": "CairoBot",
+        "one_liner": "Private perps on Extended, from chat, CLI, or an agent.",
+        "slug": "cairobot",
+        "category": "DeFi",
+        "team": [
+            "Alajemba-Paul"
+        ],
+        "x_handle": "realpauldpundit",
+        "inspired_by": "IDEA-02"
+    },
+    {
+        "repo_url": "https://github.com/otomdee/otc-veil",
+        "telegram": [
+            "Ox_Money"
+        ],
+        "name": "OTC Veil",
+        "one_liner": "Trustless private OTC settlement on STRK20 - atomic fills, no desk, no identity link",
+        "category": "DeFi",
+        "inspired_by": "private-otc-settlement",
+        "team": [
+            "otomdee"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Stoneybro/starkaudit",
+        "telegram": [
+            "stoneybro1"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Femtech-web/droptron-launchpad",
+        "telegram": [
+            "akoladeoluwafemi"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/XDGram/PhantomPay",
+        "telegram": [
+            "xDGraM80"
+        ],
+        "category": "Payments",
+        "inspired_by": "IDEA-11"
+    },
+    {
+        "repo_url": "https://github.com/Alike001/strk20-workbench",
+        "telegram": [
+            "IamAlikeX",
+            "agbacoder01"
+        ],
+        "category": "Infra"
+    },
+    {
+        "repo_url": "https://github.com/sneg55/nagare",
+        "telegram": [
+            "sneg55"
+        ],
+        "name": "Nagare",
+        "category": "DeFi"
+    },
+    {
+        "repo_url": "https://github.com/bernieboy0001/privpatch",
+        "telegram": [
+            "Auditonbase"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/Spagero763/convoy",
+        "telegram": [
+            "spagerobaseeth"
+        ],
+        "name": "Convoy",
+        "category": "DeFi"
+    },
+    {
+        "repo_url": "https://github.com/TheWeirdDee/sole",
+        "telegram": [
+            "deeisnothuman"
+        ]
+    },
+    {
+        "repo_url": "https://github.com/nvnx7/supasafe",
+        "telegram": [
+            "nvnx7"
+        ],
+        "name": "supasafe",
+        "one_liner": "A private multisig supporting payments, swaps, yield and more, where a minimum number co-owners approve transactions.",
+        "slug": "supasafe",
+        "category": "Infra",
+        "inspired_by": "RFP-27"
+    },
+    {
+        "repo_url": "https://github.com/nickthelegend/molfi-fun",
+        "telegram": [
+            "nickthelegend88"
+        ],
+        "name": "molfi",
+        "one_liner": "Prediction markets where your position stays sealed until settlement: pick a price range, stake through the STRK20 pool, and nobody can front run or copy a position they cannot see."
+    },
+    {
+        "repo_url": "https://github.com/venture23-aleo/VeruShield-Connect",
+        "telegram": [
+            "sdpisreddevil",
+            "sndpbhujl",
+            "kandelshailesh",
+            "baralprabin"
+        ],
+        "name": "VeruShield Connect",
+        "one_liner": "Encrypted Messaging on STRK20"
+    }
 ]
