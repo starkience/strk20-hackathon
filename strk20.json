@@ -1,0 +1,39 @@
+{
+  "name": "GhostCall",
+  "description": "Trustless 1:1 audio calls on Starknet. Tor onion transport, Noise_XX encryption, Nostr signaling, STRK20 shielded payments. No IP leaks. No TURN servers.",
+  "demo_url": "https://github.com/Philotheephilix/ghostcall",
+  "repo": "https://github.com/Philotheephilix/ghostcall",
+  "problem": "Every existing calling app leaks your IP to the counterparty or to a relay. Web3 calling apps add on-chain payments but still route audio through centralized TURN servers.",
+  "solution": "GhostCall routes every call through a Tor v3 onion service — no TURN, no IP exposure. Noise_XX encrypts the audio stream end-to-end. Nostr NIP-59 gift-wraps the call signal. Post-call payments settle privately via STRK20.",
+  "diagram": "graph LR\n  A[Caller] -->|Nostr NIP-59 gift-wrap| B[Relay]\n  B -->|signal| C[Callee]\n  A -->|Tor Noise_XX audio| D[Onion service]\n  D --> C\n  C -->|STRK20 shielded payment| E[Pool]\n  E -->|private note| A",
+  "transactions": [
+    "https://voyager.online/tx/0x2a4bc1ffa34e8c78c0e9ef18b080054b1313c9f57ff72e8d87eee1ec3518c70",
+    "https://voyager.online/tx/0x49944b36c6eaf03382ac7dcaf822692ea23ff78b5df868b136e4fac98f98128",
+    "https://voyager.online/tx/0x6c7230e3000ca9ccc0f5ef7b45cefe8832d9bd8b4ec89f5100c4340e0fbe165",
+    "https://voyager.online/tx/0x6a9a862a52296b774f605a6c2e63ccc27a6594f560e95529a86ead30f24f000",
+    "https://voyager.online/tx/0x19bf52df1ba0a00ec76f511d8700bb5671828c5870c8a2327ffea3a5a626e28",
+    "https://voyager.online/tx/0x1a1610e6174d980bc6bcb5956ff0b225f178b32a89449de50214a5388f5cdf1"
+  ],
+  "contracts": [
+    "https://voyager.online/contract/0x474eafba0ef66427b796890bffc7d80fa9ec90359f649d85c1c54d50bd359fa"
+  ],
+  "tx_labels": {
+    "0": "deploy-account — Mainnet block 14402596",
+    "1": "CallLog declare — Mainnet block 14406893",
+    "2": "CallLog deploy — Mainnet block 14406898 → 0x474eafba...",
+    "3": "STRK transfer (call signaling demo) — Mainnet block 14408168",
+    "4": "STRK post-call payment — Mainnet block 14408178",
+    "5": "CallLog.commit_call (call commitment) — Mainnet block 14408229"
+  },
+  "stack": [
+    "Cairo 2.x",
+    "Starknet",
+    "STRK20 SDK (@starkware-libs/starknet-privacy-sdk)",
+    "Tor v3 onion services",
+    "Noise_XX (X25519 + ChaCha20-Poly1305)",
+    "Nostr NIP-44/NIP-59",
+    "Electron 32",
+    "Next.js 14"
+  ],
+  "license": "Apache-2.0"
+}
