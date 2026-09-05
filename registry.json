@@ -1870,7 +1870,10 @@
     {
     "repo_url": "https://github.com/venture23-aleo/strk20-hackathon",
     "telegram": [
-      "sdpisreddevil", "sndpbhujl","kandelshailesh","baralprabin"
+      "sdpisreddevil",
+      "sndpbhujl",
+      "kandelshailesh",
+      "baralprabin"
     ],
     "name": "VeruShield Connect",
     "one_liner": "Encrypted Messaging on STRK20"
