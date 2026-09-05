@@ -624,7 +624,7 @@
     ],
     "name": "Lumen",
     "slug": "lumen",
-    "one_liner": "Private money, by default — pay, receive and save on Starknet without publishing a financial profile: relationship-scoped privacy boundaries, private receipts, and a silent engine that closes the behavioural leaks cryptography can’t.",
+    "one_liner": "A private Bitcoin account on Starknet: hold shielded BTC, earn on it without unshielding — the first private stake into Endur on mainnet — and pay anyone, including people who have never touched Starknet.",
     "category": "Consumer"
   },
   {
