@@ -568,14 +568,6 @@
     "category": "Infra"
   },
   {
-    "repo_url": "https://github.com/nickthelegend/crewkill-strk20",
-    "telegram": [
-      "nickthelegend88"
-    ],
-    "name": "CrewKill",
-    "one_liner": "Staked social deduction where privacy is the game mechanic: buy a seat through the STRK20 pool, draw a role nobody can read, vote anonymously, settle on-chain."
-  },
-  {
     "repo_url": "https://github.com/justbiar/aegis",
     "telegram": [
       "justbiar"
