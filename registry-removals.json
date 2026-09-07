@@ -22,5 +22,9 @@
   {
     "repo_url": "https://github.com/Portablelle/veilance-market",
     "reason": "Repository returned HTTP 404 during registry validation on 2026-08-17."
+  },
+  {
+    "repo_url": "https://github.com/zachbuilds26/stash",
+    "reason": "Project pivoted to Coffer; this prior registration is intentionally withdrawn to avoid duplicate entries."
   }
 ]
