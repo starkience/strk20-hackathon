@@ -13,17 +13,18 @@
     ]
   },
   {
-    "repo_url": "https://github.com/gstohl/quietline",
+    "repo_url": "https://github.com/gstohl/app20",
     "telegram": [
       "stack_ref_error"
     ],
-    "name": "Quietline",
-    "one_liner": "Encrypted on-chain mail on Starknet. Payment memos ride the same private transfer.",
+    "name": "APP20",
+    "one_liner": "Encrypted chat and shielded payments, with confidential RFQ settlement in development.",
     "category": "Other",
     "inspired_by": "RFP-01",
     "team": [
       "gstohl"
-    ]
+    ],
+    "slug": "quietline"
   },
   {
     "repo_url": "https://github.com/Sarthib7/stk402",
