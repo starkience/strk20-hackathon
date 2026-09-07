@@ -22,5 +22,9 @@
   {
     "repo_url": "https://github.com/Portablelle/veilance-market",
     "reason": "Repository returned HTTP 404 during registry validation on 2026-08-17."
+  },
+  {
+    "repo_url": "https://github.com/Dapperdavidd/Privora",
+    "reason": "Project owner requested withdrawal from the Private Sprint on 2026-08-19."
   }
 ]
