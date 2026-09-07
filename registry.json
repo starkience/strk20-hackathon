@@ -160,6 +160,13 @@
     "repo_url": "https://github.com/broody/stake-wars",
     "telegram": [
       "broody_eth"
+    ],
+    "name": "Stake Wars",
+    "one_liner": "Persistent onchain strategy game with private Vickrey Beacon auctions: bids stay sealed until settlement through STRK20.",
+    "category": "Gaming",
+    "inspired_by": "RFP-08",
+    "team": [
+      "broody"
     ]
   },
   {
