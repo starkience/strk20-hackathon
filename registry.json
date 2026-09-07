@@ -1932,5 +1932,17 @@
       "sndpbhujl"
     ],
     "inspired_by": "RFP-09"
+  },
+  {
+    "repo_url": "https://github.com/thisyearnofear/sonicguardian",
+    "telegram": [
+      "papajams"
+    ],
+    "name": "SonicGuardian",
+    "one_liner": "A memorable musical secret becomes zero-knowledge human authority on Starknet — recover your key privately via the STRK20 pool without revealing the pattern.",
+    "category": "Other",
+    "team": [
+      "thisyearnofear"
+    ]
   }
 ]
