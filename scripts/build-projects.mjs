@@ -725,7 +725,7 @@ async function verifyTransactions(entry, contracts) {
  * an address that exists nowhere is reported as such instead of silently
  * rendering a dead explorer link. */
 const RPCS = [
-  ["mainnet", process.env.MAINNET_RPC_URL || "https://rpc.starknet.lava.build"],
+  ["mainnet", process.env.MAINNET_RPC_URL || "https://api.cartridge.gg/x/starknet/mainnet"],
   ["sepolia", process.env.SEPOLIA_RPC_URL || "https://api.cartridge.gg/x/starknet/sepolia"],
 ];
 
