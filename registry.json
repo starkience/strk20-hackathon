@@ -1922,5 +1922,15 @@
     "telegram": [
       "gyan981"
     ]
+  },
+  {
+    "repo_url": "https://github.com/Sandip1608/signal-strk20",
+    "name": "Signal",
+    "one_liner": "On-chain Among Us on the STRK20 privacy pool: committed hidden roles, anonymous votes as pool legs with a public tally, shielded payout.",
+    "category": "Social",
+    "telegram": [
+      "sndpbhujl"
+    ],
+    "inspired_by": "RFP-09"
   }
 ]
