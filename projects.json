@@ -1,5 +1,219 @@
 [
   {
+    "slug": "himitsu-protocol",
+    "name": "Himitsu Protocol",
+    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
+    "category": "Infra",
+    "repo_url": "https://github.com/adipundir/himitsu-protocol",
+    "demo_url": "https://himitsu-protocol.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-08T21:07:48Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "adipundir",
+        "name": "Aditya Pundir",
+        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
+      },
+      {
+        "login": "deepakA18",
+        "name": "Deepak",
+        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
+      },
+      {
+        "login": "actions",
+        "name": "himitsu-depth-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "27b685f28319c9b60891b677bb71f59ea532ede1",
+    "readme_hash": "ec308847d0db4baa",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
+    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
+    "latest_push": "Refreshed the depth data in depth.json.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1,
+    "deletions": 1,
+    "sprint": {
+      "pushes": 79,
+      "additions": 30214,
+      "deletions": 19,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "convoy",
+    "name": "Convoy",
+    "one_liner": "Fixed-lot batch execution on the STRK20 privacy pool. Orders cross together at one rate, so amount and timing stop identifying you.",
+    "category": "DeFi",
+    "repo_url": "https://github.com/Spagero763/convoy",
+    "demo_url": "https://convoy-brown.vercel.app",
+    "demo_video": "https://drive.google.com/file/d/1tJHEnRhcryZu5XjgJM96vDt1fwn28TgF/view?usp=sharing",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x489be26596b25a288f35708f776b1dacd1dde52be25b9c178a6277f8c524f56",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x5f85f3e710c741ae94f51f11fdaa82011dfa814251c020b28c09e91d602e6f3",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x71060e06b4c5d3b64591416d638a1c98911d3fdaa2d393306e88cbbc9a2623e",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x1b15747f975f34df14f1f9ffac634d81a375d4b32a58204cc67a4d99fbff7e8",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x21b0065e019a9bd6e723528d66b5dc9af3ce466d9fff5497472b4bf596e89f",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x505c1f0e0f2cbb362c41ce4a2a749020990443b51007c0ab7f7b29de2d33c1d",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0xd11bf5395478a42656432662a1c356cfe31f9a8d84847e9b8a90f373a52713",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x5c1fb4904eaa4375b608991176488833d5c1d4978e8e1acac082105ac191126",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x3aa64e14cc48149454c28a0962c402b1f481e2cf1d53c4a58713466903d718e",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x654c0cba59ce891fdf69d538f033bbc5375e6197947ee65cba7a25894d6b927",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 9,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-09-08T20:27:13Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Spagero763",
+        "name": "spagero763",
+        "avatar_url": "https://avatars.githubusercontent.com/u/138625749?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-07"
+    ],
+    "head_sha": "4256d930493f9dddd821e3903695a4d83e3d172e",
+    "readme_hash": "ff4fe57a91b078c4",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "Fixed-lot batch execution for privacy-focused DeFi transactions.",
+    "description_long": "Convoy processes batches of fixed-lot orders while ensuring user anonymity in DeFi transactions. It achieves privacy through three mechanisms: fixed lot sizes that are public but uncorrelatable, aggregate settlements that mask individual order details, and deferred bearer claims that separate order initiation from redemption. The system is built directly on the STRK20 privacy pool and includes features such as a user interface for transaction management and integration with a privacy wallet API.",
+    "latest_push": "Added a demo video and documented the first mainnet crossing.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1,
+    "deletions": 1,
+    "sprint": {
+      "pushes": 26,
+      "additions": 12467,
+      "deletions": 85,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+  },
+  {
     "slug": "velum",
     "name": "Velum",
     "one_liner": "Prove you earned enough, without showing what you earned.",
@@ -228,90 +442,6 @@
     },
     "assessment": null,
     "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "himitsu-protocol",
-    "name": "Himitsu Protocol",
-    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
-    "category": "Infra",
-    "repo_url": "https://github.com/adipundir/himitsu-protocol",
-    "demo_url": "https://himitsu-protocol.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-08T16:36:33Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "adipundir",
-        "name": "Aditya Pundir",
-        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
-      },
-      {
-        "login": "deepakA18",
-        "name": "Deepak",
-        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
-      },
-      {
-        "login": "actions",
-        "name": "himitsu-depth-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "0d15547384f0dbcc6b4670bbf0249c9be3d64210",
-    "readme_hash": "ec308847d0db4baa",
-    "desc_v6": true,
-    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
-    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
-    "latest_push": "Refreshed the depth data in depth.json.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 1,
-    "deletions": 1,
-    "churn_pct": 0,
-    "sprint": {
-      "pushes": 79,
-      "additions": 30214,
-      "deletions": 19,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "neobank",
@@ -5857,143 +5987,6 @@
     "star_evidence": "3 contracts deployed on mainnet, Cairo in the repository"
   },
   {
-    "slug": "convoy",
-    "name": "Convoy",
-    "one_liner": "Fixed-lot batch execution on the STRK20 privacy pool. Orders cross together at one rate, so amount and timing stop identifying you.",
-    "category": "DeFi",
-    "repo_url": "https://github.com/Spagero763/convoy",
-    "demo_url": "https://convoy-brown.vercel.app",
-    "demo_video": "https://drive.google.com/file/d/1tJHEnRhcryZu5XjgJM96vDt1fwn28TgF/view?usp=sharing",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x489be26596b25a288f35708f776b1dacd1dde52be25b9c178a6277f8c524f56",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x5f85f3e710c741ae94f51f11fdaa82011dfa814251c020b28c09e91d602e6f3",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x71060e06b4c5d3b64591416d638a1c98911d3fdaa2d393306e88cbbc9a2623e",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x1b15747f975f34df14f1f9ffac634d81a375d4b32a58204cc67a4d99fbff7e8",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x21b0065e019a9bd6e723528d66b5dc9af3ce466d9fff5497472b4bf596e89f",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x505c1f0e0f2cbb362c41ce4a2a749020990443b51007c0ab7f7b29de2d33c1d",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0xd11bf5395478a42656432662a1c356cfe31f9a8d84847e9b8a90f373a52713",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x5c1fb4904eaa4375b608991176488833d5c1d4978e8e1acac082105ac191126",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x3aa64e14cc48149454c28a0962c402b1f481e2cf1d53c4a58713466903d718e",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x654c0cba59ce891fdf69d538f033bbc5375e6197947ee65cba7a25894d6b927",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 9,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-07T21:10:07Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Spagero763",
-        "name": "spagero763",
-        "avatar_url": "https://avatars.githubusercontent.com/u/138625749?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 8
-      }
-    ],
-    "active_days": [
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-07"
-    ],
-    "head_sha": "6d2bac1972cb2cbbf7e5e19177fa7d93192d29fc",
-    "readme_hash": "ff4fe57a91b078c4",
-    "desc_v6": true,
-    "summary": "Fixed-lot batch execution for privacy-focused DeFi transactions.",
-    "description_long": "Convoy processes batches of fixed-lot orders while ensuring user anonymity in DeFi transactions. It achieves privacy through three mechanisms: fixed lot sizes that are public but uncorrelatable, aggregate settlements that mask individual order details, and deferred bearer claims that separate order initiation from redemption. The system is built directly on the STRK20 privacy pool and includes features such as a user interface for transaction management and integration with a privacy wallet API.",
-    "latest_push": "Added a demo video for the project.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 1,
-    "deletions": 1,
-    "churn_pct": 0,
-    "sprint": {
-      "pushes": 26,
-      "additions": 12467,
-      "deletions": 85,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
     "slug": "keepr",
     "name": "Keepr",
     "one_liner": "Private subscription payments for AI agents and creators on STRK20 — shield, subscribe, auto-renew, prove access with a STARK proof.",
@@ -9040,7 +9033,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
