@@ -1,104 +1,5 @@
 [
   {
-    "slug": "deceptiveos",
-    "name": "CipherNest",
-    "one_liner": "Adversarial AI Cyber Deception Engine deploying living digital twin decoys, steganographic canary lures, and zero-knowledge audit trails for Starknet.",
-    "category": "Infra",
-    "repo_url": "https://github.com/vmmuthu31/deceptiveos",
-    "demo_url": "http://localhost:3000",
-    "demo_video": "",
-    "x_handle": "Barfi_31",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "CipherNest creates a novel zero-knowledge threat bounty mechanism for cybersecurity.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-08T16:58:41Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "vmmuthu31",
-        "name": "Vairamuthu",
-        "avatar_url": "https://avatars.githubusercontent.com/u/88650559?v=4"
-      },
-      {
-        "login": "santhoshkumar0918",
-        "name": "santhoshkumar0918",
-        "avatar_url": "https://avatars.githubusercontent.com/u/158072171?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-27",
-      "2026-09-01",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "8fe7c581077a24185c872325371fd87655e9f6be",
-    "readme_hash": "415dc0bc9336ceb0",
-    "desc_v6": true,
-    "churn_pct": 53,
-    "summary": "A hybrid local-first security system with deception networks and threat intelligence sharing.",
-    "description_long": "CipherNest connects local security measures with zero-knowledge economic coordination. It deploys containerized digital twin decoys and generates lure documents with tracking watermarks, while maintaining private telemetry on defender machines. The setup includes a web-based operations console, a defender agent with Docker for isolation, and a GhostBounty mechanism for anonymous bounty rewards using Starknet's STRK20 notes.",
-    "latest_push": "Implemented the agent-workflow scaffolding with agents and skills.",
-    "tooling": [
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 5445,
-    "deletions": 3123,
-    "sprint": {
-      "pushes": 94,
-      "additions": 19004,
-      "deletions": 1873,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": true,
-      "complex": false,
-      "why_innovative": "CipherNest enables anonymous bounty funding and attacker fingerprinting in cybersecurity using zero-knowledge mechanisms.",
-      "why_complex": "No contracts are deployed, and the architecture lacks implemented Cairo functionality as indicated in the README.",
-      "reason": "CipherNest creates a novel zero-knowledge threat bounty mechanism for cybersecurity.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
-  },
-  {
     "slug": "velum",
     "name": "Velum",
     "one_liner": "Prove you earned enough, without showing what you earned.",
@@ -170,7 +71,6 @@
     "head_sha": "bf2f545f11636aaecb02ff2c2be4c0df133772df",
     "readme_hash": "046c92dcb9b45233",
     "desc_v6": true,
-    "churn_pct": 16.4,
     "summary": "Prove your income without revealing details to landlords, lenders, or insurers.",
     "description_long": "Velum generates time-limited claims that verify income without disclosing sensitive financial details. Earners choose a payer, a time window, and a minimum income threshold, then create a proof that maintains their transaction privacy while allowing verifiers to confirm the claim. It includes contracts for attestations and receipts, an interface for earners, and a page for verifiers, all built on the Starknet network.",
     "latest_push": "Rebranded site colors, updated layout, and added legal pages.",
@@ -209,6 +109,7 @@
     "has_readme": true,
     "additions": 785,
     "deletions": 474,
+    "churn_pct": 16.4,
     "sprint": {
       "pushes": 15,
       "additions": 14344,
@@ -300,7 +201,6 @@
     "head_sha": "13f25cc56ce8a45fa9646365dd923508835f3b16",
     "readme_hash": "6ee2aff69f32a39e",
     "desc_v6": true,
-    "churn_pct": 2.2,
     "summary": "Conduct private Vickrey NFT auctions with real collateral and sealed bids.",
     "description_long": "CipherBid is a Vickrey NFT auction system on Starknet that allows bidders to submit private bids using equal collateral locked through STRK20. The auction ensures that the winning bid remains sealed until the reveal, while all transactions, including refunds and payments, are managed through private STRK20 claims. The auction features atomic settlement, guaranteeing that the NFT is transferred to the winner only after successful selection and payment processing.",
     "latest_push": "Promoted the verified staging snapshot to the main branch.",
@@ -319,6 +219,7 @@
     "has_readme": true,
     "additions": 228,
     "deletions": 63,
+    "churn_pct": 2.2,
     "sprint": {
       "pushes": 27,
       "additions": 26265,
@@ -384,7 +285,6 @@
     "head_sha": "0d15547384f0dbcc6b4670bbf0249c9be3d64210",
     "readme_hash": "ec308847d0db4baa",
     "desc_v6": true,
-    "churn_pct": 0,
     "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
     "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
     "latest_push": "Refreshed the depth data in depth.json.",
@@ -403,6 +303,7 @@
     "has_readme": true,
     "additions": 1,
     "deletions": 1,
+    "churn_pct": 0,
     "sprint": {
       "pushes": 79,
       "additions": 30214,
@@ -9139,7 +9040,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -21802,6 +21703,79 @@
       "why_innovative": "This project operates as a payment platform prioritizing privacy for rent transactions.",
       "why_complex": "No complex contracts or Cairo code are implemented in the project as of now.",
       "reason": "The project is a privacy payment platform, an obvious use case in the blockchain space.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
+    "slug": "deceptiveos",
+    "name": "CipherNest",
+    "one_liner": "Adversarial AI Cyber Deception Engine deploying living digital twin decoys, steganographic canary lures, and zero-knowledge audit trails for Starknet.",
+    "category": "Infra",
+    "repo_url": "https://github.com/vmmuthu31/deceptiveos",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "Barfi_31",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "CipherNest creates a novel zero-knowledge threat bounty mechanism for cybersecurity.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "santhoshkumar0918",
+        "name": "Santhosh Kumar k",
+        "avatar_url": "https://avatars.githubusercontent.com/u/158072171?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-27",
+      "2026-09-01",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "A cyber deception engine for adversarial AI using digital twins and steganographic lures.",
+    "description_long": "Deploys living digital twin decoys and steganographic canary lures to mislead adversaries. It also includes zero-knowledge audit trails for actions on Starknet.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 94,
+      "additions": 19004,
+      "deletions": 1873,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": true,
+      "complex": false,
+      "why_innovative": "CipherNest enables anonymous bounty funding and attacker fingerprinting in cybersecurity using zero-knowledge mechanisms.",
+      "why_complex": "No contracts are deployed, and the architecture lacks implemented Cairo functionality as indicated in the README.",
+      "reason": "CipherNest creates a novel zero-knowledge threat bounty mechanism for cybersecurity.",
       "facts_v2": true
     },
     "star_evidence": ""
