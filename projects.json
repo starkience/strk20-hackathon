@@ -55,7 +55,6 @@
     "head_sha": "2b9762b8bd66a05da0a3c62d97245f647fa5daaf",
     "readme_hash": "ec308847d0db4baa",
     "desc_v6": true,
-    "churn_pct": 0.1,
     "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
     "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
     "latest_push": "Refreshed depth data in depth.json.",
@@ -74,6 +73,7 @@
     "has_readme": true,
     "additions": 12,
     "deletions": 2,
+    "churn_pct": 0.1,
     "sprint": {
       "pushes": 79,
       "additions": 30224,
@@ -9033,7 +9033,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -11836,93 +11836,6 @@
       "facts_v2": true
     },
     "star_evidence": "7 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "chaoskeyplus-appbuild",
-    "name": "ChaosKey+",
-    "one_liner": "Physical-chaos entropy device with a Ready Wallet API tab for STRK20 shield, private transfer, and unshield.",
-    "category": "Tooling",
-    "repo_url": "https://github.com/Doodabug/Chaoskeyplus-appbuild",
-    "demo_url": "https://mobile-app-build-778.preview.emergentagent.com",
-    "demo_video": "https://www.youtube.com/watch?v=CHAOSKEY_DEMO_VIDEO",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project primarily focuses on standard private transfer features without unique implementation.",
-    "contracts": [
-      {
-        "address": "0x0459f679305796588ce074c2366a62d2503b5a447b4027ba9b7d820d91ce040d",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x07a77c21fc19398bdad4f01dec17457cc9d5f7f6df71806903bb3914d70380d0",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-01T19:36:16Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Doodabug",
-        "name": "Doodlebug",
-        "avatar_url": "https://avatars.githubusercontent.com/u/272664821?v=4"
-      },
-      {
-        "login": "emergent-agent-e1",
-        "name": "emergent-agent-e1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/222461215?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-24",
-      "2026-08-26",
-      "2026-08-28",
-      "2026-09-01"
-    ],
-    "head_sha": "0380eb2ff1e12d8f9591ec2939397bb77748d74e",
-    "readme_hash": "7c2a751e31b9cfe7",
-    "desc_v6": true,
-    "summary": "A hardware device for generating secure entropy and identity across chains and applications.",
-    "description_long": "ChaosKey+ generates unpredictable entropy from chaotic phenomena and anchors a user’s identity across multiple chains and applications. It includes hardware‑rooted identity and offline randomness with secure authentication that cannot be replicated or reverse-engineered. The project integrates with the STRK20 privacy pool and comprises a backend server, a CRA React frontend, and connections to the Starknet network and wallet APIs.",
-    "latest_push": "Updated README with GitHub link and August 2026 developments.",
-    "tooling": [],
-    "has_readme": true,
-    "additions": 3,
-    "deletions": 0,
-    "churn_pct": 0.1,
-    "sprint": {
-      "pushes": 106,
-      "additions": 21203,
-      "deletions": 26,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "This project's main features involve a private transfer and shield functionality, which is obvious.",
-      "why_complex": "No contracts have been declared or built, showing no engineering depth in Cairo.",
-      "reason": "The project primarily focuses on standard private transfer features without unique implementation.",
-      "facts_v2": true
-    },
-    "star_evidence": "2 contracts deployed on mainnet"
   },
   {
     "slug": "yieldstark",
@@ -21769,6 +21682,79 @@
       "why_innovative": "CipherNest enables anonymous bounty funding and attacker fingerprinting in cybersecurity using zero-knowledge mechanisms.",
       "why_complex": "No contracts are deployed, and the architecture lacks implemented Cairo functionality as indicated in the README.",
       "reason": "CipherNest creates a novel zero-knowledge threat bounty mechanism for cybersecurity.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
+    "slug": "chaoskeyplus-appbuild",
+    "name": "ChaosKey+",
+    "one_liner": "Physical-chaos entropy device with a Ready Wallet API tab for STRK20 shield, private transfer, and unshield.",
+    "category": "Tooling",
+    "repo_url": "https://github.com/doodabug/Chaoskeyplus-appbuild",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The project primarily focuses on standard private transfer features without unique implementation.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Doodabug",
+        "name": "Doodlebug",
+        "avatar_url": "https://avatars.githubusercontent.com/u/272664821?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-24",
+      "2026-08-26",
+      "2026-08-28",
+      "2026-09-01"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "A physical-chaos entropy device for secure wallet operations.",
+    "description_long": "ChaosKey+ is a physical-chaos entropy device that integrates with a Ready Wallet API for STRK20 operations. It supports private transfers and the ability to shield and unshield tokens.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 106,
+      "additions": 21203,
+      "deletions": 26,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "This project's main features involve a private transfer and shield functionality, which is obvious.",
+      "why_complex": "No contracts have been declared or built, showing no engineering depth in Cairo.",
+      "reason": "The project primarily focuses on standard private transfer features without unique implementation.",
       "facts_v2": true
     },
     "star_evidence": ""
