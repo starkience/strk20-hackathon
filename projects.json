@@ -45,7 +45,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-09-09T00:35:39Z",
+    "pushed_at": "2026-09-09T06:07:44Z",
     "stars": 0,
     "builders": [
       {
@@ -76,13 +76,13 @@
       "2026-09-04",
       "2026-09-07"
     ],
-    "head_sha": "188b38156771c095f18f3256f9ed12c670dbadc6",
+    "head_sha": "3a35571ec9745d46d17c88ef139b8d3720029108",
     "readme_hash": "3beb3b2f3fab4937",
     "desc_v6": true,
-    "churn_pct": 2.1,
+    "churn_pct": 22.3,
     "summary": "A persistent strategy game with territory battles and sealed auctions for STRK delegation.",
     "description_long": "Stake Wars is a non-custodial strategy game where players deploy delegated STRK to capture and defend territories. The game features private Beacon auctions using the Whisper library for sealed bids, ensuring bid confidentiality until settlement. The repository includes a web application, game API built with Go, and Cairo contracts, organized under apps, contracts, and vendor directories.",
-    "latest_push": "Added Mainnet capture preview and interactive jackpot camera components.",
+    "latest_push": "Replaced Jackpot with SupplyDrop and fixed sector thumbnails display.",
     "tooling": [
       {
         "label": "Cairo",
@@ -91,12 +91,12 @@
       }
     ],
     "has_readme": true,
-    "additions": 876,
-    "deletions": 22,
+    "additions": 6989,
+    "deletions": 2663,
     "sprint": {
       "pushes": 144,
-      "additions": 39732,
-      "deletions": 553,
+      "additions": 39428,
+      "deletions": 554,
       "computed": 3
     },
     "assessment": {
@@ -108,6 +108,158 @@
       "facts_v2": true
     },
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "poker-texas-air",
+    "name": "poker_texas_air",
+    "one_liner": "Provably fair Texas Hold'em on Starknet — a mental-poker protocol with no trusted dealer: cards are ElGamal-encrypted and shuffled by the players, every step is a sigma proof your browser verifies, and bankrolls move privately through the STRK20 pool. Live on mainnet.",
+    "category": "Other",
+    "repo_url": "https://github.com/linqining/poker_texas_air",
+    "demo_url": "https://strk.secretpokers.com/",
+    "demo_video": "https://www.youtube.com/watch?v=uqtrvw_bR4w",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x3f4ef706ae2dc00ac685afffc05e5f1e1e9ab5aacf99c3205d2067e061cbb45",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x2bf6a09c0aaea154de34745056e7534f58fa0805c12afe18cf22a9bc66ee7a8",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x1d39b80b990038ceeeaf3d39e83cb83031be95c0d0ccca5d18c5faea29aef6d",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x88c1f843588d1498fcd3f780fa7cf86ada18cd416754c77149a8c14e492877",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x402372930ea52cccbafa459169b3dae3d67051ed741e9af7da669a0f1fbb308",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0xcd9b13ececa4649ce5f6e7ad80acf80e1ab03a57190e4035e7240369152a4b",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x1daa47a0efde4fad6bbf3d81f88af40ed3951a946b3ece84ac06f6fbb6e7e04",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x639263f89bccef1bef806409da74962d7e7829043deb153fb0ea2e5ddbdab69",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x7edf5045bcc1aab3f748d503611c8a2c73b15c5cac0224e4dbf4a4801358982",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x6fe8e61e009ad5168c683fb2560c73fba4a92e9eba723455c3557bd6e79d6cc",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x00a62a09872eb695ec32d9a86300cf4bff5ced8ea87fbb33f879b5389ce1c51c",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      }
+    ],
+    "verified_txs": 2,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-09T05:54:30Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "linqining",
+        "name": "linqining",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18323181?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "b96042957b897122a16c3edbf91150f537242d7e",
+    "readme_hash": "725705f06e0629d6",
+    "desc_v6": true,
+    "summary": "A provably fair online Texas Hold'em poker game with no trusted dealer.",
+    "description_long": "This project is a full-stack online Texas Hold'em poker game that ensures fairness through cryptographic methods. Players jointly shuffle ElGamal-encrypted cards, and every action is supported by sigma proofs verified on-chain, preventing the host from cheating or freezing funds. It consists of five smart contracts handling the game logic, chip flows, and payout processes, with users interacting directly via their browsers.",
+    "latest_push": "Replaced template site metadata with real product meta for SEO.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1340,
+    "deletions": 3012,
+    "churn_pct": 2,
+    "sprint": {
+      "pushes": 188,
+      "additions": 209305,
+      "deletions": 1718,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "himitsu-protocol",
@@ -131,7 +283,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-08T21:07:48Z",
+    "pushed_at": "2026-09-09T04:39:08Z",
     "stars": 0,
     "builders": [
       {
@@ -162,9 +314,10 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "27b685f28319c9b60891b677bb71f59ea532ede1",
+    "head_sha": "9c378ed9cff45dc8587f6dc56cbe5eeaad7b201c",
     "readme_hash": "ec308847d0db4baa",
     "desc_v6": true,
+    "churn_pct": 0,
     "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
     "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
     "latest_push": "Refreshed the depth data in depth.json.",
@@ -183,7 +336,6 @@
     "has_readme": true,
     "additions": 1,
     "deletions": 1,
-    "churn_pct": 0,
     "sprint": {
       "pushes": 79,
       "additions": 30214,
@@ -4389,158 +4541,6 @@
     },
     "assessment": null,
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "poker-texas-air",
-    "name": "poker_texas_air",
-    "one_liner": "Provably fair Texas Hold'em on Starknet — a mental-poker protocol with no trusted dealer: cards are ElGamal-encrypted and shuffled by the players, every step is a sigma proof your browser verifies, and bankrolls move privately through the STRK20 pool. Live on mainnet.",
-    "category": "Other",
-    "repo_url": "https://github.com/linqining/poker_texas_air",
-    "demo_url": "https://strk.secretpokers.com/",
-    "demo_video": "https://www.youtube.com/watch?v=uqtrvw_bR4w",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x3f4ef706ae2dc00ac685afffc05e5f1e1e9ab5aacf99c3205d2067e061cbb45",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x2bf6a09c0aaea154de34745056e7534f58fa0805c12afe18cf22a9bc66ee7a8",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x1d39b80b990038ceeeaf3d39e83cb83031be95c0d0ccca5d18c5faea29aef6d",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x88c1f843588d1498fcd3f780fa7cf86ada18cd416754c77149a8c14e492877",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x402372930ea52cccbafa459169b3dae3d67051ed741e9af7da669a0f1fbb308",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0xcd9b13ececa4649ce5f6e7ad80acf80e1ab03a57190e4035e7240369152a4b",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x1daa47a0efde4fad6bbf3d81f88af40ed3951a946b3ece84ac06f6fbb6e7e04",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x639263f89bccef1bef806409da74962d7e7829043deb153fb0ea2e5ddbdab69",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x7edf5045bcc1aab3f748d503611c8a2c73b15c5cac0224e4dbf4a4801358982",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x6fe8e61e009ad5168c683fb2560c73fba4a92e9eba723455c3557bd6e79d6cc",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x00a62a09872eb695ec32d9a86300cf4bff5ced8ea87fbb33f879b5389ce1c51c",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      }
-    ],
-    "verified_txs": 2,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-07T22:39:26Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "linqining",
-        "name": "linqining",
-        "avatar_url": "https://avatars.githubusercontent.com/u/18323181?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "b96042957b897122a16c3edbf91150f537242d7e",
-    "readme_hash": "725705f06e0629d6",
-    "desc_v6": true,
-    "summary": "A provably fair online Texas Hold'em poker game with no trusted dealer.",
-    "description_long": "This project is a full-stack online Texas Hold'em poker game that ensures fairness through cryptographic methods. Players jointly shuffle ElGamal-encrypted cards, and every action is supported by sigma proofs verified on-chain, preventing the host from cheating or freezing funds. It consists of five smart contracts handling the game logic, chip flows, and payout processes, with users interacting directly via their browsers.",
-    "latest_push": "Replaced template site metadata with real product meta for SEO.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 1340,
-    "deletions": 3012,
-    "churn_pct": 2,
-    "sprint": {
-      "pushes": 188,
-      "additions": 209305,
-      "deletions": 1718,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "kairo",
