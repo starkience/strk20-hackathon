@@ -21,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-09T11:19:37Z",
+    "pushed_at": "2026-09-09T16:36:34Z",
     "stars": 0,
     "builders": [
       {
@@ -52,12 +52,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "2b9762b8bd66a05da0a3c62d97245f647fa5daaf",
+    "head_sha": "570d64f1641c37593dcd8a908e2bc694e14960d6",
     "readme_hash": "ec308847d0db4baa",
     "desc_v6": true,
+    "churn_pct": 0.1,
     "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
     "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
-    "latest_push": "Refreshed depth data in depth.json.",
+    "latest_push": "Refreshed the depth data in the depth.json file.",
     "tooling": [
       {
         "label": "Cairo",
@@ -71,12 +72,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 12,
+    "additions": 7,
     "deletions": 2,
-    "churn_pct": 0.1,
     "sprint": {
       "pushes": 79,
-      "additions": 30224,
+      "additions": 30229,
       "deletions": 19,
       "computed": 3
     },
@@ -4120,7 +4120,7 @@
     "contracts": [
       {
         "address": "0x039cc9515534d60c65e955139a4c092e66e3fd9fe788714f3afa730352c9c4a0",
-        "network": "sepolia"
+        "network": "unknown"
       },
       {
         "address": "0x000370dd3087f8a474c1dac40636a02bef1c330a3905977fcf42962741fc4650",
@@ -9033,7 +9033,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet.",
     "tooling": [
       {
         "label": "Privacy SDK",
