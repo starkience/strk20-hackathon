@@ -1,151 +1,87 @@
 [
   {
-    "slug": "himitsu-protocol",
-    "name": "Himitsu Protocol",
-    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
-    "category": "Infra",
-    "repo_url": "https://github.com/adipundir/himitsu-protocol",
-    "demo_url": "https://himitsu-protocol.vercel.app",
-    "demo_video": "",
+    "slug": "iwa",
+    "name": "Iwa",
+    "one_liner": "Private savings circles on Starknet: neighbours contribute and take turns collecting the pot through the STRK20 pool, with amounts hidden and good standing provable.",
+    "category": "DeFi",
+    "repo_url": "https://github.com/solutionkanu12/iwa",
+    "demo_url": "https://useiwa.xyz",
+    "demo_video": "https://vimeo.com/1222855880",
     "x_handle": "",
     "inspired_by": "",
     "affiliation": "",
     "starred": false,
     "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
+    "contracts": [
+      {
+        "address": "0x01f81497b09aa702a38715c0ec149d7672cd557c0caea480714d4802ff6f81be",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x04cac02dcc7ca8c46c0b6f32985f17bf24d99557222e60c6881d147e13fafbbb",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x05a22066c25cd6b337a9a16bef431546a6eca86a6e4ebd6484cd65a8317a4877",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x46bd320ecdc20de3c97fc99a17eb1741a3425f5e414ce029c5d259e712817f5",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x551a5432911b05780c2746b7555f78f57c948355f56031e13a2af00a9470e32",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 2,
     "requirements": {
       "demo": true,
-      "video": false,
+      "video": true,
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-10T16:22:34Z",
-    "stars": 0,
+    "pushed_at": "2026-09-10T18:12:45Z",
+    "stars": 1,
     "builders": [
       {
-        "login": "adipundir",
-        "name": "Aditya Pundir",
-        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
-      },
-      {
-        "login": "deepakA18",
-        "name": "Deepak",
-        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
-      },
-      {
-        "login": "actions",
-        "name": "himitsu-depth-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
+        "login": "solutionkanu12",
+        "name": "solutionkanu12",
+        "avatar_url": "https://avatars.githubusercontent.com/u/174873861?v=4"
       }
     ],
     "agents": [],
     "active_days": [
-      "2026-08-26",
       "2026-08-27",
       "2026-08-28",
       "2026-08-29",
       "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
       "2026-09-03",
+      "2026-09-04",
       "2026-09-05",
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "2bfd930f4a630a17e833c021d62da70d73453680",
-    "readme_hash": "ec308847d0db4baa",
+    "head_sha": "8710646e75dfe67e7b5b9f2d07f2d8c85b91d0e7",
+    "readme_hash": "ce7901d3f8045c9d",
     "desc_v6": true,
-    "churn_pct": 0,
-    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
-    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
-    "latest_push": "Refreshed depth data in the depth.json file.",
+    "summary": "Manage private community savings with verifiable financial trust.",
+    "description_long": "Iwa allows users to create or join private savings circles where contributions are made in rounds, and payouts are collected based on a fixed order. It keeps financial records verifiable while maintaining the privacy of the contributions through Starknet. Key features include an Action Center for managing contributions, a circle timeline for tracking obligations, and options for inviting members to join circles.",
+    "latest_push": "Updated the STRK20 demo URL in strk20.json.",
     "tooling": [
       {
         "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 1,
-    "deletions": 1,
-    "sprint": {
-      "pushes": 79,
-      "additions": 30229,
-      "deletions": 19,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "client",
-    "name": "client",
-    "one_liner": "Zylith trading and liquidity client.",
-    "category": "Other",
-    "repo_url": "https://github.com/ZylithFi/client",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project lacks privacy application and real engineering depth.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-10T16:11:57Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "tanctl",
-        "name": "tanctl",
-        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [],
-    "head_sha": "12b9d94c72ace3ea89230e4e0c74e9200c0dbee3",
-    "readme_hash": "5039c8bbe4e7e278",
-    "desc_v6": true,
-    "churn_pct": 51.9,
-    "summary": "A trading and liquidity web app for Zylith.",
-    "description_long": "",
-    "latest_push": "Modified multiple core modules and added extensive tests.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
         "live": false,
         "stack": false
       },
@@ -156,23 +92,17 @@
       }
     ],
     "has_readme": true,
-    "additions": 15532,
-    "deletions": 12433,
+    "additions": 1,
+    "deletions": 1,
+    "churn_pct": 0,
     "sprint": {
-      "pushes": 0,
-      "additions": 17668,
-      "deletions": 12343,
+      "pushes": 57,
+      "additions": 23067,
+      "deletions": 176,
       "computed": 3
     },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
-      "why_complex": "No deployed contracts or complex engineering present in the stack.",
-      "reason": "The project lacks privacy application and real engineering depth.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
+    "assessment": null,
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "poker-texas-air",
@@ -258,7 +188,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-10T15:02:27Z",
+    "pushed_at": "2026-09-10T18:02:39Z",
     "stars": 0,
     "builders": [
       {
@@ -290,12 +220,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "b96042957b897122a16c3edbf91150f537242d7e",
+    "head_sha": "61526b205f80e84ad9c89e85192de8cc0ee243af",
     "readme_hash": "725705f06e0629d6",
     "desc_v6": true,
+    "churn_pct": 9.9,
     "summary": "A provably fair online Texas Hold'em poker game with no trusted dealer.",
     "description_long": "This project is a full-stack online Texas Hold'em poker game that ensures fairness through cryptographic methods. Players jointly shuffle ElGamal-encrypted cards, and every action is supported by sigma proofs verified on-chain, preventing the host from cheating or freezing funds. It consists of five smart contracts handling the game logic, chip flows, and payout processes, with users interacting directly via their browsers.",
-    "latest_push": "Replaced template site metadata with real product meta for SEO.",
+    "latest_push": "Replaced poseidon hash and optimized deck functionality.",
     "tooling": [
       {
         "label": "Cairo",
@@ -314,17 +245,191 @@
       }
     ],
     "has_readme": true,
-    "additions": 1340,
-    "deletions": 3012,
-    "churn_pct": 2,
+    "additions": 7462,
+    "deletions": 11931,
     "sprint": {
       "pushes": 188,
-      "additions": 209305,
-      "deletions": 1718,
+      "additions": 209329,
+      "deletions": 1727,
       "computed": 3
     },
     "assessment": null,
     "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "himitsu-protocol",
+    "name": "Himitsu Protocol",
+    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
+    "category": "Infra",
+    "repo_url": "https://github.com/adipundir/himitsu-protocol",
+    "demo_url": "https://himitsu-protocol.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-10T16:22:34Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "adipundir",
+        "name": "Aditya Pundir",
+        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
+      },
+      {
+        "login": "deepakA18",
+        "name": "Deepak",
+        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
+      },
+      {
+        "login": "actions",
+        "name": "himitsu-depth-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "2bfd930f4a630a17e833c021d62da70d73453680",
+    "readme_hash": "ec308847d0db4baa",
+    "desc_v6": true,
+    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
+    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
+    "latest_push": "Refreshed depth data in the depth.json file.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1,
+    "deletions": 1,
+    "churn_pct": 0,
+    "sprint": {
+      "pushes": 79,
+      "additions": 30229,
+      "deletions": 19,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "client",
+    "name": "client",
+    "one_liner": "Zylith trading and liquidity client.",
+    "category": "Other",
+    "repo_url": "https://github.com/ZylithFi/client",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The project lacks privacy application and real engineering depth.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-10T16:11:57Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "tanctl",
+        "name": "tanctl",
+        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [],
+    "head_sha": "12b9d94c72ace3ea89230e4e0c74e9200c0dbee3",
+    "readme_hash": "5039c8bbe4e7e278",
+    "desc_v6": true,
+    "summary": "A trading and liquidity web app for Zylith.",
+    "description_long": "",
+    "latest_push": "Modified multiple core modules and added extensive tests.",
+    "tooling": [
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 15532,
+    "deletions": 12433,
+    "churn_pct": 51.9,
+    "sprint": {
+      "pushes": 0,
+      "additions": 17668,
+      "deletions": 12343,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
+      "why_complex": "No deployed contracts or complex engineering present in the stack.",
+      "reason": "The project lacks privacy application and real engineering depth.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
   },
   {
     "slug": "aegis-rescue",
@@ -428,7 +533,6 @@
     "head_sha": "661ebbdd01e8d020c2345bbc47c7b53442c98f6a",
     "readme_hash": "b43bb7ef6b0a1e4a",
     "desc_v6": true,
-    "churn_pct": 0,
     "summary": "A whitehat bot that rescues exposed on-chain funds on Starknet.",
     "description_long": "Aegis watches public repositories for accidentally committed private and API keys, verifies their validity, and sweeps any real funds to a secure address. It detects leaks by scanning various repositories, verifies the keys through regex checks and balance queries, rescues the funds, and allows owners to claim them through a secure process. The system operates continuously through automated GitHub Actions, ensuring timely detection and action without human intervention.",
     "latest_push": "Removed the standalone presentation site for Cloudflare Pages.",
@@ -472,6 +576,7 @@
     "has_readme": true,
     "additions": 0,
     "deletions": 0,
+    "churn_pct": 0,
     "sprint": {
       "pushes": 174,
       "additions": 10604,
@@ -487,111 +592,6 @@
       "facts_v2": true
     },
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "iwa",
-    "name": "Iwa",
-    "one_liner": "Private savings circles on Starknet: neighbours contribute and take turns collecting the pot through the STRK20 pool, with amounts hidden and good standing provable.",
-    "category": "DeFi",
-    "repo_url": "https://github.com/solutionkanu12/iwa",
-    "demo_url": "https://useiwa.xyz",
-    "demo_video": "https://vimeo.com/1222855880",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x01f81497b09aa702a38715c0ec149d7672cd557c0caea480714d4802ff6f81be",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x04cac02dcc7ca8c46c0b6f32985f17bf24d99557222e60c6881d147e13fafbbb",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x05a22066c25cd6b337a9a16bef431546a6eca86a6e4ebd6484cd65a8317a4877",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x46bd320ecdc20de3c97fc99a17eb1741a3425f5e414ce029c5d259e712817f5",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x551a5432911b05780c2746b7555f78f57c948355f56031e13a2af00a9470e32",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 2,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-10T14:00:27Z",
-    "stars": 1,
-    "builders": [
-      {
-        "login": "solutionkanu12",
-        "name": "solutionkanu12",
-        "avatar_url": "https://avatars.githubusercontent.com/u/174873861?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "8710646e75dfe67e7b5b9f2d07f2d8c85b91d0e7",
-    "readme_hash": "ce7901d3f8045c9d",
-    "desc_v6": true,
-    "summary": "Manage private community savings with verifiable financial trust.",
-    "description_long": "Iwa allows users to create or join private savings circles where contributions are made in rounds, and payouts are collected based on a fixed order. It keeps financial records verifiable while maintaining the privacy of the contributions through Starknet. Key features include an Action Center for managing contributions, a circle timeline for tracking obligations, and options for inviting members to join circles.",
-    "latest_push": "Updated the STRK20 demo URL in strk20.json.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 1,
-    "deletions": 1,
-    "churn_pct": 0,
-    "sprint": {
-      "pushes": 57,
-      "additions": 23067,
-      "deletions": 176,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "holographic-agent-marketplace",
@@ -641,7 +641,6 @@
     "head_sha": "1804efbdb6777de8c39d5f591b5fd56c115813d6",
     "readme_hash": "d1f9dc4f1e6f094a",
     "desc_v6": true,
-    "churn_pct": 6,
     "summary": "A policy-controlled marketplace for private financial agents on Starknet.",
     "description_long": "Holographic is a marketplace that allows agents to propose actions, which are then evaluated by a deterministic policy engine before execution via the user's wallet. It consists of a functional React frontend, a real wallet integration with multiple connection options, a dual policy engine for action validation and policy evaluation, and a backend for storing user data and policies. The on-chain contracts include AgentRegistry for managing agent identities, PolicyCommitment for anchoring policy versions, and ExecutionAttestor for attesting actions, while privacy handling is supported through STRK20.",
     "latest_push": "Added a unified Framer Motion system across the app.",
@@ -685,6 +684,7 @@
     "has_readme": true,
     "additions": 1290,
     "deletions": 143,
+    "churn_pct": 6,
     "sprint": {
       "pushes": 5,
       "additions": 30847,
