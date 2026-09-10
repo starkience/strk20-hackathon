@@ -21,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-10T04:38:57Z",
+    "pushed_at": "2026-09-10T11:15:58Z",
     "stars": 0,
     "builders": [
       {
@@ -52,13 +52,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "f9e120418d909b8594a56587b0e99b66888fd66a",
+    "head_sha": "89b40985a9ef3c32a67b60167c41e1a8ff538c7c",
     "readme_hash": "ec308847d0db4baa",
     "desc_v6": true,
     "churn_pct": 0,
     "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
     "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
-    "latest_push": "Refreshed depth data in the depth.json file.",
+    "latest_push": "Refreshed depth data in app/public/epochs/depth.json.",
     "tooling": [
       {
         "label": "Cairo",
@@ -82,6 +82,235 @@
     },
     "assessment": null,
     "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "game-shield",
+    "name": "GameShield",
+    "one_liner": "Private gaming bounty hub on Starknet: shielded prize pools, provable payout commitments and unlinkable rewards for tournaments, speedruns and PvP.",
+    "category": "Gaming",
+    "repo_url": "https://github.com/BlackAporia/game-shield",
+    "demo_url": "https://gameshield-starknet.vercel.app/",
+    "demo_video": "https://youtu.be/l1Aw3igDzNg?si=ec97XdPbP43u52dl",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x075a60637214544e9aae248355da84aef5819bf1830308451eb5ceeb10e040fc",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x72bf3cc70f12043bafbc1b84d9519b8c60c58d449a9e7ad4d8d09224fdea56e",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0xb2910d00fea9756030501392fa9f5a2ef3a07f7d4e64aa841e33d5379b7bc0",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x22f6d8549e09e108caac956f29f8d1e490b60ee3ca829e0093e0a941bcb0107",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 3,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-09-10T11:11:29Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "BlackAporia",
+        "name": "BlackAporia",
+        "avatar_url": "https://avatars.githubusercontent.com/u/116606427?v=4"
+      },
+      {
+        "login": "DevTest-me",
+        "name": "DevTest-me",
+        "avatar_url": "https://avatars.githubusercontent.com/u/200008500?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "fa2d5edb2984cfa29a213586fc1406427ffee7a5",
+    "readme_hash": "52dca2a7133158f9",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "Run gaming bounties from funding to winner claims with automated refunds.",
+    "description_long": "GameShield is an application for managing gaming bounties entirely on Starknet. Organizers fund campaigns using a STRK20-capable wallet, participants apply, and selected winners can claim rewards directly from the contract. The system includes features like multiple winners, direct claims, permissionless refunds, and off-chain storage for applicant data, with all on-chain processes handled by a single smart contract.",
+    "latest_push": "Refreshed the GameShield preview banner image.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 119,
+      "additions": 16372,
+      "deletions": 90,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "velum",
+    "name": "Velum",
+    "one_liner": "Prove you earned enough, without showing what you earned.",
+    "category": "Consumer",
+    "repo_url": "https://github.com/KayProject/velum",
+    "demo_url": "https://velum-stark.vercel.app",
+    "demo_video": "https://youtu.be/pdYNqDCj-rA",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x6f88f48e15e4325a0420da61bc933cdba982aba429c3eec5e445cfa3937ca05",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x63de9b703218cc837719cbd4547f34b7d9c18826d97153ba04aeaea5eb17d62",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x42ec49bb89312cb7770c4bc1e9148e30c8d76a80394814a830c9d605beb9341",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x242bd820e864d76f905537f2fe72f001f462d39589851fd95745cc8c825c4cc",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      }
+    ],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-10T09:10:26Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "KayProject",
+        "name": "KayProject",
+        "avatar_url": "https://avatars.githubusercontent.com/u/109299010?v=4"
+      },
+      {
+        "login": "jadonamite",
+        "name": "jadonamite",
+        "avatar_url": "https://avatars.githubusercontent.com/u/186282594?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-09-07"
+    ],
+    "head_sha": "9c304a9462933873d960b7ebbd160fef4d14dad1",
+    "readme_hash": "0f907170f2c38994",
+    "desc_v6": true,
+    "churn_pct": 44.9,
+    "summary": "Prove your income without revealing any financial details.",
+    "description_long": "Velum generates time-limited proofs of income that users can present to landlords, lenders, or insurers without disclosing specific earnings. The system uses signed attestations from payers to validate earnings, allowing earners to create claims by choosing the payer, time period, minimum amount, and verifier. Key components include the Velum contract for managing attestations and a simple interface for earners and verifiers.",
+    "latest_push": "Wired the browser wallet to the Starknet contract and added a Submit Claim flow.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1776,
+    "deletions": 1748,
+    "sprint": {
+      "pushes": 15,
+      "additions": 14373,
+      "deletions": 5,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "poker-texas-air",
@@ -470,126 +699,6 @@
       "pushes": 26,
       "additions": 12467,
       "deletions": 85,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "velum",
-    "name": "Velum",
-    "one_liner": "Prove you earned enough, without showing what you earned.",
-    "category": "Consumer",
-    "repo_url": "https://github.com/KayProject/velum",
-    "demo_url": "https://velum-stark.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x6f88f48e15e4325a0420da61bc933cdba982aba429c3eec5e445cfa3937ca05",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x63de9b703218cc837719cbd4547f34b7d9c18826d97153ba04aeaea5eb17d62",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x42ec49bb89312cb7770c4bc1e9148e30c8d76a80394814a830c9d605beb9341",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x242bd820e864d76f905537f2fe72f001f462d39589851fd95745cc8c825c4cc",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      }
-    ],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-08T16:55:11Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "KayProject",
-        "name": "KayProject",
-        "avatar_url": "https://avatars.githubusercontent.com/u/109299010?v=4"
-      },
-      {
-        "login": "jadonamite",
-        "name": "jadonamite",
-        "avatar_url": "https://avatars.githubusercontent.com/u/186282594?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-09-07"
-    ],
-    "head_sha": "bf2f545f11636aaecb02ff2c2be4c0df133772df",
-    "readme_hash": "046c92dcb9b45233",
-    "desc_v6": true,
-    "summary": "Prove your income without revealing details to landlords, lenders, or insurers.",
-    "description_long": "Velum generates time-limited claims that verify income without disclosing sensitive financial details. Earners choose a payer, a time window, and a minimum income threshold, then create a proof that maintains their transaction privacy while allowing verifiers to confirm the claim. It includes contracts for attestations and receipts, an interface for earners, and a page for verifiers, all built on the Starknet network.",
-    "latest_push": "Rebranded site colors, updated layout, and added legal pages.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 785,
-    "deletions": 474,
-    "churn_pct": 16.4,
-    "sprint": {
-      "pushes": 15,
-      "additions": 14344,
-      "deletions": 4,
       "computed": 3
     },
     "assessment": null,
@@ -5715,110 +5824,6 @@
     },
     "assessment": null,
     "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "game-shield",
-    "name": "GameShield",
-    "one_liner": "Private gaming bounty hub on Starknet: shielded prize pools, provable payout commitments and unlinkable rewards for tournaments, speedruns and PvP.",
-    "category": "Gaming",
-    "repo_url": "https://github.com/BlackAporia/game-shield",
-    "demo_url": "https://gameshield-starknet.vercel.app/",
-    "demo_video": "https://youtu.be/l1Aw3igDzNg?si=ec97XdPbP43u52dl",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x075a60637214544e9aae248355da84aef5819bf1830308451eb5ceeb10e040fc",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x72bf3cc70f12043bafbc1b84d9519b8c60c58d449a9e7ad4d8d09224fdea56e",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0xb2910d00fea9756030501392fa9f5a2ef3a07f7d4e64aa841e33d5379b7bc0",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x22f6d8549e09e108caac956f29f8d1e490b60ee3ca829e0093e0a941bcb0107",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-07T21:18:04Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "BlackAporia",
-        "name": "BlackAporia",
-        "avatar_url": "https://avatars.githubusercontent.com/u/116606427?v=4"
-      },
-      {
-        "login": "DevTest-me",
-        "name": "DevTest-me",
-        "avatar_url": "https://avatars.githubusercontent.com/u/200008500?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "173cc2ba0f57c556329e58539005ae60cf64c3f8",
-    "readme_hash": "52dca2a7133158f9",
-    "desc_v6": true,
-    "summary": "Run gaming bounties from funding to winner claims with automated refunds.",
-    "description_long": "GameShield is an application for managing gaming bounties entirely on Starknet. Organizers fund campaigns using a STRK20-capable wallet, participants apply, and selected winners can claim rewards directly from the contract. The system includes features like multiple winners, direct claims, permissionless refunds, and off-chain storage for applicant data, with all on-chain processes handled by a single smart contract.",
-    "latest_push": "Rebranded GameShield dapp with a synthwave palette and new logo.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 33,
-    "deletions": 27,
-    "churn_pct": 1,
-    "sprint": {
-      "pushes": 119,
-      "additions": 16372,
-      "deletions": 90,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "morok-pay-starknet",
