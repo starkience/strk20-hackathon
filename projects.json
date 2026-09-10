@@ -21,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-10T11:15:58Z",
+    "pushed_at": "2026-09-10T16:22:34Z",
     "stars": 0,
     "builders": [
       {
@@ -52,13 +52,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "89b40985a9ef3c32a67b60167c41e1a8ff538c7c",
+    "head_sha": "2bfd930f4a630a17e833c021d62da70d73453680",
     "readme_hash": "ec308847d0db4baa",
     "desc_v6": true,
     "churn_pct": 0,
     "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
     "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
-    "latest_push": "Refreshed depth data in app/public/epochs/depth.json.",
+    "latest_push": "Refreshed depth data in the depth.json file.",
     "tooling": [
       {
         "label": "Cairo",
@@ -84,200 +84,50 @@
     "star_evidence": "Cairo in the repository"
   },
   {
-    "slug": "game-shield",
-    "name": "GameShield",
-    "one_liner": "Private gaming bounty hub on Starknet: shielded prize pools, provable payout commitments and unlinkable rewards for tournaments, speedruns and PvP.",
-    "category": "Gaming",
-    "repo_url": "https://github.com/BlackAporia/game-shield",
-    "demo_url": "https://gameshield-starknet.vercel.app/",
-    "demo_video": "https://youtu.be/l1Aw3igDzNg?si=ec97XdPbP43u52dl",
+    "slug": "client",
+    "name": "client",
+    "one_liner": "Zylith trading and liquidity client.",
+    "category": "Other",
+    "repo_url": "https://github.com/ZylithFi/client",
+    "demo_url": "",
+    "demo_video": "",
     "x_handle": "",
     "inspired_by": "",
     "affiliation": "",
     "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x075a60637214544e9aae248355da84aef5819bf1830308451eb5ceeb10e040fc",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x72bf3cc70f12043bafbc1b84d9519b8c60c58d449a9e7ad4d8d09224fdea56e",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0xb2910d00fea9756030501392fa9f5a2ef3a07f7d4e64aa841e33d5379b7bc0",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x22f6d8549e09e108caac956f29f8d1e490b60ee3ca829e0093e0a941bcb0107",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-10T11:11:29Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "BlackAporia",
-        "name": "BlackAporia",
-        "avatar_url": "https://avatars.githubusercontent.com/u/116606427?v=4"
-      },
-      {
-        "login": "DevTest-me",
-        "name": "DevTest-me",
-        "avatar_url": "https://avatars.githubusercontent.com/u/200008500?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "fa2d5edb2984cfa29a213586fc1406427ffee7a5",
-    "readme_hash": "52dca2a7133158f9",
-    "desc_v6": true,
-    "churn_pct": 0,
-    "summary": "Run gaming bounties from funding to winner claims with automated refunds.",
-    "description_long": "GameShield is an application for managing gaming bounties entirely on Starknet. Organizers fund campaigns using a STRK20-capable wallet, participants apply, and selected winners can claim rewards directly from the contract. The system includes features like multiple winners, direct claims, permissionless refunds, and off-chain storage for applicant data, with all on-chain processes handled by a single smart contract.",
-    "latest_push": "Refreshed the GameShield preview banner image.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 0,
-    "deletions": 0,
-    "sprint": {
-      "pushes": 119,
-      "additions": 16372,
-      "deletions": 90,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "velum",
-    "name": "Velum",
-    "one_liner": "Prove you earned enough, without showing what you earned.",
-    "category": "Consumer",
-    "repo_url": "https://github.com/KayProject/velum",
-    "demo_url": "https://velum-stark.vercel.app",
-    "demo_video": "https://youtu.be/pdYNqDCj-rA",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x6f88f48e15e4325a0420da61bc933cdba982aba429c3eec5e445cfa3937ca05",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x63de9b703218cc837719cbd4547f34b7d9c18826d97153ba04aeaea5eb17d62",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x42ec49bb89312cb7770c4bc1e9148e30c8d76a80394814a830c9d605beb9341",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x242bd820e864d76f905537f2fe72f001f462d39589851fd95745cc8c825c4cc",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      }
-    ],
+    "star_reason": "The project lacks privacy application and real engineering depth.",
+    "contracts": [],
+    "transactions": [],
     "verified_txs": 0,
     "requirements": {
-      "demo": true,
-      "video": true,
+      "demo": false,
+      "video": false,
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-10T09:10:26Z",
+    "pushed_at": "2026-09-10T16:11:57Z",
     "stars": 0,
     "builders": [
       {
-        "login": "KayProject",
-        "name": "KayProject",
-        "avatar_url": "https://avatars.githubusercontent.com/u/109299010?v=4"
-      },
-      {
-        "login": "jadonamite",
-        "name": "jadonamite",
-        "avatar_url": "https://avatars.githubusercontent.com/u/186282594?v=4"
+        "login": "tanctl",
+        "name": "tanctl",
+        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
       }
     ],
     "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-09-07"
-    ],
-    "head_sha": "9c304a9462933873d960b7ebbd160fef4d14dad1",
-    "readme_hash": "0f907170f2c38994",
+    "active_days": [],
+    "head_sha": "12b9d94c72ace3ea89230e4e0c74e9200c0dbee3",
+    "readme_hash": "5039c8bbe4e7e278",
     "desc_v6": true,
-    "churn_pct": 44.9,
-    "summary": "Prove your income without revealing any financial details.",
-    "description_long": "Velum generates time-limited proofs of income that users can present to landlords, lenders, or insurers without disclosing specific earnings. The system uses signed attestations from payers to validate earnings, allowing earners to create claims by choosing the payer, time period, minimum amount, and verifier. Key components include the Velum contract for managing attestations and a simple interface for earners and verifiers.",
-    "latest_push": "Wired the browser wallet to the Starknet contract and added a Submit Claim flow.",
+    "churn_pct": 51.9,
+    "summary": "A trading and liquidity web app for Zylith.",
+    "description_long": "",
+    "latest_push": "Modified multiple core modules and added extensive tests.",
     "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
       {
         "label": "Privacy SDK",
         "live": true,
         "stack": true
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
       },
       {
         "label": "React",
@@ -295,22 +145,34 @@
         "stack": false
       },
       {
-        "label": "Cairo",
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
         "live": false,
         "stack": false
       }
     ],
     "has_readme": true,
-    "additions": 1776,
-    "deletions": 1748,
+    "additions": 15532,
+    "deletions": 12433,
     "sprint": {
-      "pushes": 15,
-      "additions": 14373,
-      "deletions": 5,
+      "pushes": 0,
+      "additions": 17668,
+      "deletions": 12343,
       "computed": 3
     },
-    "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
+      "why_complex": "No deployed contracts or complex engineering present in the stack.",
+      "reason": "The project lacks privacy application and real engineering depth.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
   },
   {
     "slug": "poker-texas-air",
@@ -396,7 +258,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-09T23:33:24Z",
+    "pushed_at": "2026-09-10T15:02:27Z",
     "stars": 0,
     "builders": [
       {
@@ -463,6 +325,603 @@
     },
     "assessment": null,
     "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "aegis-rescue",
+    "name": "Aegis Rescue",
+    "one_liner": "Whitehat rescue bot: sweeps exposed on-chain funds into the STRK20 shielded pool before attackers can, returns them to verified GitHub owners.",
+    "category": "Tooling",
+    "repo_url": "https://github.com/justbiar/aegis",
+    "demo_url": "https://aegis-peach-six.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The project converts a privacy pool into a safe box for accidentally leaked keys.",
+    "contracts": [
+      {
+        "address": "0x78ae662e0cc6d1ab2cfeaf2a51ba8783d88e31886f88a794d142f95a6f8735b",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x1d6dc36e95456923d773b7d2f381ea7557ecdbbdf5a8b1807113c5d80646ba4",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x4e9bdb6368afb6ae8613e994361acb7737cf48ef0fe6dd1525cc30f0c6820a3",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x7f96fbdf92b465b97286f95dc9c2553d2af557ca8e3b2cbe67acb3acf211f51",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x65246d96500da46c31394b26ff832e431501d9d6693083aca29a81ef27299dd",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x4ec92a188814f63c2a4acc4596eb3af15cabbf9a2a50b1a1b20aca1a3f02b43",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x28613ae48d65bb4a5ff4113299a7d600861cc4c9315e70d6085ca05d008a8fd",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x10f38798ec3dba77d1abd2c9c78e22d4c6c42f923d96668592638df2c298016",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      }
+    ],
+    "verified_txs": 3,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": true
+    },
+    "status": "building",
+    "pushed_at": "2026-09-10T14:48:58Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "justbiar",
+        "name": "Biar",
+        "avatar_url": "https://avatars.githubusercontent.com/u/160464890?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-17",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-03"
+    ],
+    "head_sha": "661ebbdd01e8d020c2345bbc47c7b53442c98f6a",
+    "readme_hash": "b43bb7ef6b0a1e4a",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "A whitehat bot that rescues exposed on-chain funds on Starknet.",
+    "description_long": "Aegis watches public repositories for accidentally committed private and API keys, verifies their validity, and sweeps any real funds to a secure address. It detects leaks by scanning various repositories, verifies the keys through regex checks and balance queries, rescues the funds, and allows owners to claim them through a secure process. The system operates continuously through automated GitHub Actions, ensuring timely detection and action without human intervention.",
+    "latest_push": "Removed the standalone presentation site for Cloudflare Pages.",
+    "tooling": [
+      {
+        "label": "AVNU",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 174,
+      "additions": 10604,
+      "deletions": 16,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": true,
+      "complex": false,
+      "why_innovative": "It rescues exposed on-chain funds by using privacy to thwart potential theft in a novel domain.",
+      "why_complex": "No deployed contracts or complex Cairo logic has been presented yet.",
+      "reason": "The project converts a privacy pool into a safe box for accidentally leaked keys.",
+      "facts_v2": true
+    },
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "iwa",
+    "name": "Iwa",
+    "one_liner": "Private savings circles on Starknet: neighbours contribute and take turns collecting the pot through the STRK20 pool, with amounts hidden and good standing provable.",
+    "category": "DeFi",
+    "repo_url": "https://github.com/solutionkanu12/iwa",
+    "demo_url": "https://useiwa.xyz",
+    "demo_video": "https://vimeo.com/1222855880",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x01f81497b09aa702a38715c0ec149d7672cd557c0caea480714d4802ff6f81be",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x04cac02dcc7ca8c46c0b6f32985f17bf24d99557222e60c6881d147e13fafbbb",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x05a22066c25cd6b337a9a16bef431546a6eca86a6e4ebd6484cd65a8317a4877",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x46bd320ecdc20de3c97fc99a17eb1741a3425f5e414ce029c5d259e712817f5",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x551a5432911b05780c2746b7555f78f57c948355f56031e13a2af00a9470e32",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 2,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-10T14:00:27Z",
+    "stars": 1,
+    "builders": [
+      {
+        "login": "solutionkanu12",
+        "name": "solutionkanu12",
+        "avatar_url": "https://avatars.githubusercontent.com/u/174873861?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "8710646e75dfe67e7b5b9f2d07f2d8c85b91d0e7",
+    "readme_hash": "ce7901d3f8045c9d",
+    "desc_v6": true,
+    "summary": "Manage private community savings with verifiable financial trust.",
+    "description_long": "Iwa allows users to create or join private savings circles where contributions are made in rounds, and payouts are collected based on a fixed order. It keeps financial records verifiable while maintaining the privacy of the contributions through Starknet. Key features include an Action Center for managing contributions, a circle timeline for tracking obligations, and options for inviting members to join circles.",
+    "latest_push": "Updated the STRK20 demo URL in strk20.json.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1,
+    "deletions": 1,
+    "churn_pct": 0,
+    "sprint": {
+      "pushes": 57,
+      "additions": 23067,
+      "deletions": 176,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "holographic-agent-marketplace",
+    "name": "holographic-agent-marketplace",
+    "one_liner": "",
+    "category": "Other",
+    "repo_url": "https://github.com/Eric-65/holographic-agent-marketplace",
+    "demo_url": "https://holographic-agent-marketplace.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-10T13:41:24Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Eric-65",
+        "name": "Eric",
+        "avatar_url": "https://avatars.githubusercontent.com/u/202713739?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Sonnet 5",
+        "avatar_url": "",
+        "commits": 4
+      }
+    ],
+    "active_days": [
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-03",
+      "2026-09-04"
+    ],
+    "head_sha": "1804efbdb6777de8c39d5f591b5fd56c115813d6",
+    "readme_hash": "d1f9dc4f1e6f094a",
+    "desc_v6": true,
+    "churn_pct": 6,
+    "summary": "A policy-controlled marketplace for private financial agents on Starknet.",
+    "description_long": "Holographic is a marketplace that allows agents to propose actions, which are then evaluated by a deterministic policy engine before execution via the user's wallet. It consists of a functional React frontend, a real wallet integration with multiple connection options, a dual policy engine for action validation and policy evaluation, and a backend for storing user data and policies. The on-chain contracts include AgentRegistry for managing agent identities, PolicyCommitment for anchoring policy versions, and ExecutionAttestor for attesting actions, while privacy handling is supported through STRK20.",
+    "latest_push": "Added a unified Framer Motion system across the app.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1290,
+    "deletions": 143,
+    "sprint": {
+      "pushes": 5,
+      "additions": 30847,
+      "deletions": 397,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "game-shield",
+    "name": "GameShield",
+    "one_liner": "Private gaming bounty hub on Starknet: shielded prize pools, provable payout commitments and unlinkable rewards for tournaments, speedruns and PvP.",
+    "category": "Gaming",
+    "repo_url": "https://github.com/BlackAporia/game-shield",
+    "demo_url": "https://gameshield-starknet.vercel.app/",
+    "demo_video": "https://youtu.be/l1Aw3igDzNg?si=ec97XdPbP43u52dl",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x075a60637214544e9aae248355da84aef5819bf1830308451eb5ceeb10e040fc",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x72bf3cc70f12043bafbc1b84d9519b8c60c58d449a9e7ad4d8d09224fdea56e",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0xb2910d00fea9756030501392fa9f5a2ef3a07f7d4e64aa841e33d5379b7bc0",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x22f6d8549e09e108caac956f29f8d1e490b60ee3ca829e0093e0a941bcb0107",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 3,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-09-10T11:11:29Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "BlackAporia",
+        "name": "BlackAporia",
+        "avatar_url": "https://avatars.githubusercontent.com/u/116606427?v=4"
+      },
+      {
+        "login": "DevTest-me",
+        "name": "DevTest-me",
+        "avatar_url": "https://avatars.githubusercontent.com/u/200008500?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "fa2d5edb2984cfa29a213586fc1406427ffee7a5",
+    "readme_hash": "52dca2a7133158f9",
+    "desc_v6": true,
+    "summary": "Run gaming bounties from funding to winner claims with automated refunds.",
+    "description_long": "GameShield is an application for managing gaming bounties entirely on Starknet. Organizers fund campaigns using a STRK20-capable wallet, participants apply, and selected winners can claim rewards directly from the contract. The system includes features like multiple winners, direct claims, permissionless refunds, and off-chain storage for applicant data, with all on-chain processes handled by a single smart contract.",
+    "latest_push": "Refreshed the GameShield preview banner image.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 0,
+    "deletions": 0,
+    "churn_pct": 0,
+    "sprint": {
+      "pushes": 119,
+      "additions": 16372,
+      "deletions": 90,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "velum",
+    "name": "Velum",
+    "one_liner": "Prove you earned enough, without showing what you earned.",
+    "category": "Consumer",
+    "repo_url": "https://github.com/KayProject/velum",
+    "demo_url": "https://velum-stark.vercel.app",
+    "demo_video": "https://youtu.be/pdYNqDCj-rA",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x6f88f48e15e4325a0420da61bc933cdba982aba429c3eec5e445cfa3937ca05",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x63de9b703218cc837719cbd4547f34b7d9c18826d97153ba04aeaea5eb17d62",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x42ec49bb89312cb7770c4bc1e9148e30c8d76a80394814a830c9d605beb9341",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x242bd820e864d76f905537f2fe72f001f462d39589851fd95745cc8c825c4cc",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      }
+    ],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-10T09:10:26Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "KayProject",
+        "name": "KayProject",
+        "avatar_url": "https://avatars.githubusercontent.com/u/109299010?v=4"
+      },
+      {
+        "login": "jadonamite",
+        "name": "jadonamite",
+        "avatar_url": "https://avatars.githubusercontent.com/u/186282594?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-09-07"
+    ],
+    "head_sha": "9c304a9462933873d960b7ebbd160fef4d14dad1",
+    "readme_hash": "0f907170f2c38994",
+    "desc_v6": true,
+    "summary": "Prove your income without revealing any financial details.",
+    "description_long": "Velum generates time-limited proofs of income that users can present to landlords, lenders, or insurers without disclosing specific earnings. The system uses signed attestations from payers to validate earnings, allowing earners to create claims by choosing the payer, time period, minimum amount, and verifier. Key components include the Velum contract for managing attestations and a simple interface for earners and verifiers.",
+    "latest_push": "Wired the browser wallet to the Starknet contract and added a Submit Claim flow.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1776,
+    "deletions": 1748,
+    "churn_pct": 44.9,
+    "sprint": {
+      "pushes": 15,
+      "additions": 14373,
+      "deletions": 5,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "stake-wars",
@@ -8613,111 +9072,6 @@
     "star_evidence": "Cairo in the repository"
   },
   {
-    "slug": "iwa",
-    "name": "Iwa",
-    "one_liner": "Private savings circles on Starknet: neighbours contribute and take turns collecting the pot through the STRK20 pool, with amounts hidden and good standing provable.",
-    "category": "DeFi",
-    "repo_url": "https://github.com/solutionkanu12/iwa",
-    "demo_url": "https://useiwa.xyz",
-    "demo_video": "https://vimeo.com/1222855880",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x01f81497b09aa702a38715c0ec149d7672cd557c0caea480714d4802ff6f81be",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x04cac02dcc7ca8c46c0b6f32985f17bf24d99557222e60c6881d147e13fafbbb",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x05a22066c25cd6b337a9a16bef431546a6eca86a6e4ebd6484cd65a8317a4877",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x46bd320ecdc20de3c97fc99a17eb1741a3425f5e414ce029c5d259e712817f5",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x551a5432911b05780c2746b7555f78f57c948355f56031e13a2af00a9470e32",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 2,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-07T04:26:01Z",
-    "stars": 1,
-    "builders": [
-      {
-        "login": "solutionkanu12",
-        "name": "solutionkanu12",
-        "avatar_url": "https://avatars.githubusercontent.com/u/174873861?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "8710646e75dfe67e7b5b9f2d07f2d8c85b91d0e7",
-    "readme_hash": "ce7901d3f8045c9d",
-    "desc_v6": true,
-    "summary": "Manage private community savings with verifiable financial trust.",
-    "description_long": "Iwa allows users to create or join private savings circles where contributions are made in rounds, and payouts are collected based on a fixed order. It keeps financial records verifiable while maintaining the privacy of the contributions through Starknet. Key features include an Action Center for managing contributions, a circle timeline for tracking obligations, and options for inviting members to join circles.",
-    "latest_push": "Updated the STRK20 demo URL in strk20.json.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 1,
-    "deletions": 1,
-    "churn_pct": 0,
-    "sprint": {
-      "pushes": 57,
-      "additions": 23067,
-      "deletions": 176,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
     "slug": "sage",
     "name": "Sage",
     "one_liner": "An autonomous agent that judges human work and pays for it — addressing each payout to a person rather than a wallet, so someone with no wallet and no gas can still collect, and who was paid stays private.",
@@ -9067,99 +9421,6 @@
     },
     "assessment": null,
     "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "client",
-    "name": "client",
-    "one_liner": "Zylith trading and liquidity client.",
-    "category": "Other",
-    "repo_url": "https://github.com/ZylithFi/client",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project lacks privacy application and real engineering depth.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-06T10:04:29Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "tanctl",
-        "name": "tanctl",
-        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-09-06"
-    ],
-    "head_sha": "374786c3bcba1dd6812f327ecd1b767d1a3198ed",
-    "readme_hash": "5039c8bbe4e7e278",
-    "desc_v6": true,
-    "summary": "A trading and liquidity web app for Zylith.",
-    "description_long": "",
-    "latest_push": "Replaced large portions of logic in liquidity and crypto modules.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 17668,
-    "deletions": 12343,
-    "churn_pct": 47.6,
-    "sprint": {
-      "pushes": 1,
-      "additions": 17668,
-      "deletions": 12343,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
-      "why_complex": "No deployed contracts or complex engineering present in the stack.",
-      "reason": "The project lacks privacy application and real engineering depth.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
   },
   {
     "slug": "doom",
@@ -9845,168 +10106,6 @@
     },
     "assessment": null,
     "star_evidence": "8 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "aegis-rescue",
-    "name": "Aegis Rescue",
-    "one_liner": "Whitehat rescue bot: sweeps exposed on-chain funds into the STRK20 shielded pool before attackers can, returns them to verified GitHub owners.",
-    "category": "Tooling",
-    "repo_url": "https://github.com/justbiar/aegis",
-    "demo_url": "https://aegis-peach-six.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project converts a privacy pool into a safe box for accidentally leaked keys.",
-    "contracts": [
-      {
-        "address": "0x78ae662e0cc6d1ab2cfeaf2a51ba8783d88e31886f88a794d142f95a6f8735b",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x1d6dc36e95456923d773b7d2f381ea7557ecdbbdf5a8b1807113c5d80646ba4",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x4e9bdb6368afb6ae8613e994361acb7737cf48ef0fe6dd1525cc30f0c6820a3",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x7f96fbdf92b465b97286f95dc9c2553d2af557ca8e3b2cbe67acb3acf211f51",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x65246d96500da46c31394b26ff832e431501d9d6693083aca29a81ef27299dd",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x4ec92a188814f63c2a4acc4596eb3af15cabbf9a2a50b1a1b20aca1a3f02b43",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x28613ae48d65bb4a5ff4113299a7d600861cc4c9315e70d6085ca05d008a8fd",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x10f38798ec3dba77d1abd2c9c78e22d4c6c42f923d96668592638df2c298016",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": true
-    },
-    "status": "building",
-    "pushed_at": "2026-09-05T14:29:56Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "justbiar",
-        "name": "Biar",
-        "avatar_url": "https://avatars.githubusercontent.com/u/160464890?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-17",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-03"
-    ],
-    "head_sha": "85a4447ed10d10602e7ee3eb779f62e72d20dfb0",
-    "readme_hash": "b43bb7ef6b0a1e4a",
-    "desc_v6": true,
-    "summary": "A whitehat bot that rescues exposed on-chain funds on Starknet.",
-    "description_long": "Aegis watches public repositories for accidentally committed private and API keys, verifies their validity, and sweeps any real funds to a secure address. It detects leaks by scanning various repositories, verifies the keys through regex checks and balance queries, rescues the funds, and allows owners to claim them through a secure process. The system operates continuously through automated GitHub Actions, ensuring timely detection and action without human intervention.",
-    "latest_push": "Reduced scan frequency to every 15 minutes and optimized related routes.",
-    "tooling": [
-      {
-        "label": "AVNU",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 437,
-    "deletions": 197,
-    "churn_pct": 6.5,
-    "sprint": {
-      "pushes": 174,
-      "additions": 10604,
-      "deletions": 16,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": true,
-      "complex": false,
-      "why_innovative": "It rescues exposed on-chain funds by using privacy to thwart potential theft in a novel domain.",
-      "why_complex": "No deployed contracts or complex Cairo logic has been presented yet.",
-      "reason": "The project converts a privacy pool into a safe box for accidentally leaked keys.",
-      "facts_v2": true
-    },
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "one-way",
@@ -11003,107 +11102,6 @@
     },
     "assessment": null,
     "star_evidence": ""
-  },
-  {
-    "slug": "holographic-agent-marketplace",
-    "name": "holographic-agent-marketplace",
-    "one_liner": "",
-    "category": "Other",
-    "repo_url": "https://github.com/Eric-65/holographic-agent-marketplace",
-    "demo_url": "https://holographic-agent-marketplace.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-04T09:10:51Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Eric-65",
-        "name": "Eric",
-        "avatar_url": "https://avatars.githubusercontent.com/u/202713739?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Sonnet 5",
-        "avatar_url": "",
-        "commits": 4
-      }
-    ],
-    "active_days": [
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-03",
-      "2026-09-04"
-    ],
-    "head_sha": "b02dd400b6b0180b5b3b0b6eacdbd0960f184387",
-    "readme_hash": "d1f9dc4f1e6f094a",
-    "desc_v6": true,
-    "summary": "A policy-controlled marketplace for private financial agents on Starknet.",
-    "description_long": "Holographic is a marketplace that allows agents to propose actions, which are then evaluated by a deterministic policy engine before execution via the user's wallet. It consists of a functional React frontend, a real wallet integration with multiple connection options, a dual policy engine for action validation and policy evaluation, and a backend for storing user data and policies. The on-chain contracts include AgentRegistry for managing agent identities, PolicyCommitment for anchoring policy versions, and ExecutionAttestor for attesting actions, while privacy handling is supported through STRK20.",
-    "latest_push": "Fixed transparent modal panels and removed the milestone report file.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 21,
-    "deletions": 115,
-    "churn_pct": 0.6,
-    "sprint": {
-      "pushes": 5,
-      "additions": 29560,
-      "deletions": 257,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "vocap",
