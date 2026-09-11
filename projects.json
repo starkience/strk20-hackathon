@@ -1,5 +1,110 @@
 [
   {
+    "slug": "iwa",
+    "name": "Iwa",
+    "one_liner": "Private savings circles on Starknet: neighbours contribute and take turns collecting the pot through the STRK20 pool, with amounts hidden and good standing provable.",
+    "category": "DeFi",
+    "repo_url": "https://github.com/solutionkanu12/iwa",
+    "demo_url": "https://useiwa.xyz",
+    "demo_video": "https://vimeo.com/1222855880",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x01f81497b09aa702a38715c0ec149d7672cd557c0caea480714d4802ff6f81be",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x04cac02dcc7ca8c46c0b6f32985f17bf24d99557222e60c6881d147e13fafbbb",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x05a22066c25cd6b337a9a16bef431546a6eca86a6e4ebd6484cd65a8317a4877",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x46bd320ecdc20de3c97fc99a17eb1741a3425f5e414ce029c5d259e712817f5",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x551a5432911b05780c2746b7555f78f57c948355f56031e13a2af00a9470e32",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 2,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-11T09:02:45Z",
+    "stars": 1,
+    "builders": [
+      {
+        "login": "solutionkanu12",
+        "name": "solutionkanu12",
+        "avatar_url": "https://avatars.githubusercontent.com/u/174873861?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "8710646e75dfe67e7b5b9f2d07f2d8c85b91d0e7",
+    "readme_hash": "ce7901d3f8045c9d",
+    "desc_v6": true,
+    "summary": "Manage private community savings with verifiable financial trust.",
+    "description_long": "Iwa allows users to create or join private savings circles where contributions are made in rounds, and payouts are collected based on a fixed order. It keeps financial records verifiable while maintaining the privacy of the contributions through Starknet. Key features include an Action Center for managing contributions, a circle timeline for tracking obligations, and options for inviting members to join circles.",
+    "latest_push": "Updated the STRK20 demo URL in strk20.json.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1,
+    "deletions": 1,
+    "churn_pct": 0,
+    "sprint": {
+      "pushes": 57,
+      "additions": 23067,
+      "deletions": 176,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
     "slug": "patron",
     "name": "PATRON",
     "one_liner": "Private tips for creators on Starknet: supporters stay inside the STRK20 pool while the public book shows only count and aggregate.",
@@ -40,7 +145,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-09-11T04:40:20Z",
+    "pushed_at": "2026-09-11T07:56:42Z",
     "stars": 0,
     "builders": [
       {
@@ -157,7 +262,6 @@
     "head_sha": "5f324094301f1738df2b2c389a63f315770b7e69",
     "readme_hash": "ec308847d0db4baa",
     "desc_v6": true,
-    "churn_pct": 0.4,
     "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
     "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
     "latest_push": "Refreshed the depth data in depth.json file.",
@@ -176,6 +280,7 @@
     "has_readme": true,
     "additions": 62,
     "deletions": 2,
+    "churn_pct": 0.4,
     "sprint": {
       "pushes": 79,
       "additions": 30304,
@@ -478,111 +583,6 @@
     },
     "assessment": null,
     "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "iwa",
-    "name": "Iwa",
-    "one_liner": "Private savings circles on Starknet: neighbours contribute and take turns collecting the pot through the STRK20 pool, with amounts hidden and good standing provable.",
-    "category": "DeFi",
-    "repo_url": "https://github.com/solutionkanu12/iwa",
-    "demo_url": "https://useiwa.xyz",
-    "demo_video": "https://vimeo.com/1222855880",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x01f81497b09aa702a38715c0ec149d7672cd557c0caea480714d4802ff6f81be",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x04cac02dcc7ca8c46c0b6f32985f17bf24d99557222e60c6881d147e13fafbbb",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x05a22066c25cd6b337a9a16bef431546a6eca86a6e4ebd6484cd65a8317a4877",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x46bd320ecdc20de3c97fc99a17eb1741a3425f5e414ce029c5d259e712817f5",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x551a5432911b05780c2746b7555f78f57c948355f56031e13a2af00a9470e32",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 2,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-10T18:12:45Z",
-    "stars": 1,
-    "builders": [
-      {
-        "login": "solutionkanu12",
-        "name": "solutionkanu12",
-        "avatar_url": "https://avatars.githubusercontent.com/u/174873861?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "8710646e75dfe67e7b5b9f2d07f2d8c85b91d0e7",
-    "readme_hash": "ce7901d3f8045c9d",
-    "desc_v6": true,
-    "summary": "Manage private community savings with verifiable financial trust.",
-    "description_long": "Iwa allows users to create or join private savings circles where contributions are made in rounds, and payouts are collected based on a fixed order. It keeps financial records verifiable while maintaining the privacy of the contributions through Starknet. Key features include an Action Center for managing contributions, a circle timeline for tracking obligations, and options for inviting members to join circles.",
-    "latest_push": "Updated the STRK20 demo URL in strk20.json.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 1,
-    "deletions": 1,
-    "churn_pct": 0,
-    "sprint": {
-      "pushes": 57,
-      "additions": 23067,
-      "deletions": 176,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "client",
