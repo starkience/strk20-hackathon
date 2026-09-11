@@ -126,7 +126,6 @@
     "head_sha": "2c83ec7fe9b90aee8c7f185a3c4e10c751ba116a",
     "readme_hash": "da8aaf67a12f8d90",
     "desc_v6": true,
-    "churn_pct": 0.1,
     "summary": "Prediction markets where positions are hidden until settlement.",
     "description_long": "This project implements prediction markets allowing users to pick a price range and stake on it without revealing their position until the market settles. Built on Starknet, the contract manages market listings and funding with the primary focus on privacy, ensuring that users' stakes cannot be observed or copied by others before settlement.",
     "latest_push": "Fixed the hero console disappearing on first scroll.",
@@ -150,6 +149,7 @@
     "has_readme": true,
     "additions": 39,
     "deletions": 14,
+    "churn_pct": 0.1,
     "sprint": {
       "pushes": 301,
       "additions": 19633,
@@ -215,7 +215,6 @@
     "head_sha": "fed126d07166ee47efabfe1fd9316a6f84a0e27f",
     "readme_hash": "ec308847d0db4baa",
     "desc_v6": true,
-    "churn_pct": 0.3,
     "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
     "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
     "latest_push": "Refreshed depth data in app/public/epochs/depth.json.",
@@ -234,6 +233,7 @@
     "has_readme": true,
     "additions": 48,
     "deletions": 3,
+    "churn_pct": 0.3,
     "sprint": {
       "pushes": 79,
       "additions": 30434,
@@ -467,7 +467,6 @@
     "head_sha": "f279254507dda0503167fa1056e773250d0200c3",
     "readme_hash": "725705f06e0629d6",
     "desc_v6": true,
-    "churn_pct": 73.2,
     "summary": "A provably fair online Texas Hold'em poker game with no trusted dealer.",
     "description_long": "This project is a full-stack online Texas Hold'em poker game that ensures fairness through cryptographic methods. Players jointly shuffle ElGamal-encrypted cards, and every action is supported by sigma proofs verified on-chain, preventing the host from cheating or freezing funds. It consists of five smart contracts handling the game logic, chip flows, and payout processes, with users interacting directly via their browsers.",
     "latest_push": "Added the PokerTableRegistry feature and updated deployment scripts.",
@@ -491,6 +490,7 @@
     "has_readme": true,
     "additions": 144304,
     "deletions": 821,
+    "churn_pct": 73.2,
     "sprint": {
       "pushes": 188,
       "additions": 209253,
@@ -628,7 +628,6 @@
     "head_sha": "c7795cd297e26bff71c7b524257b2c0723402d23",
     "readme_hash": "71155a4a53f21f24",
     "desc_v6": true,
-    "churn_pct": 0.4,
     "summary": "Experimental infrastructure for AI agents to negotiate and settle transactions privately.",
     "description_long": "Erebus enables AI agents to negotiate terms and privately settle transactions using shielded channels. It consists of thirteen tools that facilitate channel establishment, offer proposals, and atomic settlements, all utilizing operation identifiers for consistent state management. The project has been tested on the Starknet Sepolia network, demonstrating successful atomic settlements and scoped disclosures, but remains unaudited and experimental.",
     "latest_push": "Documented MCP server install and client setup in the README.",
@@ -647,6 +646,7 @@
     "has_readme": true,
     "additions": 179,
     "deletions": 0,
+    "churn_pct": 0.4,
     "sprint": {
       "pushes": 126,
       "additions": 13917,
