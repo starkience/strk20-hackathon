@@ -1,5 +1,191 @@
 [
   {
+    "slug": "patron",
+    "name": "PATRON",
+    "one_liner": "Private tips for creators on Starknet: supporters stay inside the STRK20 pool while the public book shows only count and aggregate.",
+    "category": "Payments",
+    "repo_url": "https://github.com/ronkenx9/patron",
+    "demo_url": "https://patron-topaz.vercel.app",
+    "demo_video": "https://youtu.be/cbvcKxiPkXA",
+    "x_handle": "kenn_ronin",
+    "inspired_by": "RFP-12",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [
+      {
+        "hash": "0x2e0b97e9a0294854bd530f7272c377d3282f57d0a46682619946a505d40dafa",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x7072d3f3d612f46d8c7e39877028ae864c5535687ba89604ffd48e0cc0a76bc",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0xbda1e01ed58a533fae14a185ec839988a1fdf7927a0cad430ecd199755bc07",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      }
+    ],
+    "verified_txs": 3,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-09-11T04:40:20Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "ronkenx9",
+        "name": "ronkenx9",
+        "avatar_url": "https://avatars.githubusercontent.com/u/140641518?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-20",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "20e2269a3deb900b9c9028abdb9cc6924273dfc8",
+    "readme_hash": "78ba219e4917d136",
+    "desc_v6": true,
+    "summary": "Crowdfund without public backer identities using private transfers.",
+    "description_long": "PATRON is a crowdfunding tool for creators and communities that allows campaigns to raise funds without publicly displaying supporter identities. It has two funding options: public pledges made from shielded balances that appear as STRK transfers to the campaign treasury, and silent gifts which are private transfers that do not affect the campaign's progress bar. The application is built using Node.js and interacts with STRK20 on Starknet, utilizing features such as the Wallet API and event reading from the blockchain.",
+    "latest_push": "Pointed strk20.json demo_video at the YouTube walkthrough and redesigned Patron.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 437,
+    "deletions": 531,
+    "churn_pct": 28.6,
+    "sprint": {
+      "pushes": 17,
+      "additions": 6174,
+      "deletions": 128,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": ""
+  },
+  {
+    "slug": "himitsu-protocol",
+    "name": "Himitsu Protocol",
+    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
+    "category": "Infra",
+    "repo_url": "https://github.com/adipundir/himitsu-protocol",
+    "demo_url": "https://himitsu-protocol.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-11T04:36:33Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "adipundir",
+        "name": "Aditya Pundir",
+        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
+      },
+      {
+        "login": "deepakA18",
+        "name": "Deepak",
+        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
+      },
+      {
+        "login": "actions",
+        "name": "himitsu-depth-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "5f324094301f1738df2b2c389a63f315770b7e69",
+    "readme_hash": "ec308847d0db4baa",
+    "desc_v6": true,
+    "churn_pct": 0.4,
+    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
+    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
+    "latest_push": "Refreshed the depth data in depth.json file.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 62,
+    "deletions": 2,
+    "sprint": {
+      "pushes": 79,
+      "additions": 30304,
+      "deletions": 19,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "morrow",
     "name": "Morrow",
     "one_liner": "A privacy preflight for STRK20 milestone payouts.",
@@ -292,90 +478,6 @@
     },
     "assessment": null,
     "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "himitsu-protocol",
-    "name": "Himitsu Protocol",
-    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
-    "category": "Infra",
-    "repo_url": "https://github.com/adipundir/himitsu-protocol",
-    "demo_url": "https://himitsu-protocol.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-10T20:50:22Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "adipundir",
-        "name": "Aditya Pundir",
-        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
-      },
-      {
-        "login": "deepakA18",
-        "name": "Deepak",
-        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
-      },
-      {
-        "login": "actions",
-        "name": "himitsu-depth-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "bf4bb2667f836e55b2f5f9f274220ed118d615e1",
-    "readme_hash": "ec308847d0db4baa",
-    "desc_v6": true,
-    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
-    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
-    "latest_push": "Refreshed depth data in the depth.json file.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 17,
-    "deletions": 2,
-    "churn_pct": 0.1,
-    "sprint": {
-      "pushes": 79,
-      "additions": 30244,
-      "deletions": 19,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "iwa",
@@ -3116,108 +3218,6 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "patron",
-    "name": "PATRON",
-    "one_liner": "Private tips for creators on Starknet: supporters stay inside the STRK20 pool while the public book shows only count and aggregate.",
-    "category": "Payments",
-    "repo_url": "https://github.com/ronkenx9/patron",
-    "demo_url": "https://patron-topaz.vercel.app",
-    "demo_video": "https://youtu.be/cbvcKxiPkXA",
-    "x_handle": "kenn_ronin",
-    "inspired_by": "RFP-12",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [
-      {
-        "hash": "0x2e0b97e9a0294854bd530f7272c377d3282f57d0a46682619946a505d40dafa",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x7072d3f3d612f46d8c7e39877028ae864c5535687ba89604ffd48e0cc0a76bc",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0xbda1e01ed58a533fae14a185ec839988a1fdf7927a0cad430ecd199755bc07",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-07T23:54:29Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "ronkenx9",
-        "name": "ronkenx9",
-        "avatar_url": "https://avatars.githubusercontent.com/u/140641518?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-20",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "20e2269a3deb900b9c9028abdb9cc6924273dfc8",
-    "readme_hash": "78ba219e4917d136",
-    "desc_v6": true,
-    "summary": "Crowdfund without public backer identities using private transfers.",
-    "description_long": "PATRON is a crowdfunding tool for creators and communities that allows campaigns to raise funds without publicly displaying supporter identities. It has two funding options: public pledges made from shielded balances that appear as STRK transfers to the campaign treasury, and silent gifts which are private transfers that do not affect the campaign's progress bar. The application is built using Node.js and interacts with STRK20 on Starknet, utilizing features such as the Wallet API and event reading from the blockchain.",
-    "latest_push": "Pointed strk20.json demo_video at the YouTube walkthrough and redesigned Patron.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 437,
-    "deletions": 531,
-    "churn_pct": 28.6,
-    "sprint": {
-      "pushes": 17,
-      "additions": 6174,
-      "deletions": 128,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": ""
   },
   {
     "slug": "gigstark",
