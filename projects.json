@@ -1,5 +1,147 @@
 [
   {
+    "slug": "morrow",
+    "name": "Morrow",
+    "one_liner": "A privacy preflight for STRK20 milestone payouts.",
+    "category": "Other",
+    "repo_url": "https://github.com/nftkingiii/Morrow",
+    "demo_url": "https://morrow-production.up.railway.app",
+    "demo_video": "https://morrow-production.up.railway.app/morrow-demo.mp4",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "Morrow's preflight uniquely clarifies privacy boundaries in milestone funding.",
+    "contracts": [
+      {
+        "address": "0x073d8af97693e5744fb46c994e1cfabf9815e3044cdca6253e239d922f9bae3",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x074d1aa39677b6ac343631c828fb6cd0c7455aca04776cef27340c7b78635771",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x01426072154959aa0a3fb988c7757ccb19dc4c7e4b3794208e92c547167fd852",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x02c68bd07c6cccb9f38588fb03fb9b6e203227c33e93b2000fe050b7854e75ea",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x0251d046bea41d0f66cf0841511f950142553be22371c092bef87583311cf680",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x03992f10ddd6d2e307481814c9ed9f6631087df36406e4bd37e35108365bc229",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 3,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-09-11T00:02:33Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "nftkingiii",
+        "name": "nftking",
+        "avatar_url": "https://avatars.githubusercontent.com/u/112104786?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-18",
+      "2026-08-20",
+      "2026-08-24",
+      "2026-08-26"
+    ],
+    "head_sha": "ccffba9da00aa3d8949d060c66db4e4a4b1892ba",
+    "readme_hash": "04159fb2ddb13adc",
+    "desc_v6": true,
+    "summary": "Prepares STRK20 milestone grants with privacy insights and funding route analysis.",
+    "description_long": "Morrow is a tool that allows users to analyze funding routes for STRK20 milestone payouts while maintaining privacy. It consists of four main sections: Prepare for comparing funding routes, Fund for drafting milestone terms without recording recipient addresses, Resolve for claiming or recovering milestones, and Evidence for tracking proof statuses. The preflight ensures the transaction structure is clear on what remains private and what is public, with all processes guided by static local privacy boundaries.",
+    "latest_push": "Documented contract verification evidence in VERIFICATION.md.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 44,
+    "deletions": 3,
+    "churn_pct": 1.6,
+    "sprint": {
+      "pushes": 22,
+      "additions": 7625,
+      "deletions": 381,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": true,
+      "complex": false,
+      "why_innovative": "Morrow provides a privacy preflight for milestone grants, determining funding structures distinctly.",
+      "why_complex": "No deployed contracts or significant engineering depth are demonstrated yet.",
+      "reason": "Morrow's preflight uniquely clarifies privacy boundaries in milestone funding.",
+      "facts_v2": true
+    },
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+  },
+  {
     "slug": "poker-texas-air",
     "name": "poker_texas_air",
     "one_liner": "Provably fair Texas Hold'em on Starknet — a mental-poker protocol with no trusted dealer: cards are ElGamal-encrypted and shuffled by the players, every step is a sigma proof your browser verifies, and bankrolls move privately through the STRK20 pool. Live on mainnet.",
@@ -207,7 +349,6 @@
     "head_sha": "bf4bb2667f836e55b2f5f9f274220ed118d615e1",
     "readme_hash": "ec308847d0db4baa",
     "desc_v6": true,
-    "churn_pct": 0.1,
     "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
     "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
     "latest_push": "Refreshed depth data in the depth.json file.",
@@ -226,6 +367,7 @@
     "has_readme": true,
     "additions": 17,
     "deletions": 2,
+    "churn_pct": 0.1,
     "sprint": {
       "pushes": 79,
       "additions": 30244,
@@ -16506,148 +16648,6 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "morrow",
-    "name": "Morrow",
-    "one_liner": "A privacy preflight for STRK20 milestone payouts.",
-    "category": "Other",
-    "repo_url": "https://github.com/nftkingiii/Morrow",
-    "demo_url": "https://morrow-production.up.railway.app",
-    "demo_video": "https://morrow-production.up.railway.app/morrow-demo.mp4",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "Morrow's preflight uniquely clarifies privacy boundaries in milestone funding.",
-    "contracts": [
-      {
-        "address": "0x073d8af97693e5744fb46c994e1cfabf9815e3044cdca6253e239d922f9bae3",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x074d1aa39677b6ac343631c828fb6cd0c7455aca04776cef27340c7b78635771",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x01426072154959aa0a3fb988c7757ccb19dc4c7e4b3794208e92c547167fd852",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x02c68bd07c6cccb9f38588fb03fb9b6e203227c33e93b2000fe050b7854e75ea",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x0251d046bea41d0f66cf0841511f950142553be22371c092bef87583311cf680",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x03992f10ddd6d2e307481814c9ed9f6631087df36406e4bd37e35108365bc229",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-08-26T05:43:22Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "nftkingiii",
-        "name": "nftking",
-        "avatar_url": "https://avatars.githubusercontent.com/u/112104786?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-18",
-      "2026-08-20",
-      "2026-08-24",
-      "2026-08-26"
-    ],
-    "head_sha": "ccffba9da00aa3d8949d060c66db4e4a4b1892ba",
-    "readme_hash": "04159fb2ddb13adc",
-    "desc_v6": true,
-    "summary": "Prepares STRK20 milestone grants with privacy insights and funding route analysis.",
-    "description_long": "Morrow is a tool that allows users to analyze funding routes for STRK20 milestone payouts while maintaining privacy. It consists of four main sections: Prepare for comparing funding routes, Fund for drafting milestone terms without recording recipient addresses, Resolve for claiming or recovering milestones, and Evidence for tracking proof statuses. The preflight ensures the transaction structure is clear on what remains private and what is public, with all processes guided by static local privacy boundaries.",
-    "latest_push": "Documented contract verification evidence in VERIFICATION.md.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 44,
-    "deletions": 3,
-    "churn_pct": 1.6,
-    "sprint": {
-      "pushes": 22,
-      "additions": 7625,
-      "deletions": 381,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": true,
-      "complex": false,
-      "why_innovative": "Morrow provides a privacy preflight for milestone grants, determining funding structures distinctly.",
-      "why_complex": "No deployed contracts or significant engineering depth are demonstrated yet.",
-      "reason": "Morrow's preflight uniquely clarifies privacy boundaries in milestone funding.",
-      "facts_v2": true
-    },
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "veilos",
