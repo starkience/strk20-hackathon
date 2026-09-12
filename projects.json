@@ -1,5 +1,85 @@
 [
   {
+    "slug": "open-beanie",
+    "name": "open-beanie",
+    "one_liner": "software powering beanie",
+    "category": "Payments",
+    "repo_url": "https://github.com/cenwadike/open-beanie",
+    "demo_url": "https://beanie.up.railway.app/",
+    "demo_video": "https://youtu.be/kGaXVlH6fWE",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-12T21:04:18Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "cenwadike",
+        "name": "Kombi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "712c06f10e85c65840c98d35336546ee7510a239",
+    "readme_hash": "8580a1475cd8ae3b",
+    "desc_v6": true,
+    "churn_pct": 8,
+    "summary": "A non-custodial stablecoin payment gateway for merchants across multiple chains.",
+    "description_long": "Beanie allows merchants to register a destination address for stablecoin payments without ever holding their funds. Each chain has a dedicated receiver contract deployed through a factory, ensuring non-custodial transfers that prevent admin redirection of funds after deployment. The Starknet contracts mirror the EVM's functionality, offering client-side deterministic stealth payments through a 2-of-2 co-signing mechanism using WebAuthn and Lit Protocol.",
+    "latest_push": "Added the CRE for base sweep and related configurations.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 832,
+    "deletions": 15,
+    "sprint": {
+      "pushes": 37,
+      "additions": 14056,
+      "deletions": 23,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "himitsu-protocol",
     "name": "Himitsu Protocol",
     "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
@@ -21,7 +101,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-12T15:30:07Z",
+    "pushed_at": "2026-09-12T20:32:00Z",
     "stars": 0,
     "builders": [
       {
@@ -52,12 +132,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "02200551a7207308a0280f5a62800bc421c73a89",
+    "head_sha": "9fce8419928fff4b4977a9244969dc2ef9743e57",
     "readme_hash": "ec308847d0db4baa",
     "desc_v6": true,
+    "churn_pct": 0,
     "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
     "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
-    "latest_push": "Refreshed the depth data in the depth.json file.",
+    "latest_push": "Refreshed the depth data in depth.json for the scheduled update.",
     "tooling": [
       {
         "label": "Cairo",
@@ -71,9 +152,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 48,
-    "deletions": 3,
-    "churn_pct": 0.3,
+    "additions": 1,
+    "deletions": 1,
     "sprint": {
       "pushes": 79,
       "additions": 30584,
@@ -3682,86 +3762,6 @@
       "reason": "The project lacks any unique application of privacy technology.",
       "facts_v2": true
     },
-    "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "open-beanie",
-    "name": "open-beanie",
-    "one_liner": "software powering beanie",
-    "category": "Payments",
-    "repo_url": "https://github.com/cenwadike/open-beanie",
-    "demo_url": "https://beanie.up.railway.app/",
-    "demo_video": "https://youtu.be/kGaXVlH6fWE",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-07T23:44:55Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "cenwadike",
-        "name": "Kombi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "63925cf362a9a93a1370df9996c5a956607fc6b6",
-    "readme_hash": "8580a1475cd8ae3b",
-    "desc_v6": true,
-    "summary": "A non-custodial stablecoin payment gateway for merchants across multiple chains.",
-    "description_long": "Beanie allows merchants to register a destination address for stablecoin payments without ever holding their funds. Each chain has a dedicated receiver contract deployed through a factory, ensuring non-custodial transfers that prevent admin redirection of funds after deployment. The Starknet contracts mirror the EVM's functionality, offering client-side deterministic stealth payments through a 2-of-2 co-signing mechanism using WebAuthn and Lit Protocol.",
-    "latest_push": "Added on-chain footprint functionality and performed cleanups.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 1051,
-    "deletions": 679,
-    "churn_pct": 17.2,
-    "sprint": {
-      "pushes": 37,
-      "additions": 13239,
-      "deletions": 23,
-      "computed": 3
-    },
-    "assessment": null,
     "star_evidence": "Cairo in the repository"
   },
   {
