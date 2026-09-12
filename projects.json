@@ -21,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-12T21:04:18Z",
+    "pushed_at": "2026-09-12T23:05:04Z",
     "stars": 0,
     "builders": [
       {
@@ -43,13 +43,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "712c06f10e85c65840c98d35336546ee7510a239",
+    "head_sha": "e9d0ea7156b813bff46d3971129099eb057bad80",
     "readme_hash": "8580a1475cd8ae3b",
     "desc_v6": true,
-    "churn_pct": 8,
+    "churn_pct": 5.5,
     "summary": "A non-custodial stablecoin payment gateway for merchants across multiple chains.",
     "description_long": "Beanie allows merchants to register a destination address for stablecoin payments without ever holding their funds. Each chain has a dedicated receiver contract deployed through a factory, ensuring non-custodial transfers that prevent admin redirection of funds after deployment. The Starknet contracts mirror the EVM's functionality, offering client-side deterministic stealth payments through a 2-of-2 co-signing mechanism using WebAuthn and Lit Protocol.",
-    "latest_push": "Added the CRE for base sweep and related configurations.",
+    "latest_push": "Added contract tests for the CRE and a confidential workflow.",
     "tooling": [
       {
         "label": "Cairo",
@@ -68,11 +68,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 832,
-    "deletions": 15,
+    "additions": 465,
+    "deletions": 127,
     "sprint": {
       "pushes": 37,
-      "additions": 14056,
+      "additions": 14394,
       "deletions": 23,
       "computed": 3
     },
@@ -135,7 +135,6 @@
     "head_sha": "9fce8419928fff4b4977a9244969dc2ef9743e57",
     "readme_hash": "ec308847d0db4baa",
     "desc_v6": true,
-    "churn_pct": 0,
     "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
     "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
     "latest_push": "Refreshed the depth data in depth.json for the scheduled update.",
@@ -154,6 +153,7 @@
     "has_readme": true,
     "additions": 1,
     "deletions": 1,
+    "churn_pct": 0,
     "sprint": {
       "pushes": 79,
       "additions": 30584,
@@ -9759,7 +9759,7 @@
     },
     "status": "finished",
     "pushed_at": "2026-09-06T09:38:15Z",
-    "stars": 1,
+    "stars": 2,
     "builders": [
       {
         "login": "neromtoobad",
