@@ -1,5 +1,89 @@
 [
   {
+    "slug": "himitsu-protocol",
+    "name": "Himitsu Protocol",
+    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
+    "category": "Infra",
+    "repo_url": "https://github.com/adipundir/himitsu-protocol",
+    "demo_url": "https://himitsu-protocol.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-12T15:30:07Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "adipundir",
+        "name": "Aditya Pundir",
+        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
+      },
+      {
+        "login": "deepakA18",
+        "name": "Deepak",
+        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
+      },
+      {
+        "login": "actions",
+        "name": "himitsu-depth-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "02200551a7207308a0280f5a62800bc421c73a89",
+    "readme_hash": "ec308847d0db4baa",
+    "desc_v6": true,
+    "churn_pct": 0.3,
+    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
+    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
+    "latest_push": "Refreshed the depth data in the depth.json file.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 48,
+    "deletions": 3,
+    "sprint": {
+      "pushes": 79,
+      "additions": 30584,
+      "deletions": 19,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "stake-wars",
     "name": "Stake Wars",
     "one_liner": "Persistent onchain strategy game with private Vickrey Beacon auctions: bids stay sealed until settlement through STRK20.",
@@ -79,7 +163,6 @@
     "head_sha": "21fde0af381d14adc47b9457cccd60f983915c9d",
     "readme_hash": "3beb3b2f3fab4937",
     "desc_v6": true,
-    "churn_pct": 0.4,
     "summary": "A persistent strategy game with territory battles and sealed auctions for STRK delegation.",
     "description_long": "Stake Wars is a non-custodial strategy game where players deploy delegated STRK to capture and defend territories. The game features private Beacon auctions using the Whisper library for sealed bids, ensuring bid confidentiality until settlement. The repository includes a web application, game API built with Go, and Cairo contracts, organized under apps, contracts, and vendor directories.",
     "latest_push": "Made Beacon transmission description and link optional.",
@@ -93,6 +176,7 @@
     "has_readme": true,
     "additions": 96,
     "deletions": 69,
+    "churn_pct": 0.4,
     "sprint": {
       "pushes": 144,
       "additions": 39457,
@@ -108,90 +192,6 @@
       "facts_v2": true
     },
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "himitsu-protocol",
-    "name": "Himitsu Protocol",
-    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
-    "category": "Infra",
-    "repo_url": "https://github.com/adipundir/himitsu-protocol",
-    "demo_url": "https://himitsu-protocol.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-12T10:43:16Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "adipundir",
-        "name": "Aditya Pundir",
-        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
-      },
-      {
-        "login": "deepakA18",
-        "name": "Deepak",
-        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
-      },
-      {
-        "login": "actions",
-        "name": "himitsu-depth-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "196c40b2f8fef7365a56984de9a655f6c649f3de",
-    "readme_hash": "ec308847d0db4baa",
-    "desc_v6": true,
-    "churn_pct": 0.5,
-    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
-    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
-    "latest_push": "Refreshed depth data in the depth.json file.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 78,
-    "deletions": 3,
-    "sprint": {
-      "pushes": 79,
-      "additions": 30539,
-      "deletions": 19,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "strkworld",
