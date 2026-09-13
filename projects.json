@@ -21,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-12T23:05:04Z",
+    "pushed_at": "2026-09-12T23:24:59Z",
     "stars": 0,
     "builders": [
       {
@@ -43,13 +43,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "e9d0ea7156b813bff46d3971129099eb057bad80",
+    "head_sha": "92c7a133f6ea6343b3ae500b0c346fa41359625f",
     "readme_hash": "8580a1475cd8ae3b",
     "desc_v6": true,
-    "churn_pct": 5.5,
+    "churn_pct": 0.2,
     "summary": "A non-custodial stablecoin payment gateway for merchants across multiple chains.",
     "description_long": "Beanie allows merchants to register a destination address for stablecoin payments without ever holding their funds. Each chain has a dedicated receiver contract deployed through a factory, ensuring non-custodial transfers that prevent admin redirection of funds after deployment. The Starknet contracts mirror the EVM's functionality, offering client-side deterministic stealth payments through a 2-of-2 co-signing mechanism using WebAuthn and Lit Protocol.",
-    "latest_push": "Added contract tests for the CRE and a confidential workflow.",
+    "latest_push": "Fixed the quota cap issue in the RPC flow.",
     "tooling": [
       {
         "label": "Cairo",
@@ -68,11 +68,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 465,
-    "deletions": 127,
+    "additions": 17,
+    "deletions": 5,
     "sprint": {
       "pushes": 37,
-      "additions": 14394,
+      "additions": 14406,
       "deletions": 23,
       "computed": 3
     },
