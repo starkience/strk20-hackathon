@@ -1,11 +1,337 @@
 [
   {
+    "slug": "himitsu-protocol",
+    "name": "Himitsu Protocol",
+    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
+    "category": "Infra",
+    "repo_url": "https://github.com/adipundir/himitsu-protocol",
+    "demo_url": "https://himitsu-protocol.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-13T11:48:32Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "adipundir",
+        "name": "Aditya Pundir",
+        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
+      },
+      {
+        "login": "deepakA18",
+        "name": "Deepak",
+        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
+      },
+      {
+        "login": "actions",
+        "name": "himitsu-depth-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "ad5ca59c38e8bb0fbef61cdcd90b081e5e511f46",
+    "readme_hash": "ec308847d0db4baa",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
+    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
+    "latest_push": "Refreshed the depth data in depth.json.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1,
+    "deletions": 1,
+    "sprint": {
+      "pushes": 79,
+      "additions": 30584,
+      "deletions": 19,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "strkworld",
+    "name": "STRKWORLD",
+    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
+    "category": "Gaming",
+    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "starkware",
+    "starred": false,
+    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-13T10:46:57Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Calcutatator",
+        "name": "Calcutator",
+        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 55
+      }
+    ],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "head_sha": "4051c5736debd1472b5ef9287963186298ae766c",
+    "readme_hash": "258bbb93328f9ee5",
+    "desc_v6": true,
+    "summary": "Explore a 2D city with Starknet privacy protocols as buildings.",
+    "description_long": "The project creates a shared pseudonymous world where users can interact with various privacy-preserving protocols on Starknet. It features a wallet-gated environment, privacy-minimal multiplayer functionality, multiple buildings representing different financial protocols, and a recovery path for offline interactions. The core components include a front-end application, a backend for transaction processing, and several packages for privacy, bridging, and multiplayer functionality.",
+    "latest_push": "Fixed issues with world synchronization and avatar handling.",
+    "tooling": [
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 158,
+    "deletions": 51,
+    "churn_pct": 0.3,
+    "sprint": {
+      "pushes": 1037,
+      "additions": 33000,
+      "deletions": 111,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
+      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
+      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
+    "slug": "poker-texas-air",
+    "name": "poker_texas_air",
+    "one_liner": "Provably fair Texas Hold'em on Starknet — a mental-poker protocol with no trusted dealer: cards are ElGamal-encrypted and shuffled by the players, every step is a sigma proof your browser verifies, and bankrolls move privately through the STRK20 pool. Live on mainnet.",
+    "category": "Other",
+    "repo_url": "https://github.com/linqining/poker_texas_air",
+    "demo_url": "https://strk.secretpokers.com/",
+    "demo_video": "https://www.youtube.com/watch?v=uqtrvw_bR4w",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x3f4ef706ae2dc00ac685afffc05e5f1e1e9ab5aacf99c3205d2067e061cbb45",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x2bf6a09c0aaea154de34745056e7534f58fa0805c12afe18cf22a9bc66ee7a8",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x1d39b80b990038ceeeaf3d39e83cb83031be95c0d0ccca5d18c5faea29aef6d",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x88c1f843588d1498fcd3f780fa7cf86ada18cd416754c77149a8c14e492877",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x402372930ea52cccbafa459169b3dae3d67051ed741e9af7da669a0f1fbb308",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0xcd9b13ececa4649ce5f6e7ad80acf80e1ab03a57190e4035e7240369152a4b",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x1daa47a0efde4fad6bbf3d81f88af40ed3951a946b3ece84ac06f6fbb6e7e04",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x639263f89bccef1bef806409da74962d7e7829043deb153fb0ea2e5ddbdab69",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x7edf5045bcc1aab3f748d503611c8a2c73b15c5cac0224e4dbf4a4801358982",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x6fe8e61e009ad5168c683fb2560c73fba4a92e9eba723455c3557bd6e79d6cc",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x00a62a09872eb695ec32d9a86300cf4bff5ced8ea87fbb33f879b5389ce1c51c",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      }
+    ],
+    "verified_txs": 2,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-13T10:39:13Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "linqining",
+        "name": "linqining",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18323181?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "1dd040d88bccaaa698337d6f65fee91a7b1b6594",
+    "readme_hash": "725705f06e0629d6",
+    "desc_v6": true,
+    "churn_pct": 4,
+    "summary": "A provably fair online Texas Hold'em poker game with no trusted dealer.",
+    "description_long": "This project is a full-stack online Texas Hold'em poker game that ensures fairness through cryptographic methods. Players jointly shuffle ElGamal-encrypted cards, and every action is supported by sigma proofs verified on-chain, preventing the host from cheating or freezing funds. It consists of five smart contracts handling the game logic, chip flows, and payout processes, with users interacting directly via their browsers.",
+    "latest_push": "Implemented rake mode in the project with related documentation.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 8213,
+    "deletions": 6,
+    "sprint": {
+      "pushes": 188,
+      "additions": 209286,
+      "deletions": 1727,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
     "slug": "verity",
     "name": "Verity",
     "one_liner": "A privacy-preserving intelligence marketplace where people are rewarded for discovering and verifying information without exposing their identity or transaction history.",
     "category": "Other",
     "repo_url": "https://github.com/onyebuchidaniel60/Verity",
-    "demo_url": "https://onyebuchidaniel60.github.io/Verity/",
+    "demo_url": "https://web-jade-xi-79.vercel.app",
     "demo_video": "",
     "x_handle": "",
     "inspired_by": "",
@@ -50,7 +376,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-13T06:25:03Z",
+    "pushed_at": "2026-09-13T10:07:38Z",
     "stars": 0,
     "builders": [
       {
@@ -67,13 +393,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "531634c8a377e8c3c83c01e2eaf2e36ac7a6df84",
+    "head_sha": "a6ccf9eb0a024840b6e1cae3eeba1117bd36fd2a",
     "readme_hash": "5a20178e360efe9f",
     "desc_v6": true,
-    "churn_pct": 2.6,
+    "churn_pct": 4.3,
     "summary": "A private bounty marketplace for anonymous investigations and rewards.",
     "description_long": "Verity is a private bounty marketplace on Starknet where creators can post bounties for investigations, fund them privately, and have anonymous investigators stake and submit findings. The funding, staking, and payouts are routed through STRK20 private transactions. The project is built with Cairo contracts on Starknet, and the front-end is developed using Next.js.",
-    "latest_push": "Implemented dust-anchored submit/create and register payout/refund functionalities.",
+    "latest_push": "Fixed chain-tip resync for preimage nextK and added on-chain text option.",
     "tooling": [
       {
         "label": "Cairo",
@@ -87,11 +413,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 356,
-    "deletions": 35,
+    "additions": 669,
+    "deletions": 8,
     "sprint": {
       "pushes": 47,
-      "additions": 17286,
+      "additions": 17947,
       "deletions": 1,
       "computed": 3
     },
@@ -99,88 +425,196 @@
     "star_evidence": "7 contracts deployed, Cairo in the repository"
   },
   {
-    "slug": "himitsu-protocol",
-    "name": "Himitsu Protocol",
-    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
-    "category": "Infra",
-    "repo_url": "https://github.com/adipundir/himitsu-protocol",
-    "demo_url": "https://himitsu-protocol.vercel.app",
-    "demo_video": "",
+    "slug": "sage",
+    "name": "Sage",
+    "one_liner": "An autonomous agent that judges human work and pays for it — addressing each payout to a person rather than a wallet, so someone with no wallet and no gas can still collect, and who was paid stays private.",
+    "category": "Payments",
+    "repo_url": "https://github.com/shariqazeem/sage",
+    "demo_url": "https://sagepays.xyz",
+    "demo_video": "https://sagepays.xyz/videos/sage-demo-3min.mp4",
     "x_handle": "",
     "inspired_by": "",
     "affiliation": "",
     "starred": false,
     "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
+    "contracts": [
+      {
+        "address": "0x6fe4d02056825f06683604f8a98912504cf86bce0de5ff19b424995eb1cf57",
+        "network": "mainnet"
+      },
+      {
+        "address": "0xd39db387767383af7be6a90d4bf394abf9d7f63db109056d5b30798a6f7e2e",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0xb4a7cb07289eb2137bf4e13726f406154c1fef48d20625687af5acbf60b735",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x74e73f2964bd14f8383ea9322b7591e8039b8205c57ed7b1b514a8fa1e164cb",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x6ec8165b2d59600371a6e54552222d643c1bffcf5f73e66a1950f0cb9ca67a3",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x27653876982a1373f38fb288a7fde55c8b51d52f25daa4511f3875b1badbfe4",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x72838f509d6dae3e570e6536167c166f06d4a92f68fce849c10fe1b29983f8",
+        "ok": true,
+        "pool": false,
+        "mine": false,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x3f5560da3ab523ac61482273d55fac1828af323bf7bdfca38a0af6b147d99cd",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x3e701491bac266374f7f78c91ddec30ae0bbaae4cf40f02c499474c3963454",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x2337afda7ef311c4bd515d66feb78f0903f16b3cc23e49ef7fb7702fe1bb54",
+        "ok": true,
+        "pool": false,
+        "mine": false,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x51a779fc1dc5ac7ae3574b57b7535e908ddc9683cc3c89bb7181adb495e8e7b",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x604cf9c39ee0460ceaabbd415701408117eecdc4aa7e9281c9f614dae0ffef0",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      }
+    ],
+    "verified_txs": 4,
     "requirements": {
       "demo": true,
-      "video": false,
-      "mainnet": false
+      "video": true,
+      "mainnet": true
     },
-    "status": "building",
-    "pushed_at": "2026-09-13T04:43:54Z",
+    "status": "finished",
+    "pushed_at": "2026-09-13T06:43:39Z",
     "stars": 0,
     "builders": [
       {
-        "login": "adipundir",
-        "name": "Aditya Pundir",
-        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
-      },
-      {
-        "login": "deepakA18",
-        "name": "Deepak",
-        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
-      },
-      {
-        "login": "actions",
-        "name": "himitsu-depth-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
+        "login": "shariqazeem",
+        "name": "Shariq Shaukat",
+        "avatar_url": "https://avatars.githubusercontent.com/u/101935656?v=4"
       }
     ],
-    "agents": [],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Fable 5.1",
+        "avatar_url": "",
+        "commits": 641
+      }
+    ],
     "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-25",
       "2026-08-26",
       "2026-08-27",
       "2026-08-28",
       "2026-08-29",
+      "2026-08-30",
       "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
       "2026-09-03",
+      "2026-09-04",
       "2026-09-05",
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "c0bac73e54785d45e44a823c8b4eedfdd4c21455",
-    "readme_hash": "ec308847d0db4baa",
+    "head_sha": "ff82969733357647e69869dc6853591618791604",
+    "readme_hash": "72b894827195039c",
     "desc_v6": true,
-    "churn_pct": 0,
-    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
-    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
-    "latest_push": "Refreshed the depth data in depth.json.",
+    "churn_pct": 2.7,
+    "summary": "An AI agent that autonomously pays for verified work without revealing recipient details.",
+    "description_long": "Sage autonomously inspects completed tasks, verifies their quality, and decides on payments in USDC from a controlled vault, ensuring privacy for recipients. Built on Starknet, it uses on-chain transactions to execute decisions made by the AI agent, which escrow payments behind commitments to prevent traceability. The system allows for private payouts and operates a feedback loop where funds can be advanced and repaid through verified transactions.",
+    "latest_push": "Introduced the Arc account with funding and withdrawal capabilities.",
     "tooling": [
       {
-        "label": "Cairo",
+        "label": "get-starknet",
         "live": false,
         "stack": false
       },
       {
-        "label": "Starknet Foundry",
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
         "live": false,
         "stack": false
       }
     ],
     "has_readme": true,
-    "additions": 1,
-    "deletions": 1,
+    "additions": 5566,
+    "deletions": 508,
     "sprint": {
-      "pushes": 79,
-      "additions": 30584,
-      "deletions": 19,
+      "pushes": 716,
+      "additions": 33530,
+      "deletions": 4374,
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "Cairo in the repository"
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "open-beanie",
@@ -371,96 +805,6 @@
       "facts_v2": true
     },
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "strkworld",
-    "name": "STRKWORLD",
-    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
-    "category": "Gaming",
-    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "starkware",
-    "starred": false,
-    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-12T10:13:47Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Calcutatator",
-        "name": "Calcutator",
-        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 55
-      }
-    ],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30"
-    ],
-    "head_sha": "4051c5736debd1472b5ef9287963186298ae766c",
-    "readme_hash": "258bbb93328f9ee5",
-    "desc_v6": true,
-    "summary": "Explore a 2D city with Starknet privacy protocols as buildings.",
-    "description_long": "The project creates a shared pseudonymous world where users can interact with various privacy-preserving protocols on Starknet. It features a wallet-gated environment, privacy-minimal multiplayer functionality, multiple buildings representing different financial protocols, and a recovery path for offline interactions. The core components include a front-end application, a backend for transaction processing, and several packages for privacy, bridging, and multiplayer functionality.",
-    "latest_push": "Fixed issues with world synchronization and avatar handling.",
-    "tooling": [
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 158,
-    "deletions": 51,
-    "churn_pct": 0.3,
-    "sprint": {
-      "pushes": 1037,
-      "additions": 33000,
-      "deletions": 111,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
-      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
-      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
   },
   {
     "slug": "iwa",
@@ -907,158 +1251,6 @@
     },
     "assessment": null,
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "poker-texas-air",
-    "name": "poker_texas_air",
-    "one_liner": "Provably fair Texas Hold'em on Starknet — a mental-poker protocol with no trusted dealer: cards are ElGamal-encrypted and shuffled by the players, every step is a sigma proof your browser verifies, and bankrolls move privately through the STRK20 pool. Live on mainnet.",
-    "category": "Other",
-    "repo_url": "https://github.com/linqining/poker_texas_air",
-    "demo_url": "https://strk.secretpokers.com/",
-    "demo_video": "https://www.youtube.com/watch?v=uqtrvw_bR4w",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x3f4ef706ae2dc00ac685afffc05e5f1e1e9ab5aacf99c3205d2067e061cbb45",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x2bf6a09c0aaea154de34745056e7534f58fa0805c12afe18cf22a9bc66ee7a8",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x1d39b80b990038ceeeaf3d39e83cb83031be95c0d0ccca5d18c5faea29aef6d",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x88c1f843588d1498fcd3f780fa7cf86ada18cd416754c77149a8c14e492877",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x402372930ea52cccbafa459169b3dae3d67051ed741e9af7da669a0f1fbb308",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0xcd9b13ececa4649ce5f6e7ad80acf80e1ab03a57190e4035e7240369152a4b",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x1daa47a0efde4fad6bbf3d81f88af40ed3951a946b3ece84ac06f6fbb6e7e04",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x639263f89bccef1bef806409da74962d7e7829043deb153fb0ea2e5ddbdab69",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x7edf5045bcc1aab3f748d503611c8a2c73b15c5cac0224e4dbf4a4801358982",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x6fe8e61e009ad5168c683fb2560c73fba4a92e9eba723455c3557bd6e79d6cc",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x00a62a09872eb695ec32d9a86300cf4bff5ced8ea87fbb33f879b5389ce1c51c",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      }
-    ],
-    "verified_txs": 2,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-11T15:58:09Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "linqining",
-        "name": "linqining",
-        "avatar_url": "https://avatars.githubusercontent.com/u/18323181?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "f279254507dda0503167fa1056e773250d0200c3",
-    "readme_hash": "725705f06e0629d6",
-    "desc_v6": true,
-    "summary": "A provably fair online Texas Hold'em poker game with no trusted dealer.",
-    "description_long": "This project is a full-stack online Texas Hold'em poker game that ensures fairness through cryptographic methods. Players jointly shuffle ElGamal-encrypted cards, and every action is supported by sigma proofs verified on-chain, preventing the host from cheating or freezing funds. It consists of five smart contracts handling the game logic, chip flows, and payout processes, with users interacting directly via their browsers.",
-    "latest_push": "Added the PokerTableRegistry feature and updated deployment scripts.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 144304,
-    "deletions": 821,
-    "churn_pct": 73.2,
-    "sprint": {
-      "pushes": 188,
-      "additions": 209253,
-      "deletions": 1727,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "erebus",
@@ -4778,7 +4970,7 @@
       },
       {
         "address": "0x0368203c991cfcc239560bbfe2dfa52a84bbf950f0603010229180d08341aae5",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x0788f8439042f8750ec90638bc764dd36f766930770238c630df70e667e6cf28",
@@ -4887,7 +5079,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "4 contracts deployed on mainnet, Cairo in the repository"
+    "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "limen",
@@ -9304,198 +9496,6 @@
     "star_evidence": "Cairo in the repository"
   },
   {
-    "slug": "sage",
-    "name": "Sage",
-    "one_liner": "An autonomous agent that judges human work and pays for it — addressing each payout to a person rather than a wallet, so someone with no wallet and no gas can still collect, and who was paid stays private.",
-    "category": "Payments",
-    "repo_url": "https://github.com/shariqazeem/sage",
-    "demo_url": "https://sagepays.xyz",
-    "demo_video": "https://sagepays.xyz/videos/sage-demo-3min.mp4",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x6fe4d02056825f06683604f8a98912504cf86bce0de5ff19b424995eb1cf57",
-        "network": "mainnet"
-      },
-      {
-        "address": "0xd39db387767383af7be6a90d4bf394abf9d7f63db109056d5b30798a6f7e2e",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0xb4a7cb07289eb2137bf4e13726f406154c1fef48d20625687af5acbf60b735",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x74e73f2964bd14f8383ea9322b7591e8039b8205c57ed7b1b514a8fa1e164cb",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x6ec8165b2d59600371a6e54552222d643c1bffcf5f73e66a1950f0cb9ca67a3",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x27653876982a1373f38fb288a7fde55c8b51d52f25daa4511f3875b1badbfe4",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x72838f509d6dae3e570e6536167c166f06d4a92f68fce849c10fe1b29983f8",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x3f5560da3ab523ac61482273d55fac1828af323bf7bdfca38a0af6b147d99cd",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x3e701491bac266374f7f78c91ddec30ae0bbaae4cf40f02c499474c3963454",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x2337afda7ef311c4bd515d66feb78f0903f16b3cc23e49ef7fb7702fe1bb54",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x51a779fc1dc5ac7ae3574b57b7535e908ddc9683cc3c89bb7181adb495e8e7b",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x604cf9c39ee0460ceaabbd415701408117eecdc4aa7e9281c9f614dae0ffef0",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      }
-    ],
-    "verified_txs": 4,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-07T00:42:38Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "shariqazeem",
-        "name": "Shariq Shaukat",
-        "avatar_url": "https://avatars.githubusercontent.com/u/101935656?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Fable 5.1",
-        "avatar_url": "",
-        "commits": 650
-      }
-    ],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "a68d366b44e1ec047fc9bc9d3aafc5703f850e43",
-    "readme_hash": "4d56ca66b1e4cdb4",
-    "desc_v6": true,
-    "summary": "An AI agent that autonomously pays for verified work while maintaining recipient privacy.",
-    "description_long": "Sage is an AI agent that evaluates work quality, makes independent payout decisions, and sends payments in USDC from a vault it cannot exceed. It uses Starknet for privacy, executing payments without revealing recipient details. Key components include automated judgment of work, an escrow system that hides payment details, and a mechanism for collecting payments into shielded notes.",
-    "latest_push": "Updated the README with a demo video and detailed transaction loop description.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 27,
-    "deletions": 2,
-    "churn_pct": 0,
-    "sprint": {
-      "pushes": 716,
-      "additions": 30265,
-      "deletions": 3024,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
     "slug": "cloakroom",
     "name": "Cloakroom",
     "one_liner": "Enterprise privacy engine for Starknet on-chain payroll and token vesting. Zero-knowledge confidentiality, multi-asset shielded pools (MASP), and stealth disbursements.",
@@ -9624,7 +9624,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and relayer role for Starknet.",
     "tooling": [
       {
         "label": "Privacy SDK",
