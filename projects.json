@@ -1,5 +1,188 @@
 [
   {
+    "slug": "verity",
+    "name": "Verity",
+    "one_liner": "A privacy-preserving intelligence marketplace where people are rewarded for discovering and verifying information without exposing their identity or transaction history.",
+    "category": "Other",
+    "repo_url": "https://github.com/onyebuchidaniel60/Verity",
+    "demo_url": "https://onyebuchidaniel60.github.io/Verity/",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x0149c9333c62d976c8232907536fe29df683d8ffb98fa3278bdf4e9dc84d9c88",
+        "network": "sepolia"
+      },
+      {
+        "address": "0x04b93a8628d6f905854f54bf3f5a1098cc41273b7dc54d56815e4dda62c0ae4b",
+        "network": "sepolia"
+      },
+      {
+        "address": "0x07e239e86b6fe72dc205146bfff8b1c94d8c3e79a23b52bc85269906aec56da1",
+        "network": "sepolia"
+      },
+      {
+        "address": "0x03643a1e507bc076e6831b31be17f08bc9c1487583c55af313bc17958e9c4b54",
+        "network": "sepolia"
+      },
+      {
+        "address": "0x07aa84798ca642a90cc8094c1743dbcd5b9606b36bded3d6297cc1ecf49ad4f3",
+        "network": "sepolia"
+      },
+      {
+        "address": "0x04315e84d96b7d0e4daf4d0ee0382d3951a4963a85d6b7572520cb4155135807",
+        "network": "sepolia"
+      },
+      {
+        "address": "0x03602dc4f3a8bd209d47fca442c87f22151536e6ed7387b7025e92c4ebcf9682",
+        "network": "sepolia"
+      }
+    ],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-13T06:25:03Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "onyebuchidaniel60",
+        "name": "Buchi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47596848?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "531634c8a377e8c3c83c01e2eaf2e36ac7a6df84",
+    "readme_hash": "5a20178e360efe9f",
+    "desc_v6": true,
+    "churn_pct": 2.6,
+    "summary": "A private bounty marketplace for anonymous investigations and rewards.",
+    "description_long": "Verity is a private bounty marketplace on Starknet where creators can post bounties for investigations, fund them privately, and have anonymous investigators stake and submit findings. The funding, staking, and payouts are routed through STRK20 private transactions. The project is built with Cairo contracts on Starknet, and the front-end is developed using Next.js.",
+    "latest_push": "Implemented dust-anchored submit/create and register payout/refund functionalities.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 356,
+    "deletions": 35,
+    "sprint": {
+      "pushes": 47,
+      "additions": 17286,
+      "deletions": 1,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "7 contracts deployed, Cairo in the repository"
+  },
+  {
+    "slug": "himitsu-protocol",
+    "name": "Himitsu Protocol",
+    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
+    "category": "Infra",
+    "repo_url": "https://github.com/adipundir/himitsu-protocol",
+    "demo_url": "https://himitsu-protocol.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-13T04:43:54Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "adipundir",
+        "name": "Aditya Pundir",
+        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
+      },
+      {
+        "login": "deepakA18",
+        "name": "Deepak",
+        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
+      },
+      {
+        "login": "actions",
+        "name": "himitsu-depth-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "c0bac73e54785d45e44a823c8b4eedfdd4c21455",
+    "readme_hash": "ec308847d0db4baa",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
+    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
+    "latest_push": "Refreshed the depth data in depth.json.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1,
+    "deletions": 1,
+    "sprint": {
+      "pushes": 79,
+      "additions": 30584,
+      "deletions": 19,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "open-beanie",
     "name": "open-beanie",
     "one_liner": "software powering beanie",
@@ -46,7 +229,6 @@
     "head_sha": "92c7a133f6ea6343b3ae500b0c346fa41359625f",
     "readme_hash": "8580a1475cd8ae3b",
     "desc_v6": true,
-    "churn_pct": 0.2,
     "summary": "A non-custodial stablecoin payment gateway for merchants across multiple chains.",
     "description_long": "Beanie allows merchants to register a destination address for stablecoin payments without ever holding their funds. Each chain has a dedicated receiver contract deployed through a factory, ensuring non-custodial transfers that prevent admin redirection of funds after deployment. The Starknet contracts mirror the EVM's functionality, offering client-side deterministic stealth payments through a 2-of-2 co-signing mechanism using WebAuthn and Lit Protocol.",
     "latest_push": "Fixed the quota cap issue in the RPC flow.",
@@ -70,94 +252,11 @@
     "has_readme": true,
     "additions": 17,
     "deletions": 5,
+    "churn_pct": 0.2,
     "sprint": {
       "pushes": 37,
       "additions": 14406,
       "deletions": 23,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "himitsu-protocol",
-    "name": "Himitsu Protocol",
-    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
-    "category": "Infra",
-    "repo_url": "https://github.com/adipundir/himitsu-protocol",
-    "demo_url": "https://himitsu-protocol.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-12T20:32:00Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "adipundir",
-        "name": "Aditya Pundir",
-        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
-      },
-      {
-        "login": "deepakA18",
-        "name": "Deepak",
-        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
-      },
-      {
-        "login": "actions",
-        "name": "himitsu-depth-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "9fce8419928fff4b4977a9244969dc2ef9743e57",
-    "readme_hash": "ec308847d0db4baa",
-    "desc_v6": true,
-    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
-    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
-    "latest_push": "Refreshed the depth data in depth.json for the scheduled update.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 1,
-    "deletions": 1,
-    "churn_pct": 0,
-    "sprint": {
-      "pushes": 79,
-      "additions": 30584,
-      "deletions": 19,
       "computed": 3
     },
     "assessment": null,
@@ -4679,7 +4778,7 @@
       },
       {
         "address": "0x0368203c991cfcc239560bbfe2dfa52a84bbf950f0603010229180d08341aae5",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x0788f8439042f8750ec90638bc764dd36f766930770238c630df70e667e6cf28",
@@ -4788,7 +4887,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
+    "star_evidence": "4 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "limen",
@@ -5783,105 +5882,6 @@
     },
     "assessment": null,
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "verity",
-    "name": "Verity",
-    "one_liner": "A privacy-preserving intelligence marketplace where people are rewarded for discovering and verifying information without exposing their identity or transaction history.",
-    "category": "Other",
-    "repo_url": "https://github.com/onyebuchidaniel60/Verity",
-    "demo_url": "https://onyebuchidaniel60.github.io/Verity/",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x0149c9333c62d976c8232907536fe29df683d8ffb98fa3278bdf4e9dc84d9c88",
-        "network": "sepolia"
-      },
-      {
-        "address": "0x04b93a8628d6f905854f54bf3f5a1098cc41273b7dc54d56815e4dda62c0ae4b",
-        "network": "sepolia"
-      },
-      {
-        "address": "0x07e239e86b6fe72dc205146bfff8b1c94d8c3e79a23b52bc85269906aec56da1",
-        "network": "sepolia"
-      },
-      {
-        "address": "0x03643a1e507bc076e6831b31be17f08bc9c1487583c55af313bc17958e9c4b54",
-        "network": "sepolia"
-      },
-      {
-        "address": "0x07aa84798ca642a90cc8094c1743dbcd5b9606b36bded3d6297cc1ecf49ad4f3",
-        "network": "sepolia"
-      },
-      {
-        "address": "0x04315e84d96b7d0e4daf4d0ee0382d3951a4963a85d6b7572520cb4155135807",
-        "network": "sepolia"
-      },
-      {
-        "address": "0x03602dc4f3a8bd209d47fca442c87f22151536e6ed7387b7025e92c4ebcf9682",
-        "network": "sepolia"
-      }
-    ],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-07T22:15:07Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "onyebuchidaniel60",
-        "name": "Buchi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/47596848?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "c0043cb00580f332283f3732e36fb53ca38ab0c9",
-    "readme_hash": "5a20178e360efe9f",
-    "desc_v6": true,
-    "summary": "A private bounty marketplace for anonymous investigations and rewards.",
-    "description_long": "Verity is a private bounty marketplace on Starknet where creators can post bounties for investigations, fund them privately, and have anonymous investigators stake and submit findings. The funding, staking, and payouts are routed through STRK20 private transactions. The project is built with Cairo contracts on Starknet, and the front-end is developed using Next.js.",
-    "latest_push": "Decluttered the production repository by removing redundant files.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 49,
-    "deletions": 5716,
-    "churn_pct": 39.1,
-    "sprint": {
-      "pushes": 47,
-      "additions": 16965,
-      "deletions": 1,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "7 contracts deployed, Cairo in the repository"
   },
   {
     "slug": "wotta",
