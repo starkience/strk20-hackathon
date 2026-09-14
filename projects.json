@@ -145,7 +145,6 @@
     "head_sha": "1a32b4d78c5c0bbd7c73bb5b2e6e38914dc4b07f",
     "readme_hash": "ec308847d0db4baa",
     "desc_v6": true,
-    "churn_pct": 0.1,
     "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
     "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
     "latest_push": "Refreshed the depth data in depth.json file.",
@@ -164,6 +163,7 @@
     "has_readme": true,
     "additions": 7,
     "deletions": 2,
+    "churn_pct": 0.1,
     "sprint": {
       "pushes": 79,
       "additions": 30589,
