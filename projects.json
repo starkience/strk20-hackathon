@@ -1,5 +1,89 @@
 [
   {
+    "slug": "himitsu-protocol",
+    "name": "Himitsu Protocol",
+    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
+    "category": "Infra",
+    "repo_url": "https://github.com/adipundir/himitsu-protocol",
+    "demo_url": "https://himitsu-protocol.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-15T21:18:45Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "adipundir",
+        "name": "Aditya Pundir",
+        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
+      },
+      {
+        "login": "deepakA18",
+        "name": "Deepak",
+        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
+      },
+      {
+        "login": "actions",
+        "name": "himitsu-depth-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "c04fdddaef574ce064f4fd90b79f1b61b9bb14e2",
+    "readme_hash": "ec308847d0db4baa",
+    "desc_v6": true,
+    "churn_pct": 0.1,
+    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
+    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
+    "latest_push": "Refreshed the depth data in the depth.json file.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 7,
+    "deletions": 2,
+    "sprint": {
+      "pushes": 79,
+      "additions": 30619,
+      "deletions": 19,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "erebus",
     "name": "Erebus",
     "one_liner": "Confidential negotiation and shielded settlement infrastructure for AI agents on Starknet, built on the STRK20 privacy pool.",
@@ -127,7 +211,6 @@
     "head_sha": "049429873bc140b708783ba502152e9ec80afdd7",
     "readme_hash": "1eb0be7c4cad711c",
     "desc_v6": true,
-    "churn_pct": 33.9,
     "summary": "Experimental coordination and shielded settlement for AI agents.",
     "description_long": "Erebus allows AI agents to negotiate over an encrypted channel and settle transactions atomically through Starknet's STRK20 privacy pool. It consists of a server and thirteen tools that handle channel establishment, offer management, and settlement processes, with each write tagged by a unique operation ID. The system is designed for privacy, ensuring that the terms of negotiation are hidden while the relationship between agents remains visible.",
     "latest_push": "Restored the redesigned landing page and smoothed out hero interactions.",
@@ -146,6 +229,7 @@
     "has_readme": true,
     "additions": 6978,
     "deletions": 6702,
+    "churn_pct": 33.9,
     "sprint": {
       "pushes": 126,
       "additions": 14330,
@@ -251,90 +335,6 @@
       "facts_v2": true
     },
     "star_evidence": ""
-  },
-  {
-    "slug": "himitsu-protocol",
-    "name": "Himitsu Protocol",
-    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
-    "category": "Infra",
-    "repo_url": "https://github.com/adipundir/himitsu-protocol",
-    "demo_url": "https://himitsu-protocol.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-15T16:56:58Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "adipundir",
-        "name": "Aditya Pundir",
-        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
-      },
-      {
-        "login": "deepakA18",
-        "name": "Deepak",
-        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
-      },
-      {
-        "login": "actions",
-        "name": "himitsu-depth-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "08bfdfbfccab992707e3989d14d1e670cd281ee6",
-    "readme_hash": "ec308847d0db4baa",
-    "desc_v6": true,
-    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
-    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
-    "latest_push": "Refreshed the depth data in depth.json file.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 8,
-    "deletions": 3,
-    "churn_pct": 0.1,
-    "sprint": {
-      "pushes": 79,
-      "additions": 30614,
-      "deletions": 19,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "poker-texas-air",
@@ -8704,10 +8704,9 @@
     "transactions": [
       {
         "hash": "0x039372b04a863fd5cd016f2715034dc6286b7c61f63abe96199ddf65b35da6c0",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x04fbfb9204259a2c26aa4c5550f6bfd3acd67c4821ab23a7c50c537338093b20",
@@ -8722,13 +8721,13 @@
         "mine": null
       }
     ],
-    "verified_txs": 2,
+    "verified_txs": 3,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-09-07T16:34:33Z",
     "stars": 0,
     "builders": [
