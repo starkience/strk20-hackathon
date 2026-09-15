@@ -55,7 +55,6 @@
     "head_sha": "26b759a038de7672c0b58d47afa85b6fb2456893",
     "readme_hash": "ec308847d0db4baa",
     "desc_v6": true,
-    "churn_pct": 0.1,
     "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
     "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
     "latest_push": "Refreshed depth data in the depth.json file.",
@@ -74,6 +73,7 @@
     "has_readme": true,
     "additions": 12,
     "deletions": 2,
+    "churn_pct": 0.1,
     "sprint": {
       "pushes": 79,
       "additions": 30599,
@@ -1824,10 +1824,10 @@
       },
       {
         "hash": "0x01426072154959aa0a3fb988c7757ccb19dc4c7e4b3794208e92c547167fd852",
-        "ok": false,
-        "pool": false,
+        "ok": true,
+        "pool": true,
         "mine": false,
-        "note": "not found on mainnet"
+        "note": "touched the pool, but not through this project's contracts"
       },
       {
         "hash": "0x02c68bd07c6cccb9f38588fb03fb9b6e203227c33e93b2000fe050b7854e75ea",
@@ -1837,26 +1837,24 @@
       },
       {
         "hash": "0x0251d046bea41d0f66cf0841511f950142553be22371c092bef87583311cf680",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x03992f10ddd6d2e307481814c9ed9f6631087df36406e4bd37e35108365bc229",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       }
     ],
-    "verified_txs": 1,
+    "verified_txs": 3,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-09-11T00:02:33Z",
     "stars": 0,
     "builders": [
@@ -2843,10 +2841,9 @@
       },
       {
         "hash": "0x4b5052d5818dc3688de6be9bb23eb54d7d4ef9566b8fb214c6ff2bd1051119e",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x3e09c1a8a09bf2a146bbd452fed3c48309b7124c7be4745056742ec1653bc59",
@@ -2867,7 +2864,7 @@
         "mine": null
       }
     ],
-    "verified_txs": 6,
+    "verified_txs": 7,
     "requirements": {
       "demo": true,
       "video": true,
@@ -6508,10 +6505,9 @@
     "transactions": [
       {
         "hash": "0x213c79b1ebe0adf2c15b76c5fe1c8a4440e64506bda1d98f9ec25d2e57c2dce",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0xdba55a8c9b00bc377716dba6f13642ae96ac61e52cea096acc92644e310cc4",
@@ -6526,13 +6522,13 @@
         "mine": true
       }
     ],
-    "verified_txs": 2,
+    "verified_txs": 3,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-09-07T21:43:11Z",
     "stars": 0,
     "builders": [
@@ -7303,7 +7299,7 @@
       },
       {
         "address": "0x00b7fcc80a6d07f2c73dea1006fc36f893a3a4d9805a26f99e22fc7e6fa0b584",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x0098539b85ad2c8300538bca5ada276caf57527e7e1b709c82fb9a81a01fcc41",
@@ -7315,31 +7311,29 @@
       },
       {
         "address": "0x040fbf221167da09ffb325a990a0347a8f178a5a7fb214680e3ee97af9156054",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x047cf4ffb45ca246f13400fa3bd4c3b73e51b8b4e1f2c5b9d4d9be55ee565cea",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x0378f6cb263afdc0f0fd81101065baca49237afb2fcc581b1793390c50133a77",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
       {
         "hash": "0x3d75d91a06461967bcf6196bbf198bf1487546a7493848d1c278b1762fbecf4",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x612909e7fe25d16088af6de65455ac33af38a5b06ad9ac743e7132d5b2a466b",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x29998030283a899e5c39d28cbc98b79cc16977355a1d2ebd01ddd83ff2429f9",
@@ -7367,17 +7361,15 @@
       },
       {
         "hash": "0x9562ac1e928148776074adca209fe17adea0dec4aae714dd25e88066dabdcb",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x7829649d74c2638634f7d766bab809f011d31e0f2318d540456a09f026a2a58",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x318cf62796e3a4b87f19835dfbae60528c7313868eaebaed48d574f701c94b1",
@@ -7392,7 +7384,7 @@
         "mine": true
       }
     ],
-    "verified_txs": 6,
+    "verified_txs": 10,
     "requirements": {
       "demo": true,
       "video": true,
@@ -7480,7 +7472,7 @@
       "reason": "The project provides a unique encrypted negotiation environment with custom Cairo contracts.",
       "facts_v2": true
     },
-    "star_evidence": "3 contracts deployed on mainnet, Cairo in the repository"
+    "star_evidence": "7 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "shade",
@@ -8060,8 +8052,7 @@
         "hash": "0x12c5bfe20b8bd8c0c0a138ea227185a2e8eb1392c83c0af71bada2e1cc0c6e1",
         "ok": true,
         "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
+        "mine": true
       },
       {
         "hash": "0x6a3fd555fa1adaf7e42138958ca5b31dc39c1f78f45c98026e3ad6debb07697",
@@ -8076,13 +8067,13 @@
         "mine": true
       }
     ],
-    "verified_txs": 2,
+    "verified_txs": 3,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-09-07T19:31:29Z",
     "stars": 1,
     "builders": [
@@ -8501,13 +8492,12 @@
       },
       {
         "hash": "0x0694f9d76480b957a0badeb1ea72a637dba903bf33c833716c5ff956f96a96bc",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       }
     ],
-    "verified_txs": 3,
+    "verified_txs": 4,
     "requirements": {
       "demo": true,
       "video": true,
@@ -9179,10 +9169,9 @@
       },
       {
         "hash": "0x1abd9c54723f2ccb486aa57a4b2b32583c7c2a426731aedb9d104f80cee90fd",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x2215682b6a317151b679cd18f5587194a16dee3ab717248fea2563e97d0324d",
@@ -9191,7 +9180,7 @@
         "mine": true
       }
     ],
-    "verified_txs": 5,
+    "verified_txs": 6,
     "requirements": {
       "demo": true,
       "video": true,
@@ -10099,10 +10088,9 @@
     "transactions": [
       {
         "hash": "0x06534901ed0e2472b072758ef1c4e723651568920a8c04c9dfe95924937ab6cc",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x026f1aa66b1afcc282ebdc6873e644d4c121af119fe744d523938818df425631",
@@ -10117,13 +10105,13 @@
         "mine": null
       }
     ],
-    "verified_txs": 2,
+    "verified_txs": 3,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-09-05T21:47:25Z",
     "stars": 0,
     "builders": [
@@ -13531,10 +13519,10 @@
     "transactions": [
       {
         "hash": "0xea9c7a50d2683c86e33d2600540c2a305ce0e756a4d6ecfcd7c72b9d7fdeb7",
-        "ok": false,
-        "pool": false,
+        "ok": true,
+        "pool": true,
         "mine": false,
-        "note": "not found on mainnet"
+        "note": "touched the pool, but not through this project's contracts"
       },
       {
         "hash": "0x1b465dbafd6fcc99c96e1753d52259d45afe863fcf1e996b4fc5ff968213776",
@@ -13545,10 +13533,9 @@
       },
       {
         "hash": "0x3cae57403650fd32c633feecd913aa4ee7621be17f6a8c627bdbabef6c7d4ca",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x58c1623525d898142151be2d54d57544808e439d42f3c2ac8ed4db92643bc84",
@@ -13558,26 +13545,24 @@
       },
       {
         "hash": "0x4cf7d05c97aebd2fc4912b11d886bfa07579bd60dfd7be2733616dfe9c2e706",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x14ba68aff2dfb46189433b1ea6c2afa586665e06c3c9fcf945a07627f5f6904",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       }
     ],
-    "verified_txs": 1,
+    "verified_txs": 4,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-08-31T10:17:30Z",
     "stars": 0,
     "builders": [
@@ -14061,15 +14046,15 @@
     "contracts": [
       {
         "address": "0x056a817104ad7544a55873584f3d8fb41a780e5466d152b3e1f12d578e75defb",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x030533c6110ee5c414a5678bd71115be738852d709c74d8136fa965271c2e1f3",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x004c0322af24bb710f3aa0e48293517777188b42d9c4428b77304008ad0ea712",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
@@ -14168,7 +14153,7 @@
       "reason": "the project's architecture supports private transactions and unique social discovery in hospitality.",
       "facts_v2": true
     },
-    "star_evidence": "3 contracts deployed, Cairo in the repository"
+    "star_evidence": "3 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "tip",
@@ -16969,10 +16954,9 @@
       },
       {
         "hash": "0x056923063c7b8d9cc26cdc716dd7e8ff9adf797e098b46d3554c1a28631c22c7",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x01afe646e2cfed5c77249bd0ccd34424171d1ff65cee20bb9f020825fbef2cf2",
@@ -16987,7 +16971,7 @@
         "mine": true
       }
     ],
-    "verified_txs": 4,
+    "verified_txs": 5,
     "requirements": {
       "demo": true,
       "video": true,
