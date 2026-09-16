@@ -1,64 +1,136 @@
 [
   {
-    "slug": "himitsu-protocol",
-    "name": "Himitsu Protocol",
-    "one_liner": "Fixes the amount-matching problem in STRK20: any amount enters Starknet's privacy pool as standard pieces that disappear into the crowd. Batched splitting at one pool fee, an exit planner, and a reward pot that pays thin buckets to fill.",
-    "category": "Infra",
-    "repo_url": "https://github.com/adipundir/himitsu-protocol",
-    "demo_url": "https://himitsu-protocol.vercel.app",
-    "demo_video": "",
+    "slug": "erebus",
+    "name": "Erebus",
+    "one_liner": "Confidential negotiation and shielded settlement infrastructure for AI agents on Starknet, built on the STRK20 privacy pool.",
+    "category": "Other",
+    "repo_url": "https://github.com/PoulavBhowmick03/Erebus",
+    "demo_url": "https://erebus-private-agents.vercel.app",
+    "demo_video": "https://drive.google.com/file/d/1zOkEJt08DwRiHeLIu4IaXCl1s8VRSKuu/view?usp=sharing",
     "x_handle": "",
     "inspired_by": "",
     "affiliation": "",
     "starred": false,
-    "star_reason": "",
+    "star_reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
     "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
+    "transactions": [
+      {
+        "hash": "0x06597adb6581bb1910d30b31139fe871665db4cc61fefef8120b89773528e54c",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x0572260b651525ea39ef717721bcc9fefc89a2087894654efb38111e09267189",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x0159748de29d9dbe7016c9eb37459cbd7dd72290c3bc22412a034fb1c4c38a99",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x01a30c0b6e8db645df67795f2356cb6a251b9680d0b61cea54d28d04edd70d1",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x05a287657f829a82ecc83a0543674f1397aa75bdade8365b28f72e3925d759b5",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x04126a3ee0971728d7181296fe4d128f12fc6a828a172b7bd12d8f5128364923",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x072adebfcffdfd45bba66d2152c7e11b50107aa0fe2b4c9f1ea851da16ab6c6d",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x0273b0f97f1c0707a259bbe5cacc337df6876509adba09b7376a0501a0f028b7",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x051fa13c6d11c529208785af163f2d5bc1cc95451192e3265150e0067aadeda4",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x06e55194809fec58c1426a8178dcdb10270d5e8aecfcfd6db2b28f6284ce5467",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      }
+    ],
+    "verified_txs": 10,
     "requirements": {
       "demo": true,
-      "video": false,
-      "mainnet": false
+      "video": true,
+      "mainnet": true
     },
-    "status": "building",
-    "pushed_at": "2026-09-16T16:52:11Z",
-    "stars": 0,
+    "status": "finished",
+    "pushed_at": "2026-09-16T19:32:24Z",
+    "stars": 3,
     "builders": [
       {
-        "login": "adipundir",
-        "name": "Aditya Pundir",
-        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
+        "login": "PoulavBhowmick03",
+        "name": "PoulavBhowmick03",
+        "avatar_url": "https://avatars.githubusercontent.com/u/133862694?v=4"
       },
       {
-        "login": "deepakA18",
-        "name": "Deepak",
-        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
-      },
-      {
-        "login": "actions",
-        "name": "himitsu-depth-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4"
+        "login": "ishitab02",
+        "name": "ishitab02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/139248026?v=4"
       }
     ],
     "agents": [],
     "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-25",
       "2026-08-26",
       "2026-08-27",
       "2026-08-28",
       "2026-08-29",
+      "2026-08-30",
       "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
       "2026-09-03",
+      "2026-09-04",
       "2026-09-05",
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "0e0853aa2fe986d1e7764440ba52c7acd9fb25e7",
-    "readme_hash": "ec308847d0db4baa",
+    "head_sha": "9e99764de5f83bea835cbbba5d91e423497a5423",
+    "readme_hash": "1eb0be7c4cad711c",
     "desc_v6": true,
-    "churn_pct": 0,
-    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
-    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
-    "latest_push": "Refreshed the depth data in the depth.json file.",
+    "churn_pct": 0.1,
+    "summary": "Experimental coordination and shielded settlement for AI agents.",
+    "description_long": "Erebus allows AI agents to negotiate over an encrypted channel and settle transactions atomically through Starknet's STRK20 privacy pool. It consists of a server and thirteen tools that handle channel establishment, offer management, and settlement processes, with each write tagged by a unique operation ID. The system is designed for privacy, ensuring that the terms of negotiation are hidden while the relationship between agents remains visible.",
+    "latest_push": "Directed the Docs navigation and CTA to docs.erebusagents.live.",
     "tooling": [
       {
         "label": "Cairo",
@@ -66,21 +138,28 @@
         "stack": false
       },
       {
-        "label": "Starknet Foundry",
+        "label": "Rust",
         "live": false,
         "stack": false
       }
     ],
     "has_readme": true,
-    "additions": 1,
-    "deletions": 1,
+    "additions": 18,
+    "deletions": 3,
     "sprint": {
-      "pushes": 79,
-      "additions": 30619,
-      "deletions": 19,
+      "pushes": 126,
+      "additions": 14330,
+      "deletions": 3631,
       "computed": 3
     },
-    "assessment": null,
+    "assessment": {
+      "innovative": true,
+      "complex": true,
+      "why_innovative": "applies privacy to agent-to-agent commerce using encrypted negotiation channels.",
+      "why_complex": "implements AES-256-GCM-SIV for wire v2 and includes multiple interacting agents and roles.",
+      "reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
+      "facts_v2": true
+    },
     "star_evidence": "Cairo in the repository"
   },
   {
@@ -202,7 +281,6 @@
     "head_sha": "575d0d66904e75176802afb080e289542b401152",
     "readme_hash": "f32fc4285b4b289b",
     "desc_v6": true,
-    "churn_pct": 2.8,
     "summary": "Play fair online Texas Hold'em with encrypted cards and no trusted dealer.",
     "description_long": "A full-stack online Texas Hold'em poker game on Starknet, ensuring fairness with encrypted cards and joint shuffling by players, eliminating the need for a trusted dealer. It uses five contracts to manage the game flow, enabling secure deposits, private claims, and on-chain verification of game actions. The system performs cryptographic operations quickly, with a focus on minimizing latency while maintaining security.",
     "latest_push": "Implemented the zchain wallet and fixed the lean prove functionality.",
@@ -226,6 +304,7 @@
     "has_readme": true,
     "additions": 5240,
     "deletions": 173,
+    "churn_pct": 2.8,
     "sprint": {
       "pushes": 188,
       "additions": 209355,
@@ -234,169 +313,6 @@
     },
     "assessment": null,
     "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "erebus",
-    "name": "Erebus",
-    "one_liner": "Confidential negotiation and shielded settlement infrastructure for AI agents on Starknet, built on the STRK20 privacy pool.",
-    "category": "Other",
-    "repo_url": "https://github.com/PoulavBhowmick03/Erebus",
-    "demo_url": "https://erebus-private-agents.vercel.app",
-    "demo_video": "https://drive.google.com/file/d/1zOkEJt08DwRiHeLIu4IaXCl1s8VRSKuu/view?usp=sharing",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
-    "contracts": [],
-    "transactions": [
-      {
-        "hash": "0x06597adb6581bb1910d30b31139fe871665db4cc61fefef8120b89773528e54c",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x0572260b651525ea39ef717721bcc9fefc89a2087894654efb38111e09267189",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x0159748de29d9dbe7016c9eb37459cbd7dd72290c3bc22412a034fb1c4c38a99",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x01a30c0b6e8db645df67795f2356cb6a251b9680d0b61cea54d28d04edd70d1",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x05a287657f829a82ecc83a0543674f1397aa75bdade8365b28f72e3925d759b5",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x04126a3ee0971728d7181296fe4d128f12fc6a828a172b7bd12d8f5128364923",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x072adebfcffdfd45bba66d2152c7e11b50107aa0fe2b4c9f1ea851da16ab6c6d",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x0273b0f97f1c0707a259bbe5cacc337df6876509adba09b7376a0501a0f028b7",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x051fa13c6d11c529208785af163f2d5bc1cc95451192e3265150e0067aadeda4",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x06e55194809fec58c1426a8178dcdb10270d5e8aecfcfd6db2b28f6284ce5467",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      }
-    ],
-    "verified_txs": 10,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-16T16:21:23Z",
-    "stars": 3,
-    "builders": [
-      {
-        "login": "PoulavBhowmick03",
-        "name": "PoulavBhowmick03",
-        "avatar_url": "https://avatars.githubusercontent.com/u/133862694?v=4"
-      },
-      {
-        "login": "ishitab02",
-        "name": "ishitab02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/139248026?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "9647138f5d0e7a52ee7147954ee2fe46980317f4",
-    "readme_hash": "1eb0be7c4cad711c",
-    "desc_v6": true,
-    "churn_pct": 3.6,
-    "summary": "Experimental coordination and shielded settlement for AI agents.",
-    "description_long": "Erebus allows AI agents to negotiate over an encrypted channel and settle transactions atomically through Starknet's STRK20 privacy pool. It consists of a server and thirteen tools that handle channel establishment, offer management, and settlement processes, with each write tagged by a unique operation ID. The system is designed for privacy, ensuring that the terms of negotiation are hidden while the relationship between agents remains visible.",
-    "latest_push": "Rebuilt the /docs into a multi-page reference site and added a full-screen viewer.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 1335,
-    "deletions": 169,
-    "sprint": {
-      "pushes": 126,
-      "additions": 14330,
-      "deletions": 3631,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": true,
-      "complex": true,
-      "why_innovative": "applies privacy to agent-to-agent commerce using encrypted negotiation channels.",
-      "why_complex": "implements AES-256-GCM-SIV for wire v2 and includes multiple interacting agents and roles.",
-      "reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
-      "facts_v2": true
-    },
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "strkworld",
@@ -21969,6 +21885,74 @@
       "pushes": 21,
       "additions": 6472,
       "deletions": 7,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": ""
+  },
+  {
+    "slug": "himitsu-protocol",
+    "name": "Himitsu Protocol",
+    "one_liner": "",
+    "category": "Infra",
+    "repo_url": "https://github.com/adipundir/himitsu-protocol",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "adipundir",
+        "name": "Aditya Pundir",
+        "avatar_url": "https://avatars.githubusercontent.com/u/87739405?v=4"
+      },
+      {
+        "login": "deepakA18",
+        "name": "Deepak ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/96007304?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "A protocol to enhance anonymity in STRK20 through incentive-based deposit rewards.",
+    "description_long": "Himitsu is an emissions protocol that pays depositors to deepen the STRK20 anonymity set. It achieves this through denomination gauges that reward deposits at standard amounts and ensures rewards land shielded within the pool, thus protecting user identities. The system relies on a merkle root posted on-chain from public data, allowing transparent tracking of deposits and reward allocations while maintaining private claim destinations.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 79,
+      "additions": 30619,
+      "deletions": 19,
       "computed": 3
     },
     "assessment": null,
