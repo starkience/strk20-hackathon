@@ -14312,9 +14312,10 @@
     "transactions": [
       {
         "hash": "0x7f419460965d6d83b2cc919a0f08d11dee212fe367849cfb1afe124ed14b511",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x7d643ebd88f2894b2733628fcc7363fd082e30a0ea0b47c3608149a7bbfc86c",
@@ -14359,7 +14360,7 @@
         "mine": null
       }
     ],
-    "verified_txs": 8,
+    "verified_txs": 7,
     "requirements": {
       "demo": true,
       "video": true,
