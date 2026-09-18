@@ -118,7 +118,6 @@
     "head_sha": "f90b2347b53c42e93d522e67d73764c9aa32312e",
     "readme_hash": "f32fc4285b4b289b",
     "desc_v6": true,
-    "churn_pct": 1,
     "summary": "Play fair online Texas Hold'em with encrypted cards and no trusted dealer.",
     "description_long": "A full-stack online Texas Hold'em poker game on Starknet, ensuring fairness with encrypted cards and joint shuffling by players, eliminating the need for a trusted dealer. It uses five contracts to manage the game flow, enabling secure deposits, private claims, and on-chain verification of game actions. The system performs cryptographic operations quickly, with a focus on minimizing latency while maintaining security.",
     "latest_push": "Removed old deploy scripts and added comprehensive test coverage.",
@@ -142,6 +141,7 @@
     "has_readme": true,
     "additions": 899,
     "deletions": 1121,
+    "churn_pct": 1,
     "sprint": {
       "pushes": 188,
       "additions": 209146,
