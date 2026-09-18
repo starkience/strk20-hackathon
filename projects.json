@@ -15340,7 +15340,6 @@
     "head_sha": "62db6f2889e21546600bd1f6ec282fb95e1f2309",
     "readme_hash": "1739d94c4bc08649",
     "desc_v6": true,
-    "churn_pct": 1.2,
     "summary": "A private recovery reserve for Starknet self-custody wallets with authenticated control.",
     "description_long": "Afterlight is a private, bounded recovery reserve allowing users to fund a fixed reserve via STRK20 while maintaining ownership through authenticated heartbeats and a veto window. It implements a recovery mechanism that activates if no heartbeat is received during a specified interval, enabling a designated successor to authorize fund recovery to a private destination. The implementation involves a Cairo state machine, neutral relayer for communication, and various components for state management and testing.",
     "latest_push": "Hardened Starknet RPC response handling and improved recovery onboarding.",
@@ -15364,6 +15363,7 @@
     "has_readme": true,
     "additions": 188,
     "deletions": 6,
+    "churn_pct": 1.2,
     "sprint": {
       "pushes": 96,
       "additions": 42009,
