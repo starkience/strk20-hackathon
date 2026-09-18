@@ -1,96 +1,5 @@
 [
   {
-    "slug": "client",
-    "name": "client",
-    "one_liner": "Zylith trading and liquidity client.",
-    "category": "Other",
-    "repo_url": "https://github.com/ZylithFi/client",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project lacks privacy application and real engineering depth.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-18T17:34:16Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "tanctl",
-        "name": "tanctl",
-        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [],
-    "head_sha": "10fd871783336be62db3897c0e2860493c57c4c3",
-    "readme_hash": "5039c8bbe4e7e278",
-    "desc_v6": true,
-    "churn_pct": 31,
-    "summary": "A trading and liquidity web app for Zylith.",
-    "description_long": "",
-    "latest_push": "Implemented private clearing functionality in the core module.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 12740,
-    "deletions": 5062,
-    "sprint": {
-      "pushes": 0,
-      "additions": 17668,
-      "deletions": 12343,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
-      "why_complex": "No deployed contracts or complex engineering present in the stack.",
-      "reason": "The project lacks privacy application and real engineering depth.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
-  },
-  {
     "slug": "poker-texas-air",
     "name": "poker_texas_air",
     "one_liner": "Provably fair Texas Hold'em on Starknet — a mental-poker protocol with no trusted dealer: cards are ElGamal-encrypted and shuffled by the players, every step is a sigma proof your browser verifies, and bankrolls move privately through the STRK20 pool. Live on mainnet.",
@@ -174,7 +83,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-17T19:54:05Z",
+    "pushed_at": "2026-09-18T20:22:48Z",
     "stars": 0,
     "builders": [
       {
@@ -206,12 +115,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "b8b1970ba4ff6b74de340968d8dda23b13f5c165",
+    "head_sha": "f90b2347b53c42e93d522e67d73764c9aa32312e",
     "readme_hash": "f32fc4285b4b289b",
     "desc_v6": true,
+    "churn_pct": 1,
     "summary": "Play fair online Texas Hold'em with encrypted cards and no trusted dealer.",
     "description_long": "A full-stack online Texas Hold'em poker game on Starknet, ensuring fairness with encrypted cards and joint shuffling by players, eliminating the need for a trusted dealer. It uses five contracts to manage the game flow, enabling secure deposits, private claims, and on-chain verification of game actions. The system performs cryptographic operations quickly, with a focus on minimizing latency while maintaining security.",
-    "latest_push": "Upgraded the poker_protocol for improved compatibility and performance.",
+    "latest_push": "Removed old deploy scripts and added comprehensive test coverage.",
     "tooling": [
       {
         "label": "Cairo",
@@ -230,9 +140,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 528,
-    "deletions": 260,
-    "churn_pct": 0.4,
+    "additions": 899,
+    "deletions": 1121,
     "sprint": {
       "pushes": 188,
       "additions": 209146,
@@ -241,6 +150,97 @@
     },
     "assessment": null,
     "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "client",
+    "name": "client",
+    "one_liner": "Zylith trading and liquidity client.",
+    "category": "Other",
+    "repo_url": "https://github.com/ZylithFi/client",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The project lacks privacy application and real engineering depth.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-18T17:34:16Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "tanctl",
+        "name": "tanctl",
+        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [],
+    "head_sha": "10fd871783336be62db3897c0e2860493c57c4c3",
+    "readme_hash": "5039c8bbe4e7e278",
+    "desc_v6": true,
+    "summary": "A trading and liquidity web app for Zylith.",
+    "description_long": "",
+    "latest_push": "Implemented private clearing functionality in the core module.",
+    "tooling": [
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 12740,
+    "deletions": 5062,
+    "churn_pct": 31,
+    "sprint": {
+      "pushes": 0,
+      "additions": 17668,
+      "deletions": 12343,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
+      "why_complex": "No deployed contracts or complex engineering present in the stack.",
+      "reason": "The project lacks privacy application and real engineering depth.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
   },
   {
     "slug": "erebus",
