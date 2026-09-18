@@ -1,5 +1,96 @@
 [
   {
+    "slug": "client",
+    "name": "client",
+    "one_liner": "Zylith trading and liquidity client.",
+    "category": "Other",
+    "repo_url": "https://github.com/ZylithFi/client",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The project lacks privacy application and real engineering depth.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-18T17:34:16Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "tanctl",
+        "name": "tanctl",
+        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [],
+    "head_sha": "10fd871783336be62db3897c0e2860493c57c4c3",
+    "readme_hash": "5039c8bbe4e7e278",
+    "desc_v6": true,
+    "churn_pct": 31,
+    "summary": "A trading and liquidity web app for Zylith.",
+    "description_long": "",
+    "latest_push": "Implemented private clearing functionality in the core module.",
+    "tooling": [
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 12740,
+    "deletions": 5062,
+    "sprint": {
+      "pushes": 0,
+      "additions": 17668,
+      "deletions": 12343,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
+      "why_complex": "No deployed contracts or complex engineering present in the stack.",
+      "reason": "The project lacks privacy application and real engineering depth.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
     "slug": "poker-texas-air",
     "name": "poker_texas_air",
     "one_liner": "Provably fair Texas Hold'em on Starknet — a mental-poker protocol with no trusted dealer: cards are ElGamal-encrypted and shuffled by the players, every step is a sigma proof your browser verifies, and bankrolls move privately through the STRK20 pool. Live on mainnet.",
@@ -1852,97 +1943,6 @@
       "facts_v2": true
     },
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "client",
-    "name": "client",
-    "one_liner": "Zylith trading and liquidity client.",
-    "category": "Other",
-    "repo_url": "https://github.com/ZylithFi/client",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project lacks privacy application and real engineering depth.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-10T16:11:57Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "tanctl",
-        "name": "tanctl",
-        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [],
-    "head_sha": "12b9d94c72ace3ea89230e4e0c74e9200c0dbee3",
-    "readme_hash": "5039c8bbe4e7e278",
-    "desc_v6": true,
-    "summary": "A trading and liquidity web app for Zylith.",
-    "description_long": "",
-    "latest_push": "Modified multiple core modules and added extensive tests.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 15532,
-    "deletions": 12433,
-    "churn_pct": 51.9,
-    "sprint": {
-      "pushes": 0,
-      "additions": 17668,
-      "deletions": 12343,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
-      "why_complex": "No deployed contracts or complex engineering present in the stack.",
-      "reason": "The project lacks privacy application and real engineering depth.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
   },
   {
     "slug": "aegis-rescue",
