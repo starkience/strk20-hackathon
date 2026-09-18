@@ -15263,6 +15263,117 @@
     "star_evidence": "1 contract deployed, Cairo in the repository"
   },
   {
+    "slug": "afterlight",
+    "name": "Afterlight",
+    "one_liner": "Private STRK20 recovery reserves with authenticated heartbeat, grace, and owner veto control.",
+    "category": "Consumer",
+    "repo_url": "https://github.com/dolepee/afterlight",
+    "demo_url": "https://afterlight.dolepee.com",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x06e8b6e49b4366e0dc6a35eee722b417c718988eca3f4a0c298bdf8785261c25",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x030ea14ac22e5806e382658971b686692af280bf2f02173a430f572921121722",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x69e2345ae8816986a709de84f0dcb571b5d092400d6c53bf90197480102c0fb",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x036e003396fe360ae7fe4766646f493c0eb579d82509652559d40e460770682a",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x11c990aea864e755630d41fd1292620c313b3f64407fc0b3a902544c67c8098",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x722033f7fd0397ff4d3845428c98cad885b6a63824f7c78a2b7e1d7d6f5c1b6",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 5,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": true
+    },
+    "status": "building",
+    "pushed_at": "2026-08-29T16:11:19Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "dolepee",
+        "name": "dolepee",
+        "avatar_url": "https://avatars.githubusercontent.com/u/113950858?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-28",
+      "2026-08-29"
+    ],
+    "head_sha": "62db6f2889e21546600bd1f6ec282fb95e1f2309",
+    "readme_hash": "1739d94c4bc08649",
+    "desc_v6": true,
+    "churn_pct": 1.2,
+    "summary": "A private recovery reserve for Starknet self-custody wallets with authenticated control.",
+    "description_long": "Afterlight is a private, bounded recovery reserve allowing users to fund a fixed reserve via STRK20 while maintaining ownership through authenticated heartbeats and a veto window. It implements a recovery mechanism that activates if no heartbeat is received during a specified interval, enabling a designated successor to authorize fund recovery to a private destination. The implementation involves a Cairo state machine, neutral relayer for communication, and various components for state management and testing.",
+    "latest_push": "Hardened Starknet RPC response handling and improved recovery onboarding.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Anonymizer contract",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 188,
+    "deletions": 6,
+    "sprint": {
+      "pushes": 96,
+      "additions": 42009,
+      "deletions": 275,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+  },
+  {
     "slug": "lacuna",
     "name": "Lacuna",
     "one_liner": "The STRK20 privacy studio for designing private flows, exposing public boundaries, and shipping verified Starknet integrations.",
@@ -21779,53 +21890,6 @@
       "pushes": 0,
       "additions": 0,
       "deletions": 0,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": ""
-  },
-  {
-    "slug": "afterlight",
-    "name": "Afterlight",
-    "one_liner": "Private STRK20 recovery reserves with authenticated heartbeat, grace, and owner veto control.",
-    "category": "Consumer",
-    "repo_url": "https://github.com/dolepee/afterlight",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": null,
-    "stars": 0,
-    "builders": [],
-    "agents": [],
-    "active_days": [],
-    "head_sha": null,
-    "readme_hash": "",
-    "desc_v6": true,
-    "churn_pct": 0,
-    "summary": "Private STRK20 recovery reserves with heartbeat and owner veto control.",
-    "description_long": "This project is a private recovery system for STRK20 assets. It includes features for authenticated heartbeats, grace periods, and owner veto controls to manage asset recovery.",
-    "latest_push": "",
-    "tooling": [],
-    "has_readme": false,
-    "additions": 0,
-    "deletions": 0,
-    "sprint": {
-      "pushes": 0,
-      "additions": 41827,
-      "deletions": 275,
       "computed": 3
     },
     "assessment": null,
