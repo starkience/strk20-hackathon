@@ -14,7 +14,7 @@
     "star_reason": "",
     "contracts": [
       {
-        "address": "0x3f4ef706ae2dc00ac685afffc05e5f1e1e9ab5aacf99c3205d2067e061cbb45",
+        "address": "0x3821e794573098e99d93a8e154965d4b4f67586741a625ed2c78b95362e2502",
         "network": "mainnet"
       },
       {
@@ -22,11 +22,11 @@
         "network": "mainnet"
       },
       {
-        "address": "0x1d39b80b990038ceeeaf3d39e83cb83031be95c0d0ccca5d18c5faea29aef6d",
+        "address": "0x268df800d72220614d0c49bc3eae829612ab3f9c6e36b423d288edf68540a57",
         "network": "mainnet"
       },
       {
-        "address": "0x88c1f843588d1498fcd3f780fa7cf86ada18cd416754c77149a8c14e492877",
+        "address": "0x6149b13d4963c5dbc147d687a2e7a33fa7c87f30f3687c546de9b2e957000d0",
         "network": "mainnet"
       },
       {
@@ -39,34 +39,36 @@
         "hash": "0xcd9b13ececa4649ce5f6e7ad80acf80e1ab03a57190e4035e7240369152a4b",
         "ok": true,
         "pool": false,
-        "mine": true,
+        "mine": false,
         "note": "did not touch the pool"
       },
       {
         "hash": "0x1daa47a0efde4fad6bbf3d81f88af40ed3951a946b3ece84ac06f6fbb6e7e04",
         "ok": true,
         "pool": true,
-        "mine": true
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
       },
       {
         "hash": "0x639263f89bccef1bef806409da74962d7e7829043deb153fb0ea2e5ddbdab69",
         "ok": true,
         "pool": false,
-        "mine": true,
+        "mine": false,
         "note": "did not touch the pool"
       },
       {
         "hash": "0x7edf5045bcc1aab3f748d503611c8a2c73b15c5cac0224e4dbf4a4801358982",
         "ok": true,
         "pool": false,
-        "mine": true,
+        "mine": false,
         "note": "did not touch the pool"
       },
       {
         "hash": "0x6fe8e61e009ad5168c683fb2560c73fba4a92e9eba723455c3557bd6e79d6cc",
         "ok": true,
         "pool": true,
-        "mine": true
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
       },
       {
         "hash": "0x00a62a09872eb695ec32d9a86300cf4bff5ced8ea87fbb33f879b5389ce1c51c",
@@ -76,14 +78,14 @@
         "note": "touched the pool, but not through this project's contracts"
       }
     ],
-    "verified_txs": 2,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-18T20:22:48Z",
+    "pushed_at": "2026-09-19T00:51:44Z",
     "stars": 0,
     "builders": [
       {
@@ -115,12 +117,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "f90b2347b53c42e93d522e67d73764c9aa32312e",
+    "head_sha": "d292591524941717f781a60b6bbd37eab9e37fb4",
     "readme_hash": "f32fc4285b4b289b",
     "desc_v6": true,
+    "churn_pct": 0,
     "summary": "Play fair online Texas Hold'em with encrypted cards and no trusted dealer.",
     "description_long": "A full-stack online Texas Hold'em poker game on Starknet, ensuring fairness with encrypted cards and joint shuffling by players, eliminating the need for a trusted dealer. It uses five contracts to manage the game flow, enabling secure deposits, private claims, and on-chain verification of game actions. The system performs cryptographic operations quickly, with a focus on minimizing latency while maintaining security.",
-    "latest_push": "Removed old deploy scripts and added comprehensive test coverage.",
+    "latest_push": "Updated the latest contract and related deployment documentation.",
     "tooling": [
       {
         "label": "Cairo",
@@ -139,9 +142,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 899,
-    "deletions": 1121,
-    "churn_pct": 1,
+    "additions": 34,
+    "deletions": 16,
     "sprint": {
       "pushes": 188,
       "additions": 209146,
