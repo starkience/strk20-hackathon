@@ -85,7 +85,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-19T00:51:44Z",
+    "pushed_at": "2026-09-19T03:37:52Z",
     "stars": 0,
     "builders": [
       {
@@ -117,13 +117,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "d292591524941717f781a60b6bbd37eab9e37fb4",
+    "head_sha": "6d26dff84be0d80969584a8b4b5a77f0aacfe1c2",
     "readme_hash": "f32fc4285b4b289b",
     "desc_v6": true,
-    "churn_pct": 0,
+    "churn_pct": 0.1,
     "summary": "Play fair online Texas Hold'em with encrypted cards and no trusted dealer.",
     "description_long": "A full-stack online Texas Hold'em poker game on Starknet, ensuring fairness with encrypted cards and joint shuffling by players, eliminating the need for a trusted dealer. It uses five contracts to manage the game flow, enabling secure deposits, private claims, and on-chain verification of game actions. The system performs cryptographic operations quickly, with a focus on minimizing latency while maintaining security.",
-    "latest_push": "Updated the latest contract and related deployment documentation.",
+    "latest_push": "Fixed the snip36 prove and updated deployment documentation.",
     "tooling": [
       {
         "label": "Cairo",
@@ -142,8 +142,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 34,
-    "deletions": 16,
+    "additions": 159,
+    "deletions": 15,
     "sprint": {
       "pushes": 188,
       "additions": 209146,
