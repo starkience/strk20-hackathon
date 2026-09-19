@@ -61,3 +61,30 @@ test("the GitHub activity window freezes at the submission deadline", () => {
   assert.match(source, /since=\$\{SPRINT_START\}&until=\$\{SPRINT_END\}/);
   assert.match(source, /d <= SPRINT_END\.slice\(0, 10\)/);
 });
+
+function cachedAssessment(prev, headSha) {
+  const initialization = source.match(/let assessment =\s*([\s\S]*?);/);
+  assert.ok(initialization, "assessment cache initialization must be present");
+  return Function("prev", "headSha", `return (${initialization[1]});`)(prev, headSha);
+}
+
+test("project assessment cache reuses a facts_v2 verdict for the same repository head", () => {
+  const assessment = { facts_v2: true, innovative: false, complex: false };
+  assert.equal(cachedAssessment({ head_sha: "current", assessment }, "current"), assessment);
+});
+
+test("project assessment cache is invalidated when the repository head changes", () => {
+  const assessment = { facts_v2: true, innovative: false, complex: false };
+  assert.equal(cachedAssessment({ head_sha: "old", assessment }, "current"), null);
+});
+
+test("project assessment cache invalidates an older rubric even when the head is unchanged", () => {
+  const assessment = { innovative: true, complex: true };
+  assert.equal(cachedAssessment({ head_sha: "current", assessment }, "current"), null);
+});
+
+test("project assessment cache misses without a previous verdict", () => {
+  assert.equal(cachedAssessment(undefined, "current"), null);
+  assert.equal(cachedAssessment({ head_sha: "current" }, "current"), null);
+  assert.equal(cachedAssessment({ head_sha: "current", assessment: null }, "current"), null);
+});
