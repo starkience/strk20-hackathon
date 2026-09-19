@@ -35,7 +35,6 @@
     "head_sha": "fd96e355750b401ee7e6ae39db0d0b3af523edc2",
     "readme_hash": "5039c8bbe4e7e278",
     "desc_v6": true,
-    "churn_pct": 34,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
     "latest_push": "Implemented private clearing with significant changes across multiple files.",
@@ -74,6 +73,7 @@
     "has_readme": true,
     "additions": 12198,
     "deletions": 7078,
+    "churn_pct": 34,
     "sprint": {
       "pushes": 0,
       "additions": 17668,
