@@ -1,5 +1,93 @@
 [
   {
+    "slug": "veilzero",
+    "name": "VeilZero",
+    "one_liner": "Private coordinated vulnerability disclosure with deadline-bound cases and shielded STRK20 bounty settlement.",
+    "category": "Tooling",
+    "repo_url": "https://github.com/tang-vu/veilzero",
+    "demo_url": "https://tang-vu.github.io/veilzero/",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "RFP-02",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-19T17:01:19Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "tang-vu",
+        "name": "Tang Vu",
+        "avatar_url": "https://avatars.githubusercontent.com/u/145498528?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03"
+    ],
+    "head_sha": "40944fd00c397b01134ab85983600b468a295fef",
+    "readme_hash": "d026737be4b3fa7a",
+    "desc_v6": true,
+    "churn_pct": 0.1,
+    "summary": "Private vulnerability disclosure with encrypted reports and secure bounty settlements.",
+    "description_long": "VeilZero allows researchers to report vulnerabilities privately while ensuring accountability for vendors. It implements envelope encryption, shareable encrypted case envelopes, selective authorship proofs, and a system for case submission and reward authorization. Built using Cairo contracts, it includes features such as a public vendor program manifest, domain-separated case commitments, and mechanisms for wallet diagnostics.",
+    "latest_push": "Ignored AI assistant artifacts in the .gitignore.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 6,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 57,
+      "additions": 12543,
+      "deletions": 147,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "poker-texas-air",
     "name": "poker_texas_air",
     "one_liner": "Provably fair Texas Hold'em on Starknet — a mental-poker protocol with no trusted dealer: cards are ElGamal-encrypted and shuffled by the players, every step is a sigma proof your browser verifies, and bankrolls move privately through the STRK20 pool. Live on mainnet.",
@@ -11352,94 +11440,6 @@
     },
     "assessment": null,
     "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "veilzero",
-    "name": "VeilZero",
-    "one_liner": "Private coordinated vulnerability disclosure with deadline-bound cases and shielded STRK20 bounty settlement.",
-    "category": "Tooling",
-    "repo_url": "https://github.com/tang-vu/veilzero",
-    "demo_url": "https://tang-vu.github.io/veilzero/",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "RFP-02",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-03T05:34:14Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "tang-vu",
-        "name": "Tang Vu",
-        "avatar_url": "https://avatars.githubusercontent.com/u/145498528?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03"
-    ],
-    "head_sha": "88a129f350308f742755982d459c96a82d4aa0f9",
-    "readme_hash": "d026737be4b3fa7a",
-    "desc_v6": true,
-    "summary": "Private vulnerability disclosure with encrypted reports and secure bounty settlements.",
-    "description_long": "VeilZero allows researchers to report vulnerabilities privately while ensuring accountability for vendors. It implements envelope encryption, shareable encrypted case envelopes, selective authorship proofs, and a system for case submission and reward authorization. Built using Cairo contracts, it includes features such as a public vendor program manifest, domain-separated case commitments, and mechanisms for wallet diagnostics.",
-    "latest_push": "Enforced mainnet budget gate and documented per-action cost limits.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 301,
-    "deletions": 20,
-    "churn_pct": 5.1,
-    "sprint": {
-      "pushes": 57,
-      "additions": 12537,
-      "deletions": 147,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "privpatch",
