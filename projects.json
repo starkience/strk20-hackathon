@@ -21,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-19T19:17:07Z",
+    "pushed_at": "2026-09-20T09:01:43Z",
     "stars": 0,
     "builders": [
       {
@@ -32,12 +32,13 @@
     ],
     "agents": [],
     "active_days": [],
-    "head_sha": "fd96e355750b401ee7e6ae39db0d0b3af523edc2",
+    "head_sha": "dd3be3136e2b8c9b692f245dff2cb520a196ac4a",
     "readme_hash": "5039c8bbe4e7e278",
     "desc_v6": true,
+    "churn_pct": 33.8,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
-    "latest_push": "Implemented private clearing with significant changes across multiple files.",
+    "latest_push": "Implemented private clearing functionality in the core module.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -71,9 +72,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 12198,
-    "deletions": 7078,
-    "churn_pct": 34,
+    "additions": 12273,
+    "deletions": 6925,
     "sprint": {
       "pushes": 0,
       "additions": 17668,
