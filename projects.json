@@ -120,7 +120,6 @@
     "head_sha": "363bb56f009fdf6e68755bfc842a8bdfb54ee0ea",
     "readme_hash": "f32fc4285b4b289b",
     "desc_v6": true,
-    "churn_pct": 0.2,
     "summary": "Play fair online Texas Hold'em with encrypted cards and no trusted dealer.",
     "description_long": "A full-stack online Texas Hold'em poker game on Starknet, ensuring fairness with encrypted cards and joint shuffling by players, eliminating the need for a trusted dealer. It uses five contracts to manage the game flow, enabling secure deposits, private claims, and on-chain verification of game actions. The system performs cryptographic operations quickly, with a focus on minimizing latency while maintaining security.",
     "latest_push": "Prevented bounce in game state and updated related socket handling.",
@@ -144,6 +143,7 @@
     "has_readme": true,
     "additions": 308,
     "deletions": 19,
+    "churn_pct": 0.2,
     "sprint": {
       "pushes": 188,
       "additions": 209169,
@@ -200,7 +200,6 @@
     "head_sha": "3800fc5ead877b088b30749f7cab7f58bb7eeba9",
     "readme_hash": "8580a1475cd8ae3b",
     "desc_v6": true,
-    "churn_pct": 40.7,
     "summary": "A non-custodial stablecoin payment gateway for merchants across multiple chains.",
     "description_long": "Beanie allows merchants to register a destination address for stablecoin payments without ever holding their funds. Each chain has a dedicated receiver contract deployed through a factory, ensuring non-custodial transfers that prevent admin redirection of funds after deployment. The Starknet contracts mirror the EVM's functionality, offering client-side deterministic stealth payments through a 2-of-2 co-signing mechanism using WebAuthn and Lit Protocol.",
     "latest_push": "Updated the transfer worker and integrated indexers in beanie keeper.",
@@ -224,6 +223,7 @@
     "has_readme": true,
     "additions": 4538,
     "deletions": 1048,
+    "churn_pct": 40.7,
     "sprint": {
       "pushes": 37,
       "additions": 17896,
