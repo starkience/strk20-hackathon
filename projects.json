@@ -1,5 +1,239 @@
 [
   {
+    "slug": "poker-texas-air",
+    "name": "poker_texas_air",
+    "one_liner": "Provably fair Texas Hold'em on Starknet — a mental-poker protocol with no trusted dealer: cards are ElGamal-encrypted and shuffled by the players, every step is a sigma proof your browser verifies, and bankrolls move privately through the STRK20 pool. Live on mainnet.",
+    "category": "Other",
+    "repo_url": "https://github.com/linqining/poker_texas_air",
+    "demo_url": "https://strk.secretpokers.com/",
+    "demo_video": "https://www.youtube.com/watch?v=uqtrvw_bR4w",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x3821e794573098e99d93a8e154965d4b4f67586741a625ed2c78b95362e2502",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x2bf6a09c0aaea154de34745056e7534f58fa0805c12afe18cf22a9bc66ee7a8",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x268df800d72220614d0c49bc3eae829612ab3f9c6e36b423d288edf68540a57",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x6149b13d4963c5dbc147d687a2e7a33fa7c87f30f3687c546de9b2e957000d0",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x402372930ea52cccbafa459169b3dae3d67051ed741e9af7da669a0f1fbb308",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0xcd9b13ececa4649ce5f6e7ad80acf80e1ab03a57190e4035e7240369152a4b",
+        "ok": true,
+        "pool": false,
+        "mine": false,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x1daa47a0efde4fad6bbf3d81f88af40ed3951a946b3ece84ac06f6fbb6e7e04",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x639263f89bccef1bef806409da74962d7e7829043deb153fb0ea2e5ddbdab69",
+        "ok": true,
+        "pool": false,
+        "mine": false,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x7edf5045bcc1aab3f748d503611c8a2c73b15c5cac0224e4dbf4a4801358982",
+        "ok": true,
+        "pool": false,
+        "mine": false,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x6fe8e61e009ad5168c683fb2560c73fba4a92e9eba723455c3557bd6e79d6cc",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x00a62a09872eb695ec32d9a86300cf4bff5ced8ea87fbb33f879b5389ce1c51c",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      }
+    ],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-21T17:18:32Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "linqining",
+        "name": "linqining",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18323181?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "363bb56f009fdf6e68755bfc842a8bdfb54ee0ea",
+    "readme_hash": "f32fc4285b4b289b",
+    "desc_v6": true,
+    "churn_pct": 0.2,
+    "summary": "Play fair online Texas Hold'em with encrypted cards and no trusted dealer.",
+    "description_long": "A full-stack online Texas Hold'em poker game on Starknet, ensuring fairness with encrypted cards and joint shuffling by players, eliminating the need for a trusted dealer. It uses five contracts to manage the game flow, enabling secure deposits, private claims, and on-chain verification of game actions. The system performs cryptographic operations quickly, with a focus on minimizing latency while maintaining security.",
+    "latest_push": "Prevented bounce in game state and updated related socket handling.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 308,
+    "deletions": 19,
+    "sprint": {
+      "pushes": 188,
+      "additions": 209169,
+      "deletions": 1734,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "open-beanie",
+    "name": "open-beanie",
+    "one_liner": "software powering beanie",
+    "category": "Payments",
+    "repo_url": "https://github.com/cenwadike/open-beanie",
+    "demo_url": "https://beanie.up.railway.app/",
+    "demo_video": "https://youtu.be/kGaXVlH6fWE",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-21T12:46:43Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "cenwadike",
+        "name": "Kombi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "3800fc5ead877b088b30749f7cab7f58bb7eeba9",
+    "readme_hash": "8580a1475cd8ae3b",
+    "desc_v6": true,
+    "churn_pct": 40.7,
+    "summary": "A non-custodial stablecoin payment gateway for merchants across multiple chains.",
+    "description_long": "Beanie allows merchants to register a destination address for stablecoin payments without ever holding their funds. Each chain has a dedicated receiver contract deployed through a factory, ensuring non-custodial transfers that prevent admin redirection of funds after deployment. The Starknet contracts mirror the EVM's functionality, offering client-side deterministic stealth payments through a 2-of-2 co-signing mechanism using WebAuthn and Lit Protocol.",
+    "latest_push": "Updated the transfer worker and integrated indexers in beanie keeper.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 4538,
+    "deletions": 1048,
+    "sprint": {
+      "pushes": 37,
+      "additions": 17896,
+      "deletions": 23,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "erebus",
     "name": "Erebus",
     "one_liner": "Confidential negotiation and shielded settlement infrastructure for AI agents on Starknet, built on the STRK20 privacy pool.",
@@ -209,7 +443,7 @@
     },
     "status": "finished",
     "pushed_at": "2026-09-21T10:21:12Z",
-    "stars": 0,
+    "stars": 1,
     "builders": [
       {
         "login": "broody",
@@ -563,160 +797,6 @@
     },
     "assessment": null,
     "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "poker-texas-air",
-    "name": "poker_texas_air",
-    "one_liner": "Provably fair Texas Hold'em on Starknet — a mental-poker protocol with no trusted dealer: cards are ElGamal-encrypted and shuffled by the players, every step is a sigma proof your browser verifies, and bankrolls move privately through the STRK20 pool. Live on mainnet.",
-    "category": "Other",
-    "repo_url": "https://github.com/linqining/poker_texas_air",
-    "demo_url": "https://strk.secretpokers.com/",
-    "demo_video": "https://www.youtube.com/watch?v=uqtrvw_bR4w",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x3821e794573098e99d93a8e154965d4b4f67586741a625ed2c78b95362e2502",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x2bf6a09c0aaea154de34745056e7534f58fa0805c12afe18cf22a9bc66ee7a8",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x268df800d72220614d0c49bc3eae829612ab3f9c6e36b423d288edf68540a57",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x6149b13d4963c5dbc147d687a2e7a33fa7c87f30f3687c546de9b2e957000d0",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x402372930ea52cccbafa459169b3dae3d67051ed741e9af7da669a0f1fbb308",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0xcd9b13ececa4649ce5f6e7ad80acf80e1ab03a57190e4035e7240369152a4b",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x1daa47a0efde4fad6bbf3d81f88af40ed3951a946b3ece84ac06f6fbb6e7e04",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x639263f89bccef1bef806409da74962d7e7829043deb153fb0ea2e5ddbdab69",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x7edf5045bcc1aab3f748d503611c8a2c73b15c5cac0224e4dbf4a4801358982",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x6fe8e61e009ad5168c683fb2560c73fba4a92e9eba723455c3557bd6e79d6cc",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x00a62a09872eb695ec32d9a86300cf4bff5ced8ea87fbb33f879b5389ce1c51c",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      }
-    ],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-19T03:37:52Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "linqining",
-        "name": "linqining",
-        "avatar_url": "https://avatars.githubusercontent.com/u/18323181?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "6d26dff84be0d80969584a8b4b5a77f0aacfe1c2",
-    "readme_hash": "f32fc4285b4b289b",
-    "desc_v6": true,
-    "summary": "Play fair online Texas Hold'em with encrypted cards and no trusted dealer.",
-    "description_long": "A full-stack online Texas Hold'em poker game on Starknet, ensuring fairness with encrypted cards and joint shuffling by players, eliminating the need for a trusted dealer. It uses five contracts to manage the game flow, enabling secure deposits, private claims, and on-chain verification of game actions. The system performs cryptographic operations quickly, with a focus on minimizing latency while maintaining security.",
-    "latest_push": "Fixed the snip36 prove and updated deployment documentation.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 159,
-    "deletions": 15,
-    "churn_pct": 0.1,
-    "sprint": {
-      "pushes": 188,
-      "additions": 209146,
-      "deletions": 1734,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "strkworld",
@@ -1275,86 +1355,6 @@
     },
     "assessment": null,
     "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "open-beanie",
-    "name": "open-beanie",
-    "one_liner": "software powering beanie",
-    "category": "Payments",
-    "repo_url": "https://github.com/cenwadike/open-beanie",
-    "demo_url": "https://beanie.up.railway.app/",
-    "demo_video": "https://youtu.be/kGaXVlH6fWE",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-12T23:24:59Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "cenwadike",
-        "name": "Kombi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "92c7a133f6ea6343b3ae500b0c346fa41359625f",
-    "readme_hash": "8580a1475cd8ae3b",
-    "desc_v6": true,
-    "summary": "A non-custodial stablecoin payment gateway for merchants across multiple chains.",
-    "description_long": "Beanie allows merchants to register a destination address for stablecoin payments without ever holding their funds. Each chain has a dedicated receiver contract deployed through a factory, ensuring non-custodial transfers that prevent admin redirection of funds after deployment. The Starknet contracts mirror the EVM's functionality, offering client-side deterministic stealth payments through a 2-of-2 co-signing mechanism using WebAuthn and Lit Protocol.",
-    "latest_push": "Fixed the quota cap issue in the RPC flow.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 17,
-    "deletions": 5,
-    "churn_pct": 0.2,
-    "sprint": {
-      "pushes": 37,
-      "additions": 14406,
-      "deletions": 23,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "iwa",
@@ -6082,132 +6082,6 @@
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
-    "slug": "wotta",
-    "name": "Wotta",
-    "one_liner": "Pay anyone, from any chain, to an @handle or email - and let them receive privately on Starknet.",
-    "category": "Payments",
-    "repo_url": "https://github.com/wurli-sh/wotta-strk",
-    "demo_url": "https://wotta.vercel.app",
-    "demo_video": "https://youtu.be/XTQVdcPE76s",
-    "x_handle": "",
-    "inspired_by": "IDEA-09",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x24a2c1a79b97794ed4d143ff0f6f5b05b3569832c85957aa10bc7c3dcc000fd",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x656a3300531b45f559e51120b0cb9bcea8c6c4e626ebef6c46c184da08c0a06",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x41a7424a3779e15d68f7a1da96b7cf95a196563bcfc3ff81eeb8735c4368f0c",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x4ee621484a3dfda3976b5fd37749e50727a7697296a46fbd0fd81c4d42dfe38",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x039175568da9522eb3f25867bf6d836ef02e9173cb52fe774e7f3caca2209b86",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x069f98e913567d0645c12012064d2228a99b52d949b38decb81bc3c0c59cbd32",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x051421173311ac72fb25cb19e97b82058484ff1fe53b3e3a5b7ee844aeb0d1fd",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-07T22:12:15Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "wurli-sh",
-        "name": "wurli-sh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/261630289?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Cursor",
-        "name": "Cursor",
-        "avatar_url": "",
-        "commits": 120
-      }
-    ],
-    "active_days": [
-      "2026-08-20",
-      "2026-08-22",
-      "2026-08-24",
-      "2026-08-31",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "638821aa4d34198382d24c3e1ffd3c8337f0a45c",
-    "readme_hash": "7474e890dc0dbe0e",
-    "desc_v6": true,
-    "summary": "Send USDC from any chain to an @handle or email, claim privately on Starknet, and earn yields.",
-    "description_long": "Wotta allows users to send USDC to a handle or email rather than a blockchain address, simplifying cross-chain transactions. Users sign in with Google or X, link a Ready wallet, and send funds through an API, which creates a claim commitment in the browser. Claims settle privately on Starknet into a Ready private balance, where users can then earn yields through Vesu Earn. The system includes a frontend built with Next.js, a Fastify API for backend services, and various contracts in Cairo for routing and escrow.",
-    "latest_push": "Documented available resources on Starknet Sepolia testnet in README.md.",
-    "tooling": [
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 19,
-    "deletions": 512,
-    "churn_pct": 1.4,
-    "sprint": {
-      "pushes": 139,
-      "additions": 19993,
-      "deletions": 0,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "4 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
     "slug": "zkpoker",
     "name": "zkpoker",
     "one_liner": "",
@@ -7717,186 +7591,6 @@
       "facts_v2": true
     },
     "star_evidence": ""
-  },
-  {
-    "slug": "nightshift",
-    "name": "NIGHTSHIFT",
-    "one_liner": "Recurring private authorization on the STRK20 pool: subscribe once inside the pool, get charged on schedule without surfacing.",
-    "category": "Payments",
-    "repo_url": "https://github.com/kshitij-hash/nightshift",
-    "demo_url": "https://nightshiftxyz.vercel.app",
-    "demo_video": "https://youtu.be/urUa0VnrMlA",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x171e8e0bb905c899b9d1ad5c02aefe96a5d0b6d5f093f0ee80707b592417f8e",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x4361699018454536ba97aacc85a6ec4ffb974e869335781490021ab5f872f5e",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x277519c8bc1031188313de4528d1f0159319f8f86651422e89b6fbd920b3759",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x01f653f21e557e70384c8631f9c8f97e0342aa1d5e975bdcaca76bbf8715f338",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x141d9429b909c1bf3e222a66ff33cb53e16eb51d568da621a2f09d01e3c0c03",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x45d3b310b86bdee9179c755507caee1d0ade8b80dbb3da834f4bb40794b037d",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x79ab57d364b8d8118256103c017232a031f493312f8fca4176b4e9d5090ac86",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x51099d3247f6681f049038ab1044e5c644956b333696e263a740a04880943b1",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0xce143894bc2b9f6b0091e1ce214fe531003be6ad84cc892cb71fae17ba51a4",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x2ff717d6f38dd438b9161b4b253715daa3dffaf8107699cd99914f707c747e1",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x70862c0771e916d57e026eb3b8e1e3aa77ef9b704598353532fb562273fa4cd",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x30191636301463f89c9686a7426fa2489429024a562bd4c0da7693837d502de",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x1fd1961bcdf55dd94b64edab2c6022174078ca60f7b285cea72799e0077f5b7",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x28f7e6c36bb4ecf1256fda95e117805b51b638f43b0f48e00d20e7b2480920c",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      }
-    ],
-    "verified_txs": 6,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-07T19:53:25Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "kshitij-hash",
-        "name": "kshitij-hash",
-        "avatar_url": "https://avatars.githubusercontent.com/u/83551355?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Fable 5",
-        "avatar_url": "",
-        "commits": 74
-      }
-    ],
-    "active_days": [
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-09-07"
-    ],
-    "head_sha": "87a04feb2823444773012b7411d7a7a9c6a9f9d1",
-    "readme_hash": "8b04f3439e7ae0e9",
-    "desc_v6": true,
-    "summary": "Private fan subscriptions with scheduled payments in a secure vault.",
-    "description_long": "NIGHTSHIFT allows fans to subscribe to creators with one-time payment for multiple weeks, utilizing a vault to schedule charges. The project consists of an anonymizer contract for private transactions, a Wallet API driving the application through the STRK20 network, and a designed mechanism that ensures no early, double, or excessive charges, keeping the fan's identity private. The subscriptions are managed through custom privacy contracts and an escrow system that records commitments without revealing wallet addresses.",
-    "latest_push": "Added a demo video link to the documentation.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Anonymizer contract",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 4,
-    "deletions": 1,
-    "churn_pct": 0,
-    "sprint": {
-      "pushes": 75,
-      "additions": 25665,
-      "deletions": 41,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "4 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "ghostdeal",
@@ -21891,6 +21585,133 @@
     "sprint": {
       "pushes": 0,
       "additions": 0,
+      "deletions": 0,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": ""
+  },
+  {
+    "slug": "nightshift",
+    "name": "NIGHTSHIFT",
+    "one_liner": "Recurring private authorization on the STRK20 pool: subscribe once inside the pool, get charged on schedule without surfacing.",
+    "category": "Payments",
+    "repo_url": "https://github.com/kshitij-hash/nightshift",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "kshitij-hash",
+        "name": "KSHITIJ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/83551355?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-09-07"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "Recurring private authorizations for scheduled payments in the STRK20 pool.",
+    "description_long": "Subscribes users to a recurring payment schedule within the STRK20 privacy pool. Users authorize payments once, and subsequent charges are processed automatically without revealing their identities.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 75,
+      "additions": 25665,
+      "deletions": 41,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": ""
+  },
+  {
+    "slug": "wotta",
+    "name": "Wotta",
+    "one_liner": "Pay anyone, from any chain, to an @handle or email - and let them receive privately on Starknet.",
+    "category": "Payments",
+    "repo_url": "https://github.com/wurli-sh/wotta-strk",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "IDEA-09",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "wurli-sh",
+        "name": "wurli",
+        "avatar_url": "https://avatars.githubusercontent.com/u/261630289?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-20",
+      "2026-08-22",
+      "2026-08-24",
+      "2026-08-31",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "Pay anyone from any chain to an @handle or email for private receipt on Starknet.",
+    "description_long": "This project allows users to send payments to any @handle or email address, enabling recipients to receive funds privately on Starknet.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 139,
+      "additions": 19993,
       "deletions": 0,
       "computed": 3
     },
