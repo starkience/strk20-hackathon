@@ -1,5 +1,182 @@
 [
   {
+    "slug": "private-payroll",
+    "name": "Private Payroll",
+    "one_liner": "Private payroll and treasury disbursements on Starknet without exposing employee salaries or linking recipients to the company treasury.",
+    "category": "Payments",
+    "repo_url": "https://github.com/Tutulii/private-payroll",
+    "demo_url": "https://private-payroll.fly.dev",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "RFP-11",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x4bde3263ff117f245f9ebea20670b363550951f61cf54f236c449f70181c01f",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x34701f573096b7bab0e5678e1ed2f17a87c8d56eb5f4d70bcf2197bab8e4477",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x44b22f1a17d2710c2f51ed0b37b8b0ff8435262d3c8c0f2f17be07c84ac23b5",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x6845068feb530dbac0e730532df5fefb744c5caf4e1769e642bf1aec63ee043",
+        "network": "mainnet"
+      },
+      {
+        "address": "0xeba326f15f73968026bd12007220d88104fdcb322a56ad8c69fbe8a5350e18",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x6ff3b2b74fe14c70bf96bf274c75ec78f2ab346cc6a359410b15d2baf2c1d4e",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x6258a5dd16d03e73f13b2f4e653a9f7675ddfbcacfc5e923c53438ec957b9d4",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x25ec16cca6a625bb89aa3f0cdd279c84f569d4dada9f857ba4c5efb1750fdf9",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x3394e58bb2bb294e0ae92514079a1394c6c66eae8a6c033a6f7f449b1d12ce",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x4e45d14e253cb845144711a81f4e6b9945e910da487e8f291f4a0ec84567060",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x1b0208114f33ea0ac800f6474307680a0cf239d13ac11818523f70cba49c84a",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x656928a6f3aeb62c2e62ff7457d351a41ed987ceed07c514539165662ecb7e0",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x345a1be9710d3630915d6cd8279173ce47b198161f4c8a9cb4c64e1fc98fb26",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x18ec86c318d1adcaa61bf145a91ee3ae67ed45dcce85187c5ab8cbfd58e04fd",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x7e41fd161a1d034b4d58348b3ee6eb7a4451cd29ce9e05f556cee868e3e510c",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 3,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": true
+    },
+    "status": "building",
+    "pushed_at": "2026-09-23T13:32:56Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Tutulii",
+        "name": "Tutulii",
+        "avatar_url": "https://avatars.githubusercontent.com/u/159540071?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "c41b75f2eb8fa4160c756f43e057a321c1890741",
+    "readme_hash": "58fce8d05abf6b1e",
+    "desc_v6": true,
+    "churn_pct": 0.3,
+    "summary": "Private payroll and disbursements with verifiable evidence on Starknet.",
+    "description_long": "PAYO enables organizations to pay contributors in private STRK or USDC while keeping individual compensation confidential. It uses Cairo contracts, Starknet account abstraction, and the STRK20 privacy stack to encrypt agreements, generate proof-bound payroll calculations, and control disclosure to employers, workers, or authorized reviewers. Evidence of payroll is securely recorded on Starknet without exposing sensitive details.",
+    "latest_push": "Rewrite README for product and developer onboarding.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 377,
+    "deletions": 288,
+    "sprint": {
+      "pushes": 140,
+      "additions": 27768,
+      "deletions": 7,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "12 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
     "slug": "neobank",
     "name": "Private money account",
     "one_liner": "Hold, send, and earn on STRK20 without publishing salary or net worth.",
@@ -81,7 +258,6 @@
     "head_sha": "b56c2fd72202053952822f35c5f6a800cffd4620",
     "readme_hash": "5dbef37fdddf89bf",
     "desc_v6": true,
-    "churn_pct": 4.6,
     "summary": "A private money account for holding, sending, spending, and earning on STRK20.",
     "description_long": "Sealed is a private money account on Starknet that allows users to hold, send, spend, and earn without exposing their salary or net worth. The application features non-custodial transactions and maintains privacy through shielded transactions, maintaining a ledger without revealing personal financial details. Key components include multiple smart contracts deployed on Sepolia that manage shielding, spending, and settlement through a payment system that operates with anonymous transactions.",
     "latest_push": "Fixed the mainnet RPC fallback and resolved a demo swipe error.",
@@ -130,6 +306,7 @@
     "has_readme": true,
     "additions": 1179,
     "deletions": 158,
+    "churn_pct": 4.6,
     "sprint": {
       "pushes": 165,
       "additions": 24801,
@@ -1481,183 +1658,6 @@
       "facts_v2": true
     },
     "star_evidence": ""
-  },
-  {
-    "slug": "private-payroll",
-    "name": "Private Payroll",
-    "one_liner": "Private payroll and treasury disbursements on Starknet without exposing employee salaries or linking recipients to the company treasury.",
-    "category": "Payments",
-    "repo_url": "https://github.com/Tutulii/private-payroll",
-    "demo_url": "https://private-payroll.fly.dev",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "RFP-11",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x4bde3263ff117f245f9ebea20670b363550951f61cf54f236c449f70181c01f",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x34701f573096b7bab0e5678e1ed2f17a87c8d56eb5f4d70bcf2197bab8e4477",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x44b22f1a17d2710c2f51ed0b37b8b0ff8435262d3c8c0f2f17be07c84ac23b5",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x6845068feb530dbac0e730532df5fefb744c5caf4e1769e642bf1aec63ee043",
-        "network": "mainnet"
-      },
-      {
-        "address": "0xeba326f15f73968026bd12007220d88104fdcb322a56ad8c69fbe8a5350e18",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x6ff3b2b74fe14c70bf96bf274c75ec78f2ab346cc6a359410b15d2baf2c1d4e",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x6258a5dd16d03e73f13b2f4e653a9f7675ddfbcacfc5e923c53438ec957b9d4",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x25ec16cca6a625bb89aa3f0cdd279c84f569d4dada9f857ba4c5efb1750fdf9",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x3394e58bb2bb294e0ae92514079a1394c6c66eae8a6c033a6f7f449b1d12ce",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x4e45d14e253cb845144711a81f4e6b9945e910da487e8f291f4a0ec84567060",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x1b0208114f33ea0ac800f6474307680a0cf239d13ac11818523f70cba49c84a",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x656928a6f3aeb62c2e62ff7457d351a41ed987ceed07c514539165662ecb7e0",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x345a1be9710d3630915d6cd8279173ce47b198161f4c8a9cb4c64e1fc98fb26",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x18ec86c318d1adcaa61bf145a91ee3ae67ed45dcce85187c5ab8cbfd58e04fd",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x7e41fd161a1d034b4d58348b3ee6eb7a4451cd29ce9e05f556cee868e3e510c",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": true
-    },
-    "status": "building",
-    "pushed_at": "2026-09-13T15:52:03Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Tutulii",
-        "name": "Tutulii",
-        "avatar_url": "https://avatars.githubusercontent.com/u/159540071?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "837c061743ccc49b0498b0203cc9ff290a249587",
-    "readme_hash": "89e8369e8ce388cf",
-    "desc_v6": true,
-    "summary": "Manage private payroll with verifiable proofs and controlled disclosure.",
-    "description_long": "PAYO is a non-custodial payroll workspace that enables organizations to pay individuals and AI agents in private STRK or USDC. It ensures confidentiality through private notes while allowing verifiable calculations with Noir proofs, generating evidence that can be selectively disclosed to employers, workers, or authorized reviewers. Key functionalities include human private payroll, proof-bound payments, advanced agreements like vesting, and a private compliance book, all built using Starknet's infrastructure.",
-    "latest_push": "Deleted AGENTS.md, CLAUDE.md, and MASTER_PLAN.md files.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 0,
-    "deletions": 146,
-    "churn_pct": 0.1,
-    "sprint": {
-      "pushes": 140,
-      "additions": 27727,
-      "deletions": 7,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "12 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "verity",
