@@ -1,5 +1,152 @@
 [
   {
+    "slug": "neobank",
+    "name": "Private money account",
+    "one_liner": "Hold, send, and earn on STRK20 without publishing salary or net worth.",
+    "category": "Consumer",
+    "repo_url": "https://github.com/kamalbuilds/neobank",
+    "demo_url": "https://sealed.cash",
+    "demo_video": "https://sealed.cash/demo.mp4",
+    "x_handle": "kamalbuilds",
+    "inspired_by": "IDEA-13",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The project fails to demonstrate unique use of privacy beyond conventional private transfers.",
+    "contracts": [],
+    "transactions": [
+      {
+        "hash": "0x04c4bea05417ce1062adef39b3d3b300f831ec994bbb4166d6010c4838d49193",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x059eb6c1bdddd048006f372b4db6602560dbfc722536b94d59ece8abb865586e",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0xe08fd329091b483978c64f93288b7346b158e0dc485fd7c5f594899f0294",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x428d5947280d2c670162aa7a3d666bcaa4d5256e016fab460c1b7a560609578",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      }
+    ],
+    "verified_txs": 4,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-09-23T06:49:49Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "kamalbuilds",
+        "name": "kamalbuilds",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95926324?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-07"
+    ],
+    "head_sha": "b56c2fd72202053952822f35c5f6a800cffd4620",
+    "readme_hash": "5dbef37fdddf89bf",
+    "desc_v6": true,
+    "churn_pct": 4.6,
+    "summary": "A private money account for holding, sending, spending, and earning on STRK20.",
+    "description_long": "Sealed is a private money account on Starknet that allows users to hold, send, spend, and earn without exposing their salary or net worth. The application features non-custodial transactions and maintains privacy through shielded transactions, maintaining a ledger without revealing personal financial details. Key components include multiple smart contracts deployed on Sepolia that manage shielding, spending, and settlement through a payment system that operates with anonymous transactions.",
+    "latest_push": "Fixed the mainnet RPC fallback and resolved a demo swipe error.",
+    "tooling": [
+      {
+        "label": "AVNU",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1179,
+    "deletions": 158,
+    "sprint": {
+      "pushes": 165,
+      "additions": 24801,
+      "deletions": 46,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "The project offers private transfers, which is an obvious use of privacy technology.",
+      "why_complex": "There are no deployed contracts or real engineering beyond frontend and the basic wallet integrations.",
+      "reason": "The project fails to demonstrate unique use of privacy beyond conventional private transfers.",
+      "facts_v2": true
+    },
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "xenia",
     "name": "XENIA",
     "one_liner": "Private payment links on Starknet. Pay someone who has never registered a STRK20 viewing key — they register inside the claim.",
@@ -93,7 +240,6 @@
     "head_sha": "2666b18e112a76353f1d845b0a1df559378afda6",
     "readme_hash": "794cb09b78e41e11",
     "desc_v6": true,
-    "churn_pct": 0.3,
     "summary": "Create private payment links for users without prior privacy pool registration.",
     "description_long": "Xenia allows users to send private payments to recipients who have never registered with the STRK20 privacy pool. The sender generates a claim link containing the payment details, and upon opening the link, the recipient registers and claims the payment in one transaction. It organizes transactions into phases to streamline registration and payment through the `XeniaEscrow` anonymizer contract, which manages the fund transfers and maintains privacy during the process.",
     "latest_push": "Added a social preview image and configured Open Graph and Twitter metadata.",
@@ -137,6 +283,7 @@
     "has_readme": true,
     "additions": 28,
     "deletions": 4,
+    "churn_pct": 0.3,
     "sprint": {
       "pushes": 110,
       "additions": 19300,
@@ -145,153 +292,6 @@
     },
     "assessment": null,
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "neobank",
-    "name": "Private money account",
-    "one_liner": "Hold, send, and earn on STRK20 without publishing salary or net worth.",
-    "category": "Consumer",
-    "repo_url": "https://github.com/kamalbuilds/neobank",
-    "demo_url": "https://sealed.cash",
-    "demo_video": "https://sealed.cash/demo.mp4",
-    "x_handle": "kamalbuilds",
-    "inspired_by": "IDEA-13",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project fails to demonstrate unique use of privacy beyond conventional private transfers.",
-    "contracts": [],
-    "transactions": [
-      {
-        "hash": "0x04c4bea05417ce1062adef39b3d3b300f831ec994bbb4166d6010c4838d49193",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x059eb6c1bdddd048006f372b4db6602560dbfc722536b94d59ece8abb865586e",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0xe08fd329091b483978c64f93288b7346b158e0dc485fd7c5f594899f0294",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x428d5947280d2c670162aa7a3d666bcaa4d5256e016fab460c1b7a560609578",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      }
-    ],
-    "verified_txs": 4,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-23T05:20:47Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "kamalbuilds",
-        "name": "kamalbuilds",
-        "avatar_url": "https://avatars.githubusercontent.com/u/95926324?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-31",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-07"
-    ],
-    "head_sha": "a53f99fe3b405a4bb30844089c00f39feef7a720",
-    "readme_hash": "5dbef37fdddf89bf",
-    "desc_v6": true,
-    "churn_pct": 32.3,
-    "summary": "A private money account for holding, sending, spending, and earning on STRK20.",
-    "description_long": "Sealed is a private money account on Starknet that allows users to hold, send, spend, and earn without exposing their salary or net worth. The application features non-custodial transactions and maintains privacy through shielded transactions, maintaining a ledger without revealing personal financial details. Key components include multiple smart contracts deployed on Sepolia that manage shielding, spending, and settlement through a payment system that operates with anonymous transactions.",
-    "latest_push": "Fixed the evidence verifier to address issues with dead RPC connections.",
-    "tooling": [
-      {
-        "label": "AVNU",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 6996,
-    "deletions": 2019,
-    "sprint": {
-      "pushes": 165,
-      "additions": 24801,
-      "deletions": 46,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "The project offers private transfers, which is an obvious use of privacy technology.",
-      "why_complex": "There are no deployed contracts or real engineering beyond frontend and the basic wallet integrations.",
-      "reason": "The project fails to demonstrate unique use of privacy beyond conventional private transfers.",
-      "facts_v2": true
-    },
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "iwa",
