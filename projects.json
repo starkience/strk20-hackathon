@@ -1,5 +1,315 @@
 [
   {
+    "slug": "iwa",
+    "name": "Iwa",
+    "one_liner": "Private savings circles on Starknet: neighbours contribute and take turns collecting the pot through the STRK20 pool, with amounts hidden and good standing provable.",
+    "category": "DeFi",
+    "repo_url": "https://github.com/solutionkanu12/iwa",
+    "demo_url": "https://useiwa.xyz",
+    "demo_video": "https://vimeo.com/1222855880",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x01f81497b09aa702a38715c0ec149d7672cd557c0caea480714d4802ff6f81be",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x04cac02dcc7ca8c46c0b6f32985f17bf24d99557222e60c6881d147e13fafbbb",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x05a22066c25cd6b337a9a16bef431546a6eca86a6e4ebd6484cd65a8317a4877",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x46bd320ecdc20de3c97fc99a17eb1741a3425f5e414ce029c5d259e712817f5",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x551a5432911b05780c2746b7555f78f57c948355f56031e13a2af00a9470e32",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 2,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-24T17:17:13Z",
+    "stars": 1,
+    "builders": [
+      {
+        "login": "solutionkanu12",
+        "name": "solutionkanu12",
+        "avatar_url": "https://avatars.githubusercontent.com/u/174873861?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "8de06eeaf1b1df64425a2f18bc78d888b08d190e",
+    "readme_hash": "ce7901d3f8045c9d",
+    "desc_v6": true,
+    "summary": "Manage private community savings with verifiable financial trust.",
+    "description_long": "Iwa allows users to create or join private savings circles where contributions are made in rounds, and payouts are collected based on a fixed order. It keeps financial records verifiable while maintaining the privacy of the contributions through Starknet. Key features include an Action Center for managing contributions, a circle timeline for tracking obligations, and options for inviting members to join circles.",
+    "latest_push": "Fixed the requirement for a recovered Iwa session after authentication.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 87,
+    "deletions": 11,
+    "churn_pct": 0.1,
+    "sprint": {
+      "pushes": 57,
+      "additions": 23295,
+      "deletions": 176,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "vickrey",
+    "name": "Vickrey",
+    "one_liner": "Sealed-bid Vickrey auctions on STRK20 — the losing bids are never published. Live demo and full write-up at vickrey.0xo.in/docs",
+    "category": "DeFi",
+    "repo_url": "https://github.com/Vickrey-Protocol/vickrey",
+    "demo_url": "https://vickrey.0xo.in",
+    "demo_video": "https://www.youtube.com/watch?v=VngKo7Ud1r0",
+    "x_handle": "jagadeeeshftw",
+    "inspired_by": "RFP-08",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x02d893acf290c61be4afb6999d6fa39244fba514267c1ccea9e124af64bb6831",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x04628cabde44481d1264d9b701147340b32df63172dbad05368178e18e9764ff",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x57ba561f86904a692cc96443edaeddb71bc3a9ae2103bef12e3b9d70ebf536",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x3b113126a21a532c8d1d81e5652e54b7e4fb64547b587feff7dee519be7b5f9",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x58742bf98c28cb3ecf4f9c12b390d9bed35f76a573722a648f07a5d6736ad93",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 3,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-09-24T17:11:14Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Jagadeeshftw",
+        "name": "Jagadeesh B",
+        "avatar_url": "https://avatars.githubusercontent.com/u/92681651?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "e9e6e5850626a58399d5f00a9fb16e4bbc1eab00",
+    "readme_hash": "c165eaecb6d2984f",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "Conduct sealed-bid auctions on STRK20 without revealing losing bids.",
+    "description_long": "This project implements Vickrey auctions on STRK20, ensuring that losing bids remain confidential and only the highest bid is revealed. Built with on-chain hash-preimage proofs, it secures the auction outcome while preventing the auctioneer from manipulating results. The auction contract and anonymizer helper are deployed on mainnet, while the client library and web app facilitate interactions with the contracts.",
+    "latest_push": "Fixed the issue where losing bids were never published in clip 1.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 4,
+    "deletions": 3,
+    "sprint": {
+      "pushes": 179,
+      "additions": 24842,
+      "deletions": 2,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "cipherbid",
+    "name": "cipherbid",
+    "one_liner": "Real-collateral Vickrey NFT auctions funded through STRK20, with sealed bids and shielded claims.",
+    "category": "DeFi",
+    "repo_url": "https://github.com/SourceSenseiTheRealOne/cipherbid",
+    "demo_url": "https://sourcesenseitherealone.github.io/cipherbid/auction/?id=1788040057342",
+    "demo_video": "https://youtu.be/pYZk6KXko7o",
+    "x_handle": "",
+    "inspired_by": "RFP-08",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x01b32af8bab712ede82117b8ff1b8866e09798f6c81edc255ffe59dd42e4843e",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x05c7080c583304469e853e472d46a20448ff82bf9ee4c87a8efabc35f8177e1f",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x70a5ca96744778f5c7f8d1b9b353deafad4dfcbacb218b28721667a759ce245",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x52376bbde2b895e5e241b5385baf491293c7fec799d777ad332e3def0677fd4",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x4a76360a895ce3f984ee7ab704be0e5c2c220c5584ad05704bb338f2fff540d",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x7bbe0489702cdc6466b7aa4c262d7d1f34dcabace16e47c5b02cafef7fff15e",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x24d92390b2f0ca629fe49e4c4355aaa2fe1fbf143bd4ba1e37b80e4575528e",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 5,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-09-24T13:13:16Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "SourceSenseiTheRealOne",
+        "name": "SourceSensei",
+        "avatar_url": "https://avatars.githubusercontent.com/u/161963964?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31"
+    ],
+    "head_sha": "ccfcc74451dd3a7180ba185963c24783e3fa0775",
+    "readme_hash": "1d00392435ea26b3",
+    "desc_v6": true,
+    "churn_pct": 3.6,
+    "summary": "Funded, sealed-bid NFT auctions with atomic delivery on Starknet.",
+    "description_long": "Conducts NFT auctions where bids are hidden until reveal, with settlement transferring the NFT in one transaction. Built using Cairo for smart contracts, Next.js for the web interface, and starknet.js for blockchain interaction, it ensures privacy through equal collateral caps and unique commitment checks.",
+    "latest_push": "Promoted the verified CipherBid presentation to main documentation.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 226,
+    "deletions": 245,
+    "sprint": {
+      "pushes": 27,
+      "additions": 26249,
+      "deletions": 60,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
     "slug": "erebus",
     "name": "Erebus",
     "one_liner": "Confidential negotiation and shielded settlement infrastructure for AI agents on Starknet, built on the STRK20 privacy pool.",
@@ -161,106 +471,6 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "vickrey",
-    "name": "Vickrey",
-    "one_liner": "Sealed-bid Vickrey auctions on STRK20 — the losing bids are never published. Live demo and full write-up at vickrey.0xo.in/docs",
-    "category": "DeFi",
-    "repo_url": "https://github.com/Vickrey-Protocol/vickrey",
-    "demo_url": "https://vickrey.0xo.in",
-    "demo_video": "https://www.youtube.com/watch?v=VngKo7Ud1r0",
-    "x_handle": "jagadeeeshftw",
-    "inspired_by": "RFP-08",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x02d893acf290c61be4afb6999d6fa39244fba514267c1ccea9e124af64bb6831",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x04628cabde44481d1264d9b701147340b32df63172dbad05368178e18e9764ff",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x57ba561f86904a692cc96443edaeddb71bc3a9ae2103bef12e3b9d70ebf536",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x3b113126a21a532c8d1d81e5652e54b7e4fb64547b587feff7dee519be7b5f9",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x58742bf98c28cb3ecf4f9c12b390d9bed35f76a573722a648f07a5d6736ad93",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-24T11:13:36Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Jagadeeshftw",
-        "name": "Jagadeesh B",
-        "avatar_url": "https://avatars.githubusercontent.com/u/92681651?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "f384dd228975c1cf631a5390ca05f41c3fd0cd58",
-    "readme_hash": "c165eaecb6d2984f",
-    "desc_v6": true,
-    "churn_pct": 2.7,
-    "summary": "Conduct sealed-bid auctions on STRK20 without revealing losing bids.",
-    "description_long": "This project implements Vickrey auctions on STRK20, ensuring that losing bids remain confidential and only the highest bid is revealed. Built with on-chain hash-preimage proofs, it secures the auction outcome while preventing the auctioneer from manipulating results. The auction contract and anonymizer helper are deployed on mainnet, while the client library and web app facilitate interactions with the contracts.",
-    "latest_push": "Created a Sepolia auction on the frozen contracts.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 693,
-    "deletions": 22,
-    "sprint": {
-      "pushes": 179,
-      "additions": 24841,
-      "deletions": 2,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "open-beanie",
@@ -1044,111 +1254,6 @@
     },
     "assessment": null,
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "iwa",
-    "name": "Iwa",
-    "one_liner": "Private savings circles on Starknet: neighbours contribute and take turns collecting the pot through the STRK20 pool, with amounts hidden and good standing provable.",
-    "category": "DeFi",
-    "repo_url": "https://github.com/solutionkanu12/iwa",
-    "demo_url": "https://useiwa.xyz",
-    "demo_video": "https://vimeo.com/1222855880",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x01f81497b09aa702a38715c0ec149d7672cd557c0caea480714d4802ff6f81be",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x04cac02dcc7ca8c46c0b6f32985f17bf24d99557222e60c6881d147e13fafbbb",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x05a22066c25cd6b337a9a16bef431546a6eca86a6e4ebd6484cd65a8317a4877",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x46bd320ecdc20de3c97fc99a17eb1741a3425f5e414ce029c5d259e712817f5",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x551a5432911b05780c2746b7555f78f57c948355f56031e13a2af00a9470e32",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 2,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-22T23:12:35Z",
-    "stars": 1,
-    "builders": [
-      {
-        "login": "solutionkanu12",
-        "name": "solutionkanu12",
-        "avatar_url": "https://avatars.githubusercontent.com/u/174873861?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "8de06eeaf1b1df64425a2f18bc78d888b08d190e",
-    "readme_hash": "ce7901d3f8045c9d",
-    "desc_v6": true,
-    "summary": "Manage private community savings with verifiable financial trust.",
-    "description_long": "Iwa allows users to create or join private savings circles where contributions are made in rounds, and payouts are collected based on a fixed order. It keeps financial records verifiable while maintaining the privacy of the contributions through Starknet. Key features include an Action Center for managing contributions, a circle timeline for tracking obligations, and options for inviting members to join circles.",
-    "latest_push": "Fixed the requirement for a recovered Iwa session after authentication.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 87,
-    "deletions": 11,
-    "churn_pct": 0.1,
-    "sprint": {
-      "pushes": 57,
-      "additions": 23295,
-      "deletions": 176,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "vinss",
@@ -3378,116 +3483,6 @@
     },
     "assessment": null,
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "cipherbid",
-    "name": "cipherbid",
-    "one_liner": "Real-collateral Vickrey NFT auctions funded through STRK20, with sealed bids and shielded claims.",
-    "category": "DeFi",
-    "repo_url": "https://github.com/SourceSenseiTheRealOne/cipherbid",
-    "demo_url": "https://sourcesenseitherealone.github.io/cipherbid/auction/?id=1788040057342",
-    "demo_video": "https://youtu.be/pYZk6KXko7o",
-    "x_handle": "",
-    "inspired_by": "RFP-08",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x01b32af8bab712ede82117b8ff1b8866e09798f6c81edc255ffe59dd42e4843e",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x05c7080c583304469e853e472d46a20448ff82bf9ee4c87a8efabc35f8177e1f",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x70a5ca96744778f5c7f8d1b9b353deafad4dfcbacb218b28721667a759ce245",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x52376bbde2b895e5e241b5385baf491293c7fec799d777ad332e3def0677fd4",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x4a76360a895ce3f984ee7ab704be0e5c2c220c5584ad05704bb338f2fff540d",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x7bbe0489702cdc6466b7aa4c262d7d1f34dcabace16e47c5b02cafef7fff15e",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x24d92390b2f0ca629fe49e4c4355aaa2fe1fbf143bd4ba1e37b80e4575528e",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 5,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-08T16:52:55Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "SourceSenseiTheRealOne",
-        "name": "SourceSensei",
-        "avatar_url": "https://avatars.githubusercontent.com/u/161963964?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31"
-    ],
-    "head_sha": "13f25cc56ce8a45fa9646365dd923508835f3b16",
-    "readme_hash": "6ee2aff69f32a39e",
-    "desc_v6": true,
-    "summary": "Conduct private Vickrey NFT auctions with real collateral and sealed bids.",
-    "description_long": "CipherBid is a Vickrey NFT auction system on Starknet that allows bidders to submit private bids using equal collateral locked through STRK20. The auction ensures that the winning bid remains sealed until the reveal, while all transactions, including refunds and payments, are managed through private STRK20 claims. The auction features atomic settlement, guaranteeing that the NFT is transferred to the winner only after successful selection and payment processing.",
-    "latest_push": "Promoted the verified staging snapshot to the main branch.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 228,
-    "deletions": 63,
-    "churn_pct": 2.2,
-    "sprint": {
-      "pushes": 27,
-      "additions": 26265,
-      "deletions": 57,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "lumen",
@@ -9593,7 +9588,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented business-scoped auditor dashboard for live monitoring.",
     "tooling": [
       {
         "label": "Privacy SDK",
