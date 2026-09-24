@@ -1,5 +1,85 @@
 [
   {
+    "slug": "open-beanie",
+    "name": "open-beanie",
+    "one_liner": "software powering beanie",
+    "category": "Payments",
+    "repo_url": "https://github.com/cenwadike/open-beanie",
+    "demo_url": "https://beanie.up.railway.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-24T00:01:56Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "cenwadike",
+        "name": "Kombi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "8dff16056a1bfb8f7e471426a2f30b967cf7072f",
+    "readme_hash": "01d187beeff7d2f2",
+    "desc_v6": true,
+    "churn_pct": 7.4,
+    "summary": "A multichain stablecoin payment gateway with non-custodial merchant instances.",
+    "description_long": "Beanie is a payment gateway that allows merchants to register a destination address for stablecoin payments on multiple chains. It builds on Starknet with non-custodial receiver contracts that maintain statefulness through deterministically deployed instances, supporting both standard and stealth payments via a WebAuthn-based co-signing approach. Key contracts include the `StarknetReceiver`, which handles payments on Starknet, and the `ReceiverFactory`, which deploys and configures the necessary receiver instances for merchants.",
+    "latest_push": "Removed unnecessary files and clarified existing documentation and code.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 78,
+    "deletions": 951,
+    "sprint": {
+      "pushes": 37,
+      "additions": 17767,
+      "deletions": 23,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "stake-wars",
     "name": "Stake Wars",
     "one_liner": "Persistent onchain strategy game with private Vickrey Beacon auctions: bids stay sealed until settlement through STRK20.",
@@ -79,7 +159,6 @@
     "head_sha": "0745bc9a83d0af9ce06aa9f50d9622b40d4dec58",
     "readme_hash": "3beb3b2f3fab4937",
     "desc_v6": true,
-    "churn_pct": 0.9,
     "summary": "A persistent strategy game with territory battles and sealed auctions for STRK delegation.",
     "description_long": "Stake Wars is a non-custodial strategy game where players deploy delegated STRK to capture and defend territories. The game features private Beacon auctions using the Whisper library for sealed bids, ensuring bid confidentiality until settlement. The repository includes a web application, game API built with Go, and Cairo contracts, organized under apps, contracts, and vendor directories.",
     "latest_push": "Reduced Core scene load stutter on lower-end devices.",
@@ -93,6 +172,7 @@
     "has_readme": true,
     "additions": 213,
     "deletions": 191,
+    "churn_pct": 0.9,
     "sprint": {
       "pushes": 144,
       "additions": 39459,
@@ -806,86 +886,6 @@
     },
     "assessment": null,
     "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "open-beanie",
-    "name": "open-beanie",
-    "one_liner": "software powering beanie",
-    "category": "Payments",
-    "repo_url": "https://github.com/cenwadike/open-beanie",
-    "demo_url": "https://beanie.up.railway.app/",
-    "demo_video": "https://youtu.be/kGaXVlH6fWE",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-22T15:55:51Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "cenwadike",
-        "name": "Kombi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "f5b8a680ddf40eca3453f57f2e6f4b7c30ae8479",
-    "readme_hash": "8580a1475cd8ae3b",
-    "desc_v6": true,
-    "summary": "A non-custodial stablecoin payment gateway for merchants across multiple chains.",
-    "description_long": "Beanie allows merchants to register a destination address for stablecoin payments without ever holding their funds. Each chain has a dedicated receiver contract deployed through a factory, ensuring non-custodial transfers that prevent admin redirection of funds after deployment. The Starknet contracts mirror the EVM's functionality, offering client-side deterministic stealth payments through a 2-of-2 co-signing mechanism using WebAuthn and Lit Protocol.",
-    "latest_push": "Exported the checkout as a widget and removed its home link.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 288,
-    "deletions": 27,
-    "churn_pct": 2.2,
-    "sprint": {
-      "pushes": 37,
-      "additions": 18640,
-      "deletions": 23,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "vinss",
