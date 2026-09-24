@@ -1,5 +1,85 @@
 [
   {
+    "slug": "open-beanie",
+    "name": "open-beanie",
+    "one_liner": "software powering beanie",
+    "category": "Payments",
+    "repo_url": "https://github.com/cenwadike/open-beanie",
+    "demo_url": "https://beanie.up.railway.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-24T21:24:25Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "cenwadike",
+        "name": "Kombi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "663e0e94d0b1b674305358fbef6c6309f0838b24",
+    "readme_hash": "01d187beeff7d2f2",
+    "desc_v6": true,
+    "churn_pct": 10.5,
+    "summary": "A multichain stablecoin payment gateway with non-custodial merchant instances.",
+    "description_long": "Beanie is a payment gateway that allows merchants to register a destination address for stablecoin payments on multiple chains. It builds on Starknet with non-custodial receiver contracts that maintain statefulness through deterministically deployed instances, supporting both standard and stealth payments via a WebAuthn-based co-signing approach. Key contracts include the `StarknetReceiver`, which handles payments on Starknet, and the `ReceiverFactory`, which deploys and configures the necessary receiver instances for merchants.",
+    "latest_push": "Added clearer contract semantics and a Solana contract test.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1410,
+    "deletions": 290,
+    "sprint": {
+      "pushes": 37,
+      "additions": 19958,
+      "deletions": 23,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "vickrey",
     "name": "Vickrey",
     "one_liner": "Sealed-bid Vickrey auctions on STRK20 — the losing bids are never published. Live demo and full write-up at vickrey.0xo.in/docs",
@@ -71,7 +151,6 @@
     "head_sha": "2980db46ab43174ed8ac1355fb253979cc1d479f",
     "readme_hash": "9533e4fd287b2341",
     "desc_v6": true,
-    "churn_pct": 0.3,
     "summary": "Sealed-bid auctions with private losing bids on STRK20.",
     "description_long": "Conducts sealed-bid Vickrey auctions where only the winning bid and price are published, while losing bids remain confidential. Built using hash-preimage proofs for on-chain settlement, the project includes an auction contract and an anonymizer helper, both deployed on Starknet mainnet. The application interface allows users to bid either on a public or private rail, ensuring bids are sealed and the user experience is integrated with the STRK20 privacy pool.",
     "latest_push": "Updated documentation on silent bidder outcomes and property 6 clarification.",
@@ -90,6 +169,7 @@
     "has_readme": true,
     "additions": 41,
     "deletions": 38,
+    "churn_pct": 0.3,
     "sprint": {
       "pushes": 179,
       "additions": 24845,
@@ -220,7 +300,6 @@
     "head_sha": "d08336f0e7aa7c49f52c83048d5d643db7a0349a",
     "readme_hash": "f32fc4285b4b289b",
     "desc_v6": true,
-    "churn_pct": 1.9,
     "summary": "Play fair online Texas Hold'em with encrypted cards and no trusted dealer.",
     "description_long": "A full-stack online Texas Hold'em poker game on Starknet, ensuring fairness with encrypted cards and joint shuffling by players, eliminating the need for a trusted dealer. It uses five contracts to manage the game flow, enabling secure deposits, private claims, and on-chain verification of game actions. The system performs cryptographic operations quickly, with a focus on minimizing latency while maintaining security.",
     "latest_push": "Added chain data and modified related components and files.",
@@ -244,6 +323,7 @@
     "has_readme": true,
     "additions": 3415,
     "deletions": 255,
+    "churn_pct": 1.9,
     "sprint": {
       "pushes": 188,
       "additions": 209098,
@@ -624,86 +704,6 @@
       "reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
       "facts_v2": true
     },
-    "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "open-beanie",
-    "name": "open-beanie",
-    "one_liner": "software powering beanie",
-    "category": "Payments",
-    "repo_url": "https://github.com/cenwadike/open-beanie",
-    "demo_url": "https://beanie.up.railway.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-24T01:14:35Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "cenwadike",
-        "name": "Kombi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "b920918938c48bedb115a329bfd75551fdd1884a",
-    "readme_hash": "01d187beeff7d2f2",
-    "desc_v6": true,
-    "summary": "A multichain stablecoin payment gateway with non-custodial merchant instances.",
-    "description_long": "Beanie is a payment gateway that allows merchants to register a destination address for stablecoin payments on multiple chains. It builds on Starknet with non-custodial receiver contracts that maintain statefulness through deterministically deployed instances, supporting both standard and stealth payments via a WebAuthn-based co-signing approach. Key contracts include the `StarknetReceiver`, which handles payments on Starknet, and the `ReceiverFactory`, which deploys and configures the necessary receiver instances for merchants.",
-    "latest_push": "Added the untested beanie_solana contract and its associated files.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 1071,
-    "deletions": 0,
-    "churn_pct": 7.2,
-    "sprint": {
-      "pushes": 37,
-      "additions": 18838,
-      "deletions": 23,
-      "computed": 3
-    },
-    "assessment": null,
     "star_evidence": "Cairo in the repository"
   },
   {
