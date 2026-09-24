@@ -21,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-24T00:01:56Z",
+    "pushed_at": "2026-09-24T01:14:35Z",
     "stars": 0,
     "builders": [
       {
@@ -43,13 +43,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "8dff16056a1bfb8f7e471426a2f30b967cf7072f",
+    "head_sha": "b920918938c48bedb115a329bfd75551fdd1884a",
     "readme_hash": "01d187beeff7d2f2",
     "desc_v6": true,
-    "churn_pct": 7.4,
+    "churn_pct": 7.2,
     "summary": "A multichain stablecoin payment gateway with non-custodial merchant instances.",
     "description_long": "Beanie is a payment gateway that allows merchants to register a destination address for stablecoin payments on multiple chains. It builds on Starknet with non-custodial receiver contracts that maintain statefulness through deterministically deployed instances, supporting both standard and stealth payments via a WebAuthn-based co-signing approach. Key contracts include the `StarknetReceiver`, which handles payments on Starknet, and the `ReceiverFactory`, which deploys and configures the necessary receiver instances for merchants.",
-    "latest_push": "Removed unnecessary files and clarified existing documentation and code.",
+    "latest_push": "Added the untested beanie_solana contract and its associated files.",
     "tooling": [
       {
         "label": "Cairo",
@@ -68,11 +68,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 78,
-    "deletions": 951,
+    "additions": 1071,
+    "deletions": 0,
     "sprint": {
       "pushes": 37,
-      "additions": 17767,
+      "additions": 18838,
       "deletions": 23,
       "computed": 3
     },
@@ -13010,106 +13010,6 @@
     "star_evidence": ""
   },
   {
-    "slug": "cipherbill",
-    "name": "CipherBill",
-    "one_liner": "Privacy-first invoicing and settlement on Starknet - shielded balances, private transfers, selective disclosure for accounting",
-    "category": "Other",
-    "repo_url": "https://github.com/Nitish-1303/CipherBill",
-    "demo_url": "https://cipher-bill.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-31T11:11:48Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Nitish-1303",
-        "name": "Nitish-1303",
-        "avatar_url": "https://avatars.githubusercontent.com/u/141549775?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 27
-      },
-      {
-        "family": "Cursor",
-        "name": "Cursor",
-        "avatar_url": "",
-        "commits": 8
-      }
-    ],
-    "active_days": [
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-31"
-    ],
-    "head_sha": "b761ad03433dd5ab1e3575568100c000f8ff24b3",
-    "readme_hash": "df3ba2d8be71fc10",
-    "desc_v6": true,
-    "summary": "Privacy-first invoicing and settlement for independent workers and teams.",
-    "description_long": "CipherBill enables users to connect a Starknet wallet, shield STRK, create invoices or payment requests, and settle through private transfers. It is built with Next.js, React, TypeScript, and the Starknet.js Wallet API, integrating the STRK20 privacy pool. The application supports selective evidence exports, allowing users to share metadata without exposing complete financial details.",
-    "latest_push": "Added zero-knowledge merchant invoice factoring and cross-border payment protocols.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 4952,
-    "deletions": 1,
-    "churn_pct": 5.1,
-    "sprint": {
-      "pushes": 50,
-      "additions": 26297,
-      "deletions": 37,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": ""
-  },
-  {
     "slug": "offbook",
     "name": "offbook",
     "one_liner": "a private OTC settlement layer for Starknet, Counterparties agree a token-for-token block trade (RFQ), then settle atomically through STRK20",
@@ -21713,6 +21613,61 @@
       "pushes": 139,
       "additions": 19993,
       "deletions": 0,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": ""
+  },
+  {
+    "slug": "cipherbill",
+    "name": "cipherbill",
+    "one_liner": "",
+    "category": "Other",
+    "repo_url": "https://github.com/Nitish-1303/CipherBill",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [],
+    "agents": [],
+    "active_days": [
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-31"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "Privacy-first invoicing and settlement for independent workers and teams.",
+    "description_long": "CipherBill enables users to connect a Starknet wallet, shield STRK, create invoices or payment requests, and settle through private transfers. It is built with Next.js, React, TypeScript, and the Starknet.js Wallet API, integrating the STRK20 privacy pool. The application supports selective evidence exports, allowing users to share metadata without exposing complete financial details.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 50,
+      "additions": 26297,
+      "deletions": 37,
       "computed": 3
     },
     "assessment": null,
