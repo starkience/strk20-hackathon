@@ -9588,7 +9588,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented business-scoped auditor dashboard for live monitoring and test management.",
     "tooling": [
       {
         "label": "Privacy SDK",
