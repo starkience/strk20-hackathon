@@ -46,7 +46,6 @@
     "head_sha": "e5f519b9fb2ac7f5ee008f1804911a04fd6441e6",
     "readme_hash": "01d187beeff7d2f2",
     "desc_v6": true,
-    "churn_pct": 5.5,
     "summary": "A multichain stablecoin payment gateway with non-custodial merchant instances.",
     "description_long": "Beanie is a payment gateway that allows merchants to register a destination address for stablecoin payments on multiple chains. It builds on Starknet with non-custodial receiver contracts that maintain statefulness through deterministically deployed instances, supporting both standard and stealth payments via a WebAuthn-based co-signing approach. Key contracts include the `StarknetReceiver`, which handles payments on Starknet, and the `ReceiverFactory`, which deploys and configures the necessary receiver instances for merchants.",
     "latest_push": "Added the Solana keeper and its related configuration and indexing files.",
@@ -70,6 +69,7 @@
     "has_readme": true,
     "additions": 946,
     "deletions": 0,
+    "churn_pct": 5.5,
     "sprint": {
       "pushes": 37,
       "additions": 19973,
