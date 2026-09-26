@@ -21,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-26T15:28:28Z",
+    "pushed_at": "2026-09-26T16:51:47Z",
     "stars": 0,
     "builders": [
       {
@@ -43,13 +43,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "3a1e85ab85d8f82ff0ceaeafe161a8dd3f3847da",
+    "head_sha": "4089adb73ed8a1db7bb749ee7445d3625ba1b8da",
     "readme_hash": "01d187beeff7d2f2",
     "desc_v6": true,
-    "churn_pct": 12.7,
+    "churn_pct": 1.1,
     "summary": "A multichain stablecoin payment gateway with non-custodial merchant instances.",
     "description_long": "Beanie is a payment gateway that allows merchants to register a destination address for stablecoin payments on multiple chains. It builds on Starknet with non-custodial receiver contracts that maintain statefulness through deterministically deployed instances, supporting both standard and stealth payments via a WebAuthn-based co-signing approach. Key contracts include the `StarknetReceiver`, which handles payments on Starknet, and the `ReceiverFactory`, which deploys and configures the necessary receiver instances for merchants.",
-    "latest_push": "Implemented subsquid for Solana keeper and added a Solana transfer worker.",
+    "latest_push": "Added the adaptable EVM keeper and separate rate subsquid limit keys.",
     "tooling": [
       {
         "label": "Cairo",
@@ -68,11 +68,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 1606,
-    "deletions": 681,
+    "additions": 132,
+    "deletions": 60,
     "sprint": {
       "pushes": 37,
-      "additions": 19368,
+      "additions": 19440,
       "deletions": 23,
       "computed": 3
     },
