@@ -21,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-25T21:28:14Z",
+    "pushed_at": "2026-09-26T15:28:28Z",
     "stars": 0,
     "builders": [
       {
@@ -43,12 +43,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "e5f519b9fb2ac7f5ee008f1804911a04fd6441e6",
+    "head_sha": "3a1e85ab85d8f82ff0ceaeafe161a8dd3f3847da",
     "readme_hash": "01d187beeff7d2f2",
     "desc_v6": true,
+    "churn_pct": 12.7,
     "summary": "A multichain stablecoin payment gateway with non-custodial merchant instances.",
     "description_long": "Beanie is a payment gateway that allows merchants to register a destination address for stablecoin payments on multiple chains. It builds on Starknet with non-custodial receiver contracts that maintain statefulness through deterministically deployed instances, supporting both standard and stealth payments via a WebAuthn-based co-signing approach. Key contracts include the `StarknetReceiver`, which handles payments on Starknet, and the `ReceiverFactory`, which deploys and configures the necessary receiver instances for merchants.",
-    "latest_push": "Added the Solana keeper and its related configuration and indexing files.",
+    "latest_push": "Implemented subsquid for Solana keeper and added a Solana transfer worker.",
     "tooling": [
       {
         "label": "Cairo",
@@ -67,12 +68,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 946,
-    "deletions": 0,
-    "churn_pct": 5.5,
+    "additions": 1606,
+    "deletions": 681,
     "sprint": {
       "pushes": 37,
-      "additions": 19973,
+      "additions": 19368,
       "deletions": 23,
       "computed": 3
     },
@@ -165,7 +165,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-25T20:52:52Z",
+    "pushed_at": "2026-09-26T15:04:05Z",
     "stars": 0,
     "builders": [
       {
@@ -9588,7 +9588,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
