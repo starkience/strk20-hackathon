@@ -1,80 +1,5 @@
 [
   {
-    "slug": "open-beanie",
-    "name": "open-beanie",
-    "one_liner": "software powering beanie",
-    "category": "Payments",
-    "repo_url": "https://github.com/cenwadike/open-beanie",
-    "demo_url": "https://beanie.up.railway.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-28T15:44:22Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "cenwadike",
-        "name": "Kombi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "d7af699a4131f4d33ce09065b401fcd9a894f1f2",
-    "readme_hash": "c914354ab6605e4d",
-    "desc_v6": true,
-    "churn_pct": 8.7,
-    "summary": "A multichain API gateway for stablecoin payment intents.",
-    "description_long": "Beanie provisions one dedicated, non-custodial receiving address on each supported chain for a merchant, allowing customers to pay on any of those chains while ensuring the merchant is settled on their chosen chain. It includes fixed settlement rules, gasless payments, permissionless sweeps, stealth payments, and signed webhooks for notifications, with the infrastructure implementing receivers across Base, Ethereum, Arbitrum, Monad, Starknet, and Solana.",
-    "latest_push": "Fixed the crosschain worker flow logic and updated README copy.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 1251,
-    "deletions": 487,
-    "sprint": {
-      "pushes": 37,
-      "additions": 19772,
-      "deletions": 23,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
-  },
-  {
     "slug": "client",
     "name": "client",
     "one_liner": "Zylith trading and liquidity client.",
@@ -96,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-28T15:17:12Z",
+    "pushed_at": "2026-09-28T17:22:08Z",
     "stars": 0,
     "builders": [
       {
@@ -107,13 +32,13 @@
     ],
     "agents": [],
     "active_days": [],
-    "head_sha": "6c88adcd915dfacbb61d672edc352f0e6bac0269",
+    "head_sha": "6ee3f3e0bda799661a7c3b9c92aba5107f8a97a0",
     "readme_hash": "",
     "desc_v6": true,
     "churn_pct": 0.8,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
-    "latest_push": "Hardened public service admission and unified private auction execution.",
+    "latest_push": "Hardened production security and unified private auction execution.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -187,7 +112,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-28T15:10:27Z",
+    "pushed_at": "2026-09-28T17:07:19Z",
     "stars": 0,
     "builders": [
       {
@@ -220,7 +145,6 @@
     "head_sha": "8a0ba50ccb9f4238d4c7d78108eba0f506ddbff1",
     "readme_hash": "096564645591319c",
     "desc_v6": true,
-    "churn_pct": 15.8,
     "summary": "Explore a 3D city with buildings representing Starknet privacy protocols.",
     "description_long": "STRKWORLD is a 3D walkable city where players can interact with various Starknet privacy protocols using real funds. The environment integrates several financial buildings, each requiring an approved private execution path for operation. It includes elements like a privacy-minimal multiplayer lobby, fixed building rooms with various functionalities, and a backend supporting secure transactions without exposing private keys.",
     "latest_push": "Rendered the World in 3D using Three.js.",
@@ -239,6 +163,7 @@
     "has_readme": true,
     "additions": 16606,
     "deletions": 528,
+    "churn_pct": 15.8,
     "sprint": {
       "pushes": 1037,
       "additions": 33940,
@@ -254,6 +179,81 @@
       "facts_v2": true
     },
     "star_evidence": ""
+  },
+  {
+    "slug": "open-beanie",
+    "name": "open-beanie",
+    "one_liner": "software powering beanie",
+    "category": "Payments",
+    "repo_url": "https://github.com/cenwadike/open-beanie",
+    "demo_url": "https://beanie.up.railway.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-28T15:44:22Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "cenwadike",
+        "name": "Kombi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "d7af699a4131f4d33ce09065b401fcd9a894f1f2",
+    "readme_hash": "c914354ab6605e4d",
+    "desc_v6": true,
+    "summary": "A multichain API gateway for stablecoin payment intents.",
+    "description_long": "Beanie provisions one dedicated, non-custodial receiving address on each supported chain for a merchant, allowing customers to pay on any of those chains while ensuring the merchant is settled on their chosen chain. It includes fixed settlement rules, gasless payments, permissionless sweeps, stealth payments, and signed webhooks for notifications, with the infrastructure implementing receivers across Base, Ethereum, Arbitrum, Monad, Starknet, and Solana.",
+    "latest_push": "Fixed the crosschain worker flow logic and updated README copy.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1251,
+    "deletions": 487,
+    "churn_pct": 8.7,
+    "sprint": {
+      "pushes": 37,
+      "additions": 19772,
+      "deletions": 23,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "stake-wars",
@@ -335,7 +335,6 @@
     "head_sha": "2225a34a1fc577ecb852f3b7fa74b54f662d2cf7",
     "readme_hash": "54316346d163272c",
     "desc_v6": true,
-    "churn_pct": 24.2,
     "summary": "A persistent, non-custodial strategy game using validator delegation.",
     "description_long": "Stake Wars is a strategy game that allows players to use their delegated STRK to capture and defend territories known as Sectors. The game features an auction system for territory control managed by the Dojo Beacon System. It consists of a web application built with React and TypeScript, an API written in Go, and smart contracts developed in Cairo, all organized within a well-structured repository.",
     "latest_push": "Replaced the Whisper sealed-bid Beacon with an open English auction.",
@@ -349,6 +348,7 @@
     "has_readme": true,
     "additions": 3145,
     "deletions": 6732,
+    "churn_pct": 24.2,
     "sprint": {
       "pushes": 144,
       "additions": 38901,
