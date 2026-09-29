@@ -1,5 +1,171 @@
 [
   {
+    "slug": "client",
+    "name": "client",
+    "one_liner": "Zylith trading and liquidity client.",
+    "category": "Other",
+    "repo_url": "https://github.com/ZylithFi/client",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The project lacks privacy application and real engineering depth.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-29T19:22:12Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "tanctl",
+        "name": "tanctl",
+        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [],
+    "head_sha": "e3b086128b728b77b99c8642c226b15a797383b6",
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 23.7,
+    "summary": "A trading and liquidity web app for Zylith.",
+    "description_long": "",
+    "latest_push": "Hardened release invariants and completed production architecture.",
+    "tooling": [
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": false,
+    "additions": 6027,
+    "deletions": 1013,
+    "sprint": {
+      "pushes": 0,
+      "additions": 17668,
+      "deletions": 12343,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
+      "why_complex": "No deployed contracts or complex engineering present in the stack.",
+      "reason": "The project lacks privacy application and real engineering depth.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
+    "slug": "open-beanie",
+    "name": "open-beanie",
+    "one_liner": "software powering beanie",
+    "category": "Payments",
+    "repo_url": "https://github.com/cenwadike/open-beanie",
+    "demo_url": "https://beanie.up.railway.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-29T15:34:31Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "cenwadike",
+        "name": "Kombi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "971fdae1be2268352b7c6110be12b1e627a9569d",
+    "readme_hash": "c914354ab6605e4d",
+    "desc_v6": true,
+    "churn_pct": 1.6,
+    "summary": "A multichain API gateway for stablecoin payment intents.",
+    "description_long": "Beanie provisions one dedicated, non-custodial receiving address on each supported chain for a merchant, allowing customers to pay on any of those chains while ensuring the merchant is settled on their chosen chain. It includes fixed settlement rules, gasless payments, permissionless sweeps, stealth payments, and signed webhooks for notifications, with the infrastructure implementing receivers across Base, Ethereum, Arbitrum, Monad, Starknet, and Solana.",
+    "latest_push": "Added Ethereum workers support and updated CCTP domain in contracts.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 172,
+    "deletions": 146,
+    "sprint": {
+      "pushes": 37,
+      "additions": 19766,
+      "deletions": 23,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "strkworld",
     "name": "STRKWORLD",
     "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
@@ -21,7 +187,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-29T14:05:12Z",
+    "pushed_at": "2026-09-29T14:30:48Z",
     "stars": 0,
     "builders": [
       {
@@ -51,13 +217,13 @@
       "2026-08-29",
       "2026-08-30"
     ],
-    "head_sha": "891e3be63a4881ec09ec4c325188177e4aaf7213",
-    "readme_hash": "096564645591319c",
+    "head_sha": "1bb18a9595ab260ce2c82aa03a3e87fe958a86e2",
+    "readme_hash": "ae0ac01d5332e334",
     "desc_v6": true,
-    "churn_pct": 6.2,
-    "summary": "Explore a 3D city with buildings representing Starknet privacy protocols.",
-    "description_long": "STRKWORLD is a 3D walkable city where players can interact with various Starknet privacy protocols using real funds. The environment integrates several financial buildings, each requiring an approved private execution path for operation. It includes elements like a privacy-minimal multiplayer lobby, fixed building rooms with various functionalities, and a backend supporting secure transactions without exposing private keys.",
-    "latest_push": "Required funds in the privacy pool for entry and allowed token shielding.",
+    "churn_pct": 6.4,
+    "summary": "Explore a 3D city with Starknet privacy protocols and engage in privacy-preserving transactions.",
+    "description_long": "STRKWORLD is a 3D walkable city where buildings represent Starknet privacy protocols. Users can interact with various financial services while maintaining privacy, using an interconnected world built on STRK20. The project includes multiple components such as a privacy-minimal multiplayer lobby, a Three.js-rendered game world, a backend paymaster, and various packages for functionalities like cross-chain funding and user interaction.",
+    "latest_push": "Filled the rooftop view with a city and added the Privacy Plaza's live pool stats.",
     "tooling": [
       {
         "label": "TypeScript",
@@ -71,11 +237,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 7115,
-    "deletions": 253,
+    "additions": 7878,
+    "deletions": 138,
     "sprint": {
       "pushes": 1037,
-      "additions": 34230,
+      "additions": 34236,
       "deletions": 113,
       "computed": 3
     },
@@ -169,7 +335,6 @@
     "head_sha": "b2f46faef94a36eac81e3f3b3c41c25c4c5afd16",
     "readme_hash": "85b2260a775a20af",
     "desc_v6": true,
-    "churn_pct": 27,
     "summary": "A persistent non-custodial strategy game where players battle for territory using delegated STRK.",
     "description_long": "Stake Wars is a strategy game that allows players to deploy their delegated STRK to capture and defend territories without creating a separate token or transferring custody away from Starknet's staking system. The repository includes a web application built with React and TypeScript, a Go API, and Cairo contracts for the game mechanics, including an open ascending auction system for controlling the game's beacon.",
     "latest_push": "Added a network staking dashboard and renamed the third landing step to CONTEST.",
@@ -183,6 +348,7 @@
     "has_readme": true,
     "additions": 10411,
     "deletions": 1937,
+    "churn_pct": 27,
     "sprint": {
       "pushes": 144,
       "additions": 39725,
@@ -198,172 +364,6 @@
       "facts_v2": true
     },
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "open-beanie",
-    "name": "open-beanie",
-    "one_liner": "software powering beanie",
-    "category": "Payments",
-    "repo_url": "https://github.com/cenwadike/open-beanie",
-    "demo_url": "https://beanie.up.railway.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-28T22:16:09Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "cenwadike",
-        "name": "Kombi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "0536fc145960e7a68723c825b7c054ec4a5e5c3a",
-    "readme_hash": "c914354ab6605e4d",
-    "desc_v6": true,
-    "summary": "A multichain API gateway for stablecoin payment intents.",
-    "description_long": "Beanie provisions one dedicated, non-custodial receiving address on each supported chain for a merchant, allowing customers to pay on any of those chains while ensuring the merchant is settled on their chosen chain. It includes fixed settlement rules, gasless payments, permissionless sweeps, stealth payments, and signed webhooks for notifications, with the infrastructure implementing receivers across Base, Ethereum, Arbitrum, Monad, Starknet, and Solana.",
-    "latest_push": "Implemented the evm stealth co-signer functionality.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 50,
-    "deletions": 17,
-    "churn_pct": 0.3,
-    "sprint": {
-      "pushes": 37,
-      "additions": 19772,
-      "deletions": 23,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "client",
-    "name": "client",
-    "one_liner": "Zylith trading and liquidity client.",
-    "category": "Other",
-    "repo_url": "https://github.com/ZylithFi/client",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project lacks privacy application and real engineering depth.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-28T17:22:08Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "tanctl",
-        "name": "tanctl",
-        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [],
-    "head_sha": "6ee3f3e0bda799661a7c3b9c92aba5107f8a97a0",
-    "readme_hash": "",
-    "desc_v6": true,
-    "summary": "A trading and liquidity web app for Zylith.",
-    "description_long": "",
-    "latest_push": "Hardened production security and unified private auction execution.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": false,
-    "additions": 185,
-    "deletions": 15,
-    "churn_pct": 0.8,
-    "sprint": {
-      "pushes": 0,
-      "additions": 17668,
-      "deletions": 12343,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
-      "why_complex": "No deployed contracts or complex engineering present in the stack.",
-      "reason": "The project lacks privacy application and real engineering depth.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
   },
   {
     "slug": "erebus",
@@ -1277,7 +1277,7 @@
     "contracts": [
       {
         "address": "0x4bde3263ff117f245f9ebea20670b363550951f61cf54f236c449f70181c01f",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x34701f573096b7bab0e5678e1ed2f17a87c8d56eb5f4d70bcf2197bab8e4477",
@@ -1436,7 +1436,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "12 contracts deployed on mainnet, Cairo in the repository"
+    "star_evidence": "11 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "xenia",
@@ -9470,16 +9470,16 @@
     "contracts": [
       {
         "address": "0x0307017665c243d4411aca77db2782e3e8a13c0a9260f5b8ec2956b373909af8",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
       {
         "hash": "0x0799c64eb376609d27d2fe2e837b0f0479a5a6fdcc09b821b6964171ca0d5042",
-        "ok": true,
+        "ok": false,
         "pool": false,
         "mine": false,
-        "note": "did not touch the pool"
+        "note": "not found on mainnet"
       }
     ],
     "verified_txs": 0,
@@ -9536,7 +9536,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+    "star_evidence": "1 contract deployed, Cairo in the repository"
   },
   {
     "slug": "starkaudit",
@@ -9583,7 +9583,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented a multi-account chain scanning and activity tracking feature.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -13000,6 +13000,106 @@
     "star_evidence": ""
   },
   {
+    "slug": "cipherbill",
+    "name": "CipherBill",
+    "one_liner": "Privacy-first invoicing and settlement on Starknet - shielded balances, private transfers, selective disclosure for accounting",
+    "category": "Other",
+    "repo_url": "https://github.com/Nitish-1303/CipherBill",
+    "demo_url": "https://cipher-bill.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-08-31T11:11:48Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Nitish-1303",
+        "name": "Nitish-1303",
+        "avatar_url": "https://avatars.githubusercontent.com/u/141549775?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 27
+      },
+      {
+        "family": "Cursor",
+        "name": "Cursor",
+        "avatar_url": "",
+        "commits": 8
+      }
+    ],
+    "active_days": [
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-31"
+    ],
+    "head_sha": "b761ad03433dd5ab1e3575568100c000f8ff24b3",
+    "readme_hash": "df3ba2d8be71fc10",
+    "desc_v6": true,
+    "churn_pct": 5.1,
+    "summary": "Privacy-first invoicing and settlement for independent workers and teams.",
+    "description_long": "CipherBill enables independent workers and global teams to create and settle invoices using shielded balances and private transfers. Built with Next.js and TypeScript, it integrates with the Starknet Wallet API for secure connection and transaction execution while allowing selective disclosure of invoice evidence. The application still requires implementation of complete invoice functionality and ongoing support for various wallet capabilities.",
+    "latest_push": "Added several decentralized zero-knowledge merchant protocols and a landing fix.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 4952,
+    "deletions": 1,
+    "sprint": {
+      "pushes": 50,
+      "additions": 26297,
+      "deletions": 37,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": ""
+  },
+  {
     "slug": "offbook",
     "name": "offbook",
     "one_liner": "a private OTC settlement layer for Starknet, Counterparties agree a token-for-token block trade (RFQ), then settle atomically through STRK20",
@@ -13673,7 +13773,7 @@
     "contracts": [
       {
         "address": "0x254a6b2997ef52e9f830ce1f543f6b29768295e8d17e2267d672c552cfe0d91",
-        "network": "sepolia"
+        "network": "unknown"
       }
     ],
     "transactions": [
@@ -16555,42 +16655,47 @@
       },
       {
         "hash": "0x0449e60d08650a7bd6a187aacf74112a3c53020017851cd3c0a1d31745620689",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x038d24f980d612b54629e6fb29f5fcde879914869dd8c345c4d75b089bcf7af3",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x056923063c7b8d9cc26cdc716dd7e8ff9adf797e098b46d3554c1a28631c22c7",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x01afe646e2cfed5c77249bd0ccd34424171d1ff65cee20bb9f020825fbef2cf2",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x05f86d9c66573264a80b2373ef905aaab2ba8a0029ea7b44eb2e40f665eec059",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 5,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": true
+      "mainnet": false
     },
-    "status": "finished",
+    "status": "building",
     "pushed_at": "2026-08-24T13:50:54Z",
     "stars": 0,
     "builders": [
@@ -21603,61 +21708,6 @@
       "pushes": 139,
       "additions": 19993,
       "deletions": 0,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": ""
-  },
-  {
-    "slug": "cipherbill",
-    "name": "cipherbill",
-    "one_liner": "",
-    "category": "Other",
-    "repo_url": "https://github.com/Nitish-1303/CipherBill",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": null,
-    "stars": 0,
-    "builders": [],
-    "agents": [],
-    "active_days": [
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-31"
-    ],
-    "head_sha": null,
-    "readme_hash": "",
-    "desc_v6": true,
-    "churn_pct": 0,
-    "summary": "Privacy-first invoicing and settlement for independent workers and teams.",
-    "description_long": "CipherBill enables users to connect a Starknet wallet, shield STRK, create invoices or payment requests, and settle through private transfers. It is built with Next.js, React, TypeScript, and the Starknet.js Wallet API, integrating the STRK20 privacy pool. The application supports selective evidence exports, allowing users to share metadata without exposing complete financial details.",
-    "latest_push": "",
-    "tooling": [],
-    "has_readme": false,
-    "additions": 0,
-    "deletions": 0,
-    "sprint": {
-      "pushes": 50,
-      "additions": 26297,
-      "deletions": 37,
       "computed": 3
     },
     "assessment": null,
