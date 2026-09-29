@@ -1,5 +1,200 @@
 [
   {
+    "slug": "iwa",
+    "name": "Iwa",
+    "one_liner": "Private savings circles on Starknet: neighbours contribute and take turns collecting the pot through the STRK20 pool, with amounts hidden and good standing provable.",
+    "category": "DeFi",
+    "repo_url": "https://github.com/solutionkanu12/iwa",
+    "demo_url": "https://useiwa.xyz",
+    "demo_video": "https://vimeo.com/1222855880",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x01f81497b09aa702a38715c0ec149d7672cd557c0caea480714d4802ff6f81be",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x04cac02dcc7ca8c46c0b6f32985f17bf24d99557222e60c6881d147e13fafbbb",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x05a22066c25cd6b337a9a16bef431546a6eca86a6e4ebd6484cd65a8317a4877",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      },
+      {
+        "hash": "0x46bd320ecdc20de3c97fc99a17eb1741a3425f5e414ce029c5d259e712817f5",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x551a5432911b05780c2746b7555f78f57c948355f56031e13a2af00a9470e32",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 2,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-29T23:22:30Z",
+    "stars": 1,
+    "builders": [
+      {
+        "login": "solutionkanu12",
+        "name": "solutionkanu12",
+        "avatar_url": "https://avatars.githubusercontent.com/u/174873861?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "8de06eeaf1b1df64425a2f18bc78d888b08d190e",
+    "readme_hash": "ce7901d3f8045c9d",
+    "desc_v6": true,
+    "summary": "Manage private community savings with verifiable financial trust.",
+    "description_long": "Iwa allows users to create or join private savings circles where contributions are made in rounds, and payouts are collected based on a fixed order. It keeps financial records verifiable while maintaining the privacy of the contributions through Starknet. Key features include an Action Center for managing contributions, a circle timeline for tracking obligations, and options for inviting members to join circles.",
+    "latest_push": "Fixed the requirement for a recovered Iwa session after authentication.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 87,
+    "deletions": 11,
+    "churn_pct": 0.1,
+    "sprint": {
+      "pushes": 57,
+      "additions": 23295,
+      "deletions": 176,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "strkworld",
+    "name": "STRKWORLD",
+    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
+    "category": "Gaming",
+    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "starkware",
+    "starred": false,
+    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-29T20:32:23Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Calcutatator",
+        "name": "Calcutator",
+        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 55
+      }
+    ],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "head_sha": "b3b936338a061e73199f77fca579d79034c9b5e1",
+    "readme_hash": "bdd71ec88b5bc778",
+    "desc_v6": true,
+    "churn_pct": 6.2,
+    "summary": "Explore a 3D city with Starknet privacy protocols and engage in privacy-preserving actions.",
+    "description_long": "STRKWORLD is a 3D walkable city where each building represents a Starknet privacy protocol. It features a wallet-gated world with privacy-minimal multiplayer, several fixed building rooms for various protocols like private transfers and lending, and a sandbox for collaborative builds. The game uses a strict routing system to ensure privacy, allowing players to interact anonymously while managing their keys and intents through a series of distinct packages such as the web application, backend, and the privacy operations interface.",
+    "latest_push": "Implemented shadow-account operations and connected the Vault to Vesu room.",
+    "tooling": [
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 8008,
+    "deletions": 294,
+    "sprint": {
+      "pushes": 1037,
+      "additions": 34387,
+      "deletions": 113,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
+      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
+      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
     "slug": "client",
     "name": "client",
     "one_liner": "Zylith trading and liquidity client.",
@@ -21,7 +216,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-29T19:22:12Z",
+    "pushed_at": "2026-09-29T19:56:20Z",
     "stars": 0,
     "builders": [
       {
@@ -32,13 +227,13 @@
     ],
     "agents": [],
     "active_days": [],
-    "head_sha": "e3b086128b728b77b99c8642c226b15a797383b6",
+    "head_sha": "26fc9b0c5eca42127bda08f35e9c6d1a14d339b4",
     "readme_hash": "",
     "desc_v6": true,
-    "churn_pct": 23.7,
+    "churn_pct": 22.7,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
-    "latest_push": "Hardened release invariants and completed production architecture.",
+    "latest_push": "Unified protocol, proving, and recovery components into a cohesive structure.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -72,8 +267,8 @@
       }
     ],
     "has_readme": false,
-    "additions": 6027,
-    "deletions": 1013,
+    "additions": 5746,
+    "deletions": 995,
     "sprint": {
       "pushes": 0,
       "additions": 17668,
@@ -137,7 +332,6 @@
     "head_sha": "971fdae1be2268352b7c6110be12b1e627a9569d",
     "readme_hash": "c914354ab6605e4d",
     "desc_v6": true,
-    "churn_pct": 1.6,
     "summary": "A multichain API gateway for stablecoin payment intents.",
     "description_long": "Beanie provisions one dedicated, non-custodial receiving address on each supported chain for a merchant, allowing customers to pay on any of those chains while ensuring the merchant is settled on their chosen chain. It includes fixed settlement rules, gasless payments, permissionless sweeps, stealth payments, and signed webhooks for notifications, with the infrastructure implementing receivers across Base, Ethereum, Arbitrum, Monad, Starknet, and Solana.",
     "latest_push": "Added Ethereum workers support and updated CCTP domain in contracts.",
@@ -156,6 +350,7 @@
     "has_readme": true,
     "additions": 172,
     "deletions": 146,
+    "churn_pct": 1.6,
     "sprint": {
       "pushes": 37,
       "additions": 19766,
@@ -164,96 +359,6 @@
     },
     "assessment": null,
     "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "strkworld",
-    "name": "STRKWORLD",
-    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
-    "category": "Gaming",
-    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "starkware",
-    "starred": false,
-    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-29T14:30:48Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Calcutatator",
-        "name": "Calcutator",
-        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 55
-      }
-    ],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30"
-    ],
-    "head_sha": "1bb18a9595ab260ce2c82aa03a3e87fe958a86e2",
-    "readme_hash": "ae0ac01d5332e334",
-    "desc_v6": true,
-    "churn_pct": 6.4,
-    "summary": "Explore a 3D city with Starknet privacy protocols and engage in privacy-preserving transactions.",
-    "description_long": "STRKWORLD is a 3D walkable city where buildings represent Starknet privacy protocols. Users can interact with various financial services while maintaining privacy, using an interconnected world built on STRK20. The project includes multiple components such as a privacy-minimal multiplayer lobby, a Three.js-rendered game world, a backend paymaster, and various packages for functionalities like cross-chain funding and user interaction.",
-    "latest_push": "Filled the rooftop view with a city and added the Privacy Plaza's live pool stats.",
-    "tooling": [
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 7878,
-    "deletions": 138,
-    "sprint": {
-      "pushes": 1037,
-      "additions": 34236,
-      "deletions": 113,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
-      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
-      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
   },
   {
     "slug": "stake-wars",
@@ -681,111 +786,6 @@
     },
     "assessment": null,
     "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "iwa",
-    "name": "Iwa",
-    "one_liner": "Private savings circles on Starknet: neighbours contribute and take turns collecting the pot through the STRK20 pool, with amounts hidden and good standing provable.",
-    "category": "DeFi",
-    "repo_url": "https://github.com/solutionkanu12/iwa",
-    "demo_url": "https://useiwa.xyz",
-    "demo_video": "https://vimeo.com/1222855880",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x01f81497b09aa702a38715c0ec149d7672cd557c0caea480714d4802ff6f81be",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x04cac02dcc7ca8c46c0b6f32985f17bf24d99557222e60c6881d147e13fafbbb",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x05a22066c25cd6b337a9a16bef431546a6eca86a6e4ebd6484cd65a8317a4877",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x46bd320ecdc20de3c97fc99a17eb1741a3425f5e414ce029c5d259e712817f5",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x551a5432911b05780c2746b7555f78f57c948355f56031e13a2af00a9470e32",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 2,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-25T12:14:48Z",
-    "stars": 1,
-    "builders": [
-      {
-        "login": "solutionkanu12",
-        "name": "solutionkanu12",
-        "avatar_url": "https://avatars.githubusercontent.com/u/174873861?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "8de06eeaf1b1df64425a2f18bc78d888b08d190e",
-    "readme_hash": "ce7901d3f8045c9d",
-    "desc_v6": true,
-    "summary": "Manage private community savings with verifiable financial trust.",
-    "description_long": "Iwa allows users to create or join private savings circles where contributions are made in rounds, and payouts are collected based on a fixed order. It keeps financial records verifiable while maintaining the privacy of the contributions through Starknet. Key features include an Action Center for managing contributions, a circle timeline for tracking obligations, and options for inviting members to join circles.",
-    "latest_push": "Fixed the requirement for a recovered Iwa session after authentication.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 87,
-    "deletions": 11,
-    "churn_pct": 0.1,
-    "sprint": {
-      "pushes": 57,
-      "additions": 23295,
-      "deletions": 176,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "vickrey",
@@ -1277,7 +1277,7 @@
     "contracts": [
       {
         "address": "0x4bde3263ff117f245f9ebea20670b363550951f61cf54f236c449f70181c01f",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x34701f573096b7bab0e5678e1ed2f17a87c8d56eb5f4d70bcf2197bab8e4477",
@@ -1436,7 +1436,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "11 contracts deployed on mainnet, Cairo in the repository"
+    "star_evidence": "12 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "xenia",
@@ -9470,16 +9470,16 @@
     "contracts": [
       {
         "address": "0x0307017665c243d4411aca77db2782e3e8a13c0a9260f5b8ec2956b373909af8",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
       {
         "hash": "0x0799c64eb376609d27d2fe2e837b0f0479a5a6fdcc09b821b6964171ca0d5042",
-        "ok": false,
+        "ok": true,
         "pool": false,
         "mine": false,
-        "note": "not found on mainnet"
+        "note": "did not touch the pool"
       }
     ],
     "verified_txs": 0,
@@ -9536,7 +9536,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed, Cairo in the repository"
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "starkaudit",
@@ -9583,7 +9583,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented a multi-account chain scanning and activity tracking feature.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -13056,7 +13056,6 @@
     "head_sha": "b761ad03433dd5ab1e3575568100c000f8ff24b3",
     "readme_hash": "df3ba2d8be71fc10",
     "desc_v6": true,
-    "churn_pct": 5.1,
     "summary": "Privacy-first invoicing and settlement for independent workers and teams.",
     "description_long": "CipherBill enables independent workers and global teams to create and settle invoices using shielded balances and private transfers. Built with Next.js and TypeScript, it integrates with the Starknet Wallet API for secure connection and transaction execution while allowing selective disclosure of invoice evidence. The application still requires implementation of complete invoice functionality and ongoing support for various wallet capabilities.",
     "latest_push": "Added several decentralized zero-knowledge merchant protocols and a landing fix.",
@@ -13090,6 +13089,7 @@
     "has_readme": true,
     "additions": 4952,
     "deletions": 1,
+    "churn_pct": 5.1,
     "sprint": {
       "pushes": 50,
       "additions": 26297,
@@ -13773,7 +13773,7 @@
     "contracts": [
       {
         "address": "0x254a6b2997ef52e9f830ce1f543f6b29768295e8d17e2267d672c552cfe0d91",
-        "network": "unknown"
+        "network": "sepolia"
       }
     ],
     "transactions": [
@@ -16655,47 +16655,42 @@
       },
       {
         "hash": "0x0449e60d08650a7bd6a187aacf74112a3c53020017851cd3c0a1d31745620689",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x038d24f980d612b54629e6fb29f5fcde879914869dd8c345c4d75b089bcf7af3",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x056923063c7b8d9cc26cdc716dd7e8ff9adf797e098b46d3554c1a28631c22c7",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x01afe646e2cfed5c77249bd0ccd34424171d1ff65cee20bb9f020825fbef2cf2",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x05f86d9c66573264a80b2373ef905aaab2ba8a0029ea7b44eb2e40f665eec059",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 5,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-08-24T13:50:54Z",
     "stars": 0,
     "builders": [
