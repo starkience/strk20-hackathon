@@ -1,5 +1,95 @@
 [
   {
+    "slug": "strkworld",
+    "name": "STRKWORLD",
+    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
+    "category": "Gaming",
+    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "starkware",
+    "starred": false,
+    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-29T14:05:12Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Calcutatator",
+        "name": "Calcutator",
+        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 55
+      }
+    ],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "head_sha": "891e3be63a4881ec09ec4c325188177e4aaf7213",
+    "readme_hash": "096564645591319c",
+    "desc_v6": true,
+    "churn_pct": 6.2,
+    "summary": "Explore a 3D city with buildings representing Starknet privacy protocols.",
+    "description_long": "STRKWORLD is a 3D walkable city where players can interact with various Starknet privacy protocols using real funds. The environment integrates several financial buildings, each requiring an approved private execution path for operation. It includes elements like a privacy-minimal multiplayer lobby, fixed building rooms with various functionalities, and a backend supporting secure transactions without exposing private keys.",
+    "latest_push": "Required funds in the privacy pool for entry and allowed token shielding.",
+    "tooling": [
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 7115,
+    "deletions": 253,
+    "sprint": {
+      "pushes": 1037,
+      "additions": 34230,
+      "deletions": 113,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
+      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
+      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
     "slug": "stake-wars",
     "name": "Stake Wars",
     "one_liner": "Persistent onchain strategy game with private Vickrey Beacon auctions: bids stay sealed until settlement through STRK20.",
@@ -45,7 +135,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-09-29T07:11:39Z",
+    "pushed_at": "2026-09-29T11:34:15Z",
     "stars": 2,
     "builders": [
       {
@@ -76,13 +166,13 @@
       "2026-09-04",
       "2026-09-07"
     ],
-    "head_sha": "d1477551117532ca6dd940825a97a66588a19f00",
+    "head_sha": "b2f46faef94a36eac81e3f3b3c41c25c4c5afd16",
     "readme_hash": "85b2260a775a20af",
     "desc_v6": true,
-    "churn_pct": 19,
+    "churn_pct": 27,
     "summary": "A persistent non-custodial strategy game where players battle for territory using delegated STRK.",
     "description_long": "Stake Wars is a strategy game that allows players to deploy their delegated STRK to capture and defend territories without creating a separate token or transferring custody away from Starknet's staking system. The repository includes a web application built with React and TypeScript, a Go API, and Cairo contracts for the game mechanics, including an open ascending auction system for controlling the game's beacon.",
-    "latest_push": "Replaced open Challenges with instant takeover in the PRD.",
+    "latest_push": "Added a network staking dashboard and renamed the third landing step to CONTEST.",
     "tooling": [
       {
         "label": "Cairo",
@@ -91,12 +181,12 @@
       }
     ],
     "has_readme": true,
-    "additions": 3191,
-    "deletions": 4365,
+    "additions": 10411,
+    "deletions": 1937,
     "sprint": {
       "pushes": 144,
-      "additions": 38195,
-      "deletions": 880,
+      "additions": 39725,
+      "deletions": 537,
       "computed": 3
     },
     "assessment": {
@@ -108,96 +198,6 @@
       "facts_v2": true
     },
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "strkworld",
-    "name": "STRKWORLD",
-    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
-    "category": "Gaming",
-    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "starkware",
-    "starred": false,
-    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-29T01:06:52Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Calcutatator",
-        "name": "Calcutator",
-        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 55
-      }
-    ],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30"
-    ],
-    "head_sha": "33ad013aa8be252a658a5b7292ef820de1be72b3",
-    "readme_hash": "096564645591319c",
-    "desc_v6": true,
-    "summary": "Explore a 3D city with buildings representing Starknet privacy protocols.",
-    "description_long": "STRKWORLD is a 3D walkable city where players can interact with various Starknet privacy protocols using real funds. The environment integrates several financial buildings, each requiring an approved private execution path for operation. It includes elements like a privacy-minimal multiplayer lobby, fixed building rooms with various functionalities, and a backend supporting secure transactions without exposing private keys.",
-    "latest_push": "Added a requirement for an avnu Portal key in the private relay.",
-    "tooling": [
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 3472,
-    "deletions": 335,
-    "churn_pct": 3.4,
-    "sprint": {
-      "pushes": 1037,
-      "additions": 33546,
-      "deletions": 113,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
-      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
-      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
   },
   {
     "slug": "open-beanie",
