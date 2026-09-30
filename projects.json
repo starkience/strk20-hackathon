@@ -1,5 +1,95 @@
 [
   {
+    "slug": "strkworld",
+    "name": "STRKWORLD",
+    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
+    "category": "Gaming",
+    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "starkware",
+    "starred": false,
+    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-30T14:22:30Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Calcutatator",
+        "name": "Calcutator",
+        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 55
+      }
+    ],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "head_sha": "ee90749e1eff883080bdace403d82fea30021e57",
+    "readme_hash": "1454fd8f4e76eb3c",
+    "desc_v6": true,
+    "churn_pct": 9.7,
+    "summary": "A 3D walkable city featuring Starknet privacy protocols as buildings.",
+    "description_long": "Explore a shared pseudonymous world with privacy-preserving financial protocols, where each building represents a different Starknet service. The project includes a 3D renderer for the city, a multiplayer server for presence, and modules for privacy operations, cross-chain bridging, and a backend proxy. The system is organized into distinct packages, each handling specific tasks, ensuring a clear separation of functionalities and strict adherence to privacy boundaries.",
+    "latest_push": "Added a football pitch, server-authoritative ball, and visuals for gameplay.",
+    "tooling": [
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 12175,
+    "deletions": 1923,
+    "sprint": {
+      "pushes": 1037,
+      "additions": 34733,
+      "deletions": 113,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
+      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
+      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
     "slug": "client",
     "name": "client",
     "one_liner": "Zylith trading and liquidity client.",
@@ -21,7 +111,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-09-30T08:44:39Z",
+    "pushed_at": "2026-09-30T13:40:32Z",
     "stars": 0,
     "builders": [
       {
@@ -32,13 +122,13 @@
     ],
     "agents": [],
     "active_days": [],
-    "head_sha": "a0b02e4697215eedd3779ee62ceb50fd08ecb609",
+    "head_sha": "fa23b27026dd9a629e8c144b51911310061c288e",
     "readme_hash": "",
     "desc_v6": true,
-    "churn_pct": 22.8,
+    "churn_pct": 25.4,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
-    "latest_push": "Unified the protocol, proving, and recovery components in the exchange.",
+    "latest_push": "Unified protocol, proof, and recovery, and added proof-bound pricing.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -72,8 +162,8 @@
       }
     ],
     "has_readme": false,
-    "additions": 5749,
-    "deletions": 998,
+    "additions": 6661,
+    "deletions": 1058,
     "sprint": {
       "pushes": 0,
       "additions": 17668,
@@ -194,96 +284,6 @@
     },
     "assessment": null,
     "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "strkworld",
-    "name": "STRKWORLD",
-    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
-    "category": "Gaming",
-    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "starkware",
-    "starred": false,
-    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-29T20:32:23Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Calcutatator",
-        "name": "Calcutator",
-        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 55
-      }
-    ],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30"
-    ],
-    "head_sha": "b3b936338a061e73199f77fca579d79034c9b5e1",
-    "readme_hash": "bdd71ec88b5bc778",
-    "desc_v6": true,
-    "summary": "Explore a 3D city with Starknet privacy protocols and engage in privacy-preserving actions.",
-    "description_long": "STRKWORLD is a 3D walkable city where each building represents a Starknet privacy protocol. It features a wallet-gated world with privacy-minimal multiplayer, several fixed building rooms for various protocols like private transfers and lending, and a sandbox for collaborative builds. The game uses a strict routing system to ensure privacy, allowing players to interact anonymously while managing their keys and intents through a series of distinct packages such as the web application, backend, and the privacy operations interface.",
-    "latest_push": "Implemented shadow-account operations and connected the Vault to Vesu room.",
-    "tooling": [
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 8008,
-    "deletions": 294,
-    "churn_pct": 6.2,
-    "sprint": {
-      "pushes": 1037,
-      "additions": 34387,
-      "deletions": 113,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
-      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
-      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
   },
   {
     "slug": "open-beanie",
@@ -9583,7 +9583,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for owned Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
