@@ -1,5 +1,96 @@
 [
   {
+    "slug": "client",
+    "name": "client",
+    "one_liner": "Zylith trading and liquidity client.",
+    "category": "Other",
+    "repo_url": "https://github.com/ZylithFi/client",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The project lacks privacy application and real engineering depth.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-30T16:49:54Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "tanctl",
+        "name": "tanctl",
+        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [],
+    "head_sha": "3263c599d43a9e0aacf86d9769537327406fc20e",
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 3.6,
+    "summary": "A trading and liquidity web app for Zylith.",
+    "description_long": "",
+    "latest_push": "Added proof-bound cross-market pricing implementation and related files.",
+    "tooling": [
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": false,
+    "additions": 977,
+    "deletions": 111,
+    "sprint": {
+      "pushes": 0,
+      "additions": 17668,
+      "deletions": 12343,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
+      "why_complex": "No deployed contracts or complex engineering present in the stack.",
+      "reason": "The project lacks privacy application and real engineering depth.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
     "slug": "strkworld",
     "name": "STRKWORLD",
     "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
@@ -54,7 +145,6 @@
     "head_sha": "ee90749e1eff883080bdace403d82fea30021e57",
     "readme_hash": "1454fd8f4e76eb3c",
     "desc_v6": true,
-    "churn_pct": 9.7,
     "summary": "A 3D walkable city featuring Starknet privacy protocols as buildings.",
     "description_long": "Explore a shared pseudonymous world with privacy-preserving financial protocols, where each building represents a different Starknet service. The project includes a 3D renderer for the city, a multiplayer server for presence, and modules for privacy operations, cross-chain bridging, and a backend proxy. The system is organized into distinct packages, each handling specific tasks, ensuring a clear separation of functionalities and strict adherence to privacy boundaries.",
     "latest_push": "Added a football pitch, server-authoritative ball, and visuals for gameplay.",
@@ -73,6 +163,7 @@
     "has_readme": true,
     "additions": 12175,
     "deletions": 1923,
+    "churn_pct": 9.7,
     "sprint": {
       "pushes": 1037,
       "additions": 34733,
@@ -85,97 +176,6 @@
       "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
       "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
       "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
-  },
-  {
-    "slug": "client",
-    "name": "client",
-    "one_liner": "Zylith trading and liquidity client.",
-    "category": "Other",
-    "repo_url": "https://github.com/ZylithFi/client",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project lacks privacy application and real engineering depth.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-30T13:40:32Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "tanctl",
-        "name": "tanctl",
-        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [],
-    "head_sha": "fa23b27026dd9a629e8c144b51911310061c288e",
-    "readme_hash": "",
-    "desc_v6": true,
-    "churn_pct": 25.4,
-    "summary": "A trading and liquidity web app for Zylith.",
-    "description_long": "",
-    "latest_push": "Unified protocol, proof, and recovery, and added proof-bound pricing.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": false,
-    "additions": 6661,
-    "deletions": 1058,
-    "sprint": {
-      "pushes": 0,
-      "additions": 17668,
-      "deletions": 12343,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
-      "why_complex": "No deployed contracts or complex engineering present in the stack.",
-      "reason": "The project lacks privacy application and real engineering depth.",
       "facts_v2": true
     },
     "star_evidence": ""
@@ -9583,7 +9583,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for owned Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
