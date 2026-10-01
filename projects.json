@@ -1,5 +1,80 @@
 [
   {
+    "slug": "open-beanie",
+    "name": "open-beanie",
+    "one_liner": "software powering beanie",
+    "category": "Payments",
+    "repo_url": "https://github.com/cenwadike/open-beanie",
+    "demo_url": "https://beanie.up.railway.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-09-30T20:39:34Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "cenwadike",
+        "name": "Kombi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "291683982efab0f361aba80feb0c4c011cde46f2",
+    "readme_hash": "57ee251eb801653c",
+    "desc_v6": true,
+    "churn_pct": 24.6,
+    "summary": "A multichain API gateway for stablecoin payment intents.",
+    "description_long": "Beanie provisions non-custodial receivers for stablecoin payments across multiple chains. It creates one receiver for each supported chain upon a merchant's address, allowing customers to pay on any chain while ensuring settlement on the designated target chain, directly or via Circle CCTP V2. The system routes deposits based on the target chain, with no admin intervention on settlement once established.",
+    "latest_push": "Added stealth claim support with fireblocks co-signer and deployed the contract.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 4175,
+    "deletions": 1298,
+    "sprint": {
+      "pushes": 37,
+      "additions": 20122,
+      "deletions": 23,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "client",
     "name": "client",
     "one_liner": "Zylith trading and liquidity client.",
@@ -35,7 +110,6 @@
     "head_sha": "3263c599d43a9e0aacf86d9769537327406fc20e",
     "readme_hash": "",
     "desc_v6": true,
-    "churn_pct": 3.6,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
     "latest_push": "Added proof-bound cross-market pricing implementation and related files.",
@@ -74,6 +148,7 @@
     "has_readme": false,
     "additions": 977,
     "deletions": 111,
+    "churn_pct": 3.6,
     "sprint": {
       "pushes": 0,
       "additions": 17668,
@@ -284,81 +359,6 @@
     },
     "assessment": null,
     "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "open-beanie",
-    "name": "open-beanie",
-    "one_liner": "software powering beanie",
-    "category": "Payments",
-    "repo_url": "https://github.com/cenwadike/open-beanie",
-    "demo_url": "https://beanie.up.railway.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-29T15:34:31Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "cenwadike",
-        "name": "Kombi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "971fdae1be2268352b7c6110be12b1e627a9569d",
-    "readme_hash": "c914354ab6605e4d",
-    "desc_v6": true,
-    "summary": "A multichain API gateway for stablecoin payment intents.",
-    "description_long": "Beanie provisions one dedicated, non-custodial receiving address on each supported chain for a merchant, allowing customers to pay on any of those chains while ensuring the merchant is settled on their chosen chain. It includes fixed settlement rules, gasless payments, permissionless sweeps, stealth payments, and signed webhooks for notifications, with the infrastructure implementing receivers across Base, Ethereum, Arbitrum, Monad, Starknet, and Solana.",
-    "latest_push": "Added Ethereum workers support and updated CCTP domain in contracts.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 172,
-    "deletions": 146,
-    "churn_pct": 1.6,
-    "sprint": {
-      "pushes": 37,
-      "additions": 19766,
-      "deletions": 23,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "stake-wars",
@@ -20825,94 +20825,6 @@
     "star_evidence": "Cairo in the repository"
   },
   {
-    "slug": "nomada",
-    "name": "Nomada",
-    "one_liner": "the all in one private p2p transfer app on starknet.",
-    "category": "Other",
-    "repo_url": "https://github.com/mateojkk/Nomada",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "Nomada primarily serves as a chat interface for existing STRK20 privacy features.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-15T10:20:19Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "mateojkk",
-        "name": "mateojkk",
-        "avatar_url": "https://avatars.githubusercontent.com/u/233367458?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-15"
-    ],
-    "head_sha": "61730e5c8f5a3f3bc743249b8afa650d86bd96c8",
-    "readme_hash": "38ad65fa0578e1dc",
-    "desc_v6": true,
-    "summary": "A privacy-first chat app for peer-to-peer transfers.",
-    "description_long": "Nomada is a chat application that supports private peer-to-peer transfers on Starknet. It is built with a React and TypeScript frontend that interprets chat commands to execute transactions directly with the user's Starknet wallet. Users can send, shield, and unshield funds while interacting through a conversational interface, with integration for the STRK20 privacy protocol enabling fully shielded transactions.",
-    "latest_push": "Removed the whoami command from the application.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 2,
-    "deletions": 14,
-    "churn_pct": 0.2,
-    "sprint": {
-      "pushes": 3,
-      "additions": 23081,
-      "deletions": 18,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "The project is a private P2P transfer app focused on financial privacy.",
-      "why_complex": "No actual deployed contracts or significant engineering depth visible in the stack.",
-      "reason": "Nomada primarily serves as a chat interface for existing STRK20 privacy features.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
-  },
-  {
     "slug": "ghostbounty",
     "name": "GhostBounty",
     "one_liner": "Anonymous responsible disclosure with encrypted reports, proof-of-authorship, and private STRK20 bounty payments.",
@@ -21268,6 +21180,68 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "nomada",
+    "name": "nomada",
+    "one_liner": "",
+    "category": "Other",
+    "repo_url": "https://github.com/mateojkk/Nomada",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "Nomada primarily serves as a chat interface for existing STRK20 privacy features.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "mateojkk",
+        "name": "mateo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/233367458?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-15"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "A privacy-first chat app for peer-to-peer transfers.",
+    "description_long": "Nomada is a chat application that supports private peer-to-peer transfers on Starknet. It is built with a React and TypeScript frontend that interprets chat commands to execute transactions directly with the user's Starknet wallet. Users can send, shield, and unshield funds while interacting through a conversational interface, with integration for the STRK20 privacy protocol enabling fully shielded transactions.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 3,
+      "additions": 23081,
+      "deletions": 18,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "The project is a private P2P transfer app focused on financial privacy.",
+      "why_complex": "No actual deployed contracts or significant engineering depth visible in the stack.",
+      "reason": "Nomada primarily serves as a chat interface for existing STRK20 privacy features.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
   },
   {
     "slug": "privora",
