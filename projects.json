@@ -1,11 +1,102 @@
 [
   {
+    "slug": "client",
+    "name": "client",
+    "one_liner": "Zylith trading and liquidity client.",
+    "category": "Other",
+    "repo_url": "https://github.com/ZylithFi/client",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The project lacks privacy application and real engineering depth.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-10-01T18:32:19Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "tanctl",
+        "name": "tanctl",
+        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [],
+    "head_sha": "f35bfdfc1b4f0cf0ecd2f4f4db3118eac22dd3c0",
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 3,
+    "summary": "A trading and liquidity web app for Zylith.",
+    "description_long": "",
+    "latest_push": "Added proof-bound cross-market pricing functionality.",
+    "tooling": [
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": false,
+    "additions": 656,
+    "deletions": 272,
+    "sprint": {
+      "pushes": 0,
+      "additions": 17668,
+      "deletions": 12343,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
+      "why_complex": "No deployed contracts or complex engineering present in the stack.",
+      "reason": "The project lacks privacy application and real engineering depth.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
     "slug": "strkworld",
     "name": "STRKWORLD",
     "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
     "category": "Gaming",
     "repo_url": "https://github.com/Calcutatator/STRKWORLD",
-    "demo_url": "https://railway.com/project/408b8273-8ba2-47f2-8db5-7f1ef4922a56?environmentId=ed731039-5588-41ef-9492-ae2a21ac3684",
+    "demo_url": "",
     "demo_video": "",
     "x_handle": "",
     "inspired_by": "",
@@ -16,12 +107,12 @@
     "transactions": [],
     "verified_txs": 0,
     "requirements": {
-      "demo": true,
+      "demo": false,
       "video": false,
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-10-01T13:32:39Z",
+    "pushed_at": "2026-10-01T18:26:11Z",
     "stars": 0,
     "builders": [
       {
@@ -51,13 +142,13 @@
       "2026-08-29",
       "2026-08-30"
     ],
-    "head_sha": "3f08a7421c44eafcbedccae4844c43c813d13383",
+    "head_sha": "4ccc876b5d2d21242241a12e2a0efb3639557ada",
     "readme_hash": "305a6f3b25bb1bea",
     "desc_v6": true,
-    "churn_pct": 9.2,
+    "churn_pct": 7.4,
     "summary": "Explore a 3D city built on Starknet's privacy protocols.",
     "description_long": "STRKWORLD is a 3D walkable city where users interact with Starknet privacy protocols through various buildings. It includes features like a shared block sandbox for collaborative building, a football pitch for multiplayer gameplay, and the Privacy Plaza that displays public pool figures. The implementation includes financial state machines, real protocol interactions, and a backend that ensures no private key material is handled or viewed.",
-    "latest_push": "Added borrowing from a second shadow account in the Vault for Vesu.",
+    "latest_push": "Added shared presence areas for the Exchange roof and Avatar Studio.",
     "tooling": [
       {
         "label": "TypeScript",
@@ -71,11 +162,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 13214,
-    "deletions": 2219,
+    "additions": 12542,
+    "deletions": 667,
     "sprint": {
       "pushes": 1037,
-      "additions": 35317,
+      "additions": 35621,
       "deletions": 101,
       "computed": 3
     },
@@ -169,7 +260,6 @@
     "head_sha": "cccbee0a57b539166cb520144d1fdf27d026879b",
     "readme_hash": "85b2260a775a20af",
     "desc_v6": true,
-    "churn_pct": 35.5,
     "summary": "A persistent non-custodial strategy game where players battle for territory using delegated STRK.",
     "description_long": "Stake Wars is a strategy game that allows players to deploy their delegated STRK to capture and defend territories without creating a separate token or transferring custody away from Starknet's staking system. The repository includes a web application built with React and TypeScript, a Go API, and Cairo contracts for the game mechanics, including an open ascending auction system for controlling the game's beacon.",
     "latest_push": "Added playable Sector Trooper preview and Core Survivors combat.",
@@ -183,6 +273,7 @@
     "has_readme": true,
     "additions": 19221,
     "deletions": 83,
+    "churn_pct": 35.5,
     "sprint": {
       "pushes": 144,
       "additions": 39379,
@@ -351,7 +442,6 @@
     "head_sha": "1c330189c132966db26a18027c3f70fe7d8fe425",
     "readme_hash": "57ee251eb801653c",
     "desc_v6": true,
-    "churn_pct": 33.3,
     "summary": "A multichain API gateway for stablecoin payment intents.",
     "description_long": "Beanie provisions non-custodial receivers for stablecoin payments across multiple chains. It creates one receiver for each supported chain upon a merchant's address, allowing customers to pay on any chain while ensuring settlement on the designated target chain, directly or via Circle CCTP V2. The system routes deposits based on the target chain, with no admin intervention on settlement once established.",
     "latest_push": "Added the RPC proxy and separated frontend scripts into modular chunks.",
@@ -370,6 +460,7 @@
     "has_readme": true,
     "additions": 4880,
     "deletions": 3052,
+    "churn_pct": 33.3,
     "sprint": {
       "pushes": 37,
       "additions": 19983,
@@ -532,97 +623,6 @@
     },
     "assessment": null,
     "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "client",
-    "name": "client",
-    "one_liner": "Zylith trading and liquidity client.",
-    "category": "Other",
-    "repo_url": "https://github.com/ZylithFi/client",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project lacks privacy application and real engineering depth.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-30T16:49:54Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "tanctl",
-        "name": "tanctl",
-        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [],
-    "head_sha": "3263c599d43a9e0aacf86d9769537327406fc20e",
-    "readme_hash": "",
-    "desc_v6": true,
-    "summary": "A trading and liquidity web app for Zylith.",
-    "description_long": "",
-    "latest_push": "Added proof-bound cross-market pricing implementation and related files.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": false,
-    "additions": 977,
-    "deletions": 111,
-    "churn_pct": 3.6,
-    "sprint": {
-      "pushes": 0,
-      "additions": 17668,
-      "deletions": 12343,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
-      "why_complex": "No deployed contracts or complex engineering present in the stack.",
-      "reason": "The project lacks privacy application and real engineering depth.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
   },
   {
     "slug": "erebus",
@@ -5222,14 +5222,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/148525744?v=4"
       },
       {
+        "login": "privateOwl68",
+        "name": "privateOwl68",
+        "avatar_url": "https://avatars.githubusercontent.com/u/65423986?v=4"
+      },
+      {
         "login": "sdpisreddevil",
         "name": "sdpbhandari",
         "avatar_url": "https://avatars.githubusercontent.com/u/25897013?v=4"
-      },
-      {
-        "login": "privateOwl68",
-        "name": "PrivateOwl",
-        "avatar_url": "https://avatars.githubusercontent.com/u/65423986?v=4"
       }
     ],
     "agents": [
@@ -6278,7 +6278,7 @@
     "builders": [
       {
         "login": "privateOwl68",
-        "name": "PrivateOwl",
+        "name": "privateOwl68",
         "avatar_url": "https://avatars.githubusercontent.com/u/65423986?v=4"
       }
     ],
@@ -19606,68 +19606,6 @@
     "star_evidence": "Cairo in the repository"
   },
   {
-    "slug": "oju",
-    "name": "Oju",
-    "one_liner": "Privacy-first prediction markets built on Nigerian specifics, open to the world. Public odds, invisible participants, private positions and payouts through the STRK20 pool.",
-    "category": "DeFi",
-    "repo_url": "https://github.com/zarah-s/oju",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "RFP-07",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-18T16:16:59Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "zarah-s",
-        "name": "zarah",
-        "avatar_url": "https://avatars.githubusercontent.com/u/81118182?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-17",
-      "2026-08-18"
-    ],
-    "head_sha": "cc1352f50cb2f79313a4f9f3b257e4ded2bc1af5",
-    "readme_hash": "0b326e8b30bfebb1",
-    "desc_v6": true,
-    "summary": "A privacy-first prediction market for Nigeria-native questions with public odds.",
-    "description_long": "Oju is a privacy-first prediction market that transforms everyday questions about Nigeria into tradable positions, allowing anyone to bet on outcomes while keeping their identities hidden. It features parimutuel pools for YES and NO stakes, private positions held as encrypted notes in the STRK20 privacy pool, and provable resolutions using the Pragma oracle. The system is built using Cairo contracts for the backend and Next.js for the frontend, focusing on maintaining anonymity for participants while ensuring the markets are transparent and provable.",
-    "latest_push": "Marked milestone M0 complete and made registration live.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 2,
-    "deletions": 2,
-    "churn_pct": 2.7,
-    "sprint": {
-      "pushes": 4,
-      "additions": 8325,
-      "deletions": 40,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
-  },
-  {
     "slug": "crewkill-strk20",
     "name": "CrewKill",
     "one_liner": "Staked social deduction where privacy is the game mechanic: buy a seat through the STRK20 pool, draw a role nobody can read, vote anonymously, settle on-chain.",
@@ -21447,6 +21385,62 @@
       "reason": "The project primarily focuses on standard private transfer features without unique implementation.",
       "facts_v2": true
     },
+    "star_evidence": ""
+  },
+  {
+    "slug": "oju",
+    "name": "Oju",
+    "one_liner": "Privacy-first prediction markets built on Nigerian specifics, open to the world. Public odds, invisible participants, private positions and payouts through the STRK20 pool.",
+    "category": "DeFi",
+    "repo_url": "https://github.com/zarah-s/oju",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "RFP-07",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "zarah-s",
+        "name": "Zarah",
+        "avatar_url": "https://avatars.githubusercontent.com/u/81118182?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-17",
+      "2026-08-18"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "Privacy-first prediction markets with public odds and private payouts.",
+    "description_long": "This project creates prediction markets tailored to Nigerian specifics while ensuring participant anonymity. It features public odds and private positions and payouts conducted through the STRK20 pool.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 4,
+      "additions": 8325,
+      "deletions": 40,
+      "computed": 3
+    },
+    "assessment": null,
     "star_evidence": ""
   },
   {
