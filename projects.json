@@ -1,5 +1,411 @@
 [
   {
+    "slug": "strkworld",
+    "name": "STRKWORLD",
+    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
+    "category": "Gaming",
+    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
+    "demo_url": "https://railway.com/project/408b8273-8ba2-47f2-8db5-7f1ef4922a56?environmentId=ed731039-5588-41ef-9492-ae2a21ac3684",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "starkware",
+    "starred": false,
+    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-10-02T08:51:04Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Calcutatator",
+        "name": "Calcutator",
+        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 55
+      }
+    ],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "head_sha": "12869a7b3b666774bb4e6cf1cc0a93d1b4ee7113",
+    "readme_hash": "dc02c6b64ab7062f",
+    "desc_v6": true,
+    "churn_pct": 0.8,
+    "summary": "Navigate a 3D city of Starknet privacy protocols with multiple interactive features.",
+    "description_long": "Explore a walkable 3D city where each building represents a Starknet privacy protocol. The project includes a shared block sandbox, a football pitch for multiplayer matches, and the Privacy Plaza displaying live public data. It consists of multiple components like a web application shell, a backend for transaction submission, and packages for privacy operations, bridging, world rendering, and multiplayer presence.",
+    "latest_push": "Implemented avatar jumping, visible to nearby peers.",
+    "tooling": [
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1386,
+    "deletions": 23,
+    "sprint": {
+      "pushes": 1037,
+      "additions": 35638,
+      "deletions": 101,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
+      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
+      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
+    "slug": "erebus",
+    "name": "Erebus",
+    "one_liner": "Confidential negotiation and shielded settlement infrastructure for AI agents on Starknet, built on the STRK20 privacy pool.",
+    "category": "Other",
+    "repo_url": "https://github.com/PoulavBhowmick03/Erebus",
+    "demo_url": "https://erebus-private-agents.vercel.app",
+    "demo_video": "https://drive.google.com/file/d/1zOkEJt08DwRiHeLIu4IaXCl1s8VRSKuu/view?usp=sharing",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
+    "contracts": [],
+    "transactions": [
+      {
+        "hash": "0x06597adb6581bb1910d30b31139fe871665db4cc61fefef8120b89773528e54c",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x0572260b651525ea39ef717721bcc9fefc89a2087894654efb38111e09267189",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x0159748de29d9dbe7016c9eb37459cbd7dd72290c3bc22412a034fb1c4c38a99",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x01a30c0b6e8db645df67795f2356cb6a251b9680d0b61cea54d28d04edd70d1",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x05a287657f829a82ecc83a0543674f1397aa75bdade8365b28f72e3925d759b5",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x04126a3ee0971728d7181296fe4d128f12fc6a828a172b7bd12d8f5128364923",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x072adebfcffdfd45bba66d2152c7e11b50107aa0fe2b4c9f1ea851da16ab6c6d",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x0273b0f97f1c0707a259bbe5cacc337df6876509adba09b7376a0501a0f028b7",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x051fa13c6d11c529208785af163f2d5bc1cc95451192e3265150e0067aadeda4",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x06e55194809fec58c1426a8178dcdb10270d5e8aecfcfd6db2b28f6284ce5467",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      }
+    ],
+    "verified_txs": 10,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-10-02T08:29:12Z",
+    "stars": 4,
+    "builders": [
+      {
+        "login": "PoulavBhowmick03",
+        "name": "PoulavBhowmick03",
+        "avatar_url": "https://avatars.githubusercontent.com/u/133862694?v=4"
+      },
+      {
+        "login": "ishitab02",
+        "name": "ishitab02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/139248026?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "27ced710bc3ad6c387fc1ae8200bea6631d202bf",
+    "readme_hash": "1379cc8baf6b6ec9",
+    "desc_v6": true,
+    "summary": "Experimental coordination and shielded settlement for AI agents.",
+    "description_long": "Erebus allows AI agents to negotiate over an encrypted channel and settle transactions atomically through Starknet's STRK20 privacy pool. It consists of a server and thirteen tools that handle channel establishment, offer management, and settlement processes, with each write tagged by a unique operation ID. The system is designed for privacy, ensuring that the terms of negotiation are hidden while the relationship between agents remains visible.",
+    "latest_push": "Added icon links for GitHub, X, and mail in the footer.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 15,
+    "deletions": 11,
+    "churn_pct": 0.1,
+    "sprint": {
+      "pushes": 126,
+      "additions": 14346,
+      "deletions": 3631,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": true,
+      "complex": true,
+      "why_innovative": "applies privacy to agent-to-agent commerce using encrypted negotiation channels.",
+      "why_complex": "implements AES-256-GCM-SIV for wire v2 and includes multiple interacting agents and roles.",
+      "reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
+      "facts_v2": true
+    },
+    "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "neobank",
+    "name": "Private money account",
+    "one_liner": "Hold, send, and earn on STRK20 without publishing salary or net worth.",
+    "category": "Consumer",
+    "repo_url": "https://github.com/kamalbuilds/neobank",
+    "demo_url": "https://sealed.cash",
+    "demo_video": "https://sealed.cash/demo.mp4",
+    "x_handle": "kamalbuilds",
+    "inspired_by": "IDEA-13",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The project fails to demonstrate unique use of privacy beyond conventional private transfers.",
+    "contracts": [],
+    "transactions": [
+      {
+        "hash": "0x04c4bea05417ce1062adef39b3d3b300f831ec994bbb4166d6010c4838d49193",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x059eb6c1bdddd048006f372b4db6602560dbfc722536b94d59ece8abb865586e",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0xe08fd329091b483978c64f93288b7346b158e0dc485fd7c5f594899f0294",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x428d5947280d2c670162aa7a3d666bcaa4d5256e016fab460c1b7a560609578",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x6342cd9a1c1f4f9cd85f6561b3d78ed196c0ee3a332b8cc1feacd89e739360e",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      }
+    ],
+    "verified_txs": 5,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-10-02T06:59:10Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "kamalbuilds",
+        "name": "kamalbuilds",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95926324?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-07"
+    ],
+    "head_sha": "0da20bf3f3e1f5951f7c20adaf4b3f4e61b28c89",
+    "readme_hash": "03f8af6f4993bce3",
+    "desc_v6": true,
+    "churn_pct": 4.3,
+    "summary": "A private money account for holding, sending, spending, and earning STRK20.",
+    "description_long": "Sealed allows users to hold, send, spend, and earn STRK20 without revealing their salary or net worth. It operates on a non-custodial model where transactions are processed through the STRK20 privacy pool on mainnet, while settlement functions are executed through its own contracts on Sepolia. The system includes multiple components such as the CardSettlementAnonymizer and PrivateSpendAnonymizer, with all evidence and transaction details verified on-chain.",
+    "latest_push": "Implemented private send and unshield functionalities on Starknet mainnet.",
+    "tooling": [
+      {
+        "label": "AVNU",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 786,
+    "deletions": 477,
+    "sprint": {
+      "pushes": 162,
+      "additions": 24165,
+      "deletions": 46,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "The project offers private transfers, which is an obvious use of privacy technology.",
+      "why_complex": "There are no deployed contracts or real engineering beyond frontend and the basic wallet integrations.",
+      "reason": "The project fails to demonstrate unique use of privacy beyond conventional private transfers.",
+      "facts_v2": true
+    },
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "client",
     "name": "client",
     "one_liner": "Zylith trading and liquidity client.",
@@ -21,7 +427,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-10-02T01:28:40Z",
+    "pushed_at": "2026-10-02T05:45:32Z",
     "stars": 0,
     "builders": [
       {
@@ -32,13 +438,13 @@
     ],
     "agents": [],
     "active_days": [],
-    "head_sha": "bd1dd2b33deef03870fade278ba90a2e437cbfd9",
+    "head_sha": "436da3a84270af6f356a44270ac28a192bbc1a43",
     "readme_hash": "",
     "desc_v6": true,
     "churn_pct": 0,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
-    "latest_push": "Labeled chart modes accurately in PriceChart.tsx.",
+    "latest_push": "Hardened live deployment checks in userFacingErrors files.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -72,8 +478,8 @@
       }
     ],
     "has_readme": false,
-    "additions": 2,
-    "deletions": 1,
+    "additions": 15,
+    "deletions": 0,
     "sprint": {
       "pushes": 0,
       "additions": 17668,
@@ -170,7 +576,6 @@
     "head_sha": "87105b886290990810712cd6d0a8c305b63da368",
     "readme_hash": "85b2260a775a20af",
     "desc_v6": true,
-    "churn_pct": 4.4,
     "summary": "A persistent non-custodial strategy game where players battle for territory using delegated STRK.",
     "description_long": "Stake Wars is a strategy game that allows players to deploy their delegated STRK to capture and defend territories without creating a separate token or transferring custody away from Starknet's staking system. The repository includes a web application built with React and TypeScript, a Go API, and Cairo contracts for the game mechanics, including an open ascending auction system for controlling the game's beacon.",
     "latest_push": "Breach enemy spawns with sector flipping and added strike impact effects.",
@@ -184,6 +589,7 @@
     "has_readme": true,
     "additions": 2404,
     "deletions": 86,
+    "churn_pct": 4.4,
     "sprint": {
       "pushes": 144,
       "additions": 39846,
@@ -199,96 +605,6 @@
       "facts_v2": true
     },
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "strkworld",
-    "name": "STRKWORLD",
-    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
-    "category": "Gaming",
-    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
-    "demo_url": "https://railway.com/project/408b8273-8ba2-47f2-8db5-7f1ef4922a56?environmentId=ed731039-5588-41ef-9492-ae2a21ac3684",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "starkware",
-    "starred": false,
-    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-10-01T23:20:06Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Calcutatator",
-        "name": "Calcutator",
-        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 55
-      }
-    ],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30"
-    ],
-    "head_sha": "eadf7289950b797ce7263c8baa05e950482101b8",
-    "readme_hash": "dc02c6b64ab7062f",
-    "desc_v6": true,
-    "summary": "Navigate a 3D city of Starknet privacy protocols with multiple interactive features.",
-    "description_long": "Explore a walkable 3D city where each building represents a Starknet privacy protocol. The project includes a shared block sandbox, a football pitch for multiplayer matches, and the Privacy Plaza displaying live public data. It consists of multiple components like a web application shell, a backend for transaction submission, and packages for privacy operations, bridging, world rendering, and multiplayer presence.",
-    "latest_push": "Displayed the pool's total on the plaza instead of the 24-hour deposit count.",
-    "tooling": [
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 95,
-    "deletions": 102,
-    "churn_pct": 0.1,
-    "sprint": {
-      "pushes": 1037,
-      "additions": 35625,
-      "deletions": 101,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
-      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
-      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
   },
   {
     "slug": "iwa",
@@ -625,169 +941,6 @@
     "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
   },
   {
-    "slug": "erebus",
-    "name": "Erebus",
-    "one_liner": "Confidential negotiation and shielded settlement infrastructure for AI agents on Starknet, built on the STRK20 privacy pool.",
-    "category": "Other",
-    "repo_url": "https://github.com/PoulavBhowmick03/Erebus",
-    "demo_url": "https://erebus-private-agents.vercel.app",
-    "demo_video": "https://drive.google.com/file/d/1zOkEJt08DwRiHeLIu4IaXCl1s8VRSKuu/view?usp=sharing",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
-    "contracts": [],
-    "transactions": [
-      {
-        "hash": "0x06597adb6581bb1910d30b31139fe871665db4cc61fefef8120b89773528e54c",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x0572260b651525ea39ef717721bcc9fefc89a2087894654efb38111e09267189",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x0159748de29d9dbe7016c9eb37459cbd7dd72290c3bc22412a034fb1c4c38a99",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x01a30c0b6e8db645df67795f2356cb6a251b9680d0b61cea54d28d04edd70d1",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x05a287657f829a82ecc83a0543674f1397aa75bdade8365b28f72e3925d759b5",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x04126a3ee0971728d7181296fe4d128f12fc6a828a172b7bd12d8f5128364923",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x072adebfcffdfd45bba66d2152c7e11b50107aa0fe2b4c9f1ea851da16ab6c6d",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x0273b0f97f1c0707a259bbe5cacc337df6876509adba09b7376a0501a0f028b7",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x051fa13c6d11c529208785af163f2d5bc1cc95451192e3265150e0067aadeda4",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x06e55194809fec58c1426a8178dcdb10270d5e8aecfcfd6db2b28f6284ce5467",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      }
-    ],
-    "verified_txs": 10,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-28T07:49:48Z",
-    "stars": 4,
-    "builders": [
-      {
-        "login": "PoulavBhowmick03",
-        "name": "PoulavBhowmick03",
-        "avatar_url": "https://avatars.githubusercontent.com/u/133862694?v=4"
-      },
-      {
-        "login": "ishitab02",
-        "name": "ishitab02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/139248026?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "27ced710bc3ad6c387fc1ae8200bea6631d202bf",
-    "readme_hash": "1379cc8baf6b6ec9",
-    "desc_v6": true,
-    "summary": "Experimental coordination and shielded settlement for AI agents.",
-    "description_long": "Erebus allows AI agents to negotiate over an encrypted channel and settle transactions atomically through Starknet's STRK20 privacy pool. It consists of a server and thirteen tools that handle channel establishment, offer management, and settlement processes, with each write tagged by a unique operation ID. The system is designed for privacy, ensuring that the terms of negotiation are hidden while the relationship between agents remains visible.",
-    "latest_push": "Added icon links for GitHub, X, and mail in the footer.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 15,
-    "deletions": 11,
-    "churn_pct": 0.1,
-    "sprint": {
-      "pushes": 126,
-      "additions": 14346,
-      "deletions": 3631,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": true,
-      "complex": true,
-      "why_innovative": "applies privacy to agent-to-agent commerce using encrypted negotiation channels.",
-      "why_complex": "implements AES-256-GCM-SIV for wire v2 and includes multiple interacting agents and roles.",
-      "reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
-      "facts_v2": true
-    },
-    "star_evidence": "Cairo in the repository"
-  },
-  {
     "slug": "vickrey",
     "name": "Vickrey",
     "one_liner": "Sealed-bid Vickrey auctions on STRK20 — the losing bids are never published. Live demo and full write-up at vickrey.0xo.in/docs",
@@ -991,153 +1144,6 @@
     },
     "assessment": null,
     "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "neobank",
-    "name": "Private money account",
-    "one_liner": "Hold, send, and earn on STRK20 without publishing salary or net worth.",
-    "category": "Consumer",
-    "repo_url": "https://github.com/kamalbuilds/neobank",
-    "demo_url": "https://sealed.cash",
-    "demo_video": "https://sealed.cash/demo.mp4",
-    "x_handle": "kamalbuilds",
-    "inspired_by": "IDEA-13",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project fails to demonstrate unique use of privacy beyond conventional private transfers.",
-    "contracts": [],
-    "transactions": [
-      {
-        "hash": "0x04c4bea05417ce1062adef39b3d3b300f831ec994bbb4166d6010c4838d49193",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x059eb6c1bdddd048006f372b4db6602560dbfc722536b94d59ece8abb865586e",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0xe08fd329091b483978c64f93288b7346b158e0dc485fd7c5f594899f0294",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x428d5947280d2c670162aa7a3d666bcaa4d5256e016fab460c1b7a560609578",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      }
-    ],
-    "verified_txs": 4,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-23T17:59:17Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "kamalbuilds",
-        "name": "kamalbuilds",
-        "avatar_url": "https://avatars.githubusercontent.com/u/95926324?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-31",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-07"
-    ],
-    "head_sha": "f668f039c2cd9567407e5658892cc4b19ffcb4b9",
-    "readme_hash": "5dbef37fdddf89bf",
-    "desc_v6": true,
-    "summary": "A private money account for holding, sending, spending, and earning on STRK20.",
-    "description_long": "Sealed is a private money account on Starknet that allows users to hold, send, spend, and earn without exposing their salary or net worth. The application features non-custodial transactions and maintains privacy through shielded transactions, maintaining a ledger without revealing personal financial details. Key components include multiple smart contracts deployed on Sepolia that manage shielding, spending, and settlement through a payment system that operates with anonymous transactions.",
-    "latest_push": "Fixed address validation for judge findings on private swap and receipt honesty.",
-    "tooling": [
-      {
-        "label": "AVNU",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 32257,
-    "deletions": 92,
-    "churn_pct": 100,
-    "sprint": {
-      "pushes": 162,
-      "additions": 24465,
-      "deletions": 46,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "The project offers private transfers, which is an obvious use of privacy technology.",
-      "why_complex": "There are no deployed contracts or real engineering beyond frontend and the basic wallet integrations.",
-      "reason": "The project fails to demonstrate unique use of privacy beyond conventional private transfers.",
-      "facts_v2": true
-    },
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "afterlight-recovery",
