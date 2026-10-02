@@ -1,95 +1,5 @@
 [
   {
-    "slug": "strkworld",
-    "name": "STRKWORLD",
-    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
-    "category": "Gaming",
-    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
-    "demo_url": "https://railway.com/project/408b8273-8ba2-47f2-8db5-7f1ef4922a56?environmentId=ed731039-5588-41ef-9492-ae2a21ac3684",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "starkware",
-    "starred": false,
-    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-10-01T23:20:06Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Calcutatator",
-        "name": "Calcutator",
-        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 55
-      }
-    ],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30"
-    ],
-    "head_sha": "eadf7289950b797ce7263c8baa05e950482101b8",
-    "readme_hash": "dc02c6b64ab7062f",
-    "desc_v6": true,
-    "churn_pct": 0.1,
-    "summary": "Navigate a 3D city of Starknet privacy protocols with multiple interactive features.",
-    "description_long": "Explore a walkable 3D city where each building represents a Starknet privacy protocol. The project includes a shared block sandbox, a football pitch for multiplayer matches, and the Privacy Plaza displaying live public data. It consists of multiple components like a web application shell, a backend for transaction submission, and packages for privacy operations, bridging, world rendering, and multiplayer presence.",
-    "latest_push": "Displayed the pool's total on the plaza instead of the 24-hour deposit count.",
-    "tooling": [
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 95,
-    "deletions": 102,
-    "sprint": {
-      "pushes": 1037,
-      "additions": 35625,
-      "deletions": 101,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
-      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
-      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
-  },
-  {
     "slug": "client",
     "name": "client",
     "one_liner": "Zylith trading and liquidity client.",
@@ -111,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-10-01T22:07:13Z",
+    "pushed_at": "2026-10-02T01:28:40Z",
     "stars": 0,
     "builders": [
       {
@@ -122,13 +32,13 @@
     ],
     "agents": [],
     "active_days": [],
-    "head_sha": "119564a843fd45ba3f9d640220eb1b27f29dbc34",
+    "head_sha": "bd1dd2b33deef03870fade278ba90a2e437cbfd9",
     "readme_hash": "",
     "desc_v6": true,
-    "churn_pct": 0.1,
+    "churn_pct": 0,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
-    "latest_push": "Isolated proof generation in the type and deployment files.",
+    "latest_push": "Labeled chart modes accurately in PriceChart.tsx.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -162,8 +72,8 @@
       }
     ],
     "has_readme": false,
-    "additions": 13,
-    "deletions": 7,
+    "additions": 2,
+    "deletions": 1,
     "sprint": {
       "pushes": 0,
       "additions": 17668,
@@ -226,7 +136,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-01T12:26:33Z",
+    "pushed_at": "2026-10-02T00:37:34Z",
     "stars": 2,
     "builders": [
       {
@@ -257,12 +167,13 @@
       "2026-09-04",
       "2026-09-07"
     ],
-    "head_sha": "cccbee0a57b539166cb520144d1fdf27d026879b",
+    "head_sha": "87105b886290990810712cd6d0a8c305b63da368",
     "readme_hash": "85b2260a775a20af",
     "desc_v6": true,
+    "churn_pct": 4.4,
     "summary": "A persistent non-custodial strategy game where players battle for territory using delegated STRK.",
     "description_long": "Stake Wars is a strategy game that allows players to deploy their delegated STRK to capture and defend territories without creating a separate token or transferring custody away from Starknet's staking system. The repository includes a web application built with React and TypeScript, a Go API, and Cairo contracts for the game mechanics, including an open ascending auction system for controlling the game's beacon.",
-    "latest_push": "Added playable Sector Trooper preview and Core Survivors combat.",
+    "latest_push": "Breach enemy spawns with sector flipping and added strike impact effects.",
     "tooling": [
       {
         "label": "Cairo",
@@ -271,13 +182,12 @@
       }
     ],
     "has_readme": true,
-    "additions": 19221,
-    "deletions": 83,
-    "churn_pct": 35.5,
+    "additions": 2404,
+    "deletions": 86,
     "sprint": {
       "pushes": 144,
-      "additions": 39379,
-      "deletions": 244,
+      "additions": 39846,
+      "deletions": 245,
       "computed": 3
     },
     "assessment": {
@@ -289,6 +199,96 @@
       "facts_v2": true
     },
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "strkworld",
+    "name": "STRKWORLD",
+    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
+    "category": "Gaming",
+    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
+    "demo_url": "https://railway.com/project/408b8273-8ba2-47f2-8db5-7f1ef4922a56?environmentId=ed731039-5588-41ef-9492-ae2a21ac3684",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "starkware",
+    "starred": false,
+    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-10-01T23:20:06Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Calcutatator",
+        "name": "Calcutator",
+        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 55
+      }
+    ],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "head_sha": "eadf7289950b797ce7263c8baa05e950482101b8",
+    "readme_hash": "dc02c6b64ab7062f",
+    "desc_v6": true,
+    "summary": "Navigate a 3D city of Starknet privacy protocols with multiple interactive features.",
+    "description_long": "Explore a walkable 3D city where each building represents a Starknet privacy protocol. The project includes a shared block sandbox, a football pitch for multiplayer matches, and the Privacy Plaza displaying live public data. It consists of multiple components like a web application shell, a backend for transaction submission, and packages for privacy operations, bridging, world rendering, and multiplayer presence.",
+    "latest_push": "Displayed the pool's total on the plaza instead of the 24-hour deposit count.",
+    "tooling": [
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 95,
+    "deletions": 102,
+    "churn_pct": 0.1,
+    "sprint": {
+      "pushes": 1037,
+      "additions": 35625,
+      "deletions": 101,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
+      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
+      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
   },
   {
     "slug": "iwa",
