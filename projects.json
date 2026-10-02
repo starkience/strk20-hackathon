@@ -21,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-10-02T08:51:04Z",
+    "pushed_at": "2026-10-02T15:22:57Z",
     "stars": 0,
     "builders": [
       {
@@ -51,13 +51,13 @@
       "2026-08-29",
       "2026-08-30"
     ],
-    "head_sha": "12869a7b3b666774bb4e6cf1cc0a93d1b4ee7113",
-    "readme_hash": "dc02c6b64ab7062f",
+    "head_sha": "55a39797d10b35e35591b266f34e623440fc6730",
+    "readme_hash": "eb8bfad34c093568",
     "desc_v6": true,
-    "churn_pct": 0.8,
-    "summary": "Navigate a 3D city of Starknet privacy protocols with multiple interactive features.",
-    "description_long": "Explore a walkable 3D city where each building represents a Starknet privacy protocol. The project includes a shared block sandbox, a football pitch for multiplayer matches, and the Privacy Plaza displaying live public data. It consists of multiple components like a web application shell, a backend for transaction submission, and packages for privacy operations, bridging, world rendering, and multiplayer presence.",
-    "latest_push": "Implemented avatar jumping, visible to nearby peers.",
+    "churn_pct": 7.4,
+    "summary": "Explore a 3D city of Starknet privacy protocols with interactive features.",
+    "description_long": "STRKWORLD is a 3D walkable city where buildings represent privacy-preserving protocols on Starknet. Users can navigate a shared pseudonymous world, engaging with various functionalities such as the Bank for private transfers, the Exchange for swaps, and a multiplayer football pitch. Built on STRK20, the project includes components like a web application shell, backend proxy, and individual packages that handle privacy operations, cross-chain funding, and real-time multiplayer presence.",
+    "latest_push": "Added the gladiator arena's shared contract and updated the deploy page.",
     "tooling": [
       {
         "label": "TypeScript",
@@ -68,14 +68,19 @@
         "label": "Vite",
         "live": false,
         "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
       }
     ],
     "has_readme": true,
-    "additions": 1386,
-    "deletions": 23,
+    "additions": 13170,
+    "deletions": 2029,
     "sprint": {
       "pushes": 1037,
-      "additions": 35638,
+      "additions": 35393,
       "deletions": 101,
       "computed": 3
     },
@@ -87,7 +92,82 @@
       "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
       "facts_v2": true
     },
-    "star_evidence": ""
+    "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "open-beanie",
+    "name": "open-beanie",
+    "one_liner": "software powering beanie",
+    "category": "Payments",
+    "repo_url": "https://github.com/cenwadike/open-beanie",
+    "demo_url": "https://beanie.up.railway.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-10-02T13:49:50Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "cenwadike",
+        "name": "Kombi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "82979c547cfa1f91dc7f957933e9cfef1f0bf13c",
+    "readme_hash": "f64b9341830b8c0f",
+    "desc_v6": true,
+    "churn_pct": 9.7,
+    "summary": "An API gateway for stablecoin payments across multiple chains.",
+    "description_long": "Beanie allows merchants to accept stablecoin payments from customers on multiple chains by providing a single address. When a customer pays, the funds are settled on the merchant's chosen chain, either directly or through Circle CCTP V2, using dedicated, non-custodial receiving contracts created for each supported chain: Base, Ethereum, Arbitrum, Monad, Starknet, and Solana.",
+    "latest_push": "Updated stealth support integrations across multiple files.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 1835,
+    "deletions": 601,
+    "sprint": {
+      "pushes": 37,
+      "additions": 19949,
+      "deletions": 23,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "erebus",
@@ -172,7 +252,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-02T08:29:12Z",
+    "pushed_at": "2026-10-02T12:27:46Z",
     "stars": 4,
     "builders": [
       {
@@ -340,7 +420,6 @@
     "head_sha": "0da20bf3f3e1f5951f7c20adaf4b3f4e61b28c89",
     "readme_hash": "03f8af6f4993bce3",
     "desc_v6": true,
-    "churn_pct": 4.3,
     "summary": "A private money account for holding, sending, spending, and earning STRK20.",
     "description_long": "Sealed allows users to hold, send, spend, and earn STRK20 without revealing their salary or net worth. It operates on a non-custodial model where transactions are processed through the STRK20 privacy pool on mainnet, while settlement functions are executed through its own contracts on Sepolia. The system includes multiple components such as the CardSettlementAnonymizer and PrivateSpendAnonymizer, with all evidence and transaction details verified on-chain.",
     "latest_push": "Implemented private send and unshield functionalities on Starknet mainnet.",
@@ -389,6 +468,7 @@
     "has_readme": true,
     "additions": 786,
     "deletions": 477,
+    "churn_pct": 4.3,
     "sprint": {
       "pushes": 162,
       "additions": 24165,
@@ -441,7 +521,6 @@
     "head_sha": "436da3a84270af6f356a44270ac28a192bbc1a43",
     "readme_hash": "",
     "desc_v6": true,
-    "churn_pct": 0,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
     "latest_push": "Hardened live deployment checks in userFacingErrors files.",
@@ -480,6 +559,7 @@
     "has_readme": false,
     "additions": 15,
     "deletions": 0,
+    "churn_pct": 0,
     "sprint": {
       "pushes": 0,
       "additions": 17668,
@@ -710,81 +790,6 @@
     },
     "assessment": null,
     "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "open-beanie",
-    "name": "open-beanie",
-    "one_liner": "software powering beanie",
-    "category": "Payments",
-    "repo_url": "https://github.com/cenwadike/open-beanie",
-    "demo_url": "https://beanie.up.railway.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-10-01T10:40:39Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "cenwadike",
-        "name": "Kombi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "1c330189c132966db26a18027c3f70fe7d8fe425",
-    "readme_hash": "57ee251eb801653c",
-    "desc_v6": true,
-    "summary": "A multichain API gateway for stablecoin payment intents.",
-    "description_long": "Beanie provisions non-custodial receivers for stablecoin payments across multiple chains. It creates one receiver for each supported chain upon a merchant's address, allowing customers to pay on any chain while ensuring settlement on the designated target chain, directly or via Circle CCTP V2. The system routes deposits based on the target chain, with no admin intervention on settlement once established.",
-    "latest_push": "Added the RPC proxy and separated frontend scripts into modular chunks.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 4880,
-    "deletions": 3052,
-    "churn_pct": 33.3,
-    "sprint": {
-      "pushes": 37,
-      "additions": 19983,
-      "deletions": 23,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "poker-texas-air",
