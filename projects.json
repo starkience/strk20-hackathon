@@ -5,7 +5,7 @@
     "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
     "category": "Gaming",
     "repo_url": "https://github.com/Calcutatator/STRKWORLD",
-    "demo_url": "https://railway.com/project/408b8273-8ba2-47f2-8db5-7f1ef4922a56?environmentId=ed731039-5588-41ef-9492-ae2a21ac3684",
+    "demo_url": "",
     "demo_video": "",
     "x_handle": "",
     "inspired_by": "",
@@ -16,12 +16,12 @@
     "transactions": [],
     "verified_txs": 0,
     "requirements": {
-      "demo": true,
+      "demo": false,
       "video": false,
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-10-02T15:22:57Z",
+    "pushed_at": "2026-10-02T20:07:38Z",
     "stars": 0,
     "builders": [
       {
@@ -51,13 +51,13 @@
       "2026-08-29",
       "2026-08-30"
     ],
-    "head_sha": "55a39797d10b35e35591b266f34e623440fc6730",
+    "head_sha": "fef8bf5138d00ad2ab80f2c62931b36d978a7363",
     "readme_hash": "eb8bfad34c093568",
     "desc_v6": true,
-    "churn_pct": 7.4,
+    "churn_pct": 7,
     "summary": "Explore a 3D city of Starknet privacy protocols with interactive features.",
     "description_long": "STRKWORLD is a 3D walkable city where buildings represent privacy-preserving protocols on Starknet. Users can navigate a shared pseudonymous world, engaging with various functionalities such as the Bank for private transfers, the Exchange for swaps, and a multiplayer football pitch. Built on STRK20, the project includes components like a web application shell, backend proxy, and individual packages that handle privacy operations, cross-chain funding, and real-time multiplayer presence.",
-    "latest_push": "Added the gladiator arena's shared contract and updated the deploy page.",
+    "latest_push": "Added the leaderboard phase 1 with receipts and placement stand.",
     "tooling": [
       {
         "label": "TypeScript",
@@ -76,11 +76,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 13170,
-    "deletions": 2029,
+    "additions": 14172,
+    "deletions": 1269,
     "sprint": {
       "pushes": 1037,
-      "additions": 35393,
+      "additions": 35426,
       "deletions": 101,
       "computed": 3
     },
@@ -93,6 +93,97 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "client",
+    "name": "client",
+    "one_liner": "Zylith trading and liquidity client.",
+    "category": "Other",
+    "repo_url": "https://github.com/ZylithFi/client",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The project lacks privacy application and real engineering depth.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-10-02T16:43:01Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "tanctl",
+        "name": "tanctl",
+        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [],
+    "head_sha": "8062c438b092ddfad281d2b56b3117bef1ec0387",
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 2,
+    "summary": "A trading and liquidity web app for Zylith.",
+    "description_long": "",
+    "latest_push": "Hardened live deployment checks in multiple components and tests.",
+    "tooling": [
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": false,
+    "additions": 524,
+    "deletions": 91,
+    "sprint": {
+      "pushes": 0,
+      "additions": 17668,
+      "deletions": 12343,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
+      "why_complex": "No deployed contracts or complex engineering present in the stack.",
+      "reason": "The project lacks privacy application and real engineering depth.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
   },
   {
     "slug": "open-beanie",
@@ -116,7 +207,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-10-02T13:49:50Z",
+    "pushed_at": "2026-10-02T16:25:42Z",
     "stars": 0,
     "builders": [
       {
@@ -138,13 +229,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "82979c547cfa1f91dc7f957933e9cfef1f0bf13c",
-    "readme_hash": "f64b9341830b8c0f",
+    "head_sha": "5ee565bc333e161bd2e9afb7efea53edb3e45eb4",
+    "readme_hash": "58d4bf16af6e9723",
     "desc_v6": true,
-    "churn_pct": 9.7,
-    "summary": "An API gateway for stablecoin payments across multiple chains.",
-    "description_long": "Beanie allows merchants to accept stablecoin payments from customers on multiple chains by providing a single address. When a customer pays, the funds are settled on the merchant's chosen chain, either directly or through Circle CCTP V2, using dedicated, non-custodial receiving contracts created for each supported chain: Base, Ethereum, Arbitrum, Monad, Starknet, and Solana.",
-    "latest_push": "Updated stealth support integrations across multiple files.",
+    "churn_pct": 1.2,
+    "summary": "A multichain API gateway for stablecoin payment intents.",
+    "description_long": "Beanie provisions a dedicated, non-custodial receiving address on six supported chains for merchants. Customers can pay on any of those chains, and Beanie settles the payment on the selected chain, ensuring funds never touch Beanie. It includes features like gasless payments, pinned settlement for security, and signed webhooks for notifications.",
+    "latest_push": "Updated stealth dependencies and co-signer disclosure pattern.",
     "tooling": [
       {
         "label": "Cairo",
@@ -158,11 +249,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 1835,
-    "deletions": 601,
+    "additions": 154,
+    "deletions": 143,
     "sprint": {
       "pushes": 37,
-      "additions": 19949,
+      "additions": 19960,
       "deletions": 23,
       "computed": 3
     },
@@ -484,97 +575,6 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "client",
-    "name": "client",
-    "one_liner": "Zylith trading and liquidity client.",
-    "category": "Other",
-    "repo_url": "https://github.com/ZylithFi/client",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project lacks privacy application and real engineering depth.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-10-02T05:45:32Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "tanctl",
-        "name": "tanctl",
-        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [],
-    "head_sha": "436da3a84270af6f356a44270ac28a192bbc1a43",
-    "readme_hash": "",
-    "desc_v6": true,
-    "summary": "A trading and liquidity web app for Zylith.",
-    "description_long": "",
-    "latest_push": "Hardened live deployment checks in userFacingErrors files.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": false,
-    "additions": 15,
-    "deletions": 0,
-    "churn_pct": 0,
-    "sprint": {
-      "pushes": 0,
-      "additions": 17668,
-      "deletions": 12343,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
-      "why_complex": "No deployed contracts or complex engineering present in the stack.",
-      "reason": "The project lacks privacy application and real engineering depth.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
   },
   {
     "slug": "stake-wars",
