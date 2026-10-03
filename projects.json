@@ -21,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-10-03T13:02:35Z",
+    "pushed_at": "2026-10-03T18:31:59Z",
     "stars": 0,
     "builders": [
       {
@@ -51,13 +51,13 @@
       "2026-08-29",
       "2026-08-30"
     ],
-    "head_sha": "f00931d59b443cce2be0f21f414fb0ec39cf5bd4",
+    "head_sha": "697c9a748cb6f5c0c6a781deff2291fc6f427b3a",
     "readme_hash": "eb8bfad34c093568",
     "desc_v6": true,
-    "churn_pct": 6.1,
+    "churn_pct": 1.6,
     "summary": "Explore a 3D city of Starknet privacy protocols with interactive features.",
     "description_long": "STRKWORLD is a 3D walkable city where buildings represent privacy-preserving protocols on Starknet. Users can navigate a shared pseudonymous world, engaging with various functionalities such as the Bank for private transfers, the Exchange for swaps, and a multiplayer football pitch. Built on STRK20, the project includes components like a web application shell, backend proxy, and individual packages that handle privacy operations, cross-chain funding, and real-time multiplayer presence.",
-    "latest_push": "Changed the Colosseum's structure to remove its middle storey and display the street.",
+    "latest_push": "Polished the arena with visible blocks, movable labels, and an interactive throne.",
     "tooling": [
       {
         "label": "TypeScript",
@@ -76,11 +76,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 12948,
-    "deletions": 1475,
+    "additions": 3443,
+    "deletions": 446,
     "sprint": {
       "pushes": 1037,
-      "additions": 36244,
+      "additions": 36361,
       "deletions": 101,
       "computed": 3
     },
@@ -93,6 +93,106 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "vickrey",
+    "name": "Vickrey",
+    "one_liner": "Sealed-bid Vickrey auctions on STRK20 — the losing bids are never published. Live demo and full write-up at vickrey.0xo.in/docs",
+    "category": "DeFi",
+    "repo_url": "https://github.com/Vickrey-Protocol/vickrey",
+    "demo_url": "https://vickrey.0xo.in",
+    "demo_video": "https://www.youtube.com/watch?v=VngKo7Ud1r0",
+    "x_handle": "jagadeeeshftw",
+    "inspired_by": "RFP-08",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x02d893acf290c61be4afb6999d6fa39244fba514267c1ccea9e124af64bb6831",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x04628cabde44481d1264d9b701147340b32df63172dbad05368178e18e9764ff",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x57ba561f86904a692cc96443edaeddb71bc3a9ae2103bef12e3b9d70ebf536",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x3b113126a21a532c8d1d81e5652e54b7e4fb64547b587feff7dee519be7b5f9",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x58742bf98c28cb3ecf4f9c12b390d9bed35f76a573722a648f07a5d6736ad93",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 3,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-10-03T17:52:18Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Jagadeeshftw",
+        "name": "Jagadeesh B",
+        "avatar_url": "https://avatars.githubusercontent.com/u/92681651?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "e8bcf5465e07e602378c19f55269f777ede38d31",
+    "readme_hash": "669ffb55f6f14d92",
+    "desc_v6": true,
+    "churn_pct": 3.6,
+    "summary": "Conduct sealed-bid auctions on STRK20 where losing bids remain private.",
+    "description_long": "Vickrey allows users to participate in sealed-bid auctions on STRK20 with guarantees of bid privacy. It achieves this through hash-preimage proofs that validate the winning bid and clearing price on-chain, while keeping losing bids secret. The project includes an auction contract, an anonymizer helper, a client library, and a web app interfacing with all contracts, though full auction settlement on mainnet has not yet been completed.",
+    "latest_push": "Fixed gaps in claim-secret and dispute for v1 contracts.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 803,
+    "deletions": 161,
+    "sprint": {
+      "pushes": 179,
+      "additions": 24859,
+      "deletions": 2,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "iwa",
@@ -944,106 +1044,6 @@
     },
     "assessment": null,
     "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "vickrey",
-    "name": "Vickrey",
-    "one_liner": "Sealed-bid Vickrey auctions on STRK20 — the losing bids are never published. Live demo and full write-up at vickrey.0xo.in/docs",
-    "category": "DeFi",
-    "repo_url": "https://github.com/Vickrey-Protocol/vickrey",
-    "demo_url": "https://vickrey.0xo.in",
-    "demo_video": "https://www.youtube.com/watch?v=VngKo7Ud1r0",
-    "x_handle": "jagadeeeshftw",
-    "inspired_by": "RFP-08",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x02d893acf290c61be4afb6999d6fa39244fba514267c1ccea9e124af64bb6831",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x04628cabde44481d1264d9b701147340b32df63172dbad05368178e18e9764ff",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x57ba561f86904a692cc96443edaeddb71bc3a9ae2103bef12e3b9d70ebf536",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x3b113126a21a532c8d1d81e5652e54b7e4fb64547b587feff7dee519be7b5f9",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x58742bf98c28cb3ecf4f9c12b390d9bed35f76a573722a648f07a5d6736ad93",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-24T18:13:15Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Jagadeeshftw",
-        "name": "Jagadeesh B",
-        "avatar_url": "https://avatars.githubusercontent.com/u/92681651?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "2980db46ab43174ed8ac1355fb253979cc1d479f",
-    "readme_hash": "9533e4fd287b2341",
-    "desc_v6": true,
-    "summary": "Sealed-bid auctions with private losing bids on STRK20.",
-    "description_long": "Conducts sealed-bid Vickrey auctions where only the winning bid and price are published, while losing bids remain confidential. Built using hash-preimage proofs for on-chain settlement, the project includes an auction contract and an anonymizer helper, both deployed on Starknet mainnet. The application interface allows users to bid either on a public or private rail, ensuring bids are sealed and the user experience is integrated with the STRK20 privacy pool.",
-    "latest_push": "Updated documentation on silent bidder outcomes and property 6 clarification.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 41,
-    "deletions": 38,
-    "churn_pct": 0.3,
-    "sprint": {
-      "pushes": 179,
-      "additions": 24845,
-      "deletions": 2,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "cipherbid",
@@ -9594,7 +9594,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning for Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
