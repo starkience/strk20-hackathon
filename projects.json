@@ -5,7 +5,7 @@
     "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
     "category": "Gaming",
     "repo_url": "https://github.com/Calcutatator/STRKWORLD",
-    "demo_url": "",
+    "demo_url": "https://railway.com/project/408b8273-8ba2-47f2-8db5-7f1ef4922a56?environmentId=ed731039-5588-41ef-9492-ae2a21ac3684",
     "demo_video": "",
     "x_handle": "",
     "inspired_by": "",
@@ -16,12 +16,12 @@
     "transactions": [],
     "verified_txs": 0,
     "requirements": {
-      "demo": false,
+      "demo": true,
       "video": false,
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-10-02T20:07:38Z",
+    "pushed_at": "2026-10-02T23:58:08Z",
     "stars": 0,
     "builders": [
       {
@@ -51,13 +51,13 @@
       "2026-08-29",
       "2026-08-30"
     ],
-    "head_sha": "fef8bf5138d00ad2ab80f2c62931b36d978a7363",
+    "head_sha": "b25d17293773267c5eb89af1b8547e4c6275e9ab",
     "readme_hash": "eb8bfad34c093568",
     "desc_v6": true,
-    "churn_pct": 7,
+    "churn_pct": 0.6,
     "summary": "Explore a 3D city of Starknet privacy protocols with interactive features.",
     "description_long": "STRKWORLD is a 3D walkable city where buildings represent privacy-preserving protocols on Starknet. Users can navigate a shared pseudonymous world, engaging with various functionalities such as the Bank for private transfers, the Exchange for swaps, and a multiplayer football pitch. Built on STRK20, the project includes components like a web application shell, backend proxy, and individual packages that handle privacy operations, cross-chain funding, and real-time multiplayer presence.",
-    "latest_push": "Added the leaderboard phase 1 with receipts and placement stand.",
+    "latest_push": "Removed merge markers in the DECISIONS file and fixed leaderboard receipts.",
     "tooling": [
       {
         "label": "TypeScript",
@@ -76,11 +76,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 14172,
-    "deletions": 1269,
+    "additions": 1233,
+    "deletions": 53,
     "sprint": {
       "pushes": 1037,
-      "additions": 35426,
+      "additions": 35507,
       "deletions": 101,
       "computed": 3
     },
@@ -93,6 +93,116 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "stake-wars",
+    "name": "Stake Wars",
+    "one_liner": "Persistent onchain strategy game with private Vickrey Beacon auctions: bids stay sealed until settlement through STRK20.",
+    "category": "Gaming",
+    "repo_url": "https://github.com/broody/stake-wars",
+    "demo_url": "https://stakewars.gg",
+    "demo_video": "https://assets.stakewars.gg/demo/strk20-hackathon-demo.mp4",
+    "x_handle": "",
+    "inspired_by": "RFP-08",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "StakeWars lacks innovative privacy features and engineering depth.",
+    "contracts": [
+      {
+        "address": "0x07e50e2acad557379785d671d6dde25cde4e18714470b6619f764233cc12b509",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x02fcc3ef7b4068bc48387ae6b5fe967ae218e446d5bfc44c372fe8447da2caea",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x0571f6c1946da7d5247aad0cfc549cbb9633ec92338c938de2b8d54790c4819a",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x04b10fcdd0b5c2090d76cac4d040acdac3596e9c9abf52d866445e3702e5150a",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 3,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-10-02T22:15:00Z",
+    "stars": 2,
+    "builders": [
+      {
+        "login": "broody",
+        "name": "broody",
+        "avatar_url": "https://avatars.githubusercontent.com/u/610224?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-04",
+      "2026-09-07"
+    ],
+    "head_sha": "87105b886290990810712cd6d0a8c305b63da368",
+    "readme_hash": "85b2260a775a20af",
+    "desc_v6": true,
+    "summary": "A persistent non-custodial strategy game where players battle for territory using delegated STRK.",
+    "description_long": "Stake Wars is a strategy game that allows players to deploy their delegated STRK to capture and defend territories without creating a separate token or transferring custody away from Starknet's staking system. The repository includes a web application built with React and TypeScript, a Go API, and Cairo contracts for the game mechanics, including an open ascending auction system for controlling the game's beacon.",
+    "latest_push": "Breach enemy spawns with sector flipping and added strike impact effects.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 2404,
+    "deletions": 86,
+    "churn_pct": 4.4,
+    "sprint": {
+      "pushes": 144,
+      "additions": 39846,
+      "deletions": 245,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "This project operates as a game without unique private mechanisms.",
+      "why_complex": "There are no deployed contracts or complex Cairo implementations.",
+      "reason": "StakeWars lacks innovative privacy features and engineering depth.",
+      "facts_v2": true
+    },
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "client",
@@ -130,7 +240,6 @@
     "head_sha": "8062c438b092ddfad281d2b56b3117bef1ec0387",
     "readme_hash": "",
     "desc_v6": true,
-    "churn_pct": 2,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
     "latest_push": "Hardened live deployment checks in multiple components and tests.",
@@ -169,6 +278,7 @@
     "has_readme": false,
     "additions": 524,
     "deletions": 91,
+    "churn_pct": 2,
     "sprint": {
       "pushes": 0,
       "additions": 17668,
@@ -232,7 +342,6 @@
     "head_sha": "5ee565bc333e161bd2e9afb7efea53edb3e45eb4",
     "readme_hash": "58d4bf16af6e9723",
     "desc_v6": true,
-    "churn_pct": 1.2,
     "summary": "A multichain API gateway for stablecoin payment intents.",
     "description_long": "Beanie provisions a dedicated, non-custodial receiving address on six supported chains for merchants. Customers can pay on any of those chains, and Beanie settles the payment on the selected chain, ensuring funds never touch Beanie. It includes features like gasless payments, pinned settlement for security, and signed webhooks for notifications.",
     "latest_push": "Updated stealth dependencies and co-signer disclosure pattern.",
@@ -251,6 +360,7 @@
     "has_readme": true,
     "additions": 154,
     "deletions": 143,
+    "churn_pct": 1.2,
     "sprint": {
       "pushes": 37,
       "additions": 19960,
@@ -575,116 +685,6 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "stake-wars",
-    "name": "Stake Wars",
-    "one_liner": "Persistent onchain strategy game with private Vickrey Beacon auctions: bids stay sealed until settlement through STRK20.",
-    "category": "Gaming",
-    "repo_url": "https://github.com/broody/stake-wars",
-    "demo_url": "https://stakewars.gg",
-    "demo_video": "https://assets.stakewars.gg/demo/strk20-hackathon-demo.mp4",
-    "x_handle": "",
-    "inspired_by": "RFP-08",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "StakeWars lacks innovative privacy features and engineering depth.",
-    "contracts": [
-      {
-        "address": "0x07e50e2acad557379785d671d6dde25cde4e18714470b6619f764233cc12b509",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x02fcc3ef7b4068bc48387ae6b5fe967ae218e446d5bfc44c372fe8447da2caea",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x0571f6c1946da7d5247aad0cfc549cbb9633ec92338c938de2b8d54790c4819a",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x04b10fcdd0b5c2090d76cac4d040acdac3596e9c9abf52d866445e3702e5150a",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-10-02T00:37:34Z",
-    "stars": 2,
-    "builders": [
-      {
-        "login": "broody",
-        "name": "broody",
-        "avatar_url": "https://avatars.githubusercontent.com/u/610224?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-04",
-      "2026-09-07"
-    ],
-    "head_sha": "87105b886290990810712cd6d0a8c305b63da368",
-    "readme_hash": "85b2260a775a20af",
-    "desc_v6": true,
-    "summary": "A persistent non-custodial strategy game where players battle for territory using delegated STRK.",
-    "description_long": "Stake Wars is a strategy game that allows players to deploy their delegated STRK to capture and defend territories without creating a separate token or transferring custody away from Starknet's staking system. The repository includes a web application built with React and TypeScript, a Go API, and Cairo contracts for the game mechanics, including an open ascending auction system for controlling the game's beacon.",
-    "latest_push": "Breach enemy spawns with sector flipping and added strike impact effects.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 2404,
-    "deletions": 86,
-    "churn_pct": 4.4,
-    "sprint": {
-      "pushes": 144,
-      "additions": 39846,
-      "deletions": 245,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "This project operates as a game without unique private mechanisms.",
-      "why_complex": "There are no deployed contracts or complex Cairo implementations.",
-      "reason": "StakeWars lacks innovative privacy features and engineering depth.",
-      "facts_v2": true
-    },
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "iwa",
