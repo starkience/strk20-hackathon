@@ -1,5 +1,105 @@
 [
   {
+    "slug": "vocap",
+    "name": "VOCAP",
+    "one_liner": "Private programmable capabilities for Starknet, enforced by STRK20 assets.",
+    "category": "Infra",
+    "repo_url": "https://github.com/CryptoZephyr/VOCAP",
+    "demo_url": "https://vocap-protocol.vercel.app",
+    "demo_video": "https://youtu.be/MDVseyfmYD8?si=0YqOKhIDliBYo-_v",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x6048ed36607367ea5ae050c745d47006214ecf66fdbf173d01eba96ec5d780a",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x74637f577350898c64835c88216df3030050828c723c6987a3d97d6d4eb986b",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x3e1acf0c893cb5697d48295d629e86fdddd1f8ff1fd1d307c7f2ecab8c7616f",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x290d3683e674714a79676be0fc13819fc410e0b7e3abb2551529e28a52f83e0",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0xd4be56bfd8b0402e150ced5ee7f8b9c912722f9e4e940d1cc1eda7ee2098d3",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      }
+    ],
+    "verified_txs": 3,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-10-03T20:58:06Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "CryptoZephyr",
+        "name": "CryptoZephyr",
+        "avatar_url": "https://avatars.githubusercontent.com/u/192461816?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-31",
+      "2026-09-03"
+    ],
+    "head_sha": "81bf0e3dae32c2be010d382cb19a9651e12df87e",
+    "readme_hash": "4162d77e8519c4eb",
+    "desc_v6": true,
+    "churn_pct": 0.1,
+    "summary": "Trigger approved Starknet actions using private STRK20 capabilities.",
+    "description_long": "VOCAP allows users to apply private STRK20 capabilities to a single configured action while maintaining privacy for the holder and the flow of notes. It is built using Starknet Privacy and STRK20, and combines user-controlled clients with policy-bound routing to check approvals, execute transactions, and return fresh private notes, all while keeping sensitive inputs secure within the user's environment.",
+    "latest_push": "Fixed RPC batching in indexer and pinned approved logo hash in hero test.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 4,
+    "deletions": 7,
+    "sprint": {
+      "pushes": 75,
+      "additions": 15006,
+      "deletions": 332,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
     "slug": "strkworld",
     "name": "STRKWORLD",
     "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
@@ -21,7 +121,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-10-03T18:31:59Z",
+    "pushed_at": "2026-10-03T18:56:09Z",
     "stars": 0,
     "builders": [
       {
@@ -51,13 +151,13 @@
       "2026-08-29",
       "2026-08-30"
     ],
-    "head_sha": "697c9a748cb6f5c0c6a781deff2291fc6f427b3a",
+    "head_sha": "e3fa6e7810ce9fc6567f1a91d4710a6d10c5c5f6",
     "readme_hash": "eb8bfad34c093568",
     "desc_v6": true,
-    "churn_pct": 1.6,
+    "churn_pct": 2.3,
     "summary": "Explore a 3D city of Starknet privacy protocols with interactive features.",
     "description_long": "STRKWORLD is a 3D walkable city where buildings represent privacy-preserving protocols on Starknet. Users can navigate a shared pseudonymous world, engaging with various functionalities such as the Bank for private transfers, the Exchange for swaps, and a multiplayer football pitch. Built on STRK20, the project includes components like a web application shell, backend proxy, and individual packages that handle privacy operations, cross-chain funding, and real-time multiplayer presence.",
-    "latest_push": "Polished the arena with visible blocks, movable labels, and an interactive throne.",
+    "latest_push": "Gated the football pitch for a 2v2 match between STARKS and SNARKS.",
     "tooling": [
       {
         "label": "TypeScript",
@@ -76,11 +176,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 3443,
-    "deletions": 446,
+    "additions": 5308,
+    "deletions": 379,
     "sprint": {
       "pushes": 1037,
-      "additions": 36361,
+      "additions": 36442,
       "deletions": 101,
       "computed": 3
     },
@@ -166,7 +266,6 @@
     "head_sha": "e8bcf5465e07e602378c19f55269f777ede38d31",
     "readme_hash": "669ffb55f6f14d92",
     "desc_v6": true,
-    "churn_pct": 3.6,
     "summary": "Conduct sealed-bid auctions on STRK20 where losing bids remain private.",
     "description_long": "Vickrey allows users to participate in sealed-bid auctions on STRK20 with guarantees of bid privacy. It achieves this through hash-preimage proofs that validate the winning bid and clearing price on-chain, while keeping losing bids secret. The project includes an auction contract, an anonymizer helper, a client library, and a web app interfacing with all contracts, though full auction settlement on mainnet has not yet been completed.",
     "latest_push": "Fixed gaps in claim-secret and dispute for v1 contracts.",
@@ -185,6 +284,7 @@
     "has_readme": true,
     "additions": 803,
     "deletions": 161,
+    "churn_pct": 3.6,
     "sprint": {
       "pushes": 179,
       "additions": 24859,
@@ -1465,7 +1565,7 @@
     "contracts": [
       {
         "address": "0x2d329a8c65adccb51b17ef5274e7234c998dc29c02dc2c7a3c6d064af341cbe",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
@@ -1594,7 +1694,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+    "star_evidence": "1 contract deployed, Cairo in the repository"
   },
   {
     "slug": "vinss",
@@ -2107,7 +2207,7 @@
     "contracts": [
       {
         "address": "0x6fe4d02056825f06683604f8a98912504cf86bce0de5ff19b424995eb1cf57",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0xd39db387767383af7be6a90d4bf394abf9d7f63db109056d5b30798a6f7e2e",
@@ -2281,7 +2381,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "strk20-privacy-wallet",
@@ -7640,7 +7740,7 @@
     "contracts": [
       {
         "address": "0x499ec578062d3f9c084e90289c68fb1475558845e59cf470b80357fe2d0709b",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
@@ -7737,7 +7837,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+    "star_evidence": "1 contract deployed, Cairo in the repository"
   },
   {
     "slug": "cutout",
@@ -11182,106 +11282,6 @@
     },
     "assessment": null,
     "star_evidence": ""
-  },
-  {
-    "slug": "vocap",
-    "name": "VOCAP",
-    "one_liner": "Private programmable capabilities for Starknet, enforced by STRK20 assets.",
-    "category": "Infra",
-    "repo_url": "https://github.com/CryptoZephyr/VOCAP",
-    "demo_url": "https://vocap-protocol.vercel.app",
-    "demo_video": "https://youtu.be/MDVseyfmYD8?si=0YqOKhIDliBYo-_v",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x6048ed36607367ea5ae050c745d47006214ecf66fdbf173d01eba96ec5d780a",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x74637f577350898c64835c88216df3030050828c723c6987a3d97d6d4eb986b",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x3e1acf0c893cb5697d48295d629e86fdddd1f8ff1fd1d307c7f2ecab8c7616f",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x290d3683e674714a79676be0fc13819fc410e0b7e3abb2551529e28a52f83e0",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0xd4be56bfd8b0402e150ced5ee7f8b9c912722f9e4e940d1cc1eda7ee2098d3",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-03T12:32:23Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "CryptoZephyr",
-        "name": "CryptoZephyr",
-        "avatar_url": "https://avatars.githubusercontent.com/u/192461816?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-24",
-      "2026-08-25",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-31",
-      "2026-09-03"
-    ],
-    "head_sha": "b592758414f000dc3914d5c085fd3e0af68ad965",
-    "readme_hash": "4162d77e8519c4eb",
-    "desc_v6": true,
-    "summary": "Trigger approved Starknet actions using private STRK20 capabilities.",
-    "description_long": "VOCAP allows users to apply private STRK20 capabilities to a single configured action while maintaining privacy for the holder and the flow of notes. It is built using Starknet Privacy and STRK20, and combines user-controlled clients with policy-bound routing to check approvals, execute transactions, and return fresh private notes, all while keeping sensitive inputs secure within the user's environment.",
-    "latest_push": "Rebuilt the developer documentation across multiple files.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 362,
-    "deletions": 69,
-    "churn_pct": 5.4,
-    "sprint": {
-      "pushes": 75,
-      "additions": 15009,
-      "deletions": 332,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "privpatch",
