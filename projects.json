@@ -1,5 +1,100 @@
 [
   {
+    "slug": "strkworld",
+    "name": "STRKWORLD",
+    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
+    "category": "Gaming",
+    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
+    "demo_url": "https://railway.com/project/408b8273-8ba2-47f2-8db5-7f1ef4922a56?environmentId=ed731039-5588-41ef-9492-ae2a21ac3684",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "starkware",
+    "starred": false,
+    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-10-03T23:42:01Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Calcutatator",
+        "name": "Calcutator",
+        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 55
+      }
+    ],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "head_sha": "16779de9a31dcd9259b45d9b4a9c7187f34ce946",
+    "readme_hash": "eb8bfad34c093568",
+    "desc_v6": true,
+    "churn_pct": 1.6,
+    "summary": "Explore a 3D city of Starknet privacy protocols with interactive features.",
+    "description_long": "STRKWORLD is a 3D walkable city where buildings represent privacy-preserving protocols on Starknet. Users can navigate a shared pseudonymous world, engaging with various functionalities such as the Bank for private transfers, the Exchange for swaps, and a multiplayer football pitch. Built on STRK20, the project includes components like a web application shell, backend proxy, and individual packages that handle privacy operations, cross-chain funding, and real-time multiplayer presence.",
+    "latest_push": "Fixed the leaderboard test's temp-dir cleanup race issue.",
+    "tooling": [
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 3628,
+    "deletions": 309,
+    "sprint": {
+      "pushes": 1037,
+      "additions": 36619,
+      "deletions": 101,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
+      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
+      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+      "facts_v2": true
+    },
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "vocap",
     "name": "VOCAP",
     "one_liner": "Private programmable capabilities for Starknet, enforced by STRK20 assets.",
@@ -71,7 +166,6 @@
     "head_sha": "81bf0e3dae32c2be010d382cb19a9651e12df87e",
     "readme_hash": "4162d77e8519c4eb",
     "desc_v6": true,
-    "churn_pct": 0.1,
     "summary": "Trigger approved Starknet actions using private STRK20 capabilities.",
     "description_long": "VOCAP allows users to apply private STRK20 capabilities to a single configured action while maintaining privacy for the holder and the flow of notes. It is built using Starknet Privacy and STRK20, and combines user-controlled clients with policy-bound routing to check approvals, execute transactions, and return fresh private notes, all while keeping sensitive inputs secure within the user's environment.",
     "latest_push": "Fixed RPC batching in indexer and pinned approved logo hash in hero test.",
@@ -90,6 +184,7 @@
     "has_readme": true,
     "additions": 4,
     "deletions": 7,
+    "churn_pct": 0.1,
     "sprint": {
       "pushes": 75,
       "additions": 15006,
@@ -98,101 +193,6 @@
     },
     "assessment": null,
     "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "strkworld",
-    "name": "STRKWORLD",
-    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
-    "category": "Gaming",
-    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
-    "demo_url": "https://railway.com/project/408b8273-8ba2-47f2-8db5-7f1ef4922a56?environmentId=ed731039-5588-41ef-9492-ae2a21ac3684",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "starkware",
-    "starred": false,
-    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-10-03T18:56:09Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Calcutatator",
-        "name": "Calcutator",
-        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 55
-      }
-    ],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30"
-    ],
-    "head_sha": "e3fa6e7810ce9fc6567f1a91d4710a6d10c5c5f6",
-    "readme_hash": "eb8bfad34c093568",
-    "desc_v6": true,
-    "churn_pct": 2.3,
-    "summary": "Explore a 3D city of Starknet privacy protocols with interactive features.",
-    "description_long": "STRKWORLD is a 3D walkable city where buildings represent privacy-preserving protocols on Starknet. Users can navigate a shared pseudonymous world, engaging with various functionalities such as the Bank for private transfers, the Exchange for swaps, and a multiplayer football pitch. Built on STRK20, the project includes components like a web application shell, backend proxy, and individual packages that handle privacy operations, cross-chain funding, and real-time multiplayer presence.",
-    "latest_push": "Gated the football pitch for a 2v2 match between STARKS and SNARKS.",
-    "tooling": [
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 5308,
-    "deletions": 379,
-    "sprint": {
-      "pushes": 1037,
-      "additions": 36442,
-      "deletions": 101,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
-      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
-      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-      "facts_v2": true
-    },
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "vickrey",
@@ -1565,7 +1565,7 @@
     "contracts": [
       {
         "address": "0x2d329a8c65adccb51b17ef5274e7234c998dc29c02dc2c7a3c6d064af341cbe",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
@@ -1694,7 +1694,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed, Cairo in the repository"
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "vinss",
@@ -2207,7 +2207,7 @@
     "contracts": [
       {
         "address": "0x6fe4d02056825f06683604f8a98912504cf86bce0de5ff19b424995eb1cf57",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0xd39db387767383af7be6a90d4bf394abf9d7f63db109056d5b30798a6f7e2e",
@@ -2381,7 +2381,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "strk20-privacy-wallet",
@@ -7740,7 +7740,7 @@
     "contracts": [
       {
         "address": "0x499ec578062d3f9c084e90289c68fb1475558845e59cf470b80357fe2d0709b",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
@@ -7837,7 +7837,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed, Cairo in the repository"
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "cutout",
