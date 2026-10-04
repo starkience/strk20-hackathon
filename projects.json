@@ -1,5 +1,96 @@
 [
   {
+    "slug": "client",
+    "name": "client",
+    "one_liner": "Zylith trading and liquidity client.",
+    "category": "Other",
+    "repo_url": "https://github.com/ZylithFi/client",
+    "demo_url": "https://zylith-app-tanyas-projects-917ef9e3.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The project lacks privacy application and real engineering depth.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-10-04T17:03:35Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "tanctl",
+        "name": "tanctl",
+        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [],
+    "head_sha": "19b866133a4c26fd1d002d3185a00f49f2a0b086",
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0.5,
+    "summary": "A trading and liquidity web app for Zylith.",
+    "description_long": "",
+    "latest_push": "Aligned the privacy stack in several core files and tests.",
+    "tooling": [
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": false,
+    "additions": 140,
+    "deletions": 44,
+    "sprint": {
+      "pushes": 0,
+      "additions": 17668,
+      "deletions": 12343,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
+      "why_complex": "No deployed contracts or complex engineering present in the stack.",
+      "reason": "The project lacks privacy application and real engineering depth.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
     "slug": "vickrey",
     "name": "Vickrey",
     "one_liner": "Sealed-bid Vickrey auctions on STRK20 — the losing bids are never published. Live demo and full write-up at vickrey.0xo.in/docs",
@@ -57,7 +148,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-04T12:07:46Z",
+    "pushed_at": "2026-10-04T15:37:38Z",
     "stars": 0,
     "builders": [
       {
@@ -76,13 +167,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "658f5be2e85d3dd5a150c0825ca30aa37b52380d",
+    "head_sha": "bf29f9dd3423355944a30c21a5ffa5590c229a15",
     "readme_hash": "0f98b4e053e3f264",
     "desc_v6": true,
-    "churn_pct": 29.2,
+    "churn_pct": 0.1,
     "summary": "Conduct sealed-bid auctions that preserve bid privacy.",
     "description_long": "Enables sealed-bid auctions on STRK20 where only the winning bid and clearing price are published on-chain. Bids are securely hashed and verified using proof systems, ensuring that losing bids remain confidential. The system includes an auction contract, anonymizer helper, and various client-side tools, all built with a focus on maintaining bidder privacy while utilizing unique hash-preimage constructions.",
-    "latest_push": "Implemented v2 auction and anonymizer contracts with corresponding client updates.",
+    "latest_push": "Fixed wording to indicate private collect is waiting on the pool.",
     "tooling": [
       {
         "label": "Cairo",
@@ -96,202 +187,16 @@
       }
     ],
     "has_readme": true,
-    "additions": 6985,
-    "deletions": 2362,
+    "additions": 15,
+    "deletions": 11,
     "sprint": {
       "pushes": 179,
-      "additions": 24656,
+      "additions": 24660,
       "deletions": 2,
       "computed": 3
     },
     "assessment": null,
     "star_evidence": "4 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "client",
-    "name": "client",
-    "one_liner": "Zylith trading and liquidity client.",
-    "category": "Other",
-    "repo_url": "https://github.com/ZylithFi/client",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project lacks privacy application and real engineering depth.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-10-04T11:19:12Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "tanctl",
-        "name": "tanctl",
-        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [],
-    "head_sha": "68d784b7592e762ff6a72d315e1ba6deca8e0fae",
-    "readme_hash": "",
-    "desc_v6": true,
-    "churn_pct": 24,
-    "summary": "A trading and liquidity web app for Zylith.",
-    "description_long": "",
-    "latest_push": "Aligned the privacy stack and ensured protocol coherence throughout.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": false,
-    "additions": 7180,
-    "deletions": 1585,
-    "sprint": {
-      "pushes": 0,
-      "additions": 17668,
-      "deletions": 12343,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
-      "why_complex": "No deployed contracts or complex engineering present in the stack.",
-      "reason": "The project lacks privacy application and real engineering depth.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
-  },
-  {
-    "slug": "strkworld",
-    "name": "STRKWORLD",
-    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
-    "category": "Gaming",
-    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
-    "demo_url": "https://railway.com/project/408b8273-8ba2-47f2-8db5-7f1ef4922a56?environmentId=ed731039-5588-41ef-9492-ae2a21ac3684",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "starkware",
-    "starred": false,
-    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-10-04T11:06:46Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Calcutatator",
-        "name": "Calcutator",
-        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 55
-      }
-    ],
-    "active_days": [
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30"
-    ],
-    "head_sha": "c23f1dcf9281170635062f5cc96e210ef86b4521",
-    "readme_hash": "eb8bfad34c093568",
-    "desc_v6": true,
-    "churn_pct": 3.2,
-    "summary": "Explore a 3D city of Starknet privacy protocols with interactive features.",
-    "description_long": "STRKWORLD is a 3D walkable city where buildings represent privacy-preserving protocols on Starknet. Users can navigate a shared pseudonymous world, engaging with various functionalities such as the Bank for private transfers, the Exchange for swaps, and a multiplayer football pitch. Built on STRK20, the project includes components like a web application shell, backend proxy, and individual packages that handle privacy operations, cross-chain funding, and real-time multiplayer presence.",
-    "latest_push": "Added a skyline to the north district and enhanced the sky beyond the rim.",
-    "tooling": [
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 7856,
-    "deletions": 639,
-    "sprint": {
-      "pushes": 1037,
-      "additions": 37185,
-      "deletions": 101,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
-      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
-      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
-      "facts_v2": true
-    },
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "stake-wars",
@@ -373,7 +278,6 @@
     "head_sha": "90c5c675aa03e152c8488c437cb8c3ff4953a475",
     "readme_hash": "85b2260a775a20af",
     "desc_v6": true,
-    "churn_pct": 1.1,
     "summary": "A persistent non-custodial strategy game where players battle for territory using delegated STRK.",
     "description_long": "Stake Wars is a strategy game that allows players to deploy their delegated STRK to capture and defend territories without creating a separate token or transferring custody away from Starknet's staking system. The repository includes a web application built with React and TypeScript, a Go API, and Cairo contracts for the game mechanics, including an open ascending auction system for controlling the game's beacon.",
     "latest_push": "Restored the keeper's periodic Operator synchronization functionality.",
@@ -387,6 +291,7 @@
     "has_readme": true,
     "additions": 610,
     "deletions": 6,
+    "churn_pct": 1.1,
     "sprint": {
       "pushes": 144,
       "additions": 40185,
@@ -9702,7 +9607,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and relayer role for Starknet.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -14284,7 +14189,7 @@
     },
     "status": "finished",
     "pushed_at": "2026-08-30T10:36:13Z",
-    "stars": 0,
+    "stars": 1,
     "builders": [
       {
         "login": "A-Raphie",
@@ -21256,6 +21161,78 @@
       "why_innovative": "This project operates as a payment platform prioritizing privacy for rent transactions.",
       "why_complex": "No complex contracts or Cairo code are implemented in the project as of now.",
       "reason": "The project is a privacy payment platform, an obvious use case in the blockchain space.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
+    "slug": "strkworld",
+    "name": "STRKWORLD",
+    "one_liner": "A 2D top-down city where the buildings are Starknet privacy protocols",
+    "category": "Gaming",
+    "repo_url": "https://github.com/Calcutatator/STRKWORLD",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "starkware",
+    "starred": false,
+    "star_reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Calcutatator",
+        "name": "Calcutator",
+        "avatar_url": "https://avatars.githubusercontent.com/u/114863662?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "Explore a 2D city built with Starknet privacy protocols.",
+    "description_long": "This project is a 2D top-down city where various buildings represent different Starknet privacy protocols. It serves as an interactive visualization of these technologies within a simulated urban environment.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 1037,
+      "additions": 37185,
+      "deletions": 101,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "The project applies privacy to buildings where financial actions are taken, which is a standard idea.",
+      "why_complex": "There are no deployed contracts or advanced Cairo code provided at this stage.",
+      "reason": "The concept exists but lacks implemented complexity or innovative privacy applications.",
       "facts_v2": true
     },
     "star_evidence": ""
