@@ -1,5 +1,96 @@
 [
   {
+    "slug": "client",
+    "name": "client",
+    "one_liner": "Zylith trading and liquidity client.",
+    "category": "Other",
+    "repo_url": "https://github.com/ZylithFi/client",
+    "demo_url": "https://zylith-app-tanyas-projects-917ef9e3.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The project lacks privacy application and real engineering depth.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-10-05T16:34:09Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "tanctl",
+        "name": "tanctl",
+        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [],
+    "head_sha": "8831b681826a9712c4a16536735f36f474f80363",
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 13.9,
+    "summary": "A trading and liquidity web app for Zylith.",
+    "description_long": "",
+    "latest_push": "Aligned runtime for better performance across various components.",
+    "tooling": [
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": false,
+    "additions": 2558,
+    "deletions": 2522,
+    "sprint": {
+      "pushes": 0,
+      "additions": 17668,
+      "deletions": 12343,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
+      "why_complex": "No deployed contracts or complex engineering present in the stack.",
+      "reason": "The project lacks privacy application and real engineering depth.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
     "slug": "vickrey",
     "name": "Vickrey",
     "one_liner": "Sealed-bid Vickrey auctions on STRK20 — the losing bids are never published. Live demo and full write-up at vickrey.0xo.in/docs",
@@ -79,7 +170,6 @@
     "head_sha": "7498d91e1f664a540ec62bf0ec6f6a6406c7c22f",
     "readme_hash": "c9bed31846ae2d70",
     "desc_v6": true,
-    "churn_pct": 0.3,
     "summary": "Conduct sealed-bid auctions with private bids and encrypted reveals.",
     "description_long": "Vickrey enables sealed-bid auctions on the Starknet blockchain where losing bids are not disclosed. It uses hash-preimage proofs to validate the winning bid and price while keeping all bid amounts hidden from the auctioneer and public. The auction relies on two separate rails for bid confidentiality: a public option and a private rail that hides the user's address.",
     "latest_push": "Added the mainnet demo to the landing page and README with a play badge.",
@@ -98,6 +188,7 @@
     "has_readme": true,
     "additions": 90,
     "deletions": 0,
+    "churn_pct": 0.3,
     "sprint": {
       "pushes": 179,
       "additions": 24667,
@@ -211,97 +302,6 @@
     },
     "assessment": null,
     "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "client",
-    "name": "client",
-    "one_liner": "Zylith trading and liquidity client.",
-    "category": "Other",
-    "repo_url": "https://github.com/ZylithFi/client",
-    "demo_url": "https://zylith-app-tanyas-projects-917ef9e3.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project lacks privacy application and real engineering depth.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-10-04T19:14:34Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "tanctl",
-        "name": "tanctl",
-        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [],
-    "head_sha": "5eba0d4e3770d55de0afad71592124d7d39b9c6b",
-    "readme_hash": "",
-    "desc_v6": true,
-    "summary": "A trading and liquidity web app for Zylith.",
-    "description_long": "",
-    "latest_push": "Implemented protocol coherence and adjusted related JSON configurations.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": false,
-    "additions": 7274,
-    "deletions": 1592,
-    "churn_pct": 24.2,
-    "sprint": {
-      "pushes": 0,
-      "additions": 17668,
-      "deletions": 12343,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
-      "why_complex": "No deployed contracts or complex engineering present in the stack.",
-      "reason": "The project lacks privacy application and real engineering depth.",
-      "facts_v2": true
-    },
-    "star_evidence": ""
   },
   {
     "slug": "erebus",
