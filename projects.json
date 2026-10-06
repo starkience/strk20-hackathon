@@ -1,197 +1,5 @@
 [
   {
-    "slug": "sage",
-    "name": "Sage",
-    "one_liner": "An autonomous agent that judges human work and pays for it — addressing each payout to a person rather than a wallet, so someone with no wallet and no gas can still collect, and who was paid stays private.",
-    "category": "Payments",
-    "repo_url": "https://github.com/shariqazeem/sage",
-    "demo_url": "https://sagepays.xyz",
-    "demo_video": "https://sagepays.xyz/videos/sage-demo-3min.mp4",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x6fe4d02056825f06683604f8a98912504cf86bce0de5ff19b424995eb1cf57",
-        "network": "mainnet"
-      },
-      {
-        "address": "0xd39db387767383af7be6a90d4bf394abf9d7f63db109056d5b30798a6f7e2e",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0xb4a7cb07289eb2137bf4e13726f406154c1fef48d20625687af5acbf60b735",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x74e73f2964bd14f8383ea9322b7591e8039b8205c57ed7b1b514a8fa1e164cb",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x6ec8165b2d59600371a6e54552222d643c1bffcf5f73e66a1950f0cb9ca67a3",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x27653876982a1373f38fb288a7fde55c8b51d52f25daa4511f3875b1badbfe4",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x72838f509d6dae3e570e6536167c166f06d4a92f68fce849c10fe1b29983f8",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x3f5560da3ab523ac61482273d55fac1828af323bf7bdfca38a0af6b147d99cd",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x3e701491bac266374f7f78c91ddec30ae0bbaae4cf40f02c499474c3963454",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x2337afda7ef311c4bd515d66feb78f0903f16b3cc23e49ef7fb7702fe1bb54",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x51a779fc1dc5ac7ae3574b57b7535e908ddc9683cc3c89bb7181adb495e8e7b",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x604cf9c39ee0460ceaabbd415701408117eecdc4aa7e9281c9f614dae0ffef0",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      }
-    ],
-    "verified_txs": 4,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-10-05T22:49:39Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "shariqazeem",
-        "name": "Shariq Shaukat",
-        "avatar_url": "https://avatars.githubusercontent.com/u/101935656?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Fable 5.1",
-        "avatar_url": "",
-        "commits": 644
-      }
-    ],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "d95859a2103400424e0eeadc864a2068e9d089eb",
-    "readme_hash": "72b894827195039c",
-    "desc_v6": true,
-    "churn_pct": 0.7,
-    "summary": "An AI agent that autonomously pays for verified work without revealing recipient details.",
-    "description_long": "Sage autonomously inspects completed tasks, verifies their quality, and decides on payments in USDC from a controlled vault, ensuring privacy for recipients. Built on Starknet, it uses on-chain transactions to execute decisions made by the AI agent, which escrow payments behind commitments to prevent traceability. The system allows for private payouts and operates a feedback loop where funds can be advanced and repaid through verified transactions.",
-    "latest_push": "Aligned the public job feed for cross-origin readability and added an anchor.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 1477,
-    "deletions": 11,
-    "sprint": {
-      "pushes": 716,
-      "additions": 33211,
-      "deletions": 4345,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
     "slug": "client",
     "name": "client",
     "one_liner": "Zylith trading and liquidity client.",
@@ -213,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-10-05T22:08:29Z",
+    "pushed_at": "2026-10-06T06:45:25Z",
     "stars": 0,
     "builders": [
       {
@@ -224,13 +32,13 @@
     ],
     "agents": [],
     "active_days": [],
-    "head_sha": "2cb634f5497fe7bb536f3edac77bdee240974ce0",
+    "head_sha": "1ae3b28a36712f0aed53c91e99163b9cc979d716",
     "readme_hash": "",
     "desc_v6": true,
-    "churn_pct": 2.7,
+    "churn_pct": 0.3,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
-    "latest_push": "Aligned the runtime and adjusted multiple test and source files.",
+    "latest_push": "Aligned the runtime and adjusted component files accordingly.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -264,8 +72,8 @@
       }
     ],
     "has_readme": false,
-    "additions": 876,
-    "deletions": 139,
+    "additions": 78,
+    "deletions": 19,
     "sprint": {
       "pushes": 0,
       "additions": 17668,
@@ -365,7 +173,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-05T20:59:06Z",
+    "pushed_at": "2026-10-06T06:29:57Z",
     "stars": 4,
     "builders": [
       {
@@ -444,6 +252,198 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "sage",
+    "name": "Sage",
+    "one_liner": "An autonomous agent that judges human work and pays for it — addressing each payout to a person rather than a wallet, so someone with no wallet and no gas can still collect, and who was paid stays private.",
+    "category": "Payments",
+    "repo_url": "https://github.com/shariqazeem/sage",
+    "demo_url": "https://sagepays.xyz",
+    "demo_video": "https://sagepays.xyz/videos/sage-demo-3min.mp4",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x6fe4d02056825f06683604f8a98912504cf86bce0de5ff19b424995eb1cf57",
+        "network": "mainnet"
+      },
+      {
+        "address": "0xd39db387767383af7be6a90d4bf394abf9d7f63db109056d5b30798a6f7e2e",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0xb4a7cb07289eb2137bf4e13726f406154c1fef48d20625687af5acbf60b735",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x74e73f2964bd14f8383ea9322b7591e8039b8205c57ed7b1b514a8fa1e164cb",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x6ec8165b2d59600371a6e54552222d643c1bffcf5f73e66a1950f0cb9ca67a3",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x27653876982a1373f38fb288a7fde55c8b51d52f25daa4511f3875b1badbfe4",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x72838f509d6dae3e570e6536167c166f06d4a92f68fce849c10fe1b29983f8",
+        "ok": true,
+        "pool": false,
+        "mine": false,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x3f5560da3ab523ac61482273d55fac1828af323bf7bdfca38a0af6b147d99cd",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x3e701491bac266374f7f78c91ddec30ae0bbaae4cf40f02c499474c3963454",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x2337afda7ef311c4bd515d66feb78f0903f16b3cc23e49ef7fb7702fe1bb54",
+        "ok": true,
+        "pool": false,
+        "mine": false,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x51a779fc1dc5ac7ae3574b57b7535e908ddc9683cc3c89bb7181adb495e8e7b",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x604cf9c39ee0460ceaabbd415701408117eecdc4aa7e9281c9f614dae0ffef0",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      }
+    ],
+    "verified_txs": 4,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-10-06T04:07:37Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "shariqazeem",
+        "name": "Shariq Shaukat",
+        "avatar_url": "https://avatars.githubusercontent.com/u/101935656?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Fable 5.1",
+        "avatar_url": "",
+        "commits": 646
+      }
+    ],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "addc879082b1c659f0a6bb254a8e74fb31bcfb0c",
+    "readme_hash": "72b894827195039c",
+    "desc_v6": true,
+    "churn_pct": 0.5,
+    "summary": "An AI agent that autonomously pays for verified work without revealing recipient details.",
+    "description_long": "Sage autonomously inspects completed tasks, verifies their quality, and decides on payments in USDC from a controlled vault, ensuring privacy for recipients. Built on Starknet, it uses on-chain transactions to execute decisions made by the AI agent, which escrow payments behind commitments to prevent traceability. The system allows for private payouts and operates a feedback loop where funds can be advanced and repaid through verified transactions.",
+    "latest_push": "Added the Keynote deck and rehearsal scripts for the demo day.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 969,
+    "deletions": 133,
+    "sprint": {
+      "pushes": 716,
+      "additions": 15186,
+      "deletions": 112,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "vickrey",
@@ -9607,7 +9607,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning for Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
