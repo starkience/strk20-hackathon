@@ -35,7 +35,6 @@
     "head_sha": "1ae3b28a36712f0aed53c91e99163b9cc979d716",
     "readme_hash": "",
     "desc_v6": true,
-    "churn_pct": 0.3,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
     "latest_push": "Aligned the runtime and adjusted component files accordingly.",
@@ -74,6 +73,7 @@
     "has_readme": false,
     "additions": 78,
     "deletions": 19,
+    "churn_pct": 0.3,
     "sprint": {
       "pushes": 0,
       "additions": 17668,
@@ -397,7 +397,6 @@
     "head_sha": "addc879082b1c659f0a6bb254a8e74fb31bcfb0c",
     "readme_hash": "72b894827195039c",
     "desc_v6": true,
-    "churn_pct": 0.5,
     "summary": "An AI agent that autonomously pays for verified work without revealing recipient details.",
     "description_long": "Sage autonomously inspects completed tasks, verifies their quality, and decides on payments in USDC from a controlled vault, ensuring privacy for recipients. Built on Starknet, it uses on-chain transactions to execute decisions made by the AI agent, which escrow payments behind commitments to prevent traceability. The system allows for private payouts and operates a feedback loop where funds can be advanced and repaid through verified transactions.",
     "latest_push": "Added the Keynote deck and rehearsal scripts for the demo day.",
@@ -436,6 +435,7 @@
     "has_readme": true,
     "additions": 969,
     "deletions": 133,
+    "churn_pct": 0.5,
     "sprint": {
       "pushes": 716,
       "additions": 15186,
@@ -12434,7 +12434,7 @@
     "name": "Sevrin",
     "one_liner": "Confidential token-allocation infrastructure: public aggregate lockups, private beneficiary ownership, and STRK20-settled claims.",
     "category": "Infra",
-    "repo_url": "https://github.com/velikanghost/sevrin",
+    "repo_url": "https://github.com/velkang/sevrin",
     "demo_url": "https://sevrin.velkan.xyz",
     "demo_video": "https://youtu.be/satmygtsK2Q",
     "x_handle": "velkan_gst",
@@ -12489,7 +12489,7 @@
     "stars": 0,
     "builders": [
       {
-        "login": "velikanghost",
+        "login": "velkang",
         "name": "velikanghost",
         "avatar_url": "https://avatars.githubusercontent.com/u/110403728?v=4"
       }
