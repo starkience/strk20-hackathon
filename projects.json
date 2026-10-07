@@ -948,7 +948,7 @@
     "name": "Private money account",
     "one_liner": "Hold, send, and earn on STRK20 without publishing salary or net worth.",
     "category": "Consumer",
-    "repo_url": "https://github.com/kamalbuilds/neobank",
+    "repo_url": "https://github.com/kamalbuilds/sealed_cash",
     "demo_url": "https://sealed.cash",
     "demo_video": "https://sealed.cash/demo.mp4",
     "x_handle": "kamalbuilds",
@@ -9607,7 +9607,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet.",
     "tooling": [
       {
         "label": "Privacy SDK",
