@@ -4577,15 +4577,17 @@
     "transactions": [
       {
         "hash": "0x6ab9bd3163f59e70f7df08277c75fb0eb84972657d520bb15c34d9c899f8772",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x27130e00b6251a25061d9a5ae20e623fd716624a7f10887fa6b0243b7d7a09c",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x5f59198aad0f9da153a82b3462e2e0c584e478d0a9b5fdc4d9d59b9e743df3e",
@@ -4612,7 +4614,7 @@
         "mine": null
       }
     ],
-    "verified_txs": 6,
+    "verified_txs": 4,
     "requirements": {
       "demo": true,
       "video": true,
