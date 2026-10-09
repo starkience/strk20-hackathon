@@ -1,5 +1,107 @@
 [
   {
+    "slug": "patron",
+    "name": "PATRON",
+    "one_liner": "Private tips for creators on Starknet: supporters stay inside the STRK20 pool while the public book shows only count and aggregate.",
+    "category": "Payments",
+    "repo_url": "https://github.com/ronkenx9/patron",
+    "demo_url": "https://patron-topaz.vercel.app",
+    "demo_video": "https://youtu.be/cbvcKxiPkXA",
+    "x_handle": "kenn_ronin",
+    "inspired_by": "RFP-12",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [
+      {
+        "hash": "0x2e0b97e9a0294854bd530f7272c377d3282f57d0a46682619946a505d40dafa",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x7072d3f3d612f46d8c7e39877028ae864c5535687ba89604ffd48e0cc0a76bc",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0xbda1e01ed58a533fae14a185ec839988a1fdf7927a0cad430ecd199755bc07",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      }
+    ],
+    "verified_txs": 3,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-10-09T06:29:48Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "ronkenx9",
+        "name": "ronkenx9",
+        "avatar_url": "https://avatars.githubusercontent.com/u/140641518?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-20",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "20e2269a3deb900b9c9028abdb9cc6924273dfc8",
+    "readme_hash": "78ba219e4917d136",
+    "desc_v6": true,
+    "summary": "Crowdfund without public backer identities using private transfers.",
+    "description_long": "PATRON is a crowdfunding tool for creators and communities that allows campaigns to raise funds without publicly displaying supporter identities. It has two funding options: public pledges made from shielded balances that appear as STRK transfers to the campaign treasury, and silent gifts which are private transfers that do not affect the campaign's progress bar. The application is built using Node.js and interacts with STRK20 on Starknet, utilizing features such as the Wallet API and event reading from the blockchain.",
+    "latest_push": "Pointed strk20.json demo_video at the YouTube walkthrough and redesigned Patron.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 437,
+    "deletions": 531,
+    "churn_pct": 28.6,
+    "sprint": {
+      "pushes": 17,
+      "additions": 6174,
+      "deletions": 128,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": ""
+  },
+  {
     "slug": "sage",
     "name": "Sage",
     "one_liner": "An autonomous agent that judges human work and pays for it — addressing each payout to a person rather than a wallet, so someone with no wallet and no gas can still collect, and who was paid stays private.",
@@ -143,7 +245,6 @@
     "head_sha": "d52960c8647e17a98548f469c935397f0b59e735",
     "readme_hash": "72b894827195039c",
     "desc_v6": true,
-    "churn_pct": 0.4,
     "summary": "An AI agent that autonomously pays for verified work without revealing recipient details.",
     "description_long": "Sage autonomously inspects completed tasks, verifies their quality, and decides on payments in USDC from a controlled vault, ensuring privacy for recipients. Built on Starknet, it uses on-chain transactions to execute decisions made by the AI agent, which escrow payments behind commitments to prevent traceability. The system allows for private payouts and operates a feedback loop where funds can be advanced and repaid through verified transactions.",
     "latest_push": "Clarified payment terms in the founder's words in the composer file.",
@@ -182,6 +283,7 @@
     "has_readme": true,
     "additions": 520,
     "deletions": 425,
+    "churn_pct": 0.4,
     "sprint": {
       "pushes": 716,
       "additions": 15061,
@@ -2737,108 +2839,6 @@
     },
     "assessment": null,
     "star_evidence": "Cairo in the repository"
-  },
-  {
-    "slug": "patron",
-    "name": "PATRON",
-    "one_liner": "Private tips for creators on Starknet: supporters stay inside the STRK20 pool while the public book shows only count and aggregate.",
-    "category": "Payments",
-    "repo_url": "https://github.com/ronkenx9/patron",
-    "demo_url": "https://patron-topaz.vercel.app",
-    "demo_video": "https://youtu.be/cbvcKxiPkXA",
-    "x_handle": "kenn_ronin",
-    "inspired_by": "RFP-12",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [
-      {
-        "hash": "0x2e0b97e9a0294854bd530f7272c377d3282f57d0a46682619946a505d40dafa",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x7072d3f3d612f46d8c7e39877028ae864c5535687ba89604ffd48e0cc0a76bc",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0xbda1e01ed58a533fae14a185ec839988a1fdf7927a0cad430ecd199755bc07",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-11T07:56:42Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "ronkenx9",
-        "name": "ronkenx9",
-        "avatar_url": "https://avatars.githubusercontent.com/u/140641518?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-20",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "20e2269a3deb900b9c9028abdb9cc6924273dfc8",
-    "readme_hash": "78ba219e4917d136",
-    "desc_v6": true,
-    "summary": "Crowdfund without public backer identities using private transfers.",
-    "description_long": "PATRON is a crowdfunding tool for creators and communities that allows campaigns to raise funds without publicly displaying supporter identities. It has two funding options: public pledges made from shielded balances that appear as STRK transfers to the campaign treasury, and silent gifts which are private transfers that do not affect the campaign's progress bar. The application is built using Node.js and interacts with STRK20 on Starknet, utilizing features such as the Wallet API and event reading from the blockchain.",
-    "latest_push": "Pointed strk20.json demo_video at the YouTube walkthrough and redesigned Patron.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 437,
-    "deletions": 531,
-    "churn_pct": 28.6,
-    "sprint": {
-      "pushes": 17,
-      "additions": 6174,
-      "deletions": 128,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": ""
   },
   {
     "slug": "morrow",
