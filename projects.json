@@ -97,12 +97,12 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-10T03:13:46Z",
+    "pushed_at": "2026-10-10T09:54:53Z",
     "stars": 0,
     "builders": [
       {
         "login": "shariqazeem",
-        "name": "Shariq Shaukat",
+        "name": "shariqazeem",
         "avatar_url": "https://avatars.githubusercontent.com/u/101935656?v=4"
       }
     ],
@@ -111,7 +111,7 @@
         "family": "Claude",
         "name": "Claude Fable 5.1",
         "avatar_url": "",
-        "commits": 650
+        "commits": 651
       }
     ],
     "active_days": [
@@ -140,13 +140,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "35f48017f5c70cd2de8b7be87931ec5f65ad0647",
+    "head_sha": "1deb192c040e050efb8f129e187e8bc30957e355",
     "readme_hash": "72b894827195039c",
     "desc_v6": true,
     "churn_pct": 0.5,
     "summary": "An AI agent that autonomously pays for verified work without revealing recipient details.",
     "description_long": "Sage autonomously inspects completed tasks, verifies their quality, and decides on payments in USDC from a controlled vault, ensuring privacy for recipients. Built on Starknet, it uses on-chain transactions to execute decisions made by the AI agent, which escrow payments behind commitments to prevent traceability. The system allows for private payouts and operates a feedback loop where funds can be advanced and repaid through verified transactions.",
-    "latest_push": "Added the Arc mainnet to the registry and a teleprompter for demo day.",
+    "latest_push": "Added three networks to mainnet and improved judge payout handling.",
     "tooling": [
       {
         "label": "get-starknet",
@@ -180,11 +180,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 365,
-    "deletions": 845,
+    "additions": 930,
+    "deletions": 185,
     "sprint": {
       "pushes": 716,
-      "additions": 15186,
+      "additions": 15625,
       "deletions": 112,
       "computed": 3
     },
