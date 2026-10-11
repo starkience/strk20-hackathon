@@ -9502,7 +9502,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented multi-account scanning, relayer role, auditor dashboard, and UI components.",
     "tooling": [
       {
         "label": "Privacy SDK",
