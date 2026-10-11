@@ -35,7 +35,6 @@
     "head_sha": "7c652882f119733a92301c562e0f7b2c8d198bf7",
     "readme_hash": "",
     "desc_v6": true,
-    "churn_pct": 7.6,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
     "latest_push": "Improved transaction recovery and wallet feedback in multiple components.",
@@ -74,6 +73,7 @@
     "has_readme": false,
     "additions": 3959,
     "deletions": 862,
+    "churn_pct": 7.6,
     "sprint": {
       "pushes": 0,
       "additions": 17668,
