@@ -1,5 +1,268 @@
 [
   {
+    "slug": "cipherbill",
+    "name": "CipherBill",
+    "one_liner": "Privacy-first invoicing and settlement on Starknet - shielded balances, private transfers, selective disclosure for accounting",
+    "category": "Other",
+    "repo_url": "https://github.com/Nitish-1303/CipherBill",
+    "demo_url": "https://cipher-bill.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-10-12T10:11:43Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Nitish-1303",
+        "name": "Nitish-1303",
+        "avatar_url": "https://avatars.githubusercontent.com/u/141549775?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 27
+      },
+      {
+        "family": "Cursor",
+        "name": "Cursor",
+        "avatar_url": "",
+        "commits": 8
+      }
+    ],
+    "active_days": [
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-31"
+    ],
+    "head_sha": "b37a58f280cf335cbb7f7d34a3de5395a7b0c80f",
+    "readme_hash": "df3ba2d8be71fc10",
+    "desc_v6": true,
+    "churn_pct": 2,
+    "summary": "Privacy-first invoicing and settlement for independent workers and teams.",
+    "description_long": "CipherBill enables independent workers and global teams to create and settle invoices using shielded balances and private transfers. Built with Next.js and TypeScript, it integrates with the Starknet Wallet API for secure connection and transaction execution while allowing selective disclosure of invoice evidence. The application still requires implementation of complete invoice functionality and ongoing support for various wallet capabilities.",
+    "latest_push": "Redesigned the centered launch and updated the styles in globals.css.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 604,
+    "deletions": 1352,
+    "sprint": {
+      "pushes": 50,
+      "additions": 26066,
+      "deletions": 48,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": ""
+  },
+  {
+    "slug": "erebus",
+    "name": "Erebus",
+    "one_liner": "Confidential negotiation and shielded settlement infrastructure for AI agents on Starknet, built on the STRK20 privacy pool.",
+    "category": "Other",
+    "repo_url": "https://github.com/PoulavBhowmick03/Erebus",
+    "demo_url": "https://erebus-private-agents.vercel.app",
+    "demo_video": "https://drive.google.com/file/d/1zOkEJt08DwRiHeLIu4IaXCl1s8VRSKuu/view?usp=sharing",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
+    "contracts": [],
+    "transactions": [
+      {
+        "hash": "0x06597adb6581bb1910d30b31139fe871665db4cc61fefef8120b89773528e54c",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x0572260b651525ea39ef717721bcc9fefc89a2087894654efb38111e09267189",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x0159748de29d9dbe7016c9eb37459cbd7dd72290c3bc22412a034fb1c4c38a99",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x01a30c0b6e8db645df67795f2356cb6a251b9680d0b61cea54d28d04edd70d1",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x05a287657f829a82ecc83a0543674f1397aa75bdade8365b28f72e3925d759b5",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x04126a3ee0971728d7181296fe4d128f12fc6a828a172b7bd12d8f5128364923",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x072adebfcffdfd45bba66d2152c7e11b50107aa0fe2b4c9f1ea851da16ab6c6d",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x0273b0f97f1c0707a259bbe5cacc337df6876509adba09b7376a0501a0f028b7",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x051fa13c6d11c529208785af163f2d5bc1cc95451192e3265150e0067aadeda4",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x06e55194809fec58c1426a8178dcdb10270d5e8aecfcfd6db2b28f6284ce5467",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      }
+    ],
+    "verified_txs": 10,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-10-12T09:04:30Z",
+    "stars": 4,
+    "builders": [
+      {
+        "login": "PoulavBhowmick03",
+        "name": "PoulavBhowmick03",
+        "avatar_url": "https://avatars.githubusercontent.com/u/133862694?v=4"
+      },
+      {
+        "login": "ishitab02",
+        "name": "ishitab02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/139248026?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "27ced710bc3ad6c387fc1ae8200bea6631d202bf",
+    "readme_hash": "1379cc8baf6b6ec9",
+    "desc_v6": true,
+    "summary": "Experimental coordination and shielded settlement for AI agents.",
+    "description_long": "Erebus allows AI agents to negotiate over an encrypted channel and settle transactions atomically through Starknet's STRK20 privacy pool. It consists of a server and thirteen tools that handle channel establishment, offer management, and settlement processes, with each write tagged by a unique operation ID. The system is designed for privacy, ensuring that the terms of negotiation are hidden while the relationship between agents remains visible.",
+    "latest_push": "Added icon links for GitHub, X, and mail in the footer.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 15,
+    "deletions": 11,
+    "churn_pct": 0.1,
+    "sprint": {
+      "pushes": 126,
+      "additions": 14346,
+      "deletions": 3631,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": true,
+      "complex": true,
+      "why_innovative": "applies privacy to agent-to-agent commerce using encrypted negotiation channels.",
+      "why_complex": "implements AES-256-GCM-SIV for wire v2 and includes multiple interacting agents and roles.",
+      "reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
+      "facts_v2": true
+    },
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "client",
     "name": "client",
     "one_liner": "Zylith trading and liquidity client.",
@@ -383,169 +646,6 @@
     },
     "assessment": null,
     "star_evidence": ""
-  },
-  {
-    "slug": "erebus",
-    "name": "Erebus",
-    "one_liner": "Confidential negotiation and shielded settlement infrastructure for AI agents on Starknet, built on the STRK20 privacy pool.",
-    "category": "Other",
-    "repo_url": "https://github.com/PoulavBhowmick03/Erebus",
-    "demo_url": "https://erebus-private-agents.vercel.app",
-    "demo_video": "https://drive.google.com/file/d/1zOkEJt08DwRiHeLIu4IaXCl1s8VRSKuu/view?usp=sharing",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
-    "contracts": [],
-    "transactions": [
-      {
-        "hash": "0x06597adb6581bb1910d30b31139fe871665db4cc61fefef8120b89773528e54c",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x0572260b651525ea39ef717721bcc9fefc89a2087894654efb38111e09267189",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x0159748de29d9dbe7016c9eb37459cbd7dd72290c3bc22412a034fb1c4c38a99",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x01a30c0b6e8db645df67795f2356cb6a251b9680d0b61cea54d28d04edd70d1",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x05a287657f829a82ecc83a0543674f1397aa75bdade8365b28f72e3925d759b5",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x04126a3ee0971728d7181296fe4d128f12fc6a828a172b7bd12d8f5128364923",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x072adebfcffdfd45bba66d2152c7e11b50107aa0fe2b4c9f1ea851da16ab6c6d",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x0273b0f97f1c0707a259bbe5cacc337df6876509adba09b7376a0501a0f028b7",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x051fa13c6d11c529208785af163f2d5bc1cc95451192e3265150e0067aadeda4",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x06e55194809fec58c1426a8178dcdb10270d5e8aecfcfd6db2b28f6284ce5467",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      }
-    ],
-    "verified_txs": 10,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-10-06T19:01:09Z",
-    "stars": 4,
-    "builders": [
-      {
-        "login": "PoulavBhowmick03",
-        "name": "PoulavBhowmick03",
-        "avatar_url": "https://avatars.githubusercontent.com/u/133862694?v=4"
-      },
-      {
-        "login": "ishitab02",
-        "name": "ishitab02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/139248026?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "27ced710bc3ad6c387fc1ae8200bea6631d202bf",
-    "readme_hash": "1379cc8baf6b6ec9",
-    "desc_v6": true,
-    "summary": "Experimental coordination and shielded settlement for AI agents.",
-    "description_long": "Erebus allows AI agents to negotiate over an encrypted channel and settle transactions atomically through Starknet's STRK20 privacy pool. It consists of a server and thirteen tools that handle channel establishment, offer management, and settlement processes, with each write tagged by a unique operation ID. The system is designed for privacy, ensuring that the terms of negotiation are hidden while the relationship between agents remains visible.",
-    "latest_push": "Added icon links for GitHub, X, and mail in the footer.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 15,
-    "deletions": 11,
-    "churn_pct": 0.1,
-    "sprint": {
-      "pushes": 126,
-      "additions": 14346,
-      "deletions": 3631,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": true,
-      "complex": true,
-      "why_innovative": "applies privacy to agent-to-agent commerce using encrypted negotiation channels.",
-      "why_complex": "implements AES-256-GCM-SIV for wire v2 and includes multiple interacting agents and roles.",
-      "reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
-      "facts_v2": true
-    },
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "vickrey",
@@ -4282,7 +4382,7 @@
     "builders": [
       {
         "login": "OGtev317",
-        "name": "OGtev317",
+        "name": "TevOtakuDev",
         "avatar_url": "https://avatars.githubusercontent.com/u/233919431?v=4"
       }
     ],
@@ -12813,106 +12913,6 @@
       "pushes": 4,
       "additions": 8568,
       "deletions": 0,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": ""
-  },
-  {
-    "slug": "cipherbill",
-    "name": "CipherBill",
-    "one_liner": "Privacy-first invoicing and settlement on Starknet - shielded balances, private transfers, selective disclosure for accounting",
-    "category": "Other",
-    "repo_url": "https://github.com/Nitish-1303/CipherBill",
-    "demo_url": "https://cipher-bill.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-31T11:11:48Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Nitish-1303",
-        "name": "Nitish-1303",
-        "avatar_url": "https://avatars.githubusercontent.com/u/141549775?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 27
-      },
-      {
-        "family": "Cursor",
-        "name": "Cursor",
-        "avatar_url": "",
-        "commits": 8
-      }
-    ],
-    "active_days": [
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-31"
-    ],
-    "head_sha": "b761ad03433dd5ab1e3575568100c000f8ff24b3",
-    "readme_hash": "df3ba2d8be71fc10",
-    "desc_v6": true,
-    "summary": "Privacy-first invoicing and settlement for independent workers and teams.",
-    "description_long": "CipherBill enables independent workers and global teams to create and settle invoices using shielded balances and private transfers. Built with Next.js and TypeScript, it integrates with the Starknet Wallet API for secure connection and transaction execution while allowing selective disclosure of invoice evidence. The application still requires implementation of complete invoice functionality and ongoing support for various wallet capabilities.",
-    "latest_push": "Added several decentralized zero-knowledge merchant protocols and a landing fix.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 4952,
-    "deletions": 1,
-    "churn_pct": 5.1,
-    "sprint": {
-      "pushes": 50,
-      "additions": 26297,
-      "deletions": 37,
       "computed": 3
     },
     "assessment": null,
