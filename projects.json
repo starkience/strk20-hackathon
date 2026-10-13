@@ -219,7 +219,6 @@
     "head_sha": "5f160dc1cf6907ce2397d5ef0e0b73590e3c5abf",
     "readme_hash": "ce4f2cdcbb4e6496",
     "desc_v6": true,
-    "churn_pct": 0.2,
     "summary": "Privacy-first invoicing with secure payment links and a private payment workspace.",
     "description_long": "CipherBill allows users to create invoices, manage private payments, and share encrypted disclosures. It includes features like draft invoices, self-contained payment links, selective receipts, and a workspace containing modules for invoicing, treasury, risk, and operations. Built with Next.js, TypeScript, and Starknet.js, it integrates with the STRK20 Wallet API to handle wallet connections and transaction validations.",
     "latest_push": "Added CipherBill walkthrough video, logo, and GitHub Sponsors badge to README.",
@@ -253,6 +252,7 @@
     "has_readme": true,
     "additions": 95,
     "deletions": 51,
+    "churn_pct": 0.2,
     "sprint": {
       "pushes": 50,
       "additions": 25614,
