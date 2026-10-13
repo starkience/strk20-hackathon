@@ -82,7 +82,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-13T16:38:46Z",
+    "pushed_at": "2026-10-13T21:22:11Z",
     "stars": 4,
     "builders": [
       {
@@ -161,6 +161,97 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "client",
+    "name": "client",
+    "one_liner": "Zylith trading and liquidity client.",
+    "category": "Other",
+    "repo_url": "https://github.com/ZylithFi/client",
+    "demo_url": "https://zylith-app-tanyas-projects-917ef9e3.vercel.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The project lacks privacy application and real engineering depth.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-10-13T16:53:54Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "tanctl",
+        "name": "tanctl",
+        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [],
+    "head_sha": "fa6cc58e8f07533e59ec9af3089bda685734c6cb",
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0.5,
+    "summary": "A trading and liquidity web app for Zylith.",
+    "description_long": "",
+    "latest_push": "Hardened private execution and proof release in multiple files.",
+    "tooling": [
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": false,
+    "additions": 272,
+    "deletions": 73,
+    "sprint": {
+      "pushes": 0,
+      "additions": 17668,
+      "deletions": 12343,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": false,
+      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
+      "why_complex": "No deployed contracts or complex engineering present in the stack.",
+      "reason": "The project lacks privacy application and real engineering depth.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
   },
   {
     "slug": "cipherbill",
@@ -260,97 +351,6 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": ""
-  },
-  {
-    "slug": "client",
-    "name": "client",
-    "one_liner": "Zylith trading and liquidity client.",
-    "category": "Other",
-    "repo_url": "https://github.com/ZylithFi/client",
-    "demo_url": "https://zylith-app-tanyas-projects-917ef9e3.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The project lacks privacy application and real engineering depth.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-10-10T22:29:31Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "tanctl",
-        "name": "tanctl",
-        "avatar_url": "https://avatars.githubusercontent.com/u/194662459?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [],
-    "head_sha": "7c652882f119733a92301c562e0f7b2c8d198bf7",
-    "readme_hash": "",
-    "desc_v6": true,
-    "summary": "A trading and liquidity web app for Zylith.",
-    "description_long": "",
-    "latest_push": "Improved transaction recovery and wallet feedback in multiple components.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": false,
-    "additions": 3959,
-    "deletions": 862,
-    "churn_pct": 7.6,
-    "sprint": {
-      "pushes": 0,
-      "additions": 17668,
-      "deletions": 12343,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": false,
-      "why_innovative": "Project is a trading and liquidity web app without privacy features.",
-      "why_complex": "No deployed contracts or complex engineering present in the stack.",
-      "reason": "The project lacks privacy application and real engineering depth.",
-      "facts_v2": true
-    },
     "star_evidence": ""
   },
   {
@@ -8001,126 +8001,6 @@
       "pushes": 31,
       "additions": 14562,
       "deletions": 1346,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "nyalthe",
-    "name": "nyalthe",
-    "one_liner": "Privacy-preserving parametric claims on Starknet using STRK20",
-    "category": "Other",
-    "repo_url": "https://github.com/mystiquemide/nyalthe",
-    "demo_url": "https://nyalthe.vercel.app",
-    "demo_video": "https://youtu.be/vKlgf88GSUM",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x01f929480b99cb165550086e495036381166d63041773a60a055dff2fc51f687",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x12c5bfe20b8bd8c0c0a138ea227185a2e8eb1392c83c0af71bada2e1cc0c6e1",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x6a3fd555fa1adaf7e42138958ca5b31dc39c1f78f45c98026e3ad6debb07697",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x0652268f00d0b6f89b8b52cd0159881e008ffb528929168b5b375ad751d003d3",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-07T19:31:29Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "mystiquemide",
-        "name": "MystiqueMide",
-        "avatar_url": "https://avatars.githubusercontent.com/u/176629124?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "433bc895179b7feeac06b186afe9746568a2ae8c",
-    "readme_hash": "7f44ea3a511f188c",
-    "desc_v6": true,
-    "summary": "A privacy-preserving mechanism for parametric insurance claims on Starknet.",
-    "description_long": "Nyalthe allows for privacy-protected claims settlements based on specific triggers like weather or disasters. It involves creating a policy, funding a reserve, accepting verified events, authorizing claims, and settling payments privately through the STRK20 privacy pool. The contract ensures that while policy terms and event records are public, the claimant's identity and payout address remain protected.",
-    "latest_push": "Centered the claim workspace stage and added user policy management.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 808,
-    "deletions": 57,
-    "churn_pct": 17.9,
-    "sprint": {
-      "pushes": 71,
-      "additions": 10061,
-      "deletions": 9,
       "computed": 3
     },
     "assessment": null,
@@ -21562,6 +21442,66 @@
       "pushes": 139,
       "additions": 19993,
       "deletions": 0,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": ""
+  },
+  {
+    "slug": "nyalthe",
+    "name": "nyalthe",
+    "one_liner": "",
+    "category": "Other",
+    "repo_url": "https://github.com/mystiquemide/nyalthe",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "mystiquemide",
+        "name": "Mystique Mide",
+        "avatar_url": "https://avatars.githubusercontent.com/u/176629124?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "A privacy-preserving mechanism for parametric insurance claims on Starknet.",
+    "description_long": "Nyalthe allows for privacy-protected claims settlements based on specific triggers like weather or disasters. It involves creating a policy, funding a reserve, accepting verified events, authorizing claims, and settling payments privately through the STRK20 privacy pool. The contract ensures that while policy terms and event records are public, the claimant's identity and payout address remain protected.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 71,
+      "additions": 10061,
+      "deletions": 9,
       "computed": 3
     },
     "assessment": null,
