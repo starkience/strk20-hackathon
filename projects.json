@@ -134,7 +134,6 @@
     "head_sha": "cd1447d8d50e067e79c72a3e942c459be3e755b3",
     "readme_hash": "1fe9948720fc1c04",
     "desc_v6": true,
-    "churn_pct": 11.3,
     "summary": "A system for AI agents to negotiate deals privately and verify transactions.",
     "description_long": "Erebus allows two AI agents to agree on deals through an encrypted channel and settle payments via shielded pools, ensuring the price remains confidential. It includes a server infrastructure, a CLI, and a Python SDK for interaction, supporting both Starknet and Monad backends. The system handles negotiations, authorizes agreements, and allows for the subsequent disclosure of transaction details without revealing sensitive terms.",
     "latest_push": "Completed the canonical agreement core and added an offchain transport layer.",
@@ -153,6 +152,7 @@
     "has_readme": true,
     "additions": 17033,
     "deletions": 2379,
+    "churn_pct": 11.3,
     "sprint": {
       "pushes": 126,
       "additions": 18998,
