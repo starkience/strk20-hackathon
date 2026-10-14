@@ -82,7 +82,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-13T23:37:38Z",
+    "pushed_at": "2026-10-14T09:50:09Z",
     "stars": 4,
     "builders": [
       {
@@ -131,12 +131,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "cd1447d8d50e067e79c72a3e942c459be3e755b3",
-    "readme_hash": "1fe9948720fc1c04",
+    "head_sha": "5b7b09eb5af36e0afc8d0900cb6197cc397cc61d",
+    "readme_hash": "12bcfa20fdffafdc",
     "desc_v6": true,
-    "summary": "A system for AI agents to negotiate deals privately and verify transactions.",
-    "description_long": "Erebus allows two AI agents to agree on deals through an encrypted channel and settle payments via shielded pools, ensuring the price remains confidential. It includes a server infrastructure, a CLI, and a Python SDK for interaction, supporting both Starknet and Monad backends. The system handles negotiations, authorizes agreements, and allows for the subsequent disclosure of transaction details without revealing sensitive terms.",
-    "latest_push": "Completed the canonical agreement core and added an offchain transport layer.",
+    "churn_pct": 0.2,
+    "summary": "AI agents negotiate deals over an encrypted channel with proof of agreements.",
+    "description_long": "Erebus allows two AI agents to negotiate and agree on deals through an encrypted channel, ensuring payment privacy in a shielded pool. It includes a multi-client server, a CLI, and a Python SDK for interaction, with backend support for both Starknet and Monad. Key components include the Rust client for Starknet, Python bindings, shielded payment mechanisms, and public-bound settlement contracts.",
+    "latest_push": "Fixed documentation references after main cleanup.",
     "tooling": [
       {
         "label": "Cairo",
@@ -150,13 +151,12 @@
       }
     ],
     "has_readme": true,
-    "additions": 17033,
-    "deletions": 2379,
-    "churn_pct": 11.3,
+    "additions": 57,
+    "deletions": 240,
     "sprint": {
       "pushes": 126,
-      "additions": 18998,
-      "deletions": 259,
+      "additions": 18781,
+      "deletions": 261,
       "computed": 3
     },
     "assessment": {
