@@ -21,7 +21,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-10-15T14:48:55Z",
+    "pushed_at": "2026-10-15T18:39:17Z",
     "stars": 0,
     "builders": [
       {
@@ -32,13 +32,13 @@
     ],
     "agents": [],
     "active_days": [],
-    "head_sha": "882c0ccc46221e326d48574b643c8c5dee7db7b1",
+    "head_sha": "6e32d4497c067d9ac7d53f40078cf0cc968470b3",
     "readme_hash": "",
     "desc_v6": true,
     "churn_pct": 1.4,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
-    "latest_push": "Reduced proof preparation cost in multiple core and example files.",
+    "latest_push": "Reduced proof preparation cost in multiple files.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -9414,7 +9414,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
