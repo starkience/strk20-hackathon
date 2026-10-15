@@ -2768,30 +2768,24 @@
     "builders": [
       {
         "login": "Eric-65",
-        "name": "Eric",
+        "name": "Eric-65",
         "avatar_url": "https://avatars.githubusercontent.com/u/202713739?v=4"
       }
     ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Sonnet 5",
-        "avatar_url": "",
-        "commits": 4
-      }
-    ],
+    "agents": [],
     "active_days": [
       "2026-08-31",
       "2026-09-01",
       "2026-09-03",
       "2026-09-04"
     ],
-    "head_sha": "e4d2013f1a1e06c9a7f9c4499fd0c47d541fea43",
-    "readme_hash": "d1f9dc4f1e6f094a",
+    "head_sha": null,
+    "readme_hash": "",
     "desc_v6": true,
+    "churn_pct": 0,
     "summary": "A policy-controlled marketplace for private financial agents on Starknet.",
     "description_long": "Holographic is a marketplace that allows agents to propose actions, which are then evaluated by a deterministic policy engine before execution via the user's wallet. It consists of a functional React frontend, a real wallet integration with multiple connection options, a dual policy engine for action validation and policy evaluation, and a backend for storing user data and policies. The on-chain contracts include AgentRegistry for managing agent identities, PolicyCommitment for anchoring policy versions, and ExecutionAttestor for attesting actions, while privacy handling is supported through STRK20.",
-    "latest_push": "Added an AI intelligence layer for financial agents and related documentation.",
+    "latest_push": "",
     "tooling": [
       {
         "label": "get-starknet",
@@ -2822,17 +2816,11 @@
         "label": "Cairo",
         "live": false,
         "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
       }
     ],
-    "has_readme": true,
-    "additions": 3256,
-    "deletions": 13,
-    "churn_pct": 12.2,
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
     "sprint": {
       "pushes": 5,
       "additions": 34100,
@@ -11432,12 +11420,13 @@
       "2026-08-26",
       "2026-09-01"
     ],
-    "head_sha": "969d0faa5bdbb161145b2447354bbb8d0be24123",
+    "head_sha": null,
     "readme_hash": "db02507b4aa499bd",
     "desc_v6": true,
+    "churn_pct": 0,
     "summary": "Sealed-ballot governance and a shielded treasury for decentralized organizations.",
     "description_long": "Aperture enables private voting and anonymous treasury payouts for DAOs. Each vote represents a private transfer to a unique identity for the chosen proposal, while treasury payouts are processed through a Cairo anonymizer that hides recipient identities. Built on Starknet, the project includes the ProposalRegistry, GovernanceAnonymizer, and TreasuryMultisig contracts, with functionalities proven across multiple networks.",
-    "latest_push": "Recorded mainnet proposal 2 details, including ballots and refunds.",
+    "latest_push": "",
     "tooling": [
       {
         "label": "starknet.js",
@@ -11461,9 +11450,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 160,
-    "deletions": 14,
-    "churn_pct": 1.1,
+    "additions": 0,
+    "deletions": 0,
     "sprint": {
       "pushes": 121,
       "additions": 20238,
