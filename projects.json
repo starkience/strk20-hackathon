@@ -82,7 +82,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-17T09:04:39Z",
+    "pushed_at": "2026-10-18T08:09:06Z",
     "stars": 4,
     "builders": [
       {
@@ -258,106 +258,6 @@
       "reason": "The project lacks privacy application and real engineering depth.",
       "facts_v2": true
     },
-    "star_evidence": ""
-  },
-  {
-    "slug": "cipherbill",
-    "name": "CipherBill",
-    "one_liner": "Privacy-first invoicing and settlement on Starknet - shielded balances, private transfers, selective disclosure for accounting",
-    "category": "Other",
-    "repo_url": "https://github.com/Nitish-1303/CipherBill",
-    "demo_url": "https://cipher-bill.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-10-12T12:24:12Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Nitish-1303",
-        "name": "Nitish-1303",
-        "avatar_url": "https://avatars.githubusercontent.com/u/141549775?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 27
-      },
-      {
-        "family": "Cursor",
-        "name": "Cursor",
-        "avatar_url": "",
-        "commits": 8
-      }
-    ],
-    "active_days": [
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-31"
-    ],
-    "head_sha": "5f160dc1cf6907ce2397d5ef0e0b73590e3c5abf",
-    "readme_hash": "ce4f2cdcbb4e6496",
-    "desc_v6": true,
-    "summary": "Privacy-first invoicing with secure payment links and a private payment workspace.",
-    "description_long": "CipherBill allows users to create invoices, manage private payments, and share encrypted disclosures. It includes features like draft invoices, self-contained payment links, selective receipts, and a workspace containing modules for invoicing, treasury, risk, and operations. Built with Next.js, TypeScript, and Starknet.js, it integrates with the STRK20 Wallet API to handle wallet connections and transaction validations.",
-    "latest_push": "Added CipherBill walkthrough video, logo, and GitHub Sponsors badge to README.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 95,
-    "deletions": 51,
-    "churn_pct": 0.2,
-    "sprint": {
-      "pushes": 50,
-      "additions": 25614,
-      "deletions": 75,
-      "computed": 3
-    },
-    "assessment": null,
     "star_evidence": ""
   },
   {
@@ -21374,6 +21274,67 @@
       "pushes": 139,
       "additions": 19993,
       "deletions": 0,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": ""
+  },
+  {
+    "slug": "cipherbill",
+    "name": "cipherbill",
+    "one_liner": "",
+    "category": "Other",
+    "repo_url": "https://github.com/Nitish-1303/CipherBill",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Nitish-1303",
+        "name": "Yeluru Nitish",
+        "avatar_url": "https://avatars.githubusercontent.com/u/141549775?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-31"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "Privacy-first invoicing with secure payment links and a private payment workspace.",
+    "description_long": "CipherBill allows users to create invoices, manage private payments, and share encrypted disclosures. It includes features like draft invoices, self-contained payment links, selective receipts, and a workspace containing modules for invoicing, treasury, risk, and operations. Built with Next.js, TypeScript, and Starknet.js, it integrates with the STRK20 Wallet API to handle wallet connections and transaction validations.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 50,
+      "additions": 25614,
+      "deletions": 75,
       "computed": 3
     },
     "assessment": null,
