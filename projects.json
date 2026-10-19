@@ -97,7 +97,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-19T09:00:19Z",
+    "pushed_at": "2026-10-19T16:59:14Z",
     "stars": 0,
     "builders": [
       {
@@ -109,7 +109,7 @@
     "agents": [
       {
         "family": "Claude",
-        "name": "Claude Fable 5.1",
+        "name": "Claude Opus 5.5",
         "avatar_url": "",
         "commits": 651
       }
@@ -140,13 +140,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "bcfa2a51696707c677ef5559d339bd74262855cb",
+    "head_sha": "e49682676d040d9d4736cb8cf1b7f77c8a4716b5",
     "readme_hash": "72b894827195039c",
     "desc_v6": true,
-    "churn_pct": 0.2,
+    "churn_pct": 7.7,
     "summary": "An AI agent that autonomously pays for verified work without revealing recipient details.",
     "description_long": "Sage autonomously inspects completed tasks, verifies their quality, and decides on payments in USDC from a controlled vault, ensuring privacy for recipients. Built on Starknet, it uses on-chain transactions to execute decisions made by the AI agent, which escrow payments behind commitments to prevent traceability. The system allows for private payouts and operates a feedback loop where funds can be advanced and repaid through verified transactions.",
-    "latest_push": "Documented the strategy for Sage as the company effective from 19 Oct 2026.",
+    "latest_push": "Added the x402 Metis facilitator and consolidated company documentation.",
     "tooling": [
       {
         "label": "get-starknet",
@@ -180,11 +180,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 412,
-    "deletions": 0,
+    "additions": 9023,
+    "deletions": 8846,
     "sprint": {
       "pushes": 716,
-      "additions": 16037,
+      "additions": 15744,
       "deletions": 112,
       "computed": 3
     },
@@ -326,7 +326,6 @@
     "head_sha": "990761111217a032820c169c0494e3822e7c659e",
     "readme_hash": "ae4feab1b811a2ba",
     "desc_v6": true,
-    "churn_pct": 0.1,
     "summary": "AI agents negotiate deals over an encrypted channel with payments in a shielded pool.",
     "description_long": "Erebus enables two AI agents to negotiate agreements via an encrypted channel while making payments through a shielded pool, ensuring that outside observers can't determine the price. It consists of a MCP server, a CLI, and a Python SDK, and supports both Starknet and Monad backends. The implementation includes various components such as a Rust client for Starknet, Python bindings, and systems for handling shielded payments and agreement encoding.",
     "latest_push": "Updated documentation to reference the published 0.4.0.dev2026101801 release.",
@@ -345,6 +344,7 @@
     "has_readme": true,
     "additions": 76,
     "deletions": 84,
+    "churn_pct": 0.1,
     "sprint": {
       "pushes": 126,
       "additions": 19063,
@@ -6643,7 +6643,6 @@
     "head_sha": "638821aa4d34198382d24c3e1ffd3c8337f0a45c",
     "readme_hash": "7474e890dc0dbe0e",
     "desc_v6": true,
-    "churn_pct": 1.4,
     "summary": "Send USDC from any chain to an @handle or email and claim privately on Starknet.",
     "description_long": "Wotta allows users to send USDC to an @handle or email instead of an address, simplifying cross-chain payments. It resolves recipients through an API, creates claim commitments in the browser, and securely delivers the payment alongside an encrypted note. Transactions are settled privately on Starknet Mainnet, with options to earn on Vesu using the STRK20 private pool.",
     "latest_push": "Fixed double-submit guard and scoped Earn reveal to the active tab.",
@@ -6672,6 +6671,7 @@
     "has_readme": true,
     "additions": 19,
     "deletions": 512,
+    "churn_pct": 1.4,
     "sprint": {
       "pushes": 139,
       "additions": 19993,
