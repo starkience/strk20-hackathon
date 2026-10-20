@@ -239,7 +239,6 @@
     "head_sha": "75b00efaae5b3b2bfc2cbc7997e252a9611af0ee",
     "readme_hash": "346e44b41dca5c34",
     "desc_v6": true,
-    "churn_pct": 0.1,
     "summary": "A private wallet for shielded transactions on Starknet.",
     "description_long": "This wallet allows users to shield, send, and unshield STRK privately on the mainnet, providing a simple interface without exposing complex cryptographic details. Built with Next.js and Starknet, it features wallet and SDK routes for different user requirements, seamlessly integrating mainnet actions with live balance updates and reliable RPC failover mechanisms.",
     "latest_push": "Updated the README.md with new project information.",
@@ -283,6 +282,7 @@
     "has_readme": true,
     "additions": 3,
     "deletions": 3,
+    "churn_pct": 0.1,
     "sprint": {
       "pushes": 98,
       "additions": 17557,
@@ -9545,7 +9545,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -14488,111 +14488,6 @@
       "facts_v2": true
     },
     "star_evidence": "2 contracts deployed, Cairo in the repository"
-  },
-  {
-    "slug": "cordon",
-    "name": "Cordon",
-    "one_liner": "Credential-gated, on-chain-enforced policy for shielded value on Starknet.",
-    "category": "Infra",
-    "repo_url": "https://github.com/RaYYeR220/cordon",
-    "demo_url": "https://rayyer220.github.io/cordon/",
-    "demo_video": "https://youtu.be/xEIzchhd8QU",
-    "x_handle": "rayyer_220",
-    "inspired_by": "IDEA-22",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x061c734fe518f4c1a0e46d3d2a35b4ff1ab0df17dec510cff401d25e67dfc6b2",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x001cc4f14b4af4f7b1d7a6b973fbe968513abf1c94a3e9602c7fdd14e3d3aae7",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x035cc9e0dd4767aa259d6d7a6c6c10cb58fc97acdc0b45b7541807329a655c6d",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x01b0cf177a70f390af44dc706e7867fa5d0be8920c14d23d4230955a027ab9ee",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x48706650f053d722b138a83b40ec19ce83c4c61f346bd378d9b1473265e292c",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x628d58eda409d1c035e334fcd2bc8c63da60b5959e03843182d0c3d99449e6f",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x3c33703c367473102af8aa67335a5247cbee74a7bbd975cbc9b825ca4a169fd",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-08-29T19:50:39Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "RaYYeR220",
-        "name": "Rayyer",
-        "avatar_url": "https://avatars.githubusercontent.com/u/96079039?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29"
-    ],
-    "head_sha": "afd6b5d5c2614cda1f953dc8163024f53caac116",
-    "readme_hash": "b0b1b4128c8aa035",
-    "desc_v6": true,
-    "summary": "A credential and policy layer for on-chain enforced payments and privacy.",
-    "description_long": "Cordon manages compliance for private transactions in the STRK20 privacy pool. It routes value through a Cairo anonymizer while enforcing policy checks that prevent unauthorized transfers. The contracts include a PolicyGate that validates payer and payee credentials, ensuring that uncredentialed or revoked participants cannot execute transactions, thus maintaining privacy while meeting regulatory requirements.",
-    "latest_push": "Recorded mainnet settlements, corrected claims, and updated documentation.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 129,
-    "deletions": 44,
-    "churn_pct": 0.5,
-    "sprint": {
-      "pushes": 95,
-      "additions": 19351,
-      "deletions": 2,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "4 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "zkpayslip",
@@ -21759,6 +21654,58 @@
       "pushes": 57,
       "additions": 23295,
       "deletions": 176,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": ""
+  },
+  {
+    "slug": "cordon",
+    "name": "Cordon",
+    "one_liner": "Credential-gated, on-chain-enforced policy for shielded value on Starknet.",
+    "category": "Infra",
+    "repo_url": "https://github.com/RaYYeR220/cordon",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "rayyer_220",
+    "inspired_by": "IDEA-22",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "Credential-gated, on-chain-enforced policy for shielded value.",
+    "description_long": "This project implements a policy system that requires specific credentials to access shielded value on Starknet. It enforces these policies directly on-chain to ensure compliance.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 95,
+      "additions": 19351,
+      "deletions": 2,
       "computed": 3
     },
     "assessment": null,
