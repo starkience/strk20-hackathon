@@ -82,7 +82,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-22T01:34:11Z",
+    "pushed_at": "2026-10-22T06:48:49Z",
     "stars": 4,
     "builders": [
       {
@@ -131,13 +131,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "93677258a67b912552b71e20f7b482552423d077",
+    "head_sha": "20e280fc0c84999a23472f7114a0df19da415132",
     "readme_hash": "ae4feab1b811a2ba",
     "desc_v6": true,
-    "churn_pct": 0.2,
+    "churn_pct": 3.2,
     "summary": "AI agents negotiate deals over an encrypted channel with payments in a shielded pool.",
     "description_long": "Erebus enables two AI agents to negotiate agreements via an encrypted channel while making payments through a shielded pool, ensuring that outside observers can't determine the price. It consists of a MCP server, a CLI, and a Python SDK, and supports both Starknet and Monad backends. The implementation includes various components such as a Rust client for Starknet, Python bindings, and systems for handling shielded payments and agreement encoding.",
-    "latest_push": "Added an outside-tester brief, results template, and audit scope details.",
+    "latest_push": "Fixed unauthenticated access refusal and limited buyers per resource.",
     "tooling": [
       {
         "label": "Cairo",
@@ -151,8 +151,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 364,
-    "deletions": 0,
+    "additions": 5467,
+    "deletions": 466,
     "sprint": {
       "pushes": 126,
       "additions": 19063,
