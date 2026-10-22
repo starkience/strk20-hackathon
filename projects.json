@@ -82,7 +82,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-21T19:29:38Z",
+    "pushed_at": "2026-10-22T01:34:11Z",
     "stars": 4,
     "builders": [
       {
@@ -131,12 +131,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "cbd6567f85f5049550c0f5e12744fad1f0163293",
+    "head_sha": "93677258a67b912552b71e20f7b482552423d077",
     "readme_hash": "ae4feab1b811a2ba",
     "desc_v6": true,
+    "churn_pct": 0.2,
     "summary": "AI agents negotiate deals over an encrypted channel with payments in a shielded pool.",
     "description_long": "Erebus enables two AI agents to negotiate agreements via an encrypted channel while making payments through a shielded pool, ensuring that outside observers can't determine the price. It consists of a MCP server, a CLI, and a Python SDK, and supports both Starknet and Monad backends. The implementation includes various components such as a Rust client for Starknet, Python bindings, and systems for handling shielded payments and agreement encoding.",
-    "latest_push": "Stored pool history in verified append-only segments with a manifest.",
+    "latest_push": "Added an outside-tester brief, results template, and audit scope details.",
     "tooling": [
       {
         "label": "Cairo",
@@ -150,9 +151,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 2649,
-    "deletions": 134,
-    "churn_pct": 1.5,
+    "additions": 364,
+    "deletions": 0,
     "sprint": {
       "pushes": 126,
       "additions": 19063,
@@ -9545,7 +9545,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account scanning, relayer role, and auditor dashboard.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
