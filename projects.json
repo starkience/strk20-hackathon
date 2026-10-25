@@ -62,7 +62,6 @@
     "head_sha": "cb81e6b3bb66121ac5323cc98b4450cd4f9f3db8",
     "readme_hash": "373e1577231e0a66",
     "desc_v6": true,
-    "churn_pct": 0.2,
     "summary": "Private event admission with device-bound passes and challenge verification.",
     "description_long": "Allows attendees to scan event QR codes, make private payments from shielded STRK balances, and receive device-bound passes. The system includes components such as a payment helper on mainnet, commitment hashes for event details, and ephemeral signing keys for attendees to verify access without revealing their public wallet. A random challenge ensures that passes cannot be reused or copied.",
     "latest_push": "Pointed links at odinfree after account rename.",
@@ -81,6 +80,7 @@
     "has_readme": true,
     "additions": 2,
     "deletions": 2,
+    "churn_pct": 0.2,
     "sprint": {
       "pushes": 9,
       "additions": 5766,
@@ -241,7 +241,6 @@
     "head_sha": "874acbb3f4cabf263914a260c2b424249a46dc2d",
     "readme_hash": "72b894827195039c",
     "desc_v6": true,
-    "churn_pct": 0.4,
     "summary": "An AI agent that autonomously pays for verified work without revealing recipient details.",
     "description_long": "Sage autonomously inspects completed tasks, verifies their quality, and decides on payments in USDC from a controlled vault, ensuring privacy for recipients. Built on Starknet, it uses on-chain transactions to execute decisions made by the AI agent, which escrow payments behind commitments to prevent traceability. The system allows for private payouts and operates a feedback loop where funds can be advanced and repaid through verified transactions.",
     "latest_push": "Implemented the x402 Metis payment integration and related documentation.",
@@ -280,6 +279,7 @@
     "has_readme": true,
     "additions": 910,
     "deletions": 164,
+    "churn_pct": 0.4,
     "sprint": {
       "pushes": 716,
       "additions": 15778,
@@ -9643,7 +9643,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet.",
     "tooling": [
       {
         "label": "Privacy SDK",
