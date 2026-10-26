@@ -1105,54 +1105,61 @@
     "transactions": [
       {
         "hash": "0x40093f3e154d77beab5cd7cfc8fe5c907efb2e28e8c5908bd04ea2d1485d19d",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x2fc6118ca911d5a0d6971611b0e38b1572c3b9775aae5f94e429f1eecce01c3",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x63c7f71614d1394acdad4df19cd489ec4c3d7c0e1ceab574e7aa496509de3a5",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x4b5052d5818dc3688de6be9bb23eb54d7d4ef9566b8fb214c6ff2bd1051119e",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x3e09c1a8a09bf2a146bbd452fed3c48309b7124c7be4745056742ec1653bc59",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x1df98fdd1cc335d5bfa9c39b4bcc55ae4cbc02a3ce389e14e3a6dcec2d8b5a3",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x69ea91064cb35315d311493cac956439bf3e0bbe798c95248c7cc437802ef1f",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 7,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": true
+      "mainnet": false
     },
-    "status": "finished",
+    "status": "building",
     "pushed_at": "2026-10-19T04:43:06Z",
     "stars": 0,
     "builders": [
@@ -1218,30 +1225,33 @@
     "transactions": [
       {
         "hash": "0x2e0b97e9a0294854bd530f7272c377d3282f57d0a46682619946a505d40dafa",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x7072d3f3d612f46d8c7e39877028ae864c5535687ba89604ffd48e0cc0a76bc",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0xbda1e01ed58a533fae14a185ec839988a1fdf7927a0cad430ecd199755bc07",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 3,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": true
+      "mainnet": false
     },
-    "status": "finished",
+    "status": "building",
     "pushed_at": "2026-10-18T19:13:48Z",
     "stars": 0,
     "builders": [
@@ -1981,67 +1991,67 @@
     "contracts": [
       {
         "address": "0x3821e794573098e99d93a8e154965d4b4f67586741a625ed2c78b95362e2502",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x2bf6a09c0aaea154de34745056e7534f58fa0805c12afe18cf22a9bc66ee7a8",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x268df800d72220614d0c49bc3eae829612ab3f9c6e36b423d288edf68540a57",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x6149b13d4963c5dbc147d687a2e7a33fa7c87f30f3687c546de9b2e957000d0",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x402372930ea52cccbafa459169b3dae3d67051ed741e9af7da669a0f1fbb308",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
       {
         "hash": "0xcd9b13ececa4649ce5f6e7ad80acf80e1ab03a57190e4035e7240369152a4b",
-        "ok": true,
+        "ok": false,
         "pool": false,
         "mine": false,
-        "note": "did not touch the pool"
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x1daa47a0efde4fad6bbf3d81f88af40ed3951a946b3ece84ac06f6fbb6e7e04",
-        "ok": true,
-        "pool": true,
+        "ok": false,
+        "pool": false,
         "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x639263f89bccef1bef806409da74962d7e7829043deb153fb0ea2e5ddbdab69",
-        "ok": true,
+        "ok": false,
         "pool": false,
         "mine": false,
-        "note": "did not touch the pool"
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x7edf5045bcc1aab3f748d503611c8a2c73b15c5cac0224e4dbf4a4801358982",
-        "ok": true,
+        "ok": false,
         "pool": false,
         "mine": false,
-        "note": "did not touch the pool"
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x6fe8e61e009ad5168c683fb2560c73fba4a92e9eba723455c3557bd6e79d6cc",
-        "ok": true,
-        "pool": true,
+        "ok": false,
+        "pool": false,
         "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x00a62a09872eb695ec32d9a86300cf4bff5ced8ea87fbb33f879b5389ce1c51c",
-        "ok": true,
-        "pool": true,
+        "ok": false,
+        "pool": false,
         "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
+        "note": "not found on mainnet"
       }
     ],
     "verified_txs": 0,
@@ -2117,7 +2127,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
+    "star_evidence": "5 contracts deployed, Cairo in the repository"
   },
   {
     "slug": "cipherbid",
@@ -4799,36 +4809,39 @@
     "contracts": [
       {
         "address": "0x04ff27f7943b0a5ea6f9e129d97b3870b594a427b14680676e68edb4b75c0348",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
       {
         "hash": "0x02c1572c8aa0cf019ddf974a29807f4153177b487b584507ce540338b5c7dadd",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x208871571e7989d3f0d1a067b29c39f09e0ef212261fdc78db7c51323784b60",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x75b607c8362940da4827217185b4448dba17178a1f893ac58aa84db7b098c01",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 3,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": true
+      "mainnet": false
     },
-    "status": "finished",
+    "status": "building",
     "pushed_at": "2026-09-07T23:53:56Z",
     "stars": 0,
     "builders": [
@@ -4875,7 +4888,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+    "star_evidence": "1 contract deployed, Cairo in the repository"
   },
   {
     "slug": "nomos",
@@ -6020,7 +6033,7 @@
       },
       {
         "address": "0x040337b1af3c663e86e333bab5a4b28da8d4652a15a69beee2b677776ffe812a",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [],
@@ -6086,7 +6099,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+    "star_evidence": "3 contracts deployed, Cairo in the repository"
   },
   {
     "slug": "veilap",
@@ -6769,48 +6782,51 @@
     "contracts": [
       {
         "address": "0x24a2c1a79b97794ed4d143ff0f6f5b05b3569832c85957aa10bc7c3dcc000fd",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x656a3300531b45f559e51120b0cb9bcea8c6c4e626ebef6c46c184da08c0a06",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x41a7424a3779e15d68f7a1da96b7cf95a196563bcfc3ff81eeb8735c4368f0c",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x4ee621484a3dfda3976b5fd37749e50727a7697296a46fbd0fd81c4d42dfe38",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
       {
         "hash": "0x039175568da9522eb3f25867bf6d836ef02e9173cb52fe774e7f3caca2209b86",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x069f98e913567d0645c12012064d2228a99b52d949b38decb81bc3c0c59cbd32",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x051421173311ac72fb25cb19e97b82058484ff1fe53b3e3a5b7ee844aeb0d1fd",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 3,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": true
+      "mainnet": false
     },
-    "status": "finished",
+    "status": "building",
     "pushed_at": "2026-09-07T22:12:15Z",
     "stars": 0,
     "builders": [
@@ -6877,7 +6893,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "4 contracts deployed on mainnet, Cairo in the repository"
+    "star_evidence": "4 contracts deployed, Cairo in the repository"
   },
   {
     "slug": "blackbox-protocol",
@@ -8047,36 +8063,39 @@
     "contracts": [
       {
         "address": "0x1ad47d7b59f736383221af3847aeb737d358e0c2cce947482ca48dad6c4ca72",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
       {
         "hash": "0x05a72e851872709834eacd2a66c8f0c571b98db1d3fd58b624c069413fb7bacf",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x04da2e5f3e247ecf722e7af5c0de923eb639a48008fa15628fe300235af62fc1",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x011dbb7d245a7bda4d982b6102f2c6c0c2b897979388879d8d490b7c78153868",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 3,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": true
+      "mainnet": false
     },
-    "status": "finished",
+    "status": "building",
     "pushed_at": "2026-09-07T19:46:27Z",
     "stars": 1,
     "builders": [
@@ -8165,7 +8184,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+    "star_evidence": "1 contract deployed, Cairo in the repository"
   },
   {
     "slug": "cloakra",
@@ -8483,46 +8502,50 @@
     "contracts": [
       {
         "address": "0x008498d79ca390b34a6416cc45fb375ad9b921eefd8d4531d99a2d775feb3a7e",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x05bd985e794aee4c12d529ab50a68e5a40c7e28a36642b2b8e2ccdb373346984",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
       {
         "hash": "0x060a25127edcca8a5f310fa711c1566dd39c688c8b30406d7482388d715ed311",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x023f7828c9be1a04c54ab0d2b95e48506a807906c76fd6646f2c6cedc77cdf70",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x07edfb70871f834236ff00f330ae20f214c0bfefa11f219a69d681d5627f9cab",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x0694f9d76480b957a0badeb1ea72a637dba903bf33c833716c5ff956f96a96bc",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 4,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": true
+      "mainnet": false
     },
-    "status": "finished",
+    "status": "building",
     "pushed_at": "2026-09-07T17:11:53Z",
     "stars": 1,
     "builders": [
@@ -8596,7 +8619,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
+    "star_evidence": "2 contracts deployed, Cairo in the repository"
   },
   {
     "slug": "mantissa",
@@ -9643,7 +9666,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -9985,30 +10008,33 @@
     "transactions": [
       {
         "hash": "0x06534901ed0e2472b072758ef1c4e723651568920a8c04c9dfe95924937ab6cc",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x026f1aa66b1afcc282ebdc6873e644d4c121af119fe744d523938818df425631",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x0143c44c6b52708d790a9a862275c0c786d1b6941c94bcf7709f368ecbcd5452",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 3,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": true
+      "mainnet": false
     },
-    "status": "finished",
+    "status": "building",
     "pushed_at": "2026-09-05T21:47:25Z",
     "stars": 0,
     "builders": [
@@ -10604,48 +10630,51 @@
     "contracts": [
       {
         "address": "0x66c521e428c06594ec48411332793b03038f1ba31333609f8c4f47515b56e55",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x711b2c0eba71bfde250451b6a1ec30239a6285949f1dba45a359517912ff56a",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x19e6490c842701904b270c1c1cd3da6a21f72d322448ecd87a24ea8dca0c8ad",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x38b19de9d117d377861bd14dafb1bbdcfeae5e0ad555b91dc76795420643dac",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
       {
         "hash": "0x92e5ff3bddf9198a437cae7920c7c9cda43420ea7db2adc1a8fc688fef5915",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x57d480f4fa30bf52895a7f9c4f71455d6b91954f1add7c9f3922b00bec2426",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x19f27ea05c444c44de816c40f5240317a2f43352b66de07d1d4c2097f5600b5",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 3,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": true
+      "mainnet": false
     },
-    "status": "finished",
+    "status": "building",
     "pushed_at": "2026-09-04T21:26:30Z",
     "stars": 0,
     "builders": [
@@ -10712,7 +10741,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "4 contracts deployed on mainnet, Cairo in the repository"
+    "star_evidence": "4 contracts deployed, Cairo in the repository"
   },
   {
     "slug": "veyra",
@@ -12481,46 +12510,50 @@
     "contracts": [
       {
         "address": "0x00130309329e8dd696fccdf30b3ed8675b2086b1c6aacd1dc35c9bb0023fe0a8",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x0038e9a01c30b20f7fa2bee52bfe9b4958be57c47ad518626b85049b04d32752",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
       {
         "hash": "0x1933dbd5d2a416eff7e711bf233c4eda31e5433a0db1326fd527dc2e5dff2f0",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x5f62d4593c3751eb568b5a256d897b77aa3a533f7bc95f156d51c25e5aa08a7",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x7c4ff06a97c00a74053265e835f07b8bcded58c8a7f673a21c6d44d6e59d4c8",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x549a66be0c94cf07dd9eeb47830262df545aa107638bcf8e130d729c1dd27c2",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 4,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": true
+      "mainnet": false
     },
-    "status": "finished",
+    "status": "building",
     "pushed_at": "2026-08-31T22:56:21Z",
     "stars": 0,
     "builders": [
@@ -12567,7 +12600,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
+    "star_evidence": "2 contracts deployed, Cairo in the repository"
   },
   {
     "slug": "mirage-zk",
@@ -13395,7 +13428,7 @@
     "contracts": [
       {
         "address": "0x0742e87165702505a514e20167c6b613023d96689b10b87fc197626b7fe08689",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
@@ -13490,7 +13523,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+    "star_evidence": "1 contract deployed, Cairo in the repository"
   },
   {
     "slug": "philoxenia",
@@ -13736,58 +13769,61 @@
     "contracts": [
       {
         "address": "0x026ce951b858934b1ad832be2f93a102b9bf42deb5b824204278ed72b45fa828",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x018f6925422c85da8c9e0c1572adf4316a9821ffabc4b29db37d11c6a0c2844a",
-        "network": "mainnet"
+        "network": "unknown"
       },
       {
         "address": "0x043d60a5bf9cd864d9d5bb1d86d48a3268d32c3a004db64962b03215d3fdb2ed",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
       {
         "hash": "0x0c4fbacb5ee5fd3a65f09d7a724ad585387ba642e570a11ed79f9be8ac013a6",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x02e969f712d5ff8f3091bd42b06978c285c8ad221081da5f575afbc72f87888e",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x05a9458404b7c44510f712de9f59140e10106801eb0d79e49603451de706e01d",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x07fc844dcbdb0b520c0efdc71f92ea1cd6fe2b13e4cfa7b1d2c3e461126447f3",
-        "ok": true,
+        "ok": false,
         "pool": false,
         "mine": false,
-        "note": "did not touch the pool"
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x07c9db1b6dded305dcd55a4701a985a75e88eacfa5f6dd0df9014c2e660a311e",
-        "ok": true,
+        "ok": false,
         "pool": false,
         "mine": false,
-        "note": "did not touch the pool"
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 3,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": true
+      "mainnet": false
     },
-    "status": "finished",
+    "status": "building",
     "pushed_at": "2026-08-30T20:54:47Z",
     "stars": 0,
     "builders": [
@@ -13839,7 +13875,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "3 contracts deployed on mainnet, Cairo in the repository"
+    "star_evidence": "3 contracts deployed, Cairo in the repository"
   },
   {
     "slug": "mirage",
@@ -13858,60 +13894,68 @@
     "transactions": [
       {
         "hash": "0x7f419460965d6d83b2cc919a0f08d11dee212fe367849cfb1afe124ed14b511",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x7d643ebd88f2894b2733628fcc7363fd082e30a0ea0b47c3608149a7bbfc86c",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x3f556eafedae96409b43b7e20b0e2f56199cc74a1ea97b8e09a63c80e4ec0f2",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x22e8abb80330bbab42123f032da8d3eca702347515dec527bf2fb1fa4a3c3f3",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x224e93d2a29d89222b784f944b453aff57967c101ebd252ed4d6154d640487b",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x7a12341fcb5a950f104451eb81361d9d121643e6ee2221538850a4d6f2c0797",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x357c9a9d12fa02790e3f2c41c5d00d51e8c9bb432a6e09407bd9d14ade21018",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x4c26b7ba3162f82885f0e2eb4d74d082ddd7853ff9c5fee07d261ef67c3090f",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 8,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": true
+      "mainnet": false
     },
-    "status": "finished",
+    "status": "building",
     "pushed_at": "2026-08-30T15:43:55Z",
     "stars": 0,
     "builders": [
@@ -13969,36 +14013,39 @@
     "contracts": [
       {
         "address": "0x7e5d90e55952937a1f61b77572da77acf82f37608f8f27df359a7f40e04e21d",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
       {
         "hash": "0x3cb7c72a364a2adbcbb1a0251cdba7928438afa93e49ab46b2b9f1094372b89",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x799dbbcf64a9c8b9e824460b1501e1e95ab77faea6abab4720449ceceaebb6b",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x69c19fd2aa076088ae2eea5f585c3ab5f035d7774216d586278cf942dbf0906",
-        "ok": true,
-        "pool": true,
-        "mine": true
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 3,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": true
+      "mainnet": false
     },
-    "status": "finished",
+    "status": "building",
     "pushed_at": "2026-08-30T11:41:28Z",
     "stars": 0,
     "builders": [
@@ -14069,7 +14116,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+    "star_evidence": "1 contract deployed, Cairo in the repository"
   },
   {
     "slug": "shadowpay",
@@ -14088,42 +14135,47 @@
     "transactions": [
       {
         "hash": "0x4065345b1084f0f15b8b9bb3062800369bc7da82d8df9c37b3d8f2253a060b7",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x6c3c433367cdb1642161ec6174c72ff85b359f78641972842d4ec8ab23d525a",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0xcd077435fa89736af54844109f66243ffa6bc4406a0946266358ee6fde1c99",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x6156cc8680b7a9ab428c35607636d2a1e9bd60ec3b038fc61b40498e4f05150",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x3010f4a3002b87277a58ea307501c8907917052ce09749594cbb36db94d11db",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 5,
+    "verified_txs": 0,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": true
+      "mainnet": false
     },
-    "status": "finished",
+    "status": "building",
     "pushed_at": "2026-08-30T10:36:13Z",
     "stars": 1,
     "builders": [
@@ -17781,7 +17833,7 @@
     "contracts": [
       {
         "address": "0x0254fc4294398776cab056becb9630b996af2c10628e225ac7559e2d9069bacb",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [],
@@ -17862,7 +17914,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+    "star_evidence": "1 contract deployed, Cairo in the repository"
   },
   {
     "slug": "nexora-protocol",
@@ -18026,7 +18078,7 @@
     "contracts": [
       {
         "address": "0x4b41a5648796ce290fcba3f5630a66f9fe737f58de6b9589a5d780a2c4999f3",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [],
@@ -18107,7 +18159,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+    "star_evidence": "1 contract deployed, Cairo in the repository"
   },
   {
     "slug": "starkwhisper",
@@ -19109,18 +19161,20 @@
     "transactions": [
       {
         "hash": "0x5b07f9aa62a6bef77c485fdc156b1f919a0e5fe8f061ffb479c00c598754927",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       },
       {
         "hash": "0x486716f1dac33439bf5bda886d00d224fad649f36fde8f151831f314723aa2d",
-        "ok": true,
-        "pool": true,
-        "mine": null
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
       }
     ],
-    "verified_txs": 2,
+    "verified_txs": 0,
     "requirements": {
       "demo": false,
       "video": false,
