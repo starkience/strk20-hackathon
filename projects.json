@@ -1,103 +1,5 @@
 [
   {
-    "slug": "mosby-pass",
-    "name": "Mosby Pass",
-    "one_liner": "Private event admission powered by shielded STRK on Starknet.",
-    "category": "Consumer",
-    "repo_url": "https://github.com/odinfree/mosby-pass",
-    "demo_url": "https://odinfree.github.io/mosby-pass/",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "starkware",
-    "starred": false,
-    "star_reason": "Enables private event admission using advanced cryptographic techniques in a novel domain.",
-    "contracts": [
-      {
-        "address": "0x05dd2c68fa1c0fba3b425a7c855fbc0a60867763b2688bf44f2225d422173da6",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x12bad0ed32d90bbde43d0579624e1bae3585ce1a7f6d4081a7296f099fe1103",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      }
-    ],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-10-25T19:49:44Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "odinfree",
-        "name": "odinfree",
-        "avatar_url": "https://avatars.githubusercontent.com/u/58338510?v=4"
-      },
-      {
-        "login": "welttowelt",
-        "name": "welttowelt",
-        "avatar_url": "https://github.com/welttowelt.png"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5.5",
-        "avatar_url": "",
-        "commits": 1
-      }
-    ],
-    "active_days": [
-      "2026-08-15"
-    ],
-    "head_sha": "cb81e6b3bb66121ac5323cc98b4450cd4f9f3db8",
-    "readme_hash": "373e1577231e0a66",
-    "desc_v6": true,
-    "summary": "Private event admission with device-bound passes and challenge verification.",
-    "description_long": "Allows attendees to scan event QR codes, make private payments from shielded STRK balances, and receive device-bound passes. The system includes components such as a payment helper on mainnet, commitment hashes for event details, and ephemeral signing keys for attendees to verify access without revealing their public wallet. A random challenge ensures that passes cannot be reused or copied.",
-    "latest_push": "Pointed links at odinfree after account rename.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 2,
-    "deletions": 2,
-    "churn_pct": 0.2,
-    "sprint": {
-      "pushes": 9,
-      "additions": 5766,
-      "deletions": 568,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": true,
-      "complex": true,
-      "why_innovative": "It utilizes shielded STRK for verified event admission without revealing attendee's wallet.",
-      "why_complex": "Involves multiple contracts, including event commitment and access commitment mechanisms.",
-      "reason": "Enables private event admission using advanced cryptographic techniques in a novel domain.",
-      "facts_v2": true
-    },
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
-  },
-  {
     "slug": "sage",
     "name": "Sage",
     "one_liner": "An autonomous agent that judges human work and pays for it — addressing each payout to a person rather than a wallet, so someone with no wallet and no gas can still collect, and who was paid stays private.",
@@ -195,7 +97,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-25T19:15:29Z",
+    "pushed_at": "2026-10-26T13:33:10Z",
     "stars": 0,
     "builders": [
       {
@@ -238,12 +140,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "874acbb3f4cabf263914a260c2b424249a46dc2d",
+    "head_sha": "d08566eac4daf72eba64f78f07c640c240141fd0",
     "readme_hash": "72b894827195039c",
     "desc_v6": true,
+    "churn_pct": 1.2,
     "summary": "An AI agent that autonomously pays for verified work without revealing recipient details.",
     "description_long": "Sage autonomously inspects completed tasks, verifies their quality, and decides on payments in USDC from a controlled vault, ensuring privacy for recipients. Built on Starknet, it uses on-chain transactions to execute decisions made by the AI agent, which escrow payments behind commitments to prevent traceability. The system allows for private payouts and operates a feedback loop where funds can be advanced and repaid through verified transactions.",
-    "latest_push": "Implemented the x402 Metis payment integration and related documentation.",
+    "latest_push": "Launched Metis with live factory and ERC-8004 agent integration.",
     "tooling": [
       {
         "label": "get-starknet",
@@ -277,17 +180,293 @@
       }
     ],
     "has_readme": true,
-    "additions": 910,
-    "deletions": 164,
-    "churn_pct": 0.4,
+    "additions": 1070,
+    "deletions": 1742,
     "sprint": {
       "pushes": 716,
-      "additions": 15778,
+      "additions": 15730,
       "deletions": 112,
       "computed": 3
     },
     "assessment": null,
     "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "provah",
+    "name": "Provah",
+    "one_liner": "Capability layer for STRK20 pool activity: prove public deposit history, redeem a one-time pass from any wallet.",
+    "category": "Other",
+    "repo_url": "https://github.com/levithefirst/provah",
+    "demo_url": "https://provah.vercel.app",
+    "demo_video": "https://x.com/levithefirst/status/2093702890044952686",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x040337b1af3c663e86e333bab5a4b28da8d4652a15a69beee2b677776ffe812a",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x74614e0cd54af7e59987a5d74fdd028209feff01fc20eca2934fe80b94db402",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x0684bdad671fb81afe3cc2c27038e867e352e3323f666e4fd967e0086fffc385",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x0043faa1484457b0e5b97b860c5b9e1fdc6a5711dece60554bc8149b0b27adb6",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x0613601df1f0057935ada6df4657962f853ba2b023e733886e2d3a5c95504421",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x003c48357164e2536e57798787e9710b8025bdd4a083d10a5af2447e6fdd9473",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x266ff30feda87e59c13eeccf122af1d82aaf92088d95cf7dcbff91f44c3c010",
+        "ok": true,
+        "pool": false,
+        "mine": false,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x1d57d647ff240ff4c02d9fb255bbaf80bc5238f8091483f33505c0ca3011153",
+        "ok": true,
+        "pool": false,
+        "mine": false,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x79375d773a91d5726a9bf896e114bc7549003f05c7decd685a0bce5b47dc70a",
+        "ok": true,
+        "pool": false,
+        "mine": false,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x758de909a13df099cd72a1ef843217805d04ab761ab57e2bcd4c0f924c126e6",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x5ebf464f06bfe864f2ee875a4b8a84ab8032b31ced539300424067ae14f9dce",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x41c16869dcd1f3781e839f44b9ea86b867d872f4177e7790fee631d957de9b3",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      }
+    ],
+    "verified_txs": 4,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-10-26T12:37:25Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "levithefirst",
+        "name": "levithefirst",
+        "avatar_url": "https://avatars.githubusercontent.com/u/304593143?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Sonnet 5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+        "commits": 115
+      }
+    ],
+    "active_days": [
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-09-01"
+    ],
+    "head_sha": "005162f267ea9aca7d6f6153b9bceb0fd400b9a3",
+    "readme_hash": "a0a6e424acf999d6",
+    "desc_v6": true,
+    "summary": "A capability layer for STRK20 pool activity to redeem transferable, unlinkable passes.",
+    "description_long": "Prova Pass lets users convert any provable fact about their public STRK20 pool activity into a transferable capability that can be redeemed by a different wallet. It validates this activity through a server attestation, generating a bearer token that acts on-chain and can carry real value, allowing the recipient to receive an ERC20 payout while maintaining unlinkability. Built as a contract on the live mainnet, Prova Pass features multiple campaigns, including options for new wallets to participate without any prior deposit history.",
+    "latest_push": "Removed AI-tooling and video-production files not relevant to users.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 3,
+    "deletions": 5370,
+    "churn_pct": 81.5,
+    "sprint": {
+      "pushes": 87,
+      "additions": 229541,
+      "deletions": 8414,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "mosby-pass",
+    "name": "Mosby Pass",
+    "one_liner": "Private event admission powered by shielded STRK on Starknet.",
+    "category": "Consumer",
+    "repo_url": "https://github.com/odinfree/mosby-pass",
+    "demo_url": "https://odinfree.github.io/mosby-pass/",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "starkware",
+    "starred": false,
+    "star_reason": "Enables private event admission using advanced cryptographic techniques in a novel domain.",
+    "contracts": [
+      {
+        "address": "0x05dd2c68fa1c0fba3b425a7c855fbc0a60867763b2688bf44f2225d422173da6",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x12bad0ed32d90bbde43d0579624e1bae3585ce1a7f6d4081a7296f099fe1103",
+        "ok": true,
+        "pool": true,
+        "mine": false,
+        "note": "touched the pool, but not through this project's contracts"
+      }
+    ],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-10-25T19:49:44Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "odinfree",
+        "name": "odinfree",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58338510?v=4"
+      },
+      {
+        "login": "welttowelt",
+        "name": "welttowelt",
+        "avatar_url": "https://github.com/welttowelt.png"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5.5",
+        "avatar_url": "",
+        "commits": 1
+      }
+    ],
+    "active_days": [
+      "2026-08-15"
+    ],
+    "head_sha": "cb81e6b3bb66121ac5323cc98b4450cd4f9f3db8",
+    "readme_hash": "373e1577231e0a66",
+    "desc_v6": true,
+    "summary": "Private event admission with device-bound passes and challenge verification.",
+    "description_long": "Allows attendees to scan event QR codes, make private payments from shielded STRK balances, and receive device-bound passes. The system includes components such as a payment helper on mainnet, commitment hashes for event details, and ephemeral signing keys for attendees to verify access without revealing their public wallet. A random challenge ensures that passes cannot be reused or copied.",
+    "latest_push": "Pointed links at odinfree after account rename.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 2,
+    "deletions": 2,
+    "churn_pct": 0.2,
+    "sprint": {
+      "pushes": 9,
+      "additions": 5766,
+      "deletions": 568,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": true,
+      "complex": true,
+      "why_innovative": "It utilizes shielded STRK for verified event admission without revealing attendee's wallet.",
+      "why_complex": "Involves multiple contracts, including event commitment and access commitment mechanisms.",
+      "reason": "Enables private event admission using advanced cryptographic techniques in a novel domain.",
+      "facts_v2": true
+    },
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "morrow",
@@ -1105,61 +1284,54 @@
     "transactions": [
       {
         "hash": "0x40093f3e154d77beab5cd7cfc8fe5c907efb2e28e8c5908bd04ea2d1485d19d",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x2fc6118ca911d5a0d6971611b0e38b1572c3b9775aae5f94e429f1eecce01c3",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x63c7f71614d1394acdad4df19cd489ec4c3d7c0e1ceab574e7aa496509de3a5",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x4b5052d5818dc3688de6be9bb23eb54d7d4ef9566b8fb214c6ff2bd1051119e",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x3e09c1a8a09bf2a146bbd452fed3c48309b7124c7be4745056742ec1653bc59",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x1df98fdd1cc335d5bfa9c39b4bcc55ae4cbc02a3ce389e14e3a6dcec2d8b5a3",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x69ea91064cb35315d311493cac956439bf3e0bbe798c95248c7cc437802ef1f",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 7,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-10-19T04:43:06Z",
     "stars": 0,
     "builders": [
@@ -1225,33 +1397,30 @@
     "transactions": [
       {
         "hash": "0x2e0b97e9a0294854bd530f7272c377d3282f57d0a46682619946a505d40dafa",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x7072d3f3d612f46d8c7e39877028ae864c5535687ba89604ffd48e0cc0a76bc",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0xbda1e01ed58a533fae14a185ec839988a1fdf7927a0cad430ecd199755bc07",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 3,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-10-18T19:13:48Z",
     "stars": 0,
     "builders": [
@@ -1991,67 +2160,67 @@
     "contracts": [
       {
         "address": "0x3821e794573098e99d93a8e154965d4b4f67586741a625ed2c78b95362e2502",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x2bf6a09c0aaea154de34745056e7534f58fa0805c12afe18cf22a9bc66ee7a8",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x268df800d72220614d0c49bc3eae829612ab3f9c6e36b423d288edf68540a57",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x6149b13d4963c5dbc147d687a2e7a33fa7c87f30f3687c546de9b2e957000d0",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x402372930ea52cccbafa459169b3dae3d67051ed741e9af7da669a0f1fbb308",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
       {
         "hash": "0xcd9b13ececa4649ce5f6e7ad80acf80e1ab03a57190e4035e7240369152a4b",
-        "ok": false,
+        "ok": true,
         "pool": false,
         "mine": false,
-        "note": "not found on mainnet"
+        "note": "did not touch the pool"
       },
       {
         "hash": "0x1daa47a0efde4fad6bbf3d81f88af40ed3951a946b3ece84ac06f6fbb6e7e04",
-        "ok": false,
-        "pool": false,
+        "ok": true,
+        "pool": true,
         "mine": false,
-        "note": "not found on mainnet"
+        "note": "touched the pool, but not through this project's contracts"
       },
       {
         "hash": "0x639263f89bccef1bef806409da74962d7e7829043deb153fb0ea2e5ddbdab69",
-        "ok": false,
+        "ok": true,
         "pool": false,
         "mine": false,
-        "note": "not found on mainnet"
+        "note": "did not touch the pool"
       },
       {
         "hash": "0x7edf5045bcc1aab3f748d503611c8a2c73b15c5cac0224e4dbf4a4801358982",
-        "ok": false,
+        "ok": true,
         "pool": false,
         "mine": false,
-        "note": "not found on mainnet"
+        "note": "did not touch the pool"
       },
       {
         "hash": "0x6fe8e61e009ad5168c683fb2560c73fba4a92e9eba723455c3557bd6e79d6cc",
-        "ok": false,
-        "pool": false,
+        "ok": true,
+        "pool": true,
         "mine": false,
-        "note": "not found on mainnet"
+        "note": "touched the pool, but not through this project's contracts"
       },
       {
         "hash": "0x00a62a09872eb695ec32d9a86300cf4bff5ced8ea87fbb33f879b5389ce1c51c",
-        "ok": false,
-        "pool": false,
+        "ok": true,
+        "pool": true,
         "mine": false,
-        "note": "not found on mainnet"
+        "note": "touched the pool, but not through this project's contracts"
       }
     ],
     "verified_txs": 0,
@@ -2127,7 +2296,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "5 contracts deployed, Cairo in the repository"
+    "star_evidence": "5 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "cipherbid",
@@ -4809,39 +4978,36 @@
     "contracts": [
       {
         "address": "0x04ff27f7943b0a5ea6f9e129d97b3870b594a427b14680676e68edb4b75c0348",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
       {
         "hash": "0x02c1572c8aa0cf019ddf974a29807f4153177b487b584507ce540338b5c7dadd",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x208871571e7989d3f0d1a067b29c39f09e0ef212261fdc78db7c51323784b60",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x75b607c8362940da4827217185b4448dba17178a1f893ac58aa84db7b098c01",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 3,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-09-07T23:53:56Z",
     "stars": 0,
     "builders": [
@@ -4888,7 +5054,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed, Cairo in the repository"
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "nomos",
@@ -6033,7 +6199,7 @@
       },
       {
         "address": "0x040337b1af3c663e86e333bab5a4b28da8d4652a15a69beee2b677776ffe812a",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [],
@@ -6099,7 +6265,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "3 contracts deployed, Cairo in the repository"
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "veilap",
@@ -6782,51 +6948,48 @@
     "contracts": [
       {
         "address": "0x24a2c1a79b97794ed4d143ff0f6f5b05b3569832c85957aa10bc7c3dcc000fd",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x656a3300531b45f559e51120b0cb9bcea8c6c4e626ebef6c46c184da08c0a06",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x41a7424a3779e15d68f7a1da96b7cf95a196563bcfc3ff81eeb8735c4368f0c",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x4ee621484a3dfda3976b5fd37749e50727a7697296a46fbd0fd81c4d42dfe38",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
       {
         "hash": "0x039175568da9522eb3f25867bf6d836ef02e9173cb52fe774e7f3caca2209b86",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x069f98e913567d0645c12012064d2228a99b52d949b38decb81bc3c0c59cbd32",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x051421173311ac72fb25cb19e97b82058484ff1fe53b3e3a5b7ee844aeb0d1fd",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 3,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-09-07T22:12:15Z",
     "stars": 0,
     "builders": [
@@ -6893,7 +7056,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "4 contracts deployed, Cairo in the repository"
+    "star_evidence": "4 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "blackbox-protocol",
@@ -8063,39 +8226,36 @@
     "contracts": [
       {
         "address": "0x1ad47d7b59f736383221af3847aeb737d358e0c2cce947482ca48dad6c4ca72",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
       {
         "hash": "0x05a72e851872709834eacd2a66c8f0c571b98db1d3fd58b624c069413fb7bacf",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x04da2e5f3e247ecf722e7af5c0de923eb639a48008fa15628fe300235af62fc1",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x011dbb7d245a7bda4d982b6102f2c6c0c2b897979388879d8d490b7c78153868",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 3,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-09-07T19:46:27Z",
     "stars": 1,
     "builders": [
@@ -8184,7 +8344,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed, Cairo in the repository"
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "cloakra",
@@ -8502,50 +8662,46 @@
     "contracts": [
       {
         "address": "0x008498d79ca390b34a6416cc45fb375ad9b921eefd8d4531d99a2d775feb3a7e",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x05bd985e794aee4c12d529ab50a68e5a40c7e28a36642b2b8e2ccdb373346984",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
       {
         "hash": "0x060a25127edcca8a5f310fa711c1566dd39c688c8b30406d7482388d715ed311",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x023f7828c9be1a04c54ab0d2b95e48506a807906c76fd6646f2c6cedc77cdf70",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x07edfb70871f834236ff00f330ae20f214c0bfefa11f219a69d681d5627f9cab",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x0694f9d76480b957a0badeb1ea72a637dba903bf33c833716c5ff956f96a96bc",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 4,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-09-07T17:11:53Z",
     "stars": 1,
     "builders": [
@@ -8619,7 +8775,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "2 contracts deployed, Cairo in the repository"
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "mantissa",
@@ -10008,33 +10164,30 @@
     "transactions": [
       {
         "hash": "0x06534901ed0e2472b072758ef1c4e723651568920a8c04c9dfe95924937ab6cc",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x026f1aa66b1afcc282ebdc6873e644d4c121af119fe744d523938818df425631",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x0143c44c6b52708d790a9a862275c0c786d1b6941c94bcf7709f368ecbcd5452",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 3,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-09-05T21:47:25Z",
     "stars": 0,
     "builders": [
@@ -10630,51 +10783,48 @@
     "contracts": [
       {
         "address": "0x66c521e428c06594ec48411332793b03038f1ba31333609f8c4f47515b56e55",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x711b2c0eba71bfde250451b6a1ec30239a6285949f1dba45a359517912ff56a",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x19e6490c842701904b270c1c1cd3da6a21f72d322448ecd87a24ea8dca0c8ad",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x38b19de9d117d377861bd14dafb1bbdcfeae5e0ad555b91dc76795420643dac",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
       {
         "hash": "0x92e5ff3bddf9198a437cae7920c7c9cda43420ea7db2adc1a8fc688fef5915",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x57d480f4fa30bf52895a7f9c4f71455d6b91954f1add7c9f3922b00bec2426",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x19f27ea05c444c44de816c40f5240317a2f43352b66de07d1d4c2097f5600b5",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 3,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-09-04T21:26:30Z",
     "stars": 0,
     "builders": [
@@ -10741,7 +10891,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "4 contracts deployed, Cairo in the repository"
+    "star_evidence": "4 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "veyra",
@@ -11855,185 +12005,6 @@
     "star_evidence": ""
   },
   {
-    "slug": "provah",
-    "name": "Provah",
-    "one_liner": "Capability layer for STRK20 pool activity: prove public deposit history, redeem a one-time pass from any wallet.",
-    "category": "Other",
-    "repo_url": "https://github.com/levithefirst/provah",
-    "demo_url": "https://provah.vercel.app",
-    "demo_video": "https://x.com/levithefirst/status/2093702890044952686",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x040337b1af3c663e86e333bab5a4b28da8d4652a15a69beee2b677776ffe812a",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x74614e0cd54af7e59987a5d74fdd028209feff01fc20eca2934fe80b94db402",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x0684bdad671fb81afe3cc2c27038e867e352e3323f666e4fd967e0086fffc385",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x0043faa1484457b0e5b97b860c5b9e1fdc6a5711dece60554bc8149b0b27adb6",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x0613601df1f0057935ada6df4657962f853ba2b023e733886e2d3a5c95504421",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x003c48357164e2536e57798787e9710b8025bdd4a083d10a5af2447e6fdd9473",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x266ff30feda87e59c13eeccf122af1d82aaf92088d95cf7dcbff91f44c3c010",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x1d57d647ff240ff4c02d9fb255bbaf80bc5238f8091483f33505c0ca3011153",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x79375d773a91d5726a9bf896e114bc7549003f05c7decd685a0bce5b47dc70a",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x758de909a13df099cd72a1ef843217805d04ab761ab57e2bcd4c0f924c126e6",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x5ebf464f06bfe864f2ee875a4b8a84ab8032b31ced539300424067ae14f9dce",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x41c16869dcd1f3781e839f44b9ea86b867d872f4177e7790fee631d957de9b3",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      }
-    ],
-    "verified_txs": 4,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-09-01T12:05:48Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "levithefirst",
-        "name": "levithefirst",
-        "avatar_url": "https://avatars.githubusercontent.com/u/304593143?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Sonnet 5",
-        "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
-        "commits": 115
-      }
-    ],
-    "active_days": [
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-09-01"
-    ],
-    "head_sha": "005162f267ea9aca7d6f6153b9bceb0fd400b9a3",
-    "readme_hash": "a0a6e424acf999d6",
-    "desc_v6": true,
-    "summary": "A capability layer for STRK20 pool activity to redeem transferable, unlinkable passes.",
-    "description_long": "Prova Pass lets users convert any provable fact about their public STRK20 pool activity into a transferable capability that can be redeemed by a different wallet. It validates this activity through a server attestation, generating a bearer token that acts on-chain and can carry real value, allowing the recipient to receive an ERC20 payout while maintaining unlinkability. Built as a contract on the live mainnet, Prova Pass features multiple campaigns, including options for new wallets to participate without any prior deposit history.",
-    "latest_push": "Removed AI-tooling and video-production files not relevant to users.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 3,
-    "deletions": 5370,
-    "churn_pct": 81.5,
-    "sprint": {
-      "pushes": 87,
-      "additions": 229541,
-      "deletions": 8414,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
     "slug": "ghoste-starknet",
     "name": "Ghoste for Starknet",
     "one_liner": "Private meta-routing and unlinkable settlement on Starknet.",
@@ -12510,50 +12481,46 @@
     "contracts": [
       {
         "address": "0x00130309329e8dd696fccdf30b3ed8675b2086b1c6aacd1dc35c9bb0023fe0a8",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x0038e9a01c30b20f7fa2bee52bfe9b4958be57c47ad518626b85049b04d32752",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
       {
         "hash": "0x1933dbd5d2a416eff7e711bf233c4eda31e5433a0db1326fd527dc2e5dff2f0",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x5f62d4593c3751eb568b5a256d897b77aa3a533f7bc95f156d51c25e5aa08a7",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x7c4ff06a97c00a74053265e835f07b8bcded58c8a7f673a21c6d44d6e59d4c8",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x549a66be0c94cf07dd9eeb47830262df545aa107638bcf8e130d729c1dd27c2",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 4,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-08-31T22:56:21Z",
     "stars": 0,
     "builders": [
@@ -12600,7 +12567,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "2 contracts deployed, Cairo in the repository"
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "mirage-zk",
@@ -13428,7 +13395,7 @@
     "contracts": [
       {
         "address": "0x0742e87165702505a514e20167c6b613023d96689b10b87fc197626b7fe08689",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
@@ -13523,7 +13490,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed, Cairo in the repository"
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "philoxenia",
@@ -13769,61 +13736,58 @@
     "contracts": [
       {
         "address": "0x026ce951b858934b1ad832be2f93a102b9bf42deb5b824204278ed72b45fa828",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x018f6925422c85da8c9e0c1572adf4316a9821ffabc4b29db37d11c6a0c2844a",
-        "network": "unknown"
+        "network": "mainnet"
       },
       {
         "address": "0x043d60a5bf9cd864d9d5bb1d86d48a3268d32c3a004db64962b03215d3fdb2ed",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
       {
         "hash": "0x0c4fbacb5ee5fd3a65f09d7a724ad585387ba642e570a11ed79f9be8ac013a6",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x02e969f712d5ff8f3091bd42b06978c285c8ad221081da5f575afbc72f87888e",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x05a9458404b7c44510f712de9f59140e10106801eb0d79e49603451de706e01d",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x07fc844dcbdb0b520c0efdc71f92ea1cd6fe2b13e4cfa7b1d2c3e461126447f3",
-        "ok": false,
+        "ok": true,
         "pool": false,
         "mine": false,
-        "note": "not found on mainnet"
+        "note": "did not touch the pool"
       },
       {
         "hash": "0x07c9db1b6dded305dcd55a4701a985a75e88eacfa5f6dd0df9014c2e660a311e",
-        "ok": false,
+        "ok": true,
         "pool": false,
         "mine": false,
-        "note": "not found on mainnet"
+        "note": "did not touch the pool"
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 3,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-08-30T20:54:47Z",
     "stars": 0,
     "builders": [
@@ -13875,7 +13839,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "3 contracts deployed, Cairo in the repository"
+    "star_evidence": "3 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "mirage",
@@ -13894,68 +13858,60 @@
     "transactions": [
       {
         "hash": "0x7f419460965d6d83b2cc919a0f08d11dee212fe367849cfb1afe124ed14b511",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x7d643ebd88f2894b2733628fcc7363fd082e30a0ea0b47c3608149a7bbfc86c",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x3f556eafedae96409b43b7e20b0e2f56199cc74a1ea97b8e09a63c80e4ec0f2",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x22e8abb80330bbab42123f032da8d3eca702347515dec527bf2fb1fa4a3c3f3",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x224e93d2a29d89222b784f944b453aff57967c101ebd252ed4d6154d640487b",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x7a12341fcb5a950f104451eb81361d9d121643e6ee2221538850a4d6f2c0797",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x357c9a9d12fa02790e3f2c41c5d00d51e8c9bb432a6e09407bd9d14ade21018",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x4c26b7ba3162f82885f0e2eb4d74d082ddd7853ff9c5fee07d261ef67c3090f",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 8,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-08-30T15:43:55Z",
     "stars": 0,
     "builders": [
@@ -14013,39 +13969,36 @@
     "contracts": [
       {
         "address": "0x7e5d90e55952937a1f61b77572da77acf82f37608f8f27df359a7f40e04e21d",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [
       {
         "hash": "0x3cb7c72a364a2adbcbb1a0251cdba7928438afa93e49ab46b2b9f1094372b89",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x799dbbcf64a9c8b9e824460b1501e1e95ab77faea6abab4720449ceceaebb6b",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       },
       {
         "hash": "0x69c19fd2aa076088ae2eea5f585c3ab5f035d7774216d586278cf942dbf0906",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": true
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 3,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-08-30T11:41:28Z",
     "stars": 0,
     "builders": [
@@ -14116,7 +14069,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed, Cairo in the repository"
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "shadowpay",
@@ -14135,47 +14088,42 @@
     "transactions": [
       {
         "hash": "0x4065345b1084f0f15b8b9bb3062800369bc7da82d8df9c37b3d8f2253a060b7",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x6c3c433367cdb1642161ec6174c72ff85b359f78641972842d4ec8ab23d525a",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0xcd077435fa89736af54844109f66243ffa6bc4406a0946266358ee6fde1c99",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x6156cc8680b7a9ab428c35607636d2a1e9bd60ec3b038fc61b40498e4f05150",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x3010f4a3002b87277a58ea307501c8907917052ce09749594cbb36db94d11db",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 5,
     "requirements": {
       "demo": true,
       "video": true,
-      "mainnet": false
+      "mainnet": true
     },
-    "status": "building",
+    "status": "finished",
     "pushed_at": "2026-08-30T10:36:13Z",
     "stars": 1,
     "builders": [
@@ -17833,7 +17781,7 @@
     "contracts": [
       {
         "address": "0x0254fc4294398776cab056becb9630b996af2c10628e225ac7559e2d9069bacb",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [],
@@ -17914,7 +17862,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed, Cairo in the repository"
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "nexora-protocol",
@@ -18078,7 +18026,7 @@
     "contracts": [
       {
         "address": "0x4b41a5648796ce290fcba3f5630a66f9fe737f58de6b9589a5d780a2c4999f3",
-        "network": "unknown"
+        "network": "mainnet"
       }
     ],
     "transactions": [],
@@ -18159,7 +18107,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed, Cairo in the repository"
+    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "starkwhisper",
@@ -19161,20 +19109,18 @@
     "transactions": [
       {
         "hash": "0x5b07f9aa62a6bef77c485fdc156b1f919a0e5fe8f061ffb479c00c598754927",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       },
       {
         "hash": "0x486716f1dac33439bf5bda886d00d224fad649f36fde8f151831f314723aa2d",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
+        "ok": true,
+        "pool": true,
+        "mine": null
       }
     ],
-    "verified_txs": 0,
+    "verified_txs": 2,
     "requirements": {
       "demo": false,
       "video": false,
