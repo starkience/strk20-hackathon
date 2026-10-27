@@ -9715,10 +9715,10 @@
     "transactions": [
       {
         "hash": "0x0799c64eb376609d27d2fe2e837b0f0479a5a6fdcc09b821b6964171ca0d5042",
-        "ok": true,
+        "ok": false,
         "pool": false,
         "mine": false,
-        "note": "did not touch the pool"
+        "note": "not found on mainnet"
       }
     ],
     "verified_txs": 0,
