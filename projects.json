@@ -97,7 +97,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-27T12:42:27Z",
+    "pushed_at": "2026-10-27T19:25:22Z",
     "stars": 0,
     "builders": [
       {
@@ -140,13 +140,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "135a63b83e33c6177d4a00bacd39f4557607da9b",
+    "head_sha": "babf0fe559c189296e16ee4f9f6070b7e37a560e",
     "readme_hash": "72b894827195039c",
     "desc_v6": true,
-    "churn_pct": 0.1,
+    "churn_pct": 0,
     "summary": "An AI agent that autonomously pays for verified work without revealing recipient details.",
     "description_long": "Sage autonomously inspects completed tasks, verifies their quality, and decides on payments in USDC from a controlled vault, ensuring privacy for recipients. Built on Starknet, it uses on-chain transactions to execute decisions made by the AI agent, which escrow payments behind commitments to prevent traceability. The system allows for private payouts and operates a feedback loop where funds can be advanced and repaid through verified transactions.",
-    "latest_push": "Added role management for bound wallets in workspaces.",
+    "latest_push": "Added Metis identity features to the agent page and card display.",
     "tooling": [
       {
         "label": "get-starknet",
@@ -180,11 +180,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 166,
+    "additions": 82,
     "deletions": 19,
     "sprint": {
       "pushes": 716,
-      "additions": 15736,
+      "additions": 15760,
       "deletions": 113,
       "computed": 3
     },
@@ -7727,7 +7727,7 @@
     "contracts": [
       {
         "address": "0x030a2a39c47adba579c8fd07e7d9adbf5fe8f36b97da0b6ead884cae3a8bb3a6",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
@@ -7814,7 +7814,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+    "star_evidence": "1 contract deployed, Cairo in the repository"
   },
   {
     "slug": "facet",
