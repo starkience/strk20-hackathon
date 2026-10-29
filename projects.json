@@ -111,7 +111,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-29T00:55:28Z",
+    "pushed_at": "2026-10-29T06:55:21Z",
     "stars": 0,
     "builders": [
       {
@@ -9822,7 +9822,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -15101,165 +15101,6 @@
     },
     "assessment": null,
     "star_evidence": ""
-  },
-  {
-    "slug": "sotto",
-    "name": "Sotto",
-    "one_liner": "",
-    "category": "Other",
-    "repo_url": "https://github.com/drained69/Sotto",
-    "demo_url": "https://sottov1.up.railway.app/",
-    "demo_video": "https://youtu.be/0LV-PZqrXgs",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "Sotto integrates privacy for DeFi actions but lacks innovation beyond basic private transfers.",
-    "contracts": [
-      {
-        "address": "0x06277c357edf60e9acbbd5a9efaeb8fcb0d0b0daf1f06801ed94d4247a9b1e6a",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x0577ba8bf4fc66a108ef4b869308831f930d6522ddc7b1fd6ee85dd6475d44fe",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x011a5346e984f1e9fb3f874ab3bbafd25d2c47c13d284c38267b32bf8c65f257",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x02188db2941f77b7bcea08ff203dedc76597e9d7f2150dae0adb4d44246e32de",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x00be73e599f70e62e8c159b11ad031c2635dde77d78f9ea6880bbe6bd80bcc7d",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x00f05f0d20ae1067cf24422c12d47c5b3a5d18723e5b83d20ee708c0b017662d",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x07a3c722fa88026bb8ce35a06d330bee729556c3ab23c073e04f296fc669d9dc",
-        "ok": true,
-        "pool": true,
-        "mine": false,
-        "note": "touched the pool, but not through this project's contracts"
-      },
-      {
-        "hash": "0x018af3f4d95f6d8064c56738daba6d82ae99d4be6144af8966aeef828ad4c52b",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x07e69b6ec60ca7edab362973764a890148ceb074f455a9a22e1e2f0e675f09b2",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      }
-    ],
-    "verified_txs": 1,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-29T11:31:07Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Chinwuba081",
-        "name": "drained",
-        "avatar_url": "https://avatars.githubusercontent.com/u/97135600?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-29"
-    ],
-    "head_sha": "0634469e51649ff8ed5902d7589343cc81d79295",
-    "readme_hash": "657aa843d3f23c67",
-    "desc_v6": true,
-    "summary": "Private wealth management for shielded STRK20 assets on Starknet.",
-    "description_long": "Sotto is a non-custodial application that allows users to manage shielded STRK20 assets, make private payments, and execute various financial strategies from a connected Starknet wallet. It supports balance discovery, asset transfers, strategy management, private swaps, and payment requests while ensuring users retain control over their keys and privacy settings.",
-    "latest_push": "Updated the README and documentation files for clarity and detail.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 292,
-    "deletions": 609,
-    "churn_pct": 8.5,
-    "sprint": {
-      "pushes": 15,
-      "additions": 16439,
-      "deletions": 440,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": false,
-      "complex": true,
-      "why_innovative": "Sotto provides privacy for yield accounts but applies known privacy mechanisms to asset transfers.",
-      "why_complex": "The project includes multiple deployed contracts for shielding and asset management, like STRK20.",
-      "reason": "Sotto integrates privacy for DeFi actions but lacks innovation beyond basic private transfers.",
-      "facts_v2": true
-    },
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
   },
   {
     "slug": "quorum",
@@ -21156,6 +20997,76 @@
       "why_innovative": "CipherNest enables anonymous bounty funding and attacker fingerprinting in cybersecurity using zero-knowledge mechanisms.",
       "why_complex": "No contracts are deployed, and the architecture lacks implemented Cairo functionality as indicated in the README.",
       "reason": "CipherNest creates a novel zero-knowledge threat bounty mechanism for cybersecurity.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
+    "slug": "sotto",
+    "name": "sotto",
+    "one_liner": "",
+    "category": "Other",
+    "repo_url": "https://github.com/drained69/Sotto",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "Sotto integrates privacy for DeFi actions but lacks innovation beyond basic private transfers.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "drained69",
+        "name": "drained",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111384287?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-29"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "Private wealth management for shielded STRK20 assets on Starknet.",
+    "description_long": "Sotto is a non-custodial application that allows users to manage shielded STRK20 assets, make private payments, and execute various financial strategies from a connected Starknet wallet. It supports balance discovery, asset transfers, strategy management, private swaps, and payment requests while ensuring users retain control over their keys and privacy settings.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 15,
+      "additions": 16439,
+      "deletions": 440,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": false,
+      "complex": true,
+      "why_innovative": "Sotto provides privacy for yield accounts but applies known privacy mechanisms to asset transfers.",
+      "why_complex": "The project includes multiple deployed contracts for shielding and asset management, like STRK20.",
+      "reason": "Sotto integrates privacy for DeFi actions but lacks innovation beyond basic private transfers.",
       "facts_v2": true
     },
     "star_evidence": ""
