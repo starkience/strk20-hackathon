@@ -111,7 +111,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-29T06:55:21Z",
+    "pushed_at": "2026-10-30T16:49:40Z",
     "stars": 0,
     "builders": [
       {
@@ -17706,85 +17706,6 @@
     "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
   },
   {
-    "slug": "nexora-protocol",
-    "name": "Nexora-Protocol",
-    "one_liner": "One-click privacy for the multichain economy - powered by Starknet + STRK20.",
-    "category": "Other",
-    "repo_url": "https://github.com/Gedion08/Nexora-Protocol",
-    "demo_url": "https://nexora-protocol.vercel.app",
-    "demo_video": "REPLACE_WITH_YOUTUBE_URL",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "The protocol allows for cross-chain privacy routing, not just a bridge wrapper.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-21T21:59:39Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "Gedion08",
-        "name": "Gedion08",
-        "avatar_url": "https://avatars.githubusercontent.com/u/102872099?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21"
-    ],
-    "head_sha": "374426c00ab762cbae564200805a8608cb150ac9",
-    "readme_hash": "80fcf501d5eb99ac",
-    "desc_v6": true,
-    "summary": "A cross-chain privacy routing protocol for asset transfers.",
-    "description_long": "Nexora Protocol allows users to deposit assets on various supported chains and hold them privately as STRK20 shielded notes. Users can withdraw to any destination chain with minimized public linkability. It is built using Starknet with a frontend for user interaction, a relayer for transaction handling, and a privacy core that manages encryption and selective disclosure.",
-    "latest_push": "Fixed private transfer orchestration, prover integration, and StarkGate fallback.",
-    "tooling": [
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 1243,
-    "deletions": 49,
-    "churn_pct": 7.3,
-    "sprint": {
-      "pushes": 16,
-      "additions": 19855,
-      "deletions": 1,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": true,
-      "complex": false,
-      "why_innovative": "It enables private cross-chain asset transfers via STRK20 shielded notes with minimized linkability.",
-      "why_complex": "No deployed contracts or complex Cairo implementations are present yet.",
-      "reason": "The protocol allows for cross-chain privacy routing, not just a bridge wrapper.",
-      "facts_v2": true
-    },
-    "star_evidence": "Cairo in the repository"
-  },
-  {
     "slug": "private-poker",
     "name": "Private Poker",
     "one_liner": "Heads-up poker where hole cards are encrypted STRK20 notes.",
@@ -20733,6 +20654,74 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "nexora-protocol",
+    "name": "nexora-protocol",
+    "one_liner": "",
+    "category": "Other",
+    "repo_url": "https://github.com/Gedion08/Nexora-Protocol.git",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "The protocol allows for cross-chain privacy routing, not just a bridge wrapper.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "Gedion08",
+        "name": "Gideon",
+        "avatar_url": "https://avatars.githubusercontent.com/u/102872099?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "A cross-chain privacy routing protocol for asset transfers.",
+    "description_long": "Nexora Protocol allows users to deposit assets on various supported chains and hold them privately as STRK20 shielded notes. Users can withdraw to any destination chain with minimized public linkability. It is built using Starknet with a frontend for user interaction, a relayer for transaction handling, and a privacy core that manages encryption and selective disclosure.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 16,
+      "additions": 19855,
+      "deletions": 1,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": true,
+      "complex": false,
+      "why_innovative": "It enables private cross-chain asset transfers via STRK20 shielded notes with minimized linkability.",
+      "why_complex": "No deployed contracts or complex Cairo implementations are present yet.",
+      "reason": "The protocol allows for cross-chain privacy routing, not just a bridge wrapper.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
   },
   {
     "slug": "nomada",
