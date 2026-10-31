@@ -1,5 +1,184 @@
 [
   {
+    "slug": "provah",
+    "name": "Provah",
+    "one_liner": "Capability layer for STRK20 pool activity: prove public deposit history, redeem a one-time pass from any wallet.",
+    "category": "Other",
+    "repo_url": "https://github.com/levithefirst/provah",
+    "demo_url": "https://provah.vercel.app",
+    "demo_video": "https://x.com/levithefirst/status/2093702890044952686",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x040337b1af3c663e86e333bab5a4b28da8d4652a15a69beee2b677776ffe812a",
+        "network": "mainnet"
+      },
+      {
+        "address": "0x74614e0cd54af7e59987a5d74fdd028209feff01fc20eca2934fe80b94db402",
+        "network": "mainnet"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x0684bdad671fb81afe3cc2c27038e867e352e3323f666e4fd967e0086fffc385",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x0043faa1484457b0e5b97b860c5b9e1fdc6a5711dece60554bc8149b0b27adb6",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x0613601df1f0057935ada6df4657962f853ba2b023e733886e2d3a5c95504421",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x003c48357164e2536e57798787e9710b8025bdd4a083d10a5af2447e6fdd9473",
+        "ok": true,
+        "pool": true,
+        "mine": true
+      },
+      {
+        "hash": "0x266ff30feda87e59c13eeccf122af1d82aaf92088d95cf7dcbff91f44c3c010",
+        "ok": true,
+        "pool": false,
+        "mine": false,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x1d57d647ff240ff4c02d9fb255bbaf80bc5238f8091483f33505c0ca3011153",
+        "ok": true,
+        "pool": false,
+        "mine": false,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x79375d773a91d5726a9bf896e114bc7549003f05c7decd685a0bce5b47dc70a",
+        "ok": true,
+        "pool": false,
+        "mine": false,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x758de909a13df099cd72a1ef843217805d04ab761ab57e2bcd4c0f924c126e6",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x5ebf464f06bfe864f2ee875a4b8a84ab8032b31ced539300424067ae14f9dce",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      },
+      {
+        "hash": "0x41c16869dcd1f3781e839f44b9ea86b867d872f4177e7790fee631d957de9b3",
+        "ok": true,
+        "pool": false,
+        "mine": true,
+        "note": "did not touch the pool"
+      }
+    ],
+    "verified_txs": 4,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-10-31T18:21:25Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "levithefirst",
+        "name": "levithefirst",
+        "avatar_url": "https://avatars.githubusercontent.com/u/304593143?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Sonnet 5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+        "commits": 115
+      }
+    ],
+    "active_days": [
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-09-01"
+    ],
+    "head_sha": "6ec751c5598bdc91faa10c9ad9430152e8c8a832",
+    "readme_hash": "94786b537710321a",
+    "desc_v6": true,
+    "churn_pct": 33.4,
+    "summary": "Generate one-time passes based on verified STRK20 pool activity for different wallets.",
+    "description_long": "Prova Pass lets users turn facts about a wallet's public STRK20 pool activity into a redeemable bearer token. The `ProvaPass` Cairo contract verifies the attester's signature and ensures that tokens can only be claimed once by a different wallet, without any on-chain link to the qualifying wallet. It is built as a capability layer that reads deposit history and evaluates predicates to create passes for real or test campaigns.",
+    "latest_push": "Overhauled README and documented known limitations and architecture.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 282,
+    "deletions": 1919,
+    "sprint": {
+      "pushes": 87,
+      "additions": 227903,
+      "deletions": 9485,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
     "slug": "vinss",
     "name": "VINSS",
     "one_liner": "Agentic private deal room on Starknet for encrypted negotiation, offers, messaging, and private escrow settlement powered by STRK20.",
@@ -111,7 +290,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-31T12:59:06Z",
+    "pushed_at": "2026-10-31T16:22:52Z",
     "stars": 0,
     "builders": [
       {
@@ -161,13 +340,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "9d4018fc57041c73d350989125705ef5fe29799c",
+    "head_sha": "f10ef15ae5d8d689a3ad8dbdedc4dcf2f682ed5b",
     "readme_hash": "c0b05f3e2e5c05ec",
     "desc_v6": true,
-    "churn_pct": 27.8,
+    "churn_pct": 0.2,
     "summary": "A private deal room for encrypted negotiations and transactions.",
     "description_long": "VINSS is a shielded Deal Room for two-party crypto-native transactions on Starknet. It integrates encrypted conversations, structured negotiations, escrow services, fulfillment, settlement, and verifiable evidence in a single lifecycle, allowing all stages of a deal to remain connected and private. Built with Cairo contracts, the application uses TypeScript for both frontend and backend, ensuring all deal-related actions are handled securely.",
-    "latest_push": "Added a full-room public Starknet rail alongside native STRK20 Shield.",
+    "latest_push": "Fixed the resumption of OpenMLS operations during pre-publication interruptions.",
     "tooling": [
       {
         "label": "Cairo",
@@ -181,8 +360,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 14702,
-    "deletions": 1228,
+    "additions": 100,
+    "deletions": 18,
     "sprint": {
       "pushes": 260,
       "additions": 36300,
@@ -198,6 +377,108 @@
       "facts_v2": true
     },
     "star_evidence": "7 contracts deployed on mainnet, Cairo in the repository"
+  },
+  {
+    "slug": "patron",
+    "name": "PATRON",
+    "one_liner": "Private tips for creators on Starknet: supporters stay inside the STRK20 pool while the public book shows only count and aggregate.",
+    "category": "Payments",
+    "repo_url": "https://github.com/ronkenx9/patron",
+    "demo_url": "https://patron-topaz.vercel.app",
+    "demo_video": "https://youtu.be/cbvcKxiPkXA",
+    "x_handle": "kenn_ronin",
+    "inspired_by": "RFP-12",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [
+      {
+        "hash": "0x2e0b97e9a0294854bd530f7272c377d3282f57d0a46682619946a505d40dafa",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0x7072d3f3d612f46d8c7e39877028ae864c5535687ba89604ffd48e0cc0a76bc",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      },
+      {
+        "hash": "0xbda1e01ed58a533fae14a185ec839988a1fdf7927a0cad430ecd199755bc07",
+        "ok": true,
+        "pool": true,
+        "mine": null
+      }
+    ],
+    "verified_txs": 3,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": true
+    },
+    "status": "finished",
+    "pushed_at": "2026-10-31T15:29:02Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "ronkenx9",
+        "name": "ronkenx9",
+        "avatar_url": "https://avatars.githubusercontent.com/u/140641518?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-20",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "20e2269a3deb900b9c9028abdb9cc6924273dfc8",
+    "readme_hash": "78ba219e4917d136",
+    "desc_v6": true,
+    "summary": "Crowdfund without public backer identities using private transfers.",
+    "description_long": "PATRON is a crowdfunding tool for creators and communities that allows campaigns to raise funds without publicly displaying supporter identities. It has two funding options: public pledges made from shielded balances that appear as STRK transfers to the campaign treasury, and silent gifts which are private transfers that do not affect the campaign's progress bar. The application is built using Node.js and interacts with STRK20 on Starknet, utilizing features such as the Wallet API and event reading from the blockchain.",
+    "latest_push": "Pointed strk20.json demo_video at the YouTube walkthrough and redesigned Patron.",
+    "tooling": [
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Next.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 437,
+    "deletions": 531,
+    "churn_pct": 28.6,
+    "sprint": {
+      "pushes": 17,
+      "additions": 6174,
+      "deletions": 128,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": ""
   },
   {
     "slug": "sage",
@@ -386,185 +667,6 @@
       "pushes": 716,
       "additions": 15632,
       "deletions": 113,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "2 contracts deployed on mainnet, Cairo in the repository"
-  },
-  {
-    "slug": "provah",
-    "name": "Provah",
-    "one_liner": "Capability layer for STRK20 pool activity: prove public deposit history, redeem a one-time pass from any wallet.",
-    "category": "Other",
-    "repo_url": "https://github.com/levithefirst/provah",
-    "demo_url": "https://provah.vercel.app",
-    "demo_video": "https://x.com/levithefirst/status/2093702890044952686",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x040337b1af3c663e86e333bab5a4b28da8d4652a15a69beee2b677776ffe812a",
-        "network": "mainnet"
-      },
-      {
-        "address": "0x74614e0cd54af7e59987a5d74fdd028209feff01fc20eca2934fe80b94db402",
-        "network": "mainnet"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x0684bdad671fb81afe3cc2c27038e867e352e3323f666e4fd967e0086fffc385",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x0043faa1484457b0e5b97b860c5b9e1fdc6a5711dece60554bc8149b0b27adb6",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x0613601df1f0057935ada6df4657962f853ba2b023e733886e2d3a5c95504421",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x003c48357164e2536e57798787e9710b8025bdd4a083d10a5af2447e6fdd9473",
-        "ok": true,
-        "pool": true,
-        "mine": true
-      },
-      {
-        "hash": "0x266ff30feda87e59c13eeccf122af1d82aaf92088d95cf7dcbff91f44c3c010",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x1d57d647ff240ff4c02d9fb255bbaf80bc5238f8091483f33505c0ca3011153",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x79375d773a91d5726a9bf896e114bc7549003f05c7decd685a0bce5b47dc70a",
-        "ok": true,
-        "pool": false,
-        "mine": false,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x758de909a13df099cd72a1ef843217805d04ab761ab57e2bcd4c0f924c126e6",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x5ebf464f06bfe864f2ee875a4b8a84ab8032b31ced539300424067ae14f9dce",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      },
-      {
-        "hash": "0x41c16869dcd1f3781e839f44b9ea86b867d872f4177e7790fee631d957de9b3",
-        "ok": true,
-        "pool": false,
-        "mine": true,
-        "note": "did not touch the pool"
-      }
-    ],
-    "verified_txs": 4,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-10-26T12:37:25Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "levithefirst",
-        "name": "levithefirst",
-        "avatar_url": "https://avatars.githubusercontent.com/u/304593143?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Sonnet 5",
-        "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
-        "commits": 115
-      }
-    ],
-    "active_days": [
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-09-01"
-    ],
-    "head_sha": "005162f267ea9aca7d6f6153b9bceb0fd400b9a3",
-    "readme_hash": "a0a6e424acf999d6",
-    "desc_v6": true,
-    "summary": "A capability layer for STRK20 pool activity to redeem transferable, unlinkable passes.",
-    "description_long": "Prova Pass lets users convert any provable fact about their public STRK20 pool activity into a transferable capability that can be redeemed by a different wallet. It validates this activity through a server attestation, generating a bearer token that acts on-chain and can carry real value, allowing the recipient to receive an ERC20 payout while maintaining unlinkability. Built as a contract on the live mainnet, Prova Pass features multiple campaigns, including options for new wallets to participate without any prior deposit history.",
-    "latest_push": "Removed AI-tooling and video-production files not relevant to users.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 3,
-    "deletions": 5370,
-    "churn_pct": 81.5,
-    "sprint": {
-      "pushes": 87,
-      "additions": 229541,
-      "deletions": 8414,
       "computed": 3
     },
     "assessment": null,
@@ -1380,108 +1482,6 @@
       "pushes": 140,
       "additions": 25343,
       "deletions": 50,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": ""
-  },
-  {
-    "slug": "patron",
-    "name": "PATRON",
-    "one_liner": "Private tips for creators on Starknet: supporters stay inside the STRK20 pool while the public book shows only count and aggregate.",
-    "category": "Payments",
-    "repo_url": "https://github.com/ronkenx9/patron",
-    "demo_url": "https://patron-topaz.vercel.app",
-    "demo_video": "https://youtu.be/cbvcKxiPkXA",
-    "x_handle": "kenn_ronin",
-    "inspired_by": "RFP-12",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [
-      {
-        "hash": "0x2e0b97e9a0294854bd530f7272c377d3282f57d0a46682619946a505d40dafa",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0x7072d3f3d612f46d8c7e39877028ae864c5535687ba89604ffd48e0cc0a76bc",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      },
-      {
-        "hash": "0xbda1e01ed58a533fae14a185ec839988a1fdf7927a0cad430ecd199755bc07",
-        "ok": true,
-        "pool": true,
-        "mine": null
-      }
-    ],
-    "verified_txs": 3,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": true
-    },
-    "status": "finished",
-    "pushed_at": "2026-10-18T19:13:48Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "ronkenx9",
-        "name": "ronkenx9",
-        "avatar_url": "https://avatars.githubusercontent.com/u/140641518?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-20",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "20e2269a3deb900b9c9028abdb9cc6924273dfc8",
-    "readme_hash": "78ba219e4917d136",
-    "desc_v6": true,
-    "summary": "Crowdfund without public backer identities using private transfers.",
-    "description_long": "PATRON is a crowdfunding tool for creators and communities that allows campaigns to raise funds without publicly displaying supporter identities. It has two funding options: public pledges made from shielded balances that appear as STRK transfers to the campaign treasury, and silent gifts which are private transfers that do not affect the campaign's progress bar. The application is built using Node.js and interacts with STRK20 on Starknet, utilizing features such as the Wallet API and event reading from the blockchain.",
-    "latest_push": "Pointed strk20.json demo_video at the YouTube walkthrough and redesigned Patron.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 437,
-    "deletions": 531,
-    "churn_pct": 28.6,
-    "sprint": {
-      "pushes": 17,
-      "additions": 6174,
-      "deletions": 128,
       "computed": 3
     },
     "assessment": null,
