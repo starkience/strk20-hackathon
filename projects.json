@@ -111,7 +111,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-10-31T03:52:51Z",
+    "pushed_at": "2026-10-31T12:59:06Z",
     "stars": 0,
     "builders": [
       {
@@ -161,27 +161,32 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "7679bc274e6f884e18b9854d1042088c41aad600",
+    "head_sha": "9d4018fc57041c73d350989125705ef5fe29799c",
     "readme_hash": "c0b05f3e2e5c05ec",
     "desc_v6": true,
+    "churn_pct": 27.8,
     "summary": "A private deal room for encrypted negotiations and transactions.",
     "description_long": "VINSS is a shielded Deal Room for two-party crypto-native transactions on Starknet. It integrates encrypted conversations, structured negotiations, escrow services, fulfillment, settlement, and verifiable evidence in a single lifecycle, allowing all stages of a deal to remain connected and private. Built with Cairo contracts, the application uses TypeScript for both frontend and backend, ensuring all deal-related actions are handled securely.",
-    "latest_push": "Aligned technical documentation with current project architecture and sources.",
+    "latest_push": "Added a full-room public Starknet rail alongside native STRK20 Shield.",
     "tooling": [
       {
         "label": "Cairo",
         "live": false,
         "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
       }
     ],
     "has_readme": true,
-    "additions": 1163,
-    "deletions": 3611,
-    "churn_pct": 10.8,
+    "additions": 14702,
+    "deletions": 1228,
     "sprint": {
       "pushes": 260,
-      "additions": 35500,
-      "deletions": 2022,
+      "additions": 36300,
+      "deletions": 1415,
       "computed": 3
     },
     "assessment": {
