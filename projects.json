@@ -125,7 +125,6 @@
     "head_sha": "6ec751c5598bdc91faa10c9ad9430152e8c8a832",
     "readme_hash": "94786b537710321a",
     "desc_v6": true,
-    "churn_pct": 33.4,
     "summary": "Generate one-time passes based on verified STRK20 pool activity for different wallets.",
     "description_long": "Prova Pass lets users turn facts about a wallet's public STRK20 pool activity into a redeemable bearer token. The `ProvaPass` Cairo contract verifies the attester's signature and ensures that tokens can only be claimed once by a different wallet, without any on-chain link to the qualifying wallet. It is built as a capability layer that reads deposit history and evaluates predicates to create passes for real or test campaigns.",
     "latest_push": "Overhauled README and documented known limitations and architecture.",
@@ -169,6 +168,7 @@
     "has_readme": true,
     "additions": 282,
     "deletions": 1919,
+    "churn_pct": 33.4,
     "sprint": {
       "pushes": 87,
       "additions": 227903,
@@ -343,7 +343,6 @@
     "head_sha": "f10ef15ae5d8d689a3ad8dbdedc4dcf2f682ed5b",
     "readme_hash": "c0b05f3e2e5c05ec",
     "desc_v6": true,
-    "churn_pct": 0.2,
     "summary": "A private deal room for encrypted negotiations and transactions.",
     "description_long": "VINSS is a shielded Deal Room for two-party crypto-native transactions on Starknet. It integrates encrypted conversations, structured negotiations, escrow services, fulfillment, settlement, and verifiable evidence in a single lifecycle, allowing all stages of a deal to remain connected and private. Built with Cairo contracts, the application uses TypeScript for both frontend and backend, ensuring all deal-related actions are handled securely.",
     "latest_push": "Fixed the resumption of OpenMLS operations during pre-publication interruptions.",
@@ -362,6 +361,7 @@
     "has_readme": true,
     "additions": 100,
     "deletions": 18,
+    "churn_pct": 0.2,
     "sprint": {
       "pushes": 260,
       "additions": 36300,
