@@ -111,7 +111,7 @@
       "mainnet": true
     },
     "status": "finished",
-    "pushed_at": "2026-11-01T01:51:25Z",
+    "pushed_at": "2026-11-01T01:59:56Z",
     "stars": 0,
     "builders": [
       {
@@ -161,13 +161,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "2372d237cd0a0a7495eeba13e11bcc73b4fafb3e",
+    "head_sha": "fd6be8c0bf152360be520ee800713b3a21f460b4",
     "readme_hash": "c0b05f3e2e5c05ec",
     "desc_v6": true,
-    "churn_pct": 0.7,
+    "churn_pct": 0.5,
     "summary": "A private deal room for encrypted negotiations and transactions.",
     "description_long": "VINSS is a shielded Deal Room for two-party crypto-native transactions on Starknet. It integrates encrypted conversations, structured negotiations, escrow services, fulfillment, settlement, and verifiable evidence in a single lifecycle, allowing all stages of a deal to remain connected and private. Built with Cairo contracts, the application uses TypeScript for both frontend and backend, ensuring all deal-related actions are handled securely.",
-    "latest_push": "Lowered Invite creation fees with legacy-compatible routes.",
+    "latest_push": "Activated the verified Sepolia Invite fee v3 profile with documentation.",
     "tooling": [
       {
         "label": "Cairo",
@@ -181,8 +181,8 @@
       }
     ],
     "has_readme": true,
-    "additions": 300,
-    "deletions": 78,
+    "additions": 284,
+    "deletions": 1,
     "sprint": {
       "pushes": 260,
       "additions": 36308,
