@@ -2723,7 +2723,7 @@
     "contracts": [
       {
         "address": "0x2d329a8c65adccb51b17ef5274e7234c998dc29c02dc2c7a3c6d064af341cbe",
-        "network": "mainnet"
+        "network": "unknown"
       }
     ],
     "transactions": [
@@ -2852,7 +2852,7 @@
       "computed": 3
     },
     "assessment": null,
-    "star_evidence": "1 contract deployed on mainnet, Cairo in the repository"
+    "star_evidence": "1 contract deployed, Cairo in the repository"
   },
   {
     "slug": "veilzero",
