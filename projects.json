@@ -35,7 +35,6 @@
     "head_sha": "6586dcec4d3c8b9bf1119dff421c04a54de9c654",
     "readme_hash": "",
     "desc_v6": true,
-    "churn_pct": 22.7,
     "summary": "A trading and liquidity web app for Zylith.",
     "description_long": "",
     "latest_push": "Performed cleanups across multiple core files and tests.",
@@ -74,6 +73,7 @@
     "has_readme": false,
     "additions": 7091,
     "deletions": 6589,
+    "churn_pct": 22.7,
     "sprint": {
       "pushes": 0,
       "additions": 17668,
@@ -10030,7 +10030,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for owned Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
