@@ -101,7 +101,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-11-05T21:04:02Z",
+    "pushed_at": "2026-11-06T05:12:37Z",
     "stars": 0,
     "builders": [
       {
@@ -144,12 +144,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "8c172cde1adffa724a169198eaa269fbfd9d0eee",
+    "head_sha": "1320755dd40ff7f479ff1dd9c4452ecdd63a2d2c",
     "readme_hash": "72b894827195039c",
     "desc_v6": true,
+    "churn_pct": 0.9,
     "summary": "An AI agent that autonomously pays for verified work without revealing recipient details.",
     "description_long": "Sage autonomously inspects completed tasks, verifies their quality, and decides on payments in USDC from a controlled vault, ensuring privacy for recipients. Built on Starknet, it uses on-chain transactions to execute decisions made by the AI agent, which escrow payments behind commitments to prevent traceability. The system allows for private payouts and operates a feedback loop where funds can be advanced and repaid through verified transactions.",
-    "latest_push": "Introduced the llm-route file for drafting cheap lanes with Claude Sonnet 5.5.",
+    "latest_push": "Implemented job scheduling, links for people, and seat panel updates.",
     "tooling": [
       {
         "label": "get-starknet",
@@ -183,12 +184,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 22941,
-    "deletions": 733,
-    "churn_pct": 9.1,
+    "additions": 2218,
+    "deletions": 51,
     "sprint": {
       "pushes": 716,
-      "additions": 15566,
+      "additions": 15585,
       "deletions": 115,
       "computed": 3
     },
