@@ -2050,6 +2050,81 @@
     "star_evidence": "2 contracts deployed, Cairo in the repository"
   },
   {
+    "slug": "open-beanie",
+    "name": "open-beanie",
+    "one_liner": "software powering beanie",
+    "category": "Payments",
+    "repo_url": "https://github.com/cenwadike/open-beanie",
+    "demo_url": "https://beanie.up.railway.app",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-10-02T16:25:42Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "cenwadike",
+        "name": "Kombi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "5ee565bc333e161bd2e9afb7efea53edb3e45eb4",
+    "readme_hash": "58d4bf16af6e9723",
+    "desc_v6": true,
+    "churn_pct": 1.2,
+    "summary": "A multichain API for handling stablecoin payment intents and settlements.",
+    "description_long": "Beanie creates a dedicated, non-custodial receiver address on each supported blockchain for merchants. Customers can pay using any of the chained receivers, while Beanie manages settlements directly or through Circle CCTP V2, ensuring that the merchant's funds are never held by Beanie. Key features include fixed settlement rules, gasless payment options, and signed webhooks for deposit notifications.",
+    "latest_push": "Added stealth claim support with Fireblocks co-signer.",
+    "tooling": [
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 154,
+    "deletions": 143,
+    "sprint": {
+      "pushes": 37,
+      "additions": 19960,
+      "deletions": 23,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "Cairo in the repository"
+  },
+  {
     "slug": "neobank",
     "name": "Private money account",
     "one_liner": "Hold, send, and earn on STRK20 without publishing salary or net worth.",
@@ -10030,7 +10105,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -21818,70 +21893,6 @@
       "pushes": 79,
       "additions": 30619,
       "deletions": 19,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": ""
-  },
-  {
-    "slug": "open-beanie",
-    "name": "open-beanie",
-    "one_liner": "",
-    "category": "Payments",
-    "repo_url": "https://github.com/cenwadike/open-beanie",
-    "demo_url": "",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": false,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": null,
-    "stars": 0,
-    "builders": [
-      {
-        "login": "cenwadike",
-        "name": "Kombi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/45804789?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": null,
-    "readme_hash": "",
-    "desc_v6": true,
-    "churn_pct": 0,
-    "summary": "A multichain API gateway for stablecoin payment intents.",
-    "description_long": "Beanie provisions a dedicated, non-custodial receiving address on six supported chains for merchants. Customers can pay on any of those chains, and Beanie settles the payment on the selected chain, ensuring funds never touch Beanie. It includes features like gasless payments, pinned settlement for security, and signed webhooks for notifications.",
-    "latest_push": "",
-    "tooling": [],
-    "has_readme": false,
-    "additions": 0,
-    "deletions": 0,
-    "sprint": {
-      "pushes": 37,
-      "additions": 19960,
-      "deletions": 23,
       "computed": 3
     },
     "assessment": null,
