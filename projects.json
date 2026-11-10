@@ -2096,7 +2096,6 @@
     "head_sha": "5ee565bc333e161bd2e9afb7efea53edb3e45eb4",
     "readme_hash": "58d4bf16af6e9723",
     "desc_v6": true,
-    "churn_pct": 1.2,
     "summary": "A multichain API for handling stablecoin payment intents and settlements.",
     "description_long": "Beanie creates a dedicated, non-custodial receiver address on each supported blockchain for merchants. Customers can pay using any of the chained receivers, while Beanie manages settlements directly or through Circle CCTP V2, ensuring that the merchant's funds are never held by Beanie. Key features include fixed settlement rules, gasless payment options, and signed webhooks for deposit notifications.",
     "latest_push": "Added stealth claim support with Fireblocks co-signer.",
@@ -2115,6 +2114,7 @@
     "has_readme": true,
     "additions": 154,
     "deletions": 143,
+    "churn_pct": 1.2,
     "sprint": {
       "pushes": 37,
       "additions": 19960,
