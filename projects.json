@@ -1,5 +1,109 @@
 [
   {
+    "slug": "erebus",
+    "name": "Erebus",
+    "one_liner": "",
+    "category": "Other",
+    "repo_url": "https://github.com/PoulavBhowmick03/Erebus",
+    "demo_url": "https://erebusagents.live",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-11-12T08:28:29Z",
+    "stars": 4,
+    "builders": [
+      {
+        "login": "PoulavBhowmick03",
+        "name": "PoulavBhowmick03",
+        "avatar_url": "https://avatars.githubusercontent.com/u/133862694?v=4"
+      },
+      {
+        "login": "ishitab02",
+        "name": "ishitab02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/139248026?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude",
+        "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+        "commits": 1
+      }
+    ],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07"
+    ],
+    "head_sha": "ffc768aee4ebeb358276f6bf245848cfe5ec5e92",
+    "readme_hash": "29c9d46a1400eb8b",
+    "desc_v6": true,
+    "churn_pct": 55.2,
+    "summary": "An undefined project.",
+    "description_long": "Erebus enables two AI agents to negotiate agreements via an encrypted channel while making payments through a shielded pool, ensuring that outside observers can't determine the price. It consists of a MCP server, a CLI, and a Python SDK, and supports both Starknet and Monad backends. The implementation includes various components such as a Rust client for Starknet, Python bindings, and systems for handling shielded payments and agreement encoding.",
+    "latest_push": "Added the owner setup page with Anvil browser test and vault switching.",
+    "tooling": [
+      {
+        "label": "Rust",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 881,
+    "deletions": 18655,
+    "sprint": {
+      "pushes": 126,
+      "additions": 9100,
+      "deletions": 9055,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": true,
+      "complex": true,
+      "why_innovative": "applies privacy to agent-to-agent commerce using encrypted negotiation channels.",
+      "why_complex": "implements AES-256-GCM-SIV for wire v2 and includes multiple interacting agents and roles.",
+      "reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
+  },
+  {
     "slug": "sage",
     "name": "Sage",
     "one_liner": "An autonomous agent that judges human work and pays for it — addressing each payout to a person rather than a wallet, so someone with no wallet and no gas can still collect, and who was paid stays private.",
@@ -147,7 +251,6 @@
     "head_sha": "3fb91ddf31fee3e455127720a7cf28e7d90b5b95",
     "readme_hash": "72b894827195039c",
     "desc_v6": true,
-    "churn_pct": 0.1,
     "summary": "An AI agent that autonomously pays for verified work without revealing recipient details.",
     "description_long": "Sage autonomously inspects completed tasks, verifies their quality, and decides on payments in USDC from a controlled vault, ensuring privacy for recipients. Built on Starknet, it uses on-chain transactions to execute decisions made by the AI agent, which escrow payments behind commitments to prevent traceability. The system allows for private payouts and operates a feedback loop where funds can be advanced and repaid through verified transactions.",
     "latest_push": "Rehearsed a Metis launch on a fork for testing before real money use.",
@@ -186,6 +289,7 @@
     "has_readme": true,
     "additions": 177,
     "deletions": 1,
+    "churn_pct": 0.1,
     "sprint": {
       "pushes": 716,
       "additions": 15620,
@@ -1362,186 +1466,6 @@
       "facts_v2": true
     },
     "star_evidence": "1 contract deployed, Cairo in the repository"
-  },
-  {
-    "slug": "erebus",
-    "name": "Erebus",
-    "one_liner": "Confidential negotiation and shielded settlement infrastructure for AI agents on Starknet, built on the STRK20 privacy pool.",
-    "category": "Other",
-    "repo_url": "https://github.com/PoulavBhowmick03/Erebus",
-    "demo_url": "https://erebus-private-agents.vercel.app",
-    "demo_video": "https://drive.google.com/file/d/1zOkEJt08DwRiHeLIu4IaXCl1s8VRSKuu/view?usp=sharing",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
-    "contracts": [],
-    "transactions": [
-      {
-        "hash": "0x06597adb6581bb1910d30b31139fe871665db4cc61fefef8120b89773528e54c",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x0572260b651525ea39ef717721bcc9fefc89a2087894654efb38111e09267189",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x0159748de29d9dbe7016c9eb37459cbd7dd72290c3bc22412a034fb1c4c38a99",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x01a30c0b6e8db645df67795f2356cb6a251b9680d0b61cea54d28d04edd70d1",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x05a287657f829a82ecc83a0543674f1397aa75bdade8365b28f72e3925d759b5",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x04126a3ee0971728d7181296fe4d128f12fc6a828a172b7bd12d8f5128364923",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x072adebfcffdfd45bba66d2152c7e11b50107aa0fe2b4c9f1ea851da16ab6c6d",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x0273b0f97f1c0707a259bbe5cacc337df6876509adba09b7376a0501a0f028b7",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x051fa13c6d11c529208785af163f2d5bc1cc95451192e3265150e0067aadeda4",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x06e55194809fec58c1426a8178dcdb10270d5e8aecfcfd6db2b28f6284ce5467",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      }
-    ],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-10-23T18:29:25Z",
-    "stars": 4,
-    "builders": [
-      {
-        "login": "PoulavBhowmick03",
-        "name": "PoulavBhowmick03",
-        "avatar_url": "https://avatars.githubusercontent.com/u/133862694?v=4"
-      },
-      {
-        "login": "ishitab02",
-        "name": "ishitab02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/139248026?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude",
-        "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
-        "commits": 1
-      }
-    ],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-19",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-22",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-25",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-08-28",
-      "2026-08-29",
-      "2026-08-30",
-      "2026-08-31",
-      "2026-09-01",
-      "2026-09-02",
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05",
-      "2026-09-06",
-      "2026-09-07"
-    ],
-    "head_sha": "d56c777036701138b535c22fb32f320e5c351979",
-    "readme_hash": "ae4feab1b811a2ba",
-    "desc_v6": true,
-    "summary": "AI agents negotiate deals over an encrypted channel with payments in a shielded pool.",
-    "description_long": "Erebus enables two AI agents to negotiate agreements via an encrypted channel while making payments through a shielded pool, ensuring that outside observers can't determine the price. It consists of a MCP server, a CLI, and a Python SDK, and supports both Starknet and Monad backends. The implementation includes various components such as a Rust client for Starknet, Python bindings, and systems for handling shielded payments and agreement encoding.",
-    "latest_push": "Authenticated both providers' deployment runtimes concurrently.",
-    "tooling": [
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Rust",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 2791,
-    "deletions": 461,
-    "churn_pct": 1.7,
-    "sprint": {
-      "pushes": 126,
-      "additions": 19073,
-      "deletions": 260,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": true,
-      "complex": true,
-      "why_innovative": "applies privacy to agent-to-agent commerce using encrypted negotiation channels.",
-      "why_complex": "implements AES-256-GCM-SIV for wire v2 and includes multiple interacting agents and roles.",
-      "reason": "Erebus enables privacy in autonomous agent transactions with novel encrypted negotiation.",
-      "facts_v2": true
-    },
-    "star_evidence": "Cairo in the repository"
   },
   {
     "slug": "kairo",
