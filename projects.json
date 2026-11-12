@@ -101,7 +101,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-11-09T06:00:42Z",
+    "pushed_at": "2026-11-11T23:38:40Z",
     "stars": 0,
     "builders": [
       {
@@ -144,12 +144,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "bd325918ba773742db4fe320b76faa582b675923",
+    "head_sha": "84e2e8302a31e258e3a17d1b2fe8d19f7003b350",
     "readme_hash": "72b894827195039c",
     "desc_v6": true,
+    "churn_pct": 0,
     "summary": "An AI agent that autonomously pays for verified work without revealing recipient details.",
     "description_long": "Sage autonomously inspects completed tasks, verifies their quality, and decides on payments in USDC from a controlled vault, ensuring privacy for recipients. Built on Starknet, it uses on-chain transactions to execute decisions made by the AI agent, which escrow payments behind commitments to prevent traceability. The system allows for private payouts and operates a feedback loop where funds can be advanced and repaid through verified transactions.",
-    "latest_push": "Updated catalog.ts to allow any plan to send jobs with a single link.",
+    "latest_push": "Verified Sage's Metis contracts on the Andromeda explorer.",
     "tooling": [
       {
         "label": "get-starknet",
@@ -183,17 +184,252 @@
       }
     ],
     "has_readme": true,
-    "additions": 2,
+    "additions": 88,
     "deletions": 1,
-    "churn_pct": 0,
     "sprint": {
       "pushes": 716,
-      "additions": 15606,
+      "additions": 15619,
       "deletions": 115,
       "computed": 3
     },
     "assessment": null,
     "star_evidence": "2 contracts deployed, Cairo in the repository"
+  },
+  {
+    "slug": "yieldstark",
+    "name": "YieldStark",
+    "one_liner": "Private yield on Starknet: shield through the STRK20 pool, lend on Vesu, and stay unlinkable.",
+    "category": "DeFi",
+    "repo_url": "https://github.com/YieldStark/mainnet-v2",
+    "demo_url": "https://app.yieldstark.xyz/",
+    "demo_video": "https://drive.google.com/file/d/1woxmhIVO-PTLANrISll6FbJlJtpCOHDt/view?usp=drive_link",
+    "x_handle": "masterpiece_eth",
+    "inspired_by": "IDEA-16",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x028b49bc7a48b92d06d436d90e889729d7161dfc2fef3f16b674029bf7abc336",
+        "network": "unknown"
+      }
+    ],
+    "transactions": [
+      {
+        "hash": "0x05b0a6432cf33e7fad5fa993c6952cf1080dcd921e2bed54b29adfb2d9db504d",
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
+      },
+      {
+        "hash": "0x05d6da30cc7aa4a81cf0e8e2aa3ba28bf32ed33e9f27e327a5ee746512a80103",
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
+      },
+      {
+        "hash": "0x0714344ef95904f338c61b154e1595130fddef550d6afe1bf656e6a9ac9e1674",
+        "ok": false,
+        "pool": false,
+        "mine": false,
+        "note": "not found on mainnet"
+      }
+    ],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-11-11T22:18:56Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "noah-codesrh",
+        "name": "rhpecker",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292567276?v=4"
+      },
+      {
+        "login": "MakindeAhmed2110",
+        "name": "mankind",
+        "avatar_url": "https://avatars.githubusercontent.com/u/116606669?v=4"
+      },
+      {
+        "login": "JY20",
+        "name": "Jimmy Yan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43075399?v=4"
+      },
+      {
+        "login": "jimmyyan-lab",
+        "name": "jimmyyan-lab",
+        "avatar_url": "https://avatars.githubusercontent.com/u/254025042?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Cursor",
+        "name": "Cursor",
+        "avatar_url": "",
+        "commits": 5
+      }
+    ],
+    "active_days": [
+      "2026-08-20",
+      "2026-08-30",
+      "2026-09-01"
+    ],
+    "head_sha": "87764c68dd0a0d15596db99d95db88f053fc61b0",
+    "readme_hash": "e177246e019044fe",
+    "desc_v6": true,
+    "churn_pct": 1.6,
+    "summary": "A privacy-focused yield optimization tool for DeFi on Starknet.",
+    "description_long": "YieldStark V2 enables users to optimize yield while maintaining privacy on Starknet. It includes features like shielding and unshielding assets, private lending via Vesu, note-to-note transfers, and private swaps with a public/private toggle for yield pools. Built with React, Zustand, and starknet.js, the project integrates with Vesu Protocol, AVNU, and TrovesFi, utilizing the STRK20 privacy pool for enhanced anonymity.",
+    "latest_push": "Migrated the database to Supabase with GitHub Actions for deployment.",
+    "tooling": [
+      {
+        "label": "AVNU",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "get-starknet",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "React",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 229,
+    "deletions": 6,
+    "sprint": {
+      "pushes": 11,
+      "additions": 5774,
+      "deletions": 15190,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "1 contract deployed"
+  },
+  {
+    "slug": "kese",
+    "name": "Kese",
+    "one_liner": "Private money for AI agents: a policy-guarded MCP wallet on the STRK20 pool - private payments within hard limits, Telegram human-approval, claim-link escrow for unregistered recipients, and viewing-key audit reports.",
+    "category": "Payments",
+    "repo_url": "https://github.com/ahmetenesdur/kese",
+    "demo_url": "https://kese-claim.vercel.app",
+    "demo_video": "TODO_3min_video_url",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x4b41a5648796ce290fcba3f5630a66f9fe737f58de6b9589a5d780a2c4999f3",
+        "network": "unknown"
+      }
+    ],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-11-11T18:50:51Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "ahmetenesdur",
+        "name": "Enes",
+        "avatar_url": "https://avatars.githubusercontent.com/u/70810472?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 69
+      }
+    ],
+    "active_days": [
+      "2026-08-20",
+      "2026-08-21"
+    ],
+    "head_sha": "e85de775440063ab2723ccb0b2733779d80d7663",
+    "readme_hash": "6ebf6d2599fd976c",
+    "desc_v6": true,
+    "churn_pct": 0.1,
+    "summary": "Private money management for AI agents with policy control and audit capabilities.",
+    "description_long": "Kese enables LLM agents to manage funds with enforced spending limits and human approval. It includes a policy engine that manages transaction caps, recipient restrictions, and audit trails while ensuring transactions remain private through the STRK20 privacy pool. Built with TypeScript and Cairo, the system features a Kese server that interfaces with agent payment tools and the privacy pool, ensuring a secure and accountable payment process.",
+    "latest_push": "Removed the expired demo link from the README.md file.",
+    "tooling": [
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 2,
+    "deletions": 5,
+    "sprint": {
+      "pushes": 73,
+      "additions": 20915,
+      "deletions": 254,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "1 contract deployed, Cairo in the repository"
   },
   {
     "slug": "client",
@@ -10105,7 +10341,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
@@ -12141,143 +12377,6 @@
       "facts_v2": true
     },
     "star_evidence": "7 contracts deployed, Cairo in the repository"
-  },
-  {
-    "slug": "yieldstark",
-    "name": "YieldStark",
-    "one_liner": "Private yield on Starknet: shield through the STRK20 pool, lend on Vesu, and stay unlinkable.",
-    "category": "DeFi",
-    "repo_url": "https://github.com/YieldStark/mainnet-v2",
-    "demo_url": "https://app.yieldstark.xyz/",
-    "demo_video": "https://drive.google.com/file/d/1woxmhIVO-PTLANrISll6FbJlJtpCOHDt/view?usp=drive_link",
-    "x_handle": "masterpiece_eth",
-    "inspired_by": "IDEA-16",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x028b49bc7a48b92d06d436d90e889729d7161dfc2fef3f16b674029bf7abc336",
-        "network": "unknown"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x05b0a6432cf33e7fad5fa993c6952cf1080dcd921e2bed54b29adfb2d9db504d",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x05d6da30cc7aa4a81cf0e8e2aa3ba28bf32ed33e9f27e327a5ee746512a80103",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x0714344ef95904f338c61b154e1595130fddef550d6afe1bf656e6a9ac9e1674",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      }
-    ],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-01T16:13:49Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "noah-codesrh",
-        "name": "rhpecker",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292567276?v=4"
-      },
-      {
-        "login": "MakindeAhmed2110",
-        "name": "mankind",
-        "avatar_url": "https://avatars.githubusercontent.com/u/116606669?v=4"
-      },
-      {
-        "login": "JY20",
-        "name": "Jimmy Yan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/43075399?v=4"
-      },
-      {
-        "login": "jimmyyan-lab",
-        "name": "jimmyyan-lab",
-        "avatar_url": "https://avatars.githubusercontent.com/u/254025042?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Cursor",
-        "name": "Cursor",
-        "avatar_url": "",
-        "commits": 5
-      }
-    ],
-    "active_days": [
-      "2026-08-20",
-      "2026-08-30",
-      "2026-09-01"
-    ],
-    "head_sha": "52fefad592451f42c758f34a72c39cd4f69cc89a",
-    "readme_hash": "e177246e019044fe",
-    "desc_v6": true,
-    "summary": "A privacy-focused yield optimization tool for DeFi on Starknet.",
-    "description_long": "YieldStark V2 enables users to optimize yield while maintaining privacy on Starknet. It includes features like shielding and unshielding assets, private lending via Vesu, note-to-note transfers, and private swaps with a public/private toggle for yield pools. Built with React, Zustand, and starknet.js, the project integrates with Vesu Protocol, AVNU, and TrovesFi, utilizing the STRK20 privacy pool for enhanced anonymity.",
-    "latest_push": "Configured the Layerswap bridge for production and fixed layout issues.",
-    "tooling": [
-      {
-        "label": "AVNU",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 3423,
-    "deletions": 15431,
-    "churn_pct": 100,
-    "sprint": {
-      "pushes": 11,
-      "additions": 5545,
-      "deletions": 15184,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "1 contract deployed"
   },
   {
     "slug": "musetub",
@@ -18053,105 +18152,6 @@
     "star_evidence": "Cairo in the repository"
   },
   {
-    "slug": "kese",
-    "name": "Kese",
-    "one_liner": "Private money for AI agents: a policy-guarded MCP wallet on the STRK20 pool - private payments within hard limits, Telegram human-approval, claim-link escrow for unregistered recipients, and viewing-key audit reports.",
-    "category": "Payments",
-    "repo_url": "https://github.com/ahmetenesdur/kese",
-    "demo_url": "https://kese-claim.vercel.app",
-    "demo_video": "TODO_3min_video_url",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x4b41a5648796ce290fcba3f5630a66f9fe737f58de6b9589a5d780a2c4999f3",
-        "network": "unknown"
-      }
-    ],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-21T19:02:34Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "ahmetenesdur",
-        "name": "Enes",
-        "avatar_url": "https://avatars.githubusercontent.com/u/70810472?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 69
-      }
-    ],
-    "active_days": [
-      "2026-08-20",
-      "2026-08-21"
-    ],
-    "head_sha": "ae09416f389142e7d3f238f12aaa20db75407a7b",
-    "readme_hash": "604ae3052632f369",
-    "desc_v6": true,
-    "summary": "Private money management for AI agents with policy controls and audit reporting.",
-    "description_long": "Kese allows any LLM agent to manage a spending account on Starknet's STRK20 privacy pool, applying policy constraints to private transactions. Features include a policy engine for transaction limits, a Telegram approval system for significant payments, and detailed audit reports through viewing keys. Built with TypeScript and Cairo, Kese integrates a local dashboard and a note ladder for efficient handling of transactions.",
-    "latest_push": "Shipped the client config to streamline agent deployment and fixed payment denial.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 292,
-    "deletions": 14,
-    "churn_pct": 2.3,
-    "sprint": {
-      "pushes": 73,
-      "additions": 20918,
-      "deletions": 254,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "1 contract deployed, Cairo in the repository"
-  },
-  {
     "slug": "starkwhisper",
     "name": "StarkWhisper",
     "one_liner": "Metadata-resistant, end-to-end encrypted messaging & private payment memos on Starknet.",
@@ -21041,7 +21041,7 @@
     "builders": [
       {
         "login": "mateojkk",
-        "name": "mateo",
+        "name": "🍥",
         "avatar_url": "https://avatars.githubusercontent.com/u/233367458?v=4"
       }
     ],
