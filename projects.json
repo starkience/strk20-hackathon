@@ -1,5 +1,104 @@
 [
   {
+    "slug": "kese",
+    "name": "Kese",
+    "one_liner": "Private money for AI agents: a policy-guarded MCP wallet on the STRK20 pool - private payments within hard limits, Telegram human-approval, claim-link escrow for unregistered recipients, and viewing-key audit reports.",
+    "category": "Payments",
+    "repo_url": "https://github.com/ahmetenesdur/kese",
+    "demo_url": "https://kese-claim.vercel.app",
+    "demo_video": "TODO_3min_video_url",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "",
+    "contracts": [
+      {
+        "address": "0x4b41a5648796ce290fcba3f5630a66f9fe737f58de6b9589a5d780a2c4999f3",
+        "network": "unknown"
+      }
+    ],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": true,
+      "video": true,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": "2026-11-13T21:24:51Z",
+    "stars": 0,
+    "builders": [
+      {
+        "login": "ahmetenesdur",
+        "name": "Enes",
+        "avatar_url": "https://avatars.githubusercontent.com/u/70810472?v=4"
+      }
+    ],
+    "agents": [
+      {
+        "family": "Claude",
+        "name": "Claude Opus 5",
+        "avatar_url": "",
+        "commits": 69
+      }
+    ],
+    "active_days": [
+      "2026-08-20",
+      "2026-08-21"
+    ],
+    "head_sha": "30d71e148612c3a0cefeaa4e895b636ab1c62d44",
+    "readme_hash": "8b4357688e4272fc",
+    "desc_v6": true,
+    "churn_pct": 1.7,
+    "summary": "Manage private funds for AI agents with controlled spending and human oversight.",
+    "description_long": "Kese enables AI agents to manage private funds on Starknet's STRK20 privacy pool with strict spending policies. Features include a policy engine for transaction limits, a Telegram approval system for large payments, and an escrow contract for payments to unregistered recipients. The system includes a dashboard for the owner to monitor expenditures and generate reports.",
+    "latest_push": "Enabled the owner to disable claim links in the policy contract.",
+    "tooling": [
+      {
+        "label": "Privacy SDK",
+        "live": true,
+        "stack": true
+      },
+      {
+        "label": "starknet.js",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "TypeScript",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Vite",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Cairo",
+        "live": false,
+        "stack": false
+      },
+      {
+        "label": "Starknet Foundry",
+        "live": false,
+        "stack": false
+      }
+    ],
+    "has_readme": true,
+    "additions": 207,
+    "deletions": 15,
+    "sprint": {
+      "pushes": 73,
+      "additions": 21107,
+      "deletions": 254,
+      "computed": 3
+    },
+    "assessment": null,
+    "star_evidence": "1 contract deployed, Cairo in the repository"
+  },
+  {
     "slug": "erebus",
     "name": "Erebus",
     "one_liner": "",
@@ -435,105 +534,6 @@
     },
     "assessment": null,
     "star_evidence": "1 contract deployed"
-  },
-  {
-    "slug": "kese",
-    "name": "Kese",
-    "one_liner": "Private money for AI agents: a policy-guarded MCP wallet on the STRK20 pool - private payments within hard limits, Telegram human-approval, claim-link escrow for unregistered recipients, and viewing-key audit reports.",
-    "category": "Payments",
-    "repo_url": "https://github.com/ahmetenesdur/kese",
-    "demo_url": "https://kese-claim.vercel.app",
-    "demo_video": "TODO_3min_video_url",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "",
-    "contracts": [
-      {
-        "address": "0x4b41a5648796ce290fcba3f5630a66f9fe737f58de6b9589a5d780a2c4999f3",
-        "network": "unknown"
-      }
-    ],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-11-11T18:50:51Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "ahmetenesdur",
-        "name": "Enes",
-        "avatar_url": "https://avatars.githubusercontent.com/u/70810472?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 5",
-        "avatar_url": "",
-        "commits": 69
-      }
-    ],
-    "active_days": [
-      "2026-08-20",
-      "2026-08-21"
-    ],
-    "head_sha": "e85de775440063ab2723ccb0b2733779d80d7663",
-    "readme_hash": "6ebf6d2599fd976c",
-    "desc_v6": true,
-    "summary": "Private money management for AI agents with policy control and audit capabilities.",
-    "description_long": "Kese enables LLM agents to manage funds with enforced spending limits and human approval. It includes a policy engine that manages transaction caps, recipient restrictions, and audit trails while ensuring transactions remain private through the STRK20 privacy pool. Built with TypeScript and Cairo, the system features a Kese server that interfaces with agent payment tools and the privacy pool, ensuring a secure and accountable payment process.",
-    "latest_push": "Removed the expired demo link from the README.md file.",
-    "tooling": [
-      {
-        "label": "Privacy SDK",
-        "live": true,
-        "stack": true
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Vite",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 2,
-    "deletions": 5,
-    "churn_pct": 0.1,
-    "sprint": {
-      "pushes": 73,
-      "additions": 20915,
-      "deletions": 254,
-      "computed": 3
-    },
-    "assessment": null,
-    "star_evidence": "1 contract deployed, Cairo in the repository"
   },
   {
     "slug": "client",
