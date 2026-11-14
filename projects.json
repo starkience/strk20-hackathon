@@ -50,7 +50,6 @@
     "head_sha": "30d71e148612c3a0cefeaa4e895b636ab1c62d44",
     "readme_hash": "8b4357688e4272fc",
     "desc_v6": true,
-    "churn_pct": 1.7,
     "summary": "Manage private funds for AI agents with controlled spending and human oversight.",
     "description_long": "Kese enables AI agents to manage private funds on Starknet's STRK20 privacy pool with strict spending policies. Features include a policy engine for transaction limits, a Telegram approval system for large payments, and an escrow contract for payments to unregistered recipients. The system includes a dashboard for the owner to monitor expenditures and generate reports.",
     "latest_push": "Enabled the owner to disable claim links in the policy contract.",
@@ -89,6 +88,7 @@
     "has_readme": true,
     "additions": 207,
     "deletions": 15,
+    "churn_pct": 1.7,
     "sprint": {
       "pushes": 73,
       "additions": 21107,
@@ -21722,7 +21722,7 @@
     "builders": [
       {
         "login": "Kunmiesther",
-        "name": "Estar Kunmi ",
+        "name": "Esther Kunmi ",
         "avatar_url": "https://avatars.githubusercontent.com/u/161195810?v=4"
       }
     ],
