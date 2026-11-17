@@ -20421,99 +20421,6 @@
     "star_evidence": "Cairo in the repository"
   },
   {
-    "slug": "blindpool",
-    "name": "blindpool",
-    "one_liner": "Public odds. Invisible bettors. A Starknet prediction market where the order book is public and every position is shielded in the STRK20 privacy pool. STRK20 Private Sprint (RFP-07).",
-    "category": "Other",
-    "repo_url": "https://github.com/frankolien/blindpool",
-    "demo_url": "https://stark-cyan.vercel.app",
-    "demo_video": "",
-    "x_handle": "",
-    "inspired_by": "",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "A prediction market that hides bettor identities while maintaining public odds and market integrity.",
-    "contracts": [],
-    "transactions": [],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": false,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-08-15T11:23:18Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "frankolien",
-        "name": "frankolien",
-        "avatar_url": "https://avatars.githubusercontent.com/u/105513394?v=4"
-      }
-    ],
-    "agents": [],
-    "active_days": [
-      "2026-08-15"
-    ],
-    "head_sha": "47eac1fd26f8072a8646a23bfe42d9c62da49b40",
-    "readme_hash": "99057245f5e51c91",
-    "desc_v6": true,
-    "summary": "A prediction market where positions are shielded but odds are public.",
-    "description_long": "Blindpool is a prediction market that separates public odds from private positions. It uses a market registry on-chain for public data such as question, deadline, and aggregate volume while positions are shielded using the STRK20 privacy pool. The project includes a Next.js app for user interaction, and the backend is powered by Cairo contracts for market registry and settlement. The service is currently operational with wallet functionality and private transfer capabilities.",
-    "latest_push": "Added the Blindpool prediction market with public odds and shielded positions.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 156,
-    "deletions": 0,
-    "churn_pct": 3.3,
-    "sprint": {
-      "pushes": 9,
-      "additions": 6826,
-      "deletions": 123,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": true,
-      "complex": true,
-      "why_innovative": "It enables private betting positions in a public prediction market using STRK20 privacy.",
-      "why_complex": "The architecture uses a custom Cairo anonymizer for market registry and settlement processing.",
-      "reason": "A prediction market that hides bettor identities while maintaining public odds and market integrity.",
-      "facts_v2": true
-    },
-    "star_evidence": "Cairo in the repository"
-  },
-  {
     "slug": "ghostbounty",
     "name": "GhostBounty",
     "one_liner": "Anonymous responsible disclosure with encrypted reports, proof-of-authorship, and private STRK20 bounty payments.",
@@ -20869,6 +20776,68 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "blindpool",
+    "name": "blindpool",
+    "one_liner": "",
+    "category": "Other",
+    "repo_url": "https://github.com/frankolien/blindpool",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "",
+    "inspired_by": "",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "A prediction market that hides bettor identities while maintaining public odds and market integrity.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "frankolien",
+        "name": "Frank Olien",
+        "avatar_url": "https://avatars.githubusercontent.com/u/105513394?v=4"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-15"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "A prediction market where positions are shielded but odds are public.",
+    "description_long": "Blindpool is a prediction market that separates public odds from private positions. It uses a market registry on-chain for public data such as question, deadline, and aggregate volume while positions are shielded using the STRK20 privacy pool. The project includes a Next.js app for user interaction, and the backend is powered by Cairo contracts for market registry and settlement. The service is currently operational with wallet functionality and private transfer capabilities.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 9,
+      "additions": 6826,
+      "deletions": 123,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": true,
+      "complex": true,
+      "why_innovative": "It enables private betting positions in a public prediction market using STRK20 privacy.",
+      "why_complex": "The architecture uses a custom Cairo anonymizer for market registry and settlement processing.",
+      "reason": "A prediction market that hides bettor identities while maintaining public odds and market integrity.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
   },
   {
     "slug": "nexora-protocol",
