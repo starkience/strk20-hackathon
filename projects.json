@@ -144,7 +144,6 @@
     "head_sha": "212699c31c8ebfae9ffd9399129fd0a24ce54631",
     "readme_hash": "ae4feab1b811a2ba",
     "desc_v6": true,
-    "churn_pct": 10.4,
     "summary": "Negotiate deals between AI agents over an encrypted channel with shielded payments.",
     "description_long": "Erebus allows two AI agents to reach an agreement using an encrypted channel while making payments through shielded pools. It includes an MCP server, a CLI, and a Python SDK for interaction. The project consists of various components like a Starknet Rust client, Python bindings, chain-neutral agreement encoding, and reference agents for diverse use cases.",
     "latest_push": "Restored the Erebus agent negotiation and settlement project.",
@@ -163,6 +162,7 @@
     "has_readme": true,
     "additions": 18655,
     "deletions": 881,
+    "churn_pct": 10.4,
     "sprint": {
       "pushes": 126,
       "additions": 19073,
