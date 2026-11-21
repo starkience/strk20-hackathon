@@ -101,7 +101,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-11-21T10:34:36Z",
+    "pushed_at": "2026-11-21T19:54:05Z",
     "stars": 0,
     "builders": [
       {
@@ -115,7 +115,7 @@
         "family": "Claude",
         "name": "Claude Opus 5.5",
         "avatar_url": "",
-        "commits": 651
+        "commits": 652
       }
     ],
     "active_days": [
@@ -144,13 +144,13 @@
       "2026-09-06",
       "2026-09-07"
     ],
-    "head_sha": "9c33b34d4a30c14bffef9e228cf6a3cf63cb0d4d",
+    "head_sha": "28f1b799651ad612f8dae6eef3713ed511d16f9f",
     "readme_hash": "72b894827195039c",
     "desc_v6": true,
-    "churn_pct": 1.8,
+    "churn_pct": 1,
     "summary": "An AI agent that autonomously pays for verified work without revealing recipient details.",
     "description_long": "Sage autonomously inspects completed tasks, verifies their quality, and decides on payments in USDC from a controlled vault, ensuring privacy for recipients. Built on Starknet, it uses on-chain transactions to execute decisions made by the AI agent, which escrow payments behind commitments to prevent traceability. The system allows for private payouts and operates a feedback loop where funds can be advanced and repaid through verified transactions.",
-    "latest_push": "Merged the core mission on grounded plans and added related tests.",
+    "latest_push": "Implemented spending meter for GPT-5.4 mini and refined user drafting.",
     "tooling": [
       {
         "label": "get-starknet",
@@ -184,11 +184,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 5035,
-    "deletions": 95,
+    "additions": 2891,
+    "deletions": 149,
     "sprint": {
       "pushes": 716,
-      "additions": 15536,
+      "additions": 15560,
       "deletions": 115,
       "computed": 3
     },
@@ -278,7 +278,6 @@
     "head_sha": "a206ff8302972c23f19d8de10581ef807dca8f04",
     "readme_hash": "7c6ca5c655d16584",
     "desc_v6": true,
-    "churn_pct": 12.4,
     "summary": "A non-custodial strategy game with territory control and open auctions.",
     "description_long": "Players delegate STRK to capture and defend Sectors in a territory battle without creating a separate game token. The system includes a web application, game API, and Dojo contracts, utilizing React, Go, and Cairo. It features a Beacon billboard where bids for controlling the Beacon are placed in open ascending auctions.",
     "latest_push": "Featured the Survivor daily prize on the landing page and removed shortcut.",
@@ -292,6 +291,7 @@
     "has_readme": true,
     "additions": 7637,
     "deletions": 1568,
+    "churn_pct": 12.4,
     "sprint": {
       "pushes": 144,
       "additions": 39476,
@@ -10475,7 +10475,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet.",
     "tooling": [
       {
         "label": "Privacy SDK",
