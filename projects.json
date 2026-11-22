@@ -48,7 +48,7 @@
       "mainnet": false
     },
     "status": "building",
-    "pushed_at": "2026-11-22T06:12:48Z",
+    "pushed_at": "2026-11-22T12:29:18Z",
     "stars": 2,
     "builders": [
       {
@@ -79,13 +79,13 @@
       "2026-09-04",
       "2026-09-07"
     ],
-    "head_sha": "7404229d14026ce987085de858593705e85c649d",
+    "head_sha": "0e9a4b072dbf80a951c7970174b4b23ea395531e",
     "readme_hash": "7c6ca5c655d16584",
     "desc_v6": true,
-    "churn_pct": 1.4,
+    "churn_pct": 2.3,
     "summary": "A non-custodial strategy game with territory control and open auctions.",
     "description_long": "Players delegate STRK to capture and defend Sectors in a territory battle without creating a separate game token. The system includes a web application, game API, and Dojo contracts, utilizing React, Go, and Cairo. It features a Beacon billboard where bids for controlling the Beacon are placed in open ascending auctions.",
-    "latest_push": "Automated Survivor prize payments were implemented without claims.",
+    "latest_push": "Recorded last two seconds of Survivor runs and lengthened death replays.",
     "tooling": [
       {
         "label": "Cairo",
@@ -94,11 +94,11 @@
       }
     ],
     "has_readme": true,
-    "additions": 570,
-    "deletions": 463,
+    "additions": 1578,
+    "deletions": 169,
     "sprint": {
       "pushes": 144,
-      "additions": 39584,
+      "additions": 39883,
       "deletions": 251,
       "computed": 3
     },
