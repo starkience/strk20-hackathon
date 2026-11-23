@@ -82,7 +82,6 @@
     "head_sha": "5be8428908e383bfbffb80b19fffb87fc07c18e7",
     "readme_hash": "7c6ca5c655d16584",
     "desc_v6": true,
-    "churn_pct": 1.1,
     "summary": "A non-custodial strategy game with territory control and open auctions.",
     "description_long": "Players delegate STRK to capture and defend Sectors in a territory battle without creating a separate game token. The system includes a web application, game API, and Dojo contracts, utilizing React, Go, and Cairo. It features a Beacon billboard where bids for controlling the Beacon are placed in open ascending auctions.",
     "latest_push": "Standardized the Survivor simulation math across all engines.",
@@ -96,6 +95,7 @@
     "has_readme": true,
     "additions": 787,
     "deletions": 44,
+    "churn_pct": 1.1,
     "sprint": {
       "pushes": 144,
       "additions": 39883,
@@ -10475,7 +10475,7 @@
     "churn_pct": 10.9,
     "summary": "",
     "description_long": "",
-    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet.",
+    "latest_push": "Implemented multi-account chain scanning and activity tracking for Starknet addresses.",
     "tooling": [
       {
         "label": "Privacy SDK",
