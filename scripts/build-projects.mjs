@@ -782,9 +782,9 @@ async function openai(system, user, maxTokens = 300) {
 /* Off. The mark is not on the board at the moment, so there is no reason to ask
    a model about sixty-three repositories every time one of them pushes.
    Everything below stays as it was - the rubric, the depth floor, the
-   stickiness - and flipping this back on resumes it. Assessments already
-   written are kept in projects.json rather than dropped, so turning it on does
-   not start from nothing. */
+   stickiness - and flipping this back on resumes it. Cached assessments for
+   unchanged repository heads are kept in projects.json; changed heads are
+   invalidated and can be judged when this is switched back on. */
 const STAR_ENABLED = false;
 
 /* Two criteria, both judgements only a reader of the code can make: is the idea
@@ -1293,7 +1293,12 @@ async function buildProject(entry, prev) {
      ran: the star was invisible for the half of the sprint when knowing who is
      building well is worth the most.
      Still one call per project per push, cached on head_sha. */
-  let assessment = (prev?.head_sha === headSha && prev?.assessment?.facts_v2 && prev.assessment) || prev?.assessment || null;
+  /* A verdict describes one repository head. An unconditional fallback to the
+     previous assessment would skip judging newly added contracts and code. */
+  let assessment =
+    prev?.head_sha === headSha && prev?.assessment?.facts_v2
+      ? prev.assessment
+      : null;
   if (STAR_ENABLED && OPENAI_KEY && !assessment?.facts_v2) {
     const contractList = contracts.length
       ? contracts.map((c) => `- ${c.address || c}${c.name ? ` (${c.name})` : ""}`).join("\n")
