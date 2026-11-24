@@ -52,7 +52,6 @@
     "head_sha": "6b9d1da89c2e9f5a94992a771d1d135f2253821a",
     "readme_hash": "9dd1e11160a9c08c",
     "desc_v6": true,
-    "churn_pct": 25.4,
     "summary": "Create and settle USDC bounties using a headless agent with enforced privacy.",
     "description_long": "This project illustrates a mainnet demo that moves a TaskMarket USDC bounty through the STRK20 privacy pool, facilitated by a headless agent with its own signer. Key features include creating and settling bounties, bridging payouts to Starknet, transferring notes privately, and managing key generation and storage without persistence. The implementation uses Node.js with specific scripts to build dependencies and run various commands related to bounty management.",
     "latest_push": "Refreshed the Taskmarket and STRK20 bridge to support existing Base earnings.",
@@ -76,6 +75,7 @@
     "has_readme": true,
     "additions": 774,
     "deletions": 236,
+    "churn_pct": 25.4,
     "sprint": {
       "pushes": 3,
       "additions": 13889,
@@ -9420,7 +9420,7 @@
     },
     "status": "building",
     "pushed_at": "2026-09-07T17:11:53Z",
-    "stars": 1,
+    "stars": 0,
     "builders": [
       {
         "login": "PugarHuda",
