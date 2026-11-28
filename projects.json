@@ -5864,211 +5864,6 @@
     "star_evidence": "Cairo in the repository"
   },
   {
-    "slug": "veilcast",
-    "name": "Veilcast",
-    "one_liner": "Private prediction markets on Starknet. Trade them yourself, or hand an agent a mandate the contract will not let it abuse.",
-    "category": "DeFi",
-    "repo_url": "https://github.com/zkasuran/veilcast",
-    "demo_url": "https://zkasuran.github.io/veilcast/",
-    "demo_video": "https://youtu.be/maQ55XWkWQI",
-    "x_handle": "zkasuran",
-    "inspired_by": "RFP-07",
-    "affiliation": "",
-    "starred": false,
-    "star_reason": "Veilcast enables private bettors to participate in public prediction markets.",
-    "contracts": [
-      {
-        "address": "0x036be78d67d6e94b79d3a8a7891b67871d4f17342d4c323be8f6ed469c36c6b8",
-        "network": "unknown"
-      },
-      {
-        "address": "0x0665a23caf88a7be47db35a7b6c4ecfae7de8d51405004d579f5553a680a259b",
-        "network": "unknown"
-      },
-      {
-        "address": "0x00b0dec2742d5f7f62bdc4a7b93c5caabe17b6b9d49200d9c1c0eae8e64e6cd7",
-        "network": "unknown"
-      },
-      {
-        "address": "0x01912b5c0f775cc339db0cecd9b173cb6ad16f23686245ed9ac7642ad5e96774",
-        "network": "unknown"
-      }
-    ],
-    "transactions": [
-      {
-        "hash": "0x6fcd0c39c2407a50f42297fbcef65b9b3f278f86707f7c6bf4b5d1e324cc095",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x7018ff034ca7b76cae1be9c6b2c4665ff4a1e65d43f33f799bc6ddf83b97f6f",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x739b9c625b6311fc7de107c7fb72858b9b987203249beabd096eb75931db8d",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x272814a2995da23182f1f3cb46690567788764a544db63851ac11397e98cddb",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x7b645075d83cc2a4e68343ecaccda7d07833da04d3f0386b9841feb4ecd9e20",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x39f4616ba5164302df445e34a2a213270c4b457f5523608ef9c101e9649a4c7",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x747e97fa539bb1b566d1bcb5529c4c1089a46b4fca20aac8ba685ffdbdfde7",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x5c107536905a66222e21b47db8f36bf5634e047c377d86c1d4dfa96c53c3f8d",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x5da85f3e2ee82bac86521ce19edc34662cda4ab849f4459ba7e667d8bd5f85",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      },
-      {
-        "hash": "0x95ce11a4cb0ac58bd76a7e94b07b47650bdcf9769907c8c628c773ab00f78",
-        "ok": false,
-        "pool": false,
-        "mine": false,
-        "note": "not found on mainnet"
-      }
-    ],
-    "verified_txs": 0,
-    "requirements": {
-      "demo": true,
-      "video": true,
-      "mainnet": false
-    },
-    "status": "building",
-    "pushed_at": "2026-09-07T23:42:12Z",
-    "stars": 0,
-    "builders": [
-      {
-        "login": "zkasuran",
-        "name": "Asuran",
-        "avatar_url": "https://avatars.githubusercontent.com/u/289388318?v=4"
-      }
-    ],
-    "agents": [
-      {
-        "family": "Claude",
-        "name": "Claude Opus 4.8",
-        "avatar_url": "",
-        "commits": 6
-      }
-    ],
-    "active_days": [
-      "2026-08-14",
-      "2026-08-15",
-      "2026-08-16",
-      "2026-08-17",
-      "2026-08-18",
-      "2026-08-20",
-      "2026-08-21",
-      "2026-08-23",
-      "2026-08-24",
-      "2026-08-26",
-      "2026-08-27",
-      "2026-09-02",
-      "2026-09-07"
-    ],
-    "head_sha": "2dcc4a503f1919195b2687aa91f489ca4e4fb10d",
-    "readme_hash": "199c3211f2247465",
-    "desc_v6": true,
-    "summary": "Private prediction markets with honest pricing and secure agent delegation.",
-    "description_long": "Veilcast is a parimutuel prediction market that ensures visible odds while keeping bettors' identities private. It features a browser wallet for individual users and a headless runtime for automated processes, both interacting with the same underlying contract. The system includes unique design elements such as bearer coupons for positions, dual resolution involving oracles and jurors, and an agent-driven trading mechanism that prevents unauthorized fund transfers.",
-    "latest_push": "Fixed agent RPC and added video reveal hooks; added demo video URL.",
-    "tooling": [
-      {
-        "label": "get-starknet",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Next.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "React",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "starknet.js",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "TypeScript",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Cairo",
-        "live": false,
-        "stack": false
-      },
-      {
-        "label": "Starknet Foundry",
-        "live": false,
-        "stack": false
-      }
-    ],
-    "has_readme": true,
-    "additions": 11,
-    "deletions": 4,
-    "churn_pct": 0.1,
-    "sprint": {
-      "pushes": 57,
-      "additions": 23741,
-      "deletions": 205,
-      "computed": 3
-    },
-    "assessment": {
-      "innovative": true,
-      "complex": false,
-      "why_innovative": "It allows anonymous betting in prediction markets while keeping visible odds.",
-      "why_complex": "No deployed contracts or signs of engineering complexity are present.",
-      "reason": "Veilcast enables private bettors to participate in public prediction markets.",
-      "facts_v2": true
-    },
-    "star_evidence": "4 contracts deployed, Cairo in the repository"
-  },
-  {
     "slug": "covert",
     "name": "covert",
     "one_liner": "Private incident coverage and shielded claim settlement on Starknet using STRK20.",
@@ -10821,11 +10616,6 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/191050810?v=4"
       },
       {
-        "login": "zkasuran",
-        "name": "Asuran",
-        "avatar_url": "https://avatars.githubusercontent.com/u/289388318?v=4"
-      },
-      {
         "login": "Sarthib7",
         "name": "sarthib7",
         "avatar_url": "https://avatars.githubusercontent.com/u/112841873?v=4"
@@ -10834,6 +10624,11 @@
         "login": "PoulavBhowmick03",
         "name": "Poulav",
         "avatar_url": "https://avatars.githubusercontent.com/u/133862694?v=4"
+      },
+      {
+        "login": "zkasuran",
+        "name": "Asuran",
+        "avatar_url": "https://avatars.githubusercontent.com/u/289388318?v=4"
       }
     ],
     "agents": [
@@ -17023,11 +16818,6 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/151500611?v=4"
       },
       {
-        "login": "zkasuran",
-        "name": "Asuran",
-        "avatar_url": "https://avatars.githubusercontent.com/u/289388318?v=4"
-      },
-      {
         "login": "Sarthib7",
         "name": "sarthib7",
         "avatar_url": "https://avatars.githubusercontent.com/u/112841873?v=4"
@@ -17036,6 +16826,11 @@
         "login": "PoulavBhowmick03",
         "name": "Poulav",
         "avatar_url": "https://avatars.githubusercontent.com/u/133862694?v=4"
+      },
+      {
+        "login": "zkasuran",
+        "name": "Asuran",
+        "avatar_url": "https://avatars.githubusercontent.com/u/289388318?v=4"
       }
     ],
     "agents": [
@@ -20852,6 +20647,80 @@
       "facts_v2": true
     },
     "star_evidence": "Cairo in the repository"
+  },
+  {
+    "slug": "veilcast",
+    "name": "Veilcast",
+    "one_liner": "Private prediction markets on Starknet. Trade them yourself, or hand an agent a mandate the contract will not let it abuse.",
+    "category": "DeFi",
+    "repo_url": "https://github.com/zkasuran/veilcast",
+    "demo_url": "",
+    "demo_video": "",
+    "x_handle": "zkasuran",
+    "inspired_by": "RFP-07",
+    "affiliation": "",
+    "starred": false,
+    "star_reason": "Veilcast enables private bettors to participate in public prediction markets.",
+    "contracts": [],
+    "transactions": [],
+    "verified_txs": 0,
+    "requirements": {
+      "demo": false,
+      "video": false,
+      "mainnet": false
+    },
+    "status": "building",
+    "pushed_at": null,
+    "stars": 0,
+    "builders": [
+      {
+        "login": "zkasuran",
+        "name": "zkasuran",
+        "avatar_url": "https://github.com/zkasuran.png"
+      }
+    ],
+    "agents": [],
+    "active_days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16",
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-09-02",
+      "2026-09-07"
+    ],
+    "head_sha": null,
+    "readme_hash": "",
+    "desc_v6": true,
+    "churn_pct": 0,
+    "summary": "Private prediction markets with agent mandates on Starknet.",
+    "description_long": "Create and trade private prediction markets. Users can manage trades themselves or delegate authority to an agent with mandates that prevent abuse.",
+    "latest_push": "",
+    "tooling": [],
+    "has_readme": false,
+    "additions": 0,
+    "deletions": 0,
+    "sprint": {
+      "pushes": 57,
+      "additions": 23741,
+      "deletions": 205,
+      "computed": 3
+    },
+    "assessment": {
+      "innovative": true,
+      "complex": false,
+      "why_innovative": "It allows anonymous betting in prediction markets while keeping visible odds.",
+      "why_complex": "No deployed contracts or signs of engineering complexity are present.",
+      "reason": "Veilcast enables private bettors to participate in public prediction markets.",
+      "facts_v2": true
+    },
+    "star_evidence": ""
   },
   {
     "slug": "blindpool",
